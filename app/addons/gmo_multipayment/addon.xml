@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+	<id>gmo_multipayment</id>
+    <supplier>CS-Cart.jp</supplier>
+	<version>1.0</version>
+	<priority>1</priority>
+	<position>100</position>
+    <default_language>ja</default_language>
+    <status>active</status>
+    <settings edition_type="ROOT,ULT:VENDOR">
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="elm_connection_information">
+                        <type>header</type>
+                        <handler/>
+                    </item>
+                    <item id="site_id">
+                        <type>input</type>
+                        <default_value/>
+                    </item>
+                    <item id="site_pass">
+                        <type>input</type>
+                        <default_value/>
+                    </item>
+                    <item id="shop_id">
+                        <type>input</type>
+                        <default_value/>
+                    </item>
+                    <item id="shop_pass">
+                        <type>input</type>
+                        <default_value/>
+                    </item>
+                    <item id="uid_prefix">
+                        <type>input</type>
+                        <default_value>vN4L0hXF</default_value>
+                    </item>
+                    <item id="td_tenant_name">
+                        <type>input</type>
+                        <default_value/>
+                    </item>
+                    <item id="pending_status">
+                        <type>selectbox</type>
+                        <default_value>O</default_value>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    <queries>
+        <item type="file">database/data_install.sql</item>
+    </queries>
+    <functions>
+        <item for="install">fn_gmomp_install</item>
+        <item for="uninstall">fn_gmomp_delete_payment_processors</item>
+    </functions>
+</addon>

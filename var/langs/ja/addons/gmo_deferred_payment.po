@@ -1,0 +1,130 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Language-Team: Japanese\n"
+"Language: ja_JP\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: ja\n"
+
+msgctxt "Addons::name::gmo_deferred_payment"
+msgid "GMO後払い"
+msgstr "GMO後払い"
+
+msgctxt "Addons::description::gmo_deferred_payment"
+msgid "GMO後払いによる決済を可能にします。"
+msgstr "GMO後払いによる決済を可能にします。"
+
+msgctxt "Languages::gmo_payment_description"
+msgid "GMO後払い決済に関する接続情報を入力してください。"
+msgstr "GMO後払い決済に関する接続情報を入力してください。"
+
+msgctxt "Languages::gmo_option_settings"
+msgid "接続設定"
+msgstr "接続設定"
+
+msgctxt "Languages::gmo_certification_id"
+msgid "認証ID"
+msgstr "認証ID"
+
+msgctxt "Languages::gmo_connection_pass"
+msgid "接続パスワード"
+msgstr "接続パスワード"
+
+msgctxt "Languages::gmo_merchant_code"
+msgid "加盟店コード"
+msgstr "加盟店コード"
+
+msgctxt "Languages::gmo_include"
+msgid "請求書同梱サービス"
+msgstr "請求書同梱サービス"
+
+msgctxt "Languages::gmo_test"
+msgid "テスト/本番環境"
+msgstr "テスト/本番環境"
+
+msgctxt "Languages::gmo_processing_result"
+msgid "与信審査処理"
+msgstr "与信審査処理"
+
+msgctxt "Languages::gmo_products_total"
+msgid "その他商品総額"
+msgstr "その他商品総額"
+
+msgctxt "Languages::gmo_processing_result_ng"
+msgid "与信審査取得の処理に失敗しました"
+msgstr "与信審査取得の処理に失敗しました"
+
+msgctxt "Languages::gmo_automatic_examination"
+msgid "自動審査結果"
+msgstr "自動審査結果"
+
+msgctxt "Languages::gmo_maulauthor_result"
+msgid "目視審査結果"
+msgstr "目視審査結果"
+
+msgctxt "Languages::gmo_maulauthor_result_reasons"
+msgid "目視審査結果理由"
+msgstr "目視審査結果理由"
+
+msgctxt "Languages::gmo_result_errors"
+msgid "エラー内容"
+msgstr "エラー内容"
+
+msgctxt "Languages::gmo_success_order"
+msgid "GMO側での取引修正が正常におこなわれました"
+msgstr "GMO側での取引修正が正常におこなわれました"
+
+msgctxt "Languages::gmo_error_order"
+msgid "GMO側での取引修正に失敗しました"
+msgstr "GMO側での取引修正に失敗しました"
+
+msgctxt "Languages::gmo_canceled_success"
+msgid "GMO側でのキャンセル処理が正常におこなわれました"
+msgstr "GMO側でのキャンセル処理が正常におこなわれました"
+
+msgctxt "Languages::gmo_canceled_error"
+msgid "GMO側でのキャンセル処理に失敗しました"
+msgstr "GMO側でのキャンセル処理に失敗しました"
+
+msgctxt "Languages::gmo_already_canceled"
+msgid "GMO側ですでにキャンセル済みの注文です"
+msgstr "GMO側ですでにキャンセル済みの注文です"
+
+msgctxt "Languages::gmo_success_shipment"
+msgid "GMO側での出荷報告処理が正常におこなわれました"
+msgstr "GMO側での出荷報告処理が正常におこなわれました"
+
+msgctxt "Languages::gmo_error_shipment"
+msgid "GMO側での出荷報告処理が正常におこなわれませんでした。再度配送管理を登録し直してください"
+msgstr "GMO側での出荷報告処理が正常におこなわれませんでした。再度配送管理を登録し直してください"
+
+msgctxt "Languages::gmo_cancel_shipment"
+msgid "GMO側の出荷報告キャンセル処理が正常におこなわれました"
+msgstr "GMO側の出荷報告キャンセル処理が正常におこなわれました"
+
+msgctxt "Languages::gmo_delivery_management"
+msgid "※GMO後払いの注文の場合、配送管理(出荷報告)を複数に分けることはできません。"
+msgstr "※GMO後払いの注文の場合、配送管理(出荷報告)を複数に分けることはできません。"
+
+msgctxt "Languages::gmo_invoice_data"
+msgid "請求書印字データが取得されていません。GMO側の管理画面で請求書印字データを取得してください。"
+msgstr "請求書印字データが取得されていません。GMO側の管理画面で請求書印字データを取得してください。"
+
+msgctxt "Languages::gmo_communication_error"
+msgid "GMO側への通信エラーが発生しています。この状態で取引の編集・キャンセル・出荷報告をおこなってもGMO側への反映は正常に動作しません。ご注意ください。"
+msgstr "GMO側への通信エラーが発生しています。この状態で取引の編集・キャンセル・出荷報告をおこなってもGMO側への反映は正常に動作しません。ご注意ください。"
+
+msgctxt "Languages::gmo_examination_ng"
+msgid "GMO側での自動審査の結果、審査結果がNGとなりました。与信審査が通らなかったため別の決済をご選択ください。"
+msgstr "GMO側での自動審査の結果、審査結果がNGとなりました。与信審査が通らなかったため別の決済をご選択ください。"
+
+msgctxt "Languages::gmo_under_review"
+msgid "GMO後払い決済の自動審査結果が現在「審査中」となっております。与信審査の結果について後程あらためてご連絡させていただきます。場合によっては注文がキャンセルとなる可能性がありますこと、ご了承くださいませ。"
+msgstr "GMO後払い決済の自動審査結果が現在「審査中」となっております。与信審査の結果について後程あらためてご連絡させていただきます。場合によっては注文がキャンセルとなる可能性がありますこと、ご了承くださいませ。"
+
+msgctxt "Languages::gmo_under_review_admin"
+msgid "GMO後払い決済の自動審査結果が現在「審査中」となっております。与信審査の結果がNGになった場合、購入者様に注文がキャンセルになる旨連絡する必要があります。"
+msgstr "GMO後払い決済の自動審査結果が現在「審査中」となっております。与信審査の結果がNGになった場合、購入者様に注文がキャンセルになる旨連絡する必要があります。"
+

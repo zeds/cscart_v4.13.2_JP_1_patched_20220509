@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+	<id>kuroneko_webcollect</id>
+	<version>1.0</version>
+    <default_language>ja</default_language>
+	<priority>1</priority>
+	<position>100</position>
+    <status>active</status>
+    <authors>
+        <author>
+            <name>CS-Cart.jp</name>
+            <email>info@cs-cart.jp</email>
+            <url>http://cs-cart.jp</url>
+        </author>
+    </authors>
+    <supplier>CS-Cart.jp</supplier>
+    <supplier_link>http://cs-cart.jp</supplier_link>
+    <compatibility>
+        <core_version>
+            <min>4.3.4</min>
+        </core_version>
+        <core_edition>
+            ULTIMATE
+        </core_edition>
+        <php_version>
+            <min>5.3.0</min>
+        </php_version>
+        <php_extensions>
+            <curl>
+                <supported>Y</supported>
+            </curl>
+        </php_extensions>
+    </compatibility>
+    <license></license>
+    <tab_order>prepend</tab_order>
+    <settings edition_type="ROOT,ULT:VENDOR">
+        <sections>
+            <section id="webcollect">
+                <items>
+                    <item id="elm_webcollect_connection_information">
+                        <type>header</type>
+                        <handler/>
+                    </item>
+                    <item id="trader_code">
+                        <type>input</type>
+                        <default_value/>
+                    </item>
+                    <item id="access_key">
+                        <type>input</type>
+                        <default_value/>
+                    </item>
+                    <item id="cron_password_wc">
+                        <type>input</type>
+                        <default_value>MYPASS</default_value>
+                    </item>
+                    <item id="pending_status">
+                        <type>selectbox</type>
+                        <default_value>O</default_value>
+                    </item>
+                </items>
+            </section>
+            <section id="atobarai">
+                <items>
+                    <item id="elm_atobarai_connection_information">
+                        <type>header</type>
+                        <handler/>
+                    </item>
+                    <item id="ycf_str_code">
+                        <type>input</type>
+                        <default_value/>
+                    </item>
+                    <item id="atobarai_password">
+                        <type>input</type>
+                        <default_value/>
+                    </item>
+                    <item id="cron_password_ab">
+                        <type>input</type>
+                        <default_value>MYPASS</default_value>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+        <queries>
+            <item type="file">database/data_install.sql</item>
+            <item for="uninstall">DROP TABLE IF EXISTS ?:jp_krnkwc_cc_status;</item>
+            <item for="uninstall">DROP TABLE IF EXISTS ?:jp_krnkwc_shipments;</item>
+        </queries>
+        <functions>
+            <item for="install">fn_krnkwc_addon_install</item>
+            <item for="uninstall">fn_krnkwc_addon_uninstall</item>
+        </functions>
+</addon>

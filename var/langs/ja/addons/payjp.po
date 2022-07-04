@@ -1,0 +1,542 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Japanese\n"
+"Language: ja_JP\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscartjp <takahashi@cs-cart.jp>\n"
+"PO-Revision-Date: 2015-10-08 15:00-0900\n"
+
+msgctxt "Addons::name::payjp"
+msgid "PAY.JP 決済"
+msgstr "PAY.JP 決済"
+
+msgctxt "Addons::description::payjp"
+msgid "PAY.JP による決済を利用可能にします。"
+msgstr "PAY.JP による決済を利用可能にします。"
+
+msgctxt "SettingsSections::payjp::general"
+msgid "基本設定"
+msgstr "基本設定"
+
+msgctxt "SettingsOptions::payjp::elm_connection_information"
+msgid "接続設定"
+msgstr "接続設定"
+
+msgctxt "SettingsOptions::payjp::public_key"
+msgid "公開鍵"
+msgstr "公開鍵"
+
+msgctxt "SettingsOptions::payjp::secret_key"
+msgid "秘密鍵"
+msgstr "秘密鍵"
+
+msgctxt "Languages::jp_payjp_cc_auth_cancel"
+msgid "認証取消"
+msgstr "認証取消"
+
+msgctxt "Languages::jp_payjp_cc_auth_cancel_error"
+msgid "認証取消エラー"
+msgstr "認証取消エラー"
+
+msgctxt "Languages::jp_payjp_cc_auth_cancelled"
+msgid "認証を取り消しました。"
+msgstr "認証を取り消しました。"
+
+msgctxt "Languages::jp_payjp_cc_auth_ng"
+msgid "認証失敗"
+msgstr "認証失敗"
+
+msgctxt "Languages::jp_payjp_cc_auth_ok"
+msgid "認証済み"
+msgstr "認証済み"
+
+msgctxt "Languages::jp_payjp_cc_data_not_exists"
+msgid "ご指定の処理を実行できる注文がありませんでした。"
+msgstr "ご指定の処理を実行できる注文がありませんでした。"
+
+msgctxt "Languages::jp_payjp_cc_error"
+msgid "クレジットカード決済エラー"
+msgstr "クレジットカード決済エラー"
+
+msgctxt "Languages::jp_payjp_cc_failed"
+msgid "クレジットカードによる決済に失敗しました。<br />再度カード情報を入力いただくか他の支払方法を選択してご注文ください。"
+msgstr "クレジットカードによる決済に失敗しました。<br />再度カード情報を入力いただくか他の支払方法を選択してご注文ください。"
+
+msgctxt "Languages::jp_payjp_cc_manager"
+msgid "PAY.JP クレジット請求管理"
+msgstr "PAY.JP クレジット請求管理"
+
+msgctxt "Languages::jp_payjp_cc_notice"
+msgid "PAY.JP（カード決済）に関する設定情報を入力してください。"
+msgstr "PAY.JP（カード決済）に関する設定情報を入力してください。"
+
+msgctxt "Languages::jp_payjp_cc_payment_settings"
+msgid "カード決済設定"
+msgstr "カード決済設定"
+
+msgctxt "Languages::jp_payjp_cc_sales_cancel"
+msgid "支払取消"
+msgstr "支払取消"
+
+msgctxt "Languages::jp_payjp_cc_sales_cancel_error"
+msgid "支払取消エラー"
+msgstr "支払取消エラー"
+
+msgctxt "Languages::jp_payjp_cc_sales_cancelled"
+msgid "支払いを取り消しました。"
+msgstr "支払いを取り消しました。"
+
+msgctxt "Languages::jp_payjp_cc_sales_completed"
+msgid "支払いを確定しました。"
+msgstr "支払いを確定しました。"
+
+msgctxt "Languages::jp_payjp_cc_sales_confirm"
+msgid "支払確定"
+msgstr "支払確定"
+
+msgctxt "Languages::jp_payjp_cc_sales_confirm_error"
+msgid "支払確定エラー"
+msgstr "支払確定エラー"
+
+msgctxt "Languages::jp_payjp_cc_status"
+msgid "請求ステータス"
+msgstr "請求ステータス"
+
+msgctxt "Languages::jp_payjp_ccreg_delete_card_info"
+msgid "カード情報の削除"
+msgstr "カード情報の削除"
+
+msgctxt "Languages::jp_payjp_ccreg_delete_error"
+msgid "カード情報削除エラー"
+msgstr "カード情報削除エラー"
+
+msgctxt "Languages::jp_payjp_ccreg_delete_failed"
+msgid "クレジットカード情報の削除に失敗しました。"
+msgstr "クレジットカード情報の削除に失敗しました。"
+
+msgctxt "Languages::jp_payjp_ccreg_delete_success"
+msgid "クレジットカード情報を削除しました。"
+msgstr "クレジットカード情報を削除しました。"
+
+msgctxt "Languages::jp_payjp_member_delete_success"
+msgid "PAY.JPにおいて顧客情報を削除しました。"
+msgstr "PAY.JPにおいて顧客情報を削除しました。"
+
+msgctxt "Languages::jp_payjp_ccreg_error"
+msgid "カード情報登録エラー"
+msgstr "カード情報登録エラー"
+
+msgctxt "Languages::jp_payjp_ccreg_no_card_info"
+msgid "カード情報は登録されていません"
+msgstr "カード情報は登録されていません"
+
+msgctxt "Languages::jp_payjp_ccreg_register_success"
+msgid "カード情報を登録しました。"
+msgstr "カード情報を登録しました。"
+
+msgctxt "Languages::jp_payjp_ccreg_register_failed"
+msgid "カード情報の登録に失敗しました。"
+msgstr "カード情報の登録に失敗しました。"
+
+msgctxt "Languages::jp_payjp_ccreg_registered_card"
+msgid "登録済みカード情報"
+msgstr "登録済みカード情報"
+
+msgctxt "Languages::jp_payjp_security_code"
+msgid "セキュリティコード"
+msgstr "セキュリティコード"
+
+msgctxt "Languages::jp_payjp_what_is_security_code"
+msgid "セキュリティコードとは"
+msgstr "セキュリティコードとは"
+
+msgctxt "Languages::jp_payjp_valid_thru"
+msgid "Valid thru (yyyy/mm)"
+msgstr "有効期限 (yyyy/mm)"
+
+msgctxt "Languages::jp_payjp_use_new_credit_card"
+msgid "Use a new credit card"
+msgstr "新しいクレジットカードで支払う"
+
+msgctxt "Languages::jp_payjp_jobcd"
+msgid "処理区分"
+msgstr "処理区分"
+
+msgctxt "Languages::jp_payjp_auth"
+msgid "認証"
+msgstr "認証"
+
+msgctxt "Languages::jp_payjp_capture"
+msgid "支払確定"
+msgstr "支払確定"
+
+msgctxt "Languages::jp_payjp_tran_id"
+msgid "支払ID"
+msgstr "支払ID"
+
+msgctxt "Languages::jp_payjp_tran_date"
+msgid "作成日時"
+msgstr "作成日時"
+
+msgctxt "Languages::jp_payjp_card_company"
+msgid "カード会社"
+msgstr "カード会社"
+
+msgctxt "Languages::jp_payjp_cc_captured"
+msgid "支払済み"
+msgstr "支払済み"
+
+msgctxt "Languages::jp_payjp_cc_data_not_exists"
+msgid "ご指定の処理を実行できる注文がありませんでした。"
+msgstr "ご指定の処理を実行できる注文がありませんでした。"
+
+msgctxt "Languages::jp_payjp_process_date"
+msgid "処理日付"
+msgstr "処理日付"
+
+msgctxt "Languages::jp_payjp_finishdate"
+msgid "支払確定日時"
+msgstr "支払確定日時"
+
+msgctxt "Languages::jp_payjp_cc_status_change_failed"
+msgid "請求ステータスの更新に失敗しました。"
+msgstr "請求ステータスの更新に失敗しました。"
+
+msgctxt "Languages::jp_payjp_errmsg_invalid_number"
+msgid "invalid_number: 不正なカード番号"
+msgstr "invalid_number: 不正なカード番号"
+
+msgctxt "Languages::jp_payjp_errmsg_invalid_cvc_code"
+msgid "invalid_cvc_code: 不正なCVC"
+msgstr "invalid_cvc_code: 不正なCVC"
+
+msgctxt "Languages::jp_payjp_errmsg_invalid_expiration_date"
+msgid "invalid_expiration_date: 不正な有効期限年、または月"
+msgstr "invalid_expiration_date: 不正な有効期限年、または月"
+
+msgctxt "Languages::jp_payjp_errmsg_invalid_expiry_month"
+msgid "invalid_expiry_month: 不正な有効期限月"
+msgstr "invalid_expiry_month: 不正な有効期限月"
+
+msgctxt "Languages::jp_payjp_errmsg_invalid_expiry_year"
+msgid "invalid_expiry_year: 不正な有効期限年"
+msgstr "invalid_expiry_year: 不正な有効期限年"
+
+msgctxt "Languages::jp_payjp_errmsg_expired_card"
+msgid "expired_card: 有効期限切れ"
+msgstr "expired_card: 有効期限切れ"
+
+msgctxt "Languages::jp_payjp_errmsg_card_declined"
+msgid "card_declined: カード会社によって拒否されたカード"
+msgstr "card_declined: カード会社によって拒否されたカード"
+
+msgctxt "Languages::jp_payjp_errmsg_processing_error"
+msgid "processing_error: 決済ネットワーク上で生じたエラー"
+msgstr "processing_error: 決済ネットワーク上で生じたエラー"
+
+msgctxt "Languages::jp_payjp_errmsg_missing_card"
+msgid "missing_card: 顧客がカードを保持していない"
+msgstr "missing_card: 顧客がカードを保持していない"
+
+msgctxt "Languages::jp_payjp_errmsg_unacceptable_brand"
+msgid "unacceptable_brand: 対象のカードブランドが許可されていない"
+msgstr "unacceptable_brand: 対象のカードブランドが許可されていない"
+
+msgctxt "Languages::jp_payjp_errmsg_invalid_id"
+msgid "invalid_id: 不正なID"
+msgstr "invalid_id: 不正なID"
+
+msgctxt "Languages::jp_payjp_errmsg_no_api_key"
+msgid "no_api_key: APIキーがセットされていない"
+msgstr "no_api_key: APIキーがセットされていない"
+
+msgctxt "Languages::jp_payjp_errmsg_invalid_api_key"
+msgid "invalid_api_key: 不正なAPIキー"
+msgstr "invalid_api_key: 不正なAPIキー"
+
+msgctxt "Languages::jp_payjp_errmsg_invalid_plan"
+msgid "invalid_plan: 不正なプラン"
+msgstr "invalid_plan: 不正なプラン"
+
+msgctxt "Languages::jp_payjp_errmsg_invalid_expiry_days"
+msgid "invalid_expiry_days: 不正な失効日数"
+msgstr "invalid_expiry_days: 不正な失効日数"
+
+msgctxt "Languages::jp_payjp_errmsg_unnecessary_expiry_days"
+msgid "unnecessary_expiry_days: 失効日数が不要なパラメーターである場合"
+msgstr "unnecessary_expiry_days: 失効日数が不要なパラメーターである場合"
+
+msgctxt "Languages::jp_payjp_errmsg_invalid_flexible_id"
+msgid "invalid_flexible_id: 不正なID指定"
+msgstr "invalid_flexible_id: 不正なID指定"
+
+msgctxt "Languages::jp_payjp_errmsg_invalid_timestamp"
+msgid "invalid_timestamp: 不正なUnixタイムスタンプ"
+msgstr "invalid_timestamp: 不正なUnixタイムスタンプ"
+
+msgctxt "Languages::jp_payjp_errmsg_invalid_trial_end"
+msgid "invalid_trial_end: 不正なトライアル終了日"
+msgstr "invalid_trial_end: 不正なトライアル終了日"
+
+msgctxt "Languages::jp_payjp_errmsg_invalid_string_length"
+msgid "invalid_string_length: 不正な文字列長"
+msgstr "invalid_string_length: 不正な文字列長"
+
+msgctxt "Languages::jp_payjp_errmsg_invalid_country"
+msgid "invalid_country: 不正な国名コード"
+msgstr "invalid_country: 不正な国名コード"
+
+msgctxt "Languages::jp_payjp_errmsg_invalid_currency"
+msgid "invalid_currency: 不正な通貨コード"
+msgstr "invalid_currency: 不正な通貨コード"
+
+msgctxt "Languages::jp_payjp_errmsg_invalid_address_zip"
+msgid "invalid_address_zip: 不正な郵便番号"
+msgstr "invalid_address_zip: 不正な郵便番号"
+
+msgctxt "Languages::jp_payjp_errmsg_invalid_amount"
+msgid "invalid_amount: 不正な支払い金額"
+msgstr "invalid_amount: 不正な支払い金額"
+
+msgctxt "Languages::jp_payjp_errmsg_invalid_plan_amount"
+msgid "invalid_plan_amount: 不正なプラン金額"
+msgstr "invalid_plan_amount: 不正なプラン金額"
+
+msgctxt "Languages::jp_payjp_errmsg_invalid_card"
+msgid "invalid_card: 不正なカード"
+msgstr "invalid_card: 不正なカード"
+
+msgctxt "Languages::jp_payjp_errmsg_invalid_card_name"
+msgid "invalid_card_name: 不正なカードホルダー名"
+msgstr "invalid_card_name: 不正なカードホルダー名"
+
+msgctxt "Languages::jp_payjp_errmsg_invalid_card_country"
+msgid "invalid_card_country: 不正なカード請求先国名コード"
+msgstr "invalid_card_country: 不正なカード請求先国名コード"
+
+msgctxt "Languages::jp_payjp_errmsg_invalid_card_address_zip"
+msgid "invalid_card_address_zip: 不正なカード請求先住所(郵便番号)"
+msgstr "invalid_card_address_zip: 不正なカード請求先住所(郵便番号)"
+
+msgctxt "Languages::jp_payjp_errmsg_invalid_card_address_state"
+msgid "invalid_card_address_state: 不正なカード請求先住所(都道府県)"
+msgstr "invalid_card_address_state: 不正なカード請求先住所(都道府県)"
+
+msgctxt "Languages::jp_payjp_errmsg_invalid_card_address_city"
+msgid "invalid_card_address_city: 不正なカード請求先住所(市区町村)"
+msgstr "invalid_card_address_city: 不正なカード請求先住所(市区町村)"
+
+msgctxt "Languages::jp_payjp_errmsg_invalid_card_address_line"
+msgid "invalid_card_address_line: 不正なカード請求先住所(番地など)"
+msgstr "invalid_card_address_line: 不正なカード請求先住所(番地など)"
+
+msgctxt "Languages::jp_payjp_errmsg_invalid_customer"
+msgid "invalid_customer: 不正な顧客"
+msgstr "invalid_customer: 不正な顧客"
+
+msgctxt "Languages::jp_payjp_errmsg_invalid_boolean"
+msgid "invalid_boolean: 不正な論理値"
+msgstr "invalid_boolean: 不正な論理値"
+
+msgctxt "Languages::jp_payjp_errmsg_invalid_email"
+msgid "invalid_email: 不正なメールアドレス"
+msgstr "invalid_email: 不正なメールアドレス"
+
+msgctxt "Languages::jp_payjp_errmsg_no_allowed_param"
+msgid "no_allowed_param: パラメーターが許可されていない場合"
+msgstr "no_allowed_param: パラメーターが許可されていない場合"
+
+msgctxt "Languages::jp_payjp_errmsg_no_param"
+msgid "no_param: パラメーターが何もセットされていない"
+msgstr "no_param: パラメーターが何もセットされていない"
+
+msgctxt "Languages::jp_payjp_errmsg_invalid_querystring"
+msgid "invalid_querystring: 不正なクエリー文字列"
+msgstr "invalid_querystring: 不正なクエリー文字列"
+
+msgctxt "Languages::jp_payjp_errmsg_missing_param"
+msgid "missing_param: 必要なパラメーターがセットされていない"
+msgstr "missing_param: 必要なパラメーターがセットされていない"
+
+msgctxt "Languages::jp_payjp_errmsg_invalid_param_key"
+msgid "invalid_param_key: 指定できない不正なパラメーターがある"
+msgstr "invalid_param_key: 指定できない不正なパラメーターがある"
+
+msgctxt "Languages::jp_payjp_errmsg_no_payment_method"
+msgid "no_payment_method: 支払い手段がセットされていない"
+msgstr "no_payment_method: 支払い手段がセットされていない"
+
+msgctxt "Languages::jp_payjp_errmsg_payment_method_duplicate"
+msgid "payment_method_duplicate: 支払い手段が重複してセットされている"
+msgstr "payment_method_duplicate: 支払い手段が重複してセットされている"
+
+msgctxt "Languages::jp_payjp_errmsg_payment_method_duplicate_including_customer"
+msgid "payment_method_duplicate_including_customer: 支払い手段が重複してセットされている(顧客IDを含む)"
+msgstr "payment_method_duplicate_including_customer: 支払い手段が重複してセットされている(顧客IDを含む)"
+
+msgctxt "Languages::jp_payjp_errmsg_failed_payment"
+msgid "failed_payment: 指定した支払いが失敗している場合"
+msgstr "failed_payment: 指定した支払いが失敗している場合"
+
+msgctxt "Languages::jp_payjp_errmsg_invalid_refund_amount"
+msgid "invalid_refund_amount: 不正な返金額"
+msgstr "invalid_refund_amount: 不正な返金額"
+
+msgctxt "Languages::jp_payjp_errmsg_already_refunded"
+msgid "already_refunded: すでに返金済み"
+msgstr "already_refunded: すでに返金済み"
+
+msgctxt "Languages::jp_payjp_errmsg_invalid_amount_to_not_captured"
+msgid "invalid_amount_to_not_captured: 確定されていない支払いに対して部分返金ができない"
+msgstr "invalid_amount_to_not_captured: 確定されていない支払いに対して部分返金ができない"
+
+msgctxt "Languages::jp_payjp_errmsg_refund_amount_gt_net"
+msgid "refund_amount_gt_net: 返金額が元の支払い額より大きい"
+msgstr "refund_amount_gt_net: 返金額が元の支払い額より大きい"
+
+msgctxt "Languages::jp_payjp_errmsg_capture_amount_gt_net"
+msgid "capture_amount_gt_net: 支払い確定額が元の支払い額より大きい"
+msgstr "capture_amount_gt_net: 支払い確定額が元の支払い額より大きい"
+
+msgctxt "Languages::jp_payjp_errmsg_invalid_refund_reason"
+msgid "invalid_refund_reason: 不正な返金理由"
+msgstr "invalid_refund_reason: 不正な返金理由"
+
+msgctxt "Languages::jp_payjp_errmsg_already_captured"
+msgid "already_captured: すでに支払いが確定済み"
+msgstr "already_captured: すでに支払いが確定済み"
+
+msgctxt "Languages::jp_payjp_errmsg_cant_capture_refunded_charge"
+msgid "cant_capture_refunded_charge: 返金済みの支払いに対して支払い確定はできない"
+msgstr "cant_capture_refunded_charge: 返金済みの支払いに対して支払い確定はできない"
+
+msgctxt "Languages::jp_payjp_errmsg_cant_reauth_refunded_charge"
+msgid "cant_reauth_refunded_charge: 返金済みの支払いに対して再認証はできない"
+msgstr "cant_reauth_refunded_charge: 返金済みの支払いに対して再認証はできない"
+
+msgctxt "Languages::jp_payjp_errmsg_charge_expired"
+msgid "charge_expired: 認証が失効している支払い"
+msgstr "charge_expired: 認証が失効している支払い"
+
+msgctxt "Languages::jp_payjp_errmsg_already_exist_id"
+msgid "already_exist_id: すでに存在しているID"
+msgstr "already_exist_id: すでに存在しているID"
+
+msgctxt "Languages::jp_payjp_errmsg_token_already_used"
+msgid "token_already_used: すでに使用済みのトークン"
+msgstr "token_already_used: すでに使用済みのトークン"
+
+msgctxt "Languages::jp_payjp_errmsg_already_have_card"
+msgid "already_have_card: 指定した顧客がすでに保持しているカード"
+msgstr "already_have_card: 指定した顧客がすでに保持しているカード"
+
+msgctxt "Languages::jp_payjp_errmsg_dont_has_this_card"
+msgid "dont_has_this_card: 顧客が指定したカードを保持していない"
+msgstr "dont_has_this_card: 顧客が指定したカードを保持していない"
+
+msgctxt "Languages::jp_payjp_errmsg_doesnt_have_card"
+msgid "doesnt_have_card: 顧客がカードを何も保持していない"
+msgstr "doesnt_have_card: 顧客がカードを何も保持していない"
+
+msgctxt "Languages::jp_payjp_errmsg_already_have_the_same_card"
+msgid "already_have_the_same_card: すでに同じカード番号、有効期限のカードを保持している"
+msgstr "already_have_the_same_card: すでに同じカード番号、有効期限のカードを保持している"
+
+msgctxt "Languages::jp_payjp_errmsg_invalid_interval"
+msgid "invalid_interval: 不正な課金周期"
+msgstr "invalid_interval: 不正な課金周期"
+
+msgctxt "Languages::jp_payjp_errmsg_invalid_trial_days"
+msgid "invalid_trial_days: 不正なトライアル日数"
+msgstr "invalid_trial_days: 不正なトライアル日数"
+
+msgctxt "Languages::jp_payjp_errmsg_invalid_billing_day"
+msgid "invalid_billing_day: 不正な支払い実行日"
+msgstr "invalid_billing_day: 不正な支払い実行日"
+
+msgctxt "Languages::jp_payjp_errmsg_billing_day_for_non_monthly_plan"
+msgid "billing_day_for_non_monthly_plan: 支払い実行日は月次プランにしか指定できない"
+msgstr "billing_day_for_non_monthly_plan: 支払い実行日は月次プランにしか指定できない"
+
+msgctxt "Languages::jp_payjp_errmsg_exist_subscribers"
+msgid "exist_subscribers: 購入者が存在するプランは削除できない"
+msgstr "exist_subscribers: 購入者が存在するプランは削除できない"
+
+msgctxt "Languages::jp_payjp_errmsg_already_subscribed"
+msgid "already_subscribed: すでに定期課金済みの顧客"
+msgstr "already_subscribed: すでに定期課金済みの顧客"
+
+msgctxt "Languages::jp_payjp_errmsg_already_canceled"
+msgid "already_canceled: すでにキャンセル済みの定期課金"
+msgstr "already_canceled: すでにキャンセル済みの定期課金"
+
+msgctxt "Languages::jp_payjp_errmsg_already_paused"
+msgid "already_paused: すでに停止済みの定期課金"
+msgstr "already_paused: すでに停止済みの定期課金"
+
+msgctxt "Languages::jp_payjp_errmsg_subscription_worked"
+msgid "subscription_worked: すでに稼働している定期課金"
+msgstr "subscription_worked: すでに稼働している定期課金"
+
+msgctxt "Languages::jp_payjp_errmsg_cannot_change_prorate_status"
+msgid "cannot_change_prorate_status: 日割り課金の設定はプラン変更時のみ可能"
+msgstr "cannot_change_prorate_status: 日割り課金の設定はプラン変更時のみ可能"
+
+msgctxt "Languages::jp_payjp_errmsg_too_many_metadata_keys"
+msgid "too_many_metadata_keys: metadataキーの登録上限(20)を超過している"
+msgstr "too_many_metadata_keys: metadataキーの登録上限(20)を超過している"
+
+msgctxt "Languages::jp_payjp_errmsg_invalid_metadata_key"
+msgid "invalid_metadata_key: 不正なmetadataキー"
+msgstr "invalid_metadata_key: 不正なmetadataキー"
+
+msgctxt "Languages::jp_payjp_errmsg_invalid_metadata_value"
+msgid "invalid_metadata_value: 不正なmetadataバリュー"
+msgstr "invalid_metadata_value: 不正なmetadataバリュー"
+
+msgctxt "Languages::jp_payjp_errmsg_apple_pay_disabled_in_livemode"
+msgid "apple_pay_disabled_in_livemode: 本番モードのApple Pay利用が許可されていない"
+msgstr "apple_pay_disabled_in_livemode: 本番モードのApple Pay利用が許可されていない"
+
+msgctxt "Languages::jp_payjp_errmsg_invalid_apple_pay_token"
+msgid "invalid_apple_pay_token: 不正なApple Payトークン"
+msgstr "invalid_apple_pay_token: 不正なApple Payトークン"
+
+msgctxt "Languages::jp_payjp_errmsg_test_card_on_livemode"
+msgid "test_card_on_livemode: 本番モードのリクエストにテストカードが使用されている"
+msgstr "test_card_on_livemode: 本番モードのリクエストにテストカードが使用されている"
+
+msgctxt "Languages::jp_payjp_errmsg_not_activated_account"
+msgid "not_activated_account: 本番モードが許可されていないアカウント"
+msgstr "not_activated_account: 本番モードが許可されていないアカウント"
+
+msgctxt "Languages::jp_payjp_errmsg_too_many_test_request"
+msgid "too_many_test_request: テストモードのリクエストリミットを超過している"
+msgstr "too_many_test_request: テストモードのリクエストリミットを超過している"
+
+msgctxt "Languages::jp_payjp_errmsg_payjp_wrong"
+msgid "payjp_wrong: PAY.JPのサーバー側でエラーが発生している"
+msgstr "payjp_wrong: PAY.JPのサーバー側でエラーが発生している"
+
+msgctxt "Languages::jp_payjp_errmsg_pg_wrong"
+msgid "pg_wrong: 決済代行会社のサーバー側でエラーが発生している"
+msgstr "pg_wrong: 決済代行会社のサーバー側でエラーが発生している"
+
+msgctxt "Languages::jp_payjp_errmsg_not_found"
+msgid "not_found: リクエスト先が存在しないことを示す"
+msgstr "not_found: リクエスト先が存在しないことを示す"
+
+msgctxt "Languages::jp_payjp_errmsg_not_allowed_method"
+msgid "not_allowed_method: 許可されていないHTTPメソッド"
+msgstr "not_allowed_method: 許可されていないHTTPメソッド"
+
+msgctxt "Languages::jp_payjp_error"
+msgid "PAY.JP エラー"
+msgstr "PAY.JP エラー"
+
+msgctxt "Languages::jp_payjp_pf__failed"
+msgid "PAY.JP からエラーが返されました。"
+msgstr "PAY.JP からエラーが返されました"

@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>ap_sbps</id>
+    <version>1.0</version>
+    <priority>700</priority>
+    <position>0</position>
+    <status>active</status>
+    <default_language>ja</default_language>
+    <supplier>ANDPLUS</supplier>
+    <compatibility>
+        <core_version>
+            <min>4.3.4</min>
+        </core_version>
+        <core_edition>ULTIMATE,MULTIVENDOR</core_edition>
+        <php_version>
+            <min>5.6.3</min>
+        </php_version>
+        <php_extensions>
+            <curl>
+                <supported>Y</supported>
+            </curl>
+        </php_extensions>
+    </compatibility>
+    <settings edition_type="ROOT,ULT:VENDOR">
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="permit_rb_cancel_contract">
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    <functions>
+        <item for="install">fn_ap_sbps_install</item>
+        <item for="uninstall">fn_ap_sbps_uninstall</item>
+    </functions>
+</addon>

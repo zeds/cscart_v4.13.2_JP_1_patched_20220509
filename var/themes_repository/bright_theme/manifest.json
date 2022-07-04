@@ -1,0 +1,9 @@
+{
+	"title":"ブライトテーマ",
+	"description":"ブライトテーマは様々な解像度のディスプレイに対応したテーマです。タブレット端末やスマートフォンでもCS-Cartを快適にご利用いただけます。このテーマはすばらしいタイポグラフィによる最小限のルックアンドフィールで最新のウェブデザイントレンドを採用しています。",
+	"parent_theme":"responsive",
+	"logo":"media\/images\/cart.png",
+	"mail":"media\/images\/invoice_logo.png",
+	"favicon":"media\/images\/favicon.ico",
+	"developer": "CS-Cart"
+}

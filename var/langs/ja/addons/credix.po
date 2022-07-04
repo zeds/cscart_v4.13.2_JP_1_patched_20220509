@@ -1,0 +1,82 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Japanese\n"
+"Language: ja_JP\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.net\n"
+"Last-Translator: cscartjp <info@cs-cart.jp>\n"
+"PO-Revision-Date: 2014-10-20 04:42-0400\n"
+
+msgctxt "Addons::name::credix"
+msgid "CREDIXクレジット決済"
+msgstr "CREDIXクレジット決済"
+
+msgctxt "Addons::description::credix"
+msgid "CREDIXクレジットカード決済を利用可能にします。"
+msgstr "CREDIXクレジットカード決済を利用可能にします。"
+
+msgctxt "SettingsSections::credix::general"
+msgid "基本設定"
+msgstr "基本設定"
+
+msgctxt "SettingsOptions::credix::elm_connection_information"
+msgid "接続設定"
+msgstr "接続設定"
+
+msgctxt "SettingsOptions::credix::ip"
+msgid "IPコード"
+msgstr "IPコード"
+
+msgctxt "Languages::jp_credix_back_to_store"
+msgid "[store_name]に戻る"
+msgstr "[store_name]に戻る"
+
+msgctxt "Languages::jp_credix_cc_error"
+msgid "クレジットカード決済エラー"
+msgstr "クレジットカード決済エラー"
+
+msgctxt "Languages::jp_credix_cc_failed"
+msgid "クレジットカードによる決済に失敗しました。<br />再度カード情報を入力いただくか他の支払方法を選択してご注文ください。"
+msgstr "クレジットカードによる決済に失敗しました。<br />再度カード情報を入力いただくか他の支払方法を選択してご注文ください。"
+
+msgctxt "Languages::jp_credix_notice"
+msgid "CREDIXに関する設定情報を入力してください。"
+msgstr "CREDIXに関する設定情報を入力してください。"
+
+msgctxt "Languages::jp_credix_payment_settings"
+msgid "支払設定"
+msgstr "支払設定"
+
+msgctxt "Languages::jp_credix_qc_click_to_delete"
+msgid "登録済みのクレジットカード情報を削除するにはボタンをクリックしてください。"
+msgstr "登録済みのクレジットカード情報を削除するにはボタンをクリックしてください。"
+
+msgctxt "Languages::jp_credix_qc_delete_card_info"
+msgid "登録済みカード情報の削除"
+msgstr "登録済みカード情報の削除"
+
+msgctxt "Languages::jp_credix_qc_delete_success"
+msgid "クレジットカード情報を削除しました。"
+msgstr "クレジットカード情報を削除しました。"
+
+msgctxt "Languages::jp_credix_qc_no_card_info"
+msgid "カード情報は登録されていません"
+msgstr "カード情報は登録されていません"
+
+msgctxt "Languages::jp_credix_qc_notice"
+msgid "この支払方法について設定可能な項目はありません。"
+msgstr "この支払方法について設定可能な項目はありません。"
+
+msgctxt "Languages::jp_credix_qc_registered_card"
+msgid "登録済みカード情報"
+msgstr "登録済みカード情報"
+
+msgctxt "Languages::jp_credix_service_name"
+msgid "CREDIX"
+msgstr "CREDIX"
+
+msgctxt "Languages::jp_credix_use_quick_charge"
+msgid "今回使用するカード番号を登録して次回以降の注文手続きを簡略化する"
+msgstr "今回使用するカード番号を登録して次回以降の注文手続きを簡略化する"

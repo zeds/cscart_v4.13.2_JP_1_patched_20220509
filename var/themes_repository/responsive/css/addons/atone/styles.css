@@ -1,0 +1,8 @@
+#litecheckout_final_section #atone-button {
+	line-height: 52px;
+}
+ 
+#litecheckout_final_section .atone-disabled {
+	pointer-events: none;
+	background: #eee;
+}

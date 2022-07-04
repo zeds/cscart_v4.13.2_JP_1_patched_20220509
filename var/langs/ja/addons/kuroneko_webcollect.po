@@ -1,0 +1,5048 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Japanese\n"
+"Language: ja_JP\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscartjp <tommy@cs-cart.jp>\n"
+"PO-Revision-Date: 2015-12-14 15:00-0900\n"
+
+msgctxt "Addons::name::kuroneko_webcollect"
+msgid "クロネコwebコレクト & クロネコ代金後払いサービス（API方式）"
+msgstr "クロネコwebコレクト & クロネコ代金後払いサービス（API方式）"
+
+msgctxt "Addons::description::kuroneko_webcollect"
+msgid "クロネコwebコレクトおよびクロネコ代金後払いサービス（API方式）による決済を利用可能にします。"
+msgstr "クロネコwebコレクトおよびクロネコ代金後払いサービス（API方式）による決済を利用可能にします。"
+
+msgctxt "SettingsSections::kuroneko_webcollect::general"
+msgid "基本設定"
+msgstr "基本設定"
+
+msgctxt "SettingsSections::kuroneko_webcollect::webcollect"
+msgid "クロネコwebコレクト"
+msgstr "クロネコwebコレクト"
+
+msgctxt "SettingsOptions::kuroneko_webcollect::elm_webcollect_connection_information"
+msgid "接続設定"
+msgstr "接続設定"
+
+msgctxt "SettingsOptions::kuroneko_webcollect::trader_code"
+msgid "加盟店コード"
+msgstr "加盟店コード"
+
+msgctxt "SettingsOptions::kuroneko_webcollect::access_key"
+msgid "アクセスキー"
+msgstr "アクセスキー"
+
+msgctxt "SettingsOptions::kuroneko_webcollect::pending_status"
+msgid "正常入金が行われなかった注文に割り当てる注文ステータス"
+msgstr "正常入金が行われなかった注文に割り当てる注文ステータス"
+
+msgctxt "SettingsOptions::kuroneko_webcollect::cron_password_wc"
+msgid "クロン用パスワード"
+msgstr "クロン用パスワード"
+
+msgctxt "SettingsSections::kuroneko_webcollect::atobarai"
+msgid "クロネコ代金後払いサービス"
+msgstr "クロネコ代金後払いサービス"
+
+msgctxt "SettingsOptions::kuroneko_webcollect::elm_atobarai_connection_information"
+msgid "接続設定"
+msgstr "接続設定"
+
+msgctxt "SettingsOptions::kuroneko_webcollect::ycf_str_code"
+msgid "加盟店コード"
+msgstr "加盟店コード"
+
+msgctxt "SettingsOptions::kuroneko_webcollect::atobarai_password"
+msgid "パスワード"
+msgstr "パスワード"
+
+msgctxt "SettingsOptions::kuroneko_webcollect::cron_password_ab"
+msgid "クロン用パスワード"
+msgstr "クロン用パスワード"
+
+msgctxt "Languages::jp_kuroneko_webcollect_service_name_wc"
+msgid "クロネコwebコレクト"
+msgstr "クロネコwebコレクト"
+
+msgctxt "Languages::jp_kuroneko_webcollect_service_name_wc_cc"
+msgid "クロネコwebコレクト（カード払い）"
+msgstr "クロネコwebコレクト（カード払い）"
+
+msgctxt "Languages::jp_kuroneko_webcollect_service_name_wc_cvs"
+msgid "クロネコwebコレクト（コンビニ払い）"
+msgstr "クロネコwebコレクト（コンビニ払い）"
+
+msgctxt "Languages::jp_kuroneko_webcollect_service_name_ab"
+msgid "クロネコ代金後払いサービス"
+msgstr "クロネコ代金後払いサービス"
+
+msgctxt "Languages::jp_kuroneko_webcollect_order_no"
+msgid "受付番号"
+msgstr "受付番号"
+
+msgctxt "Languages::jp_kuroneko_webcollect_crd_c_res_cd"
+msgid "与信承認番号"
+msgstr "与信承認番号"
+
+msgctxt "Languages::jp_kuroneko_webcollect_return_date"
+msgid "処理日時"
+msgstr "処理日時"
+
+msgctxt "Languages::jp_kuroneko_webcollect_renewal_date"
+msgid "最終更新日時"
+msgstr "最終更新日時"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cancel_date"
+msgid "取消日時"
+msgstr "取消日時"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cc_auth_ok"
+msgid "与信OK"
+msgstr "与信OK"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cc_auth_cancel"
+msgid "決済取消"
+msgstr "決済取消"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cc_sales_confirm"
+msgid "売上確定"
+msgstr "売上確定"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cc_cancelled"
+msgid "決済を取り消しました。"
+msgstr "決済を取り消しました。"
+
+msgctxt "Languages::jp_kuroneko_webcollect_creditcancel_error"
+msgid "決済取消エラー"
+msgstr "決済取消エラー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_creditchangeprice_error"
+msgid "クレジット金額変更エラー"
+msgstr "クレジット金額変更エラー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_settle_date"
+msgid "入金日時"
+msgstr "入金日時"
+
+msgctxt "Languages::jp_kuroneko_webcollect_settle_price"
+msgid "入金金額"
+msgstr "入金金額"
+
+msgctxt "Languages::jp_kuroneko_webcollect_settle_pre"
+msgid "速報"
+msgstr "速報"
+
+msgctxt "Languages::jp_kuroneko_webcollect_settle_def"
+msgid "確報"
+msgstr "確報"
+
+msgctxt "Languages::jp_kuroneko_webcollect_slip_no"
+msgid "送り状番号"
+msgstr "送り状番号"
+
+msgctxt "Languages::jp_kuroneko_webcollect_send_slip_no"
+msgid "出荷情報をクロネコwebコレクトに送信する"
+msgstr "出荷情報をクロネコwebコレクトに送信する"
+
+msgctxt "Languages::jp_kuroneko_webcollect_shipment_entry_error"
+msgid "出荷情報登録エラー"
+msgstr "出荷情報登録エラー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_shipment_entry_error_msg"
+msgid "送り状番号の登録に失敗しました。配送情報は登録されませんでした。"
+msgstr "送り状番号の登録に失敗しました。配送情報は登録されませんでした。"
+
+msgctxt "Languages::jp_kuroneko_webcollect_shipment_delete_success"
+msgid "送り状番号 [slipno] の配送情報を削除しました。"
+msgstr "送り状番号 [slipno] の配送情報を削除しました。"
+
+msgctxt "Languages::jp_kuroneko_webcollect_shipment_delete_failed"
+msgid "送り状番号 [slipno] の配送情報の削除に失敗しました。"
+msgstr "送り状番号 [slipno] の配送情報の削除に失敗しました。"
+
+msgctxt "Languages::jp_kuroneko_webcollect_check_delivery_status"
+msgid "配達状況の確認"
+msgstr "配達状況の確認"
+
+msgctxt "Languages::jp_kuroneko_webcollect_wc_order_status"
+msgid "取引状況"
+msgstr "取引状況"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cc_order_status_long"
+msgid "クロネコwebコレクト（クレジットカード払い）の取引状況"
+msgstr "クロネコwebコレクト（クレジットカード払い）の取引状況"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cvs_order_status_long"
+msgid "クロネコwebコレクト（コンビニ払い）の取引状況"
+msgstr "クロネコwebコレクト（コンビニ払い）の取引状況"
+
+msgctxt "Languages::jp_kuroneko_webcollect_check_wc_order_status"
+msgid "取引状況照会"
+msgstr "取引状況照会"
+
+msgctxt "Languages::jp_kuroneko_webcollect_wc_cron_setting"
+msgid "取引状況を定期的に自動照会するには、以下のコマンドを実行するcronジョブを設定してください。"
+msgstr "取引状況を定期的に自動照会するには、以下のコマンドを実行するcronジョブを設定してください。"
+
+msgctxt "Languages::jp_kuroneko_webcollect_ab_notice"
+msgid "クロネコ代金後払いサービスに関する設定情報を入力してください。"
+msgstr "クロネコ代金後払いサービスに関する設定情報を入力してください。"
+
+msgctxt "Languages::jp_kuroneko_webcollect_ab_payment_settings"
+msgid "代金後払いサービス設定"
+msgstr "代金後払いサービス設定"
+
+msgctxt "Languages::jp_kuroneko_webcollect_ab_ship_ymd"
+msgid "出荷予定日（半角数字）"
+msgstr "出荷予定日（半角数字）"
+
+msgctxt "Languages::jp_kuroneko_webcollect_ab_ship_ymd_prefix"
+msgid "注文日の"
+msgstr "注文日の"
+
+msgctxt "Languages::jp_kuroneko_webcollect_ab_ship_ymd_suffix"
+msgid "日後"
+msgstr "日後"
+
+msgctxt "Languages::jp_kuroneko_webcollect_ab_error"
+msgid "代金後払いエラー"
+msgstr "代金後払いエラー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_ab_error_msg"
+msgid "クロネコ代金後払いサービスはご利用いただけません"
+msgstr "クロネコ代金後払いサービスはご利用いただけません"
+
+msgctxt "Languages::jp_kuroneko_webcollect_ab_order_no"
+msgid "受注番号"
+msgstr "受注番号"
+
+msgctxt "Languages::jp_kuroneko_webcollect_except_amex"
+msgid "アメリカンエキスプレス以外のカード"
+msgstr "アメリカンエキスプレス以外のカード"
+
+msgctxt "Languages::jp_kuroneko_webcollect_ab_notification_title"
+msgid "クロネコ代金後払いサービスに関するお知らせ"
+msgstr "クロネコ代金後払いサービスに関するお知らせ"
+
+msgctxt "Languages::jp_kuroneko_webcollect_ab_notification_message"
+msgid "クロネコ代金後払いサービスによるご注文を承りました。<br />請求書をお送りいたしますので、14日以内にお支払いをお願いいたします。"
+msgstr "クロネコ代金後払いサービスによるご注文を承りました。<br />請求書をお送りいたしますので、14日以内にお支払いをお願いいたします。"
+
+msgctxt "Languages::jp_kuroneko_webcollect_ab_order_ref_error"
+msgid "クロネコ代金後払いサービス取引照会エラー"
+msgstr "クロネコ代金後払いサービス取引照会エラー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_ab_order_ref_error_msg"
+msgid "クロネコ代金後払いサービスの取引照会に失敗しました。"
+msgstr "クロネコ代金後払いサービスの取引照会に失敗しました。"
+
+msgctxt "Languages::jp_kuroneko_webcollect_ab_cancel_error"
+msgid "クロネコ代金後払いサービス決済取消エラー"
+msgstr "クロネコ代金後払いサービス決済取消エラー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_ab_cancel_error_msg"
+msgid "クロネコ代金後払いサービスの決済取消に失敗しました。"
+msgstr "クロネコ代金後払いサービスの決済取消に失敗しました。"
+
+msgctxt "Languages::jp_kuroneko_webcollect_ab_order_status1"
+msgid "承認済み"
+msgstr "承認済み"
+
+msgctxt "Languages::jp_kuroneko_webcollect_ab_order_status2"
+msgid "取消済み"
+msgstr "取消済み"
+
+msgctxt "Languages::jp_kuroneko_webcollect_ab_order_status3"
+msgid "送り状番号登録済み"
+msgstr "送り状番号登録済み"
+
+msgctxt "Languages::jp_kuroneko_webcollect_ab_order_status5"
+msgid "配送要調査"
+msgstr "配送要調査"
+
+msgctxt "Languages::jp_kuroneko_webcollect_ab_order_status6"
+msgid "警報メール送信済み"
+msgstr "警報メール送信済み"
+
+msgctxt "Languages::jp_kuroneko_webcollect_ab_order_status10"
+msgid "売上確定"
+msgstr "売上確定"
+
+msgctxt "Languages::jp_kuroneko_webcollect_ab_order_status11"
+msgid "請求書発行済み"
+msgstr "請求書発行済み"
+
+msgctxt "Languages::jp_kuroneko_webcollect_ab_order_status12"
+msgid "入金済み"
+msgstr "入金済み"
+
+msgctxt "Languages::jp_kuroneko_webcollect_ab_warning1"
+msgid "送り状番号未登録"
+msgstr "送り状番号未登録"
+
+msgctxt "Languages::jp_kuroneko_webcollect_ab_warning2"
+msgid "商品配達未完了"
+msgstr "商品配達未完了"
+
+msgctxt "Languages::jp_kuroneko_webcollect_ab_warning3"
+msgid "商品配達状況要調査"
+msgstr "商品配達状況要調査"
+
+msgctxt "Languages::jp_kuroneko_webcollect_ab_name"
+msgid "クロネコ代金後払いサービス"
+msgstr "クロネコ代金後払いサービス"
+
+msgctxt "Languages::jp_kuroneko_webcollect_ab_order_status"
+msgid "取引状況"
+msgstr "取引状況"
+
+msgctxt "Languages::jp_kuroneko_webcollect_ab_order_status_long"
+msgid "クロネコ代金後払いサービスの取引状況"
+msgstr "クロネコ代金後払いサービスの取引状況"
+
+msgctxt "Languages::jp_kuroneko_webcollect_check_ab_order_status"
+msgid "取引状況照会"
+msgstr "取引状況照会"
+
+msgctxt "Languages::jp_kuroneko_webcollect_ab_warning_info"
+msgid "警報情報"
+msgstr "警報情報"
+
+msgctxt "Languages::jp_kuroneko_webcollect_ab_send_payment_no"
+msgid "出荷情報をクロネコ代金後払いサービスに送信する"
+msgstr "出荷情報をクロネコ代金後払いサービスに送信する"
+
+msgctxt "Languages::jp_kuroneko_webcollect_ab_data_not_exists"
+msgid "ご指定の処理を実行できる注文がありませんでした。"
+msgstr "ご指定の処理を実行できる注文がありませんでした。"
+
+msgctxt "Languages::jp_kuroneko_webcollect_ab_cancel"
+msgid "決済取消"
+msgstr "決済取消"
+
+msgctxt "Languages::jp_kuroneko_webcollect_ab_cron_setting"
+msgid "取引状況を定期的に自動照会するには、以下のコマンドを実行するcronジョブを設定してください。"
+msgstr "取引状況を定期的に自動照会するには、以下のコマンドを実行するcronジョブを設定してください。"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cc_error"
+msgid "クレジットカード決済エラー"
+msgstr "クレジットカード決済エラー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cc_failed"
+msgid "クレジットカードによる決済に失敗しました。<br />再度カード情報を入力いただくか他の支払方法を選択してご注文ください。"
+msgstr "クレジットカードによる決済に失敗しました。<br />再度カード情報を入力いただくか他の支払方法を選択してご注文ください。"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cc_invalid"
+msgid "入力されたカード情報が正しくありません。<br />再度カード情報を入力いただくか他の支払方法を選択してご注文ください。"
+msgstr "入力されたカード情報が正しくありません。<br />再度カード情報を入力いただくか他の支払方法を選択してご注文ください。"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cc_manager"
+msgid "クレジット請求管理"
+msgstr "クレジット請求管理"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cc_notice"
+msgid "クロネコwebコレクト（API方式・クレジットカード払い）に関する設定情報を入力してください。"
+msgstr "クロネコwebコレクト（API方式・クレジットカード払い）に関する設定情報を入力してください。"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cc_payment_settings"
+msgid "カード決済設定"
+msgstr "カード決済設定"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cc_register_card_info"
+msgid "クレジットカード情報お預かり機能"
+msgstr "クレジットカード情報お預かり機能"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cc_register_card_info_use"
+msgid "次回以降のお買い物でこのカード情報を使用する"
+msgstr "次回以降のお買い物でこのカード情報を使用する"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cc_status"
+msgid "取引状況"
+msgstr "取引状況"
+
+msgctxt "Languages::jp_kuroneko_webcollect_ccreg_delete_card_info"
+msgid "カード情報の削除"
+msgstr "カード情報の削除"
+
+msgctxt "Languages::jp_kuroneko_webcollect_ccreg_delete_error"
+msgid "カード情報削除エラー"
+msgstr "カード情報削除エラー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_ccreg_delete_failed"
+msgid "クレジットカード情報の削除に失敗しました。"
+msgstr "クレジットカード情報の削除に失敗しました。"
+
+msgctxt "Languages::jp_kuroneko_webcollect_ccreg_delete_success"
+msgid "クレジットカード情報を削除しました。"
+msgstr "クレジットカード情報を削除しました。"
+
+msgctxt "Languages::jp_kuroneko_webcollect_ccreg_no_card_info"
+msgid "カード情報は登録されていません"
+msgstr "カード情報は登録されていません"
+
+msgctxt "Languages::jp_kuroneko_webcollect_ccreg_notice"
+msgid "クロネコwebコレクト（API方式・登録済みクレジットカード払い）に関する設定情報を入力してください。"
+msgstr "クロネコwebコレクト（API方式・登録済みクレジットカード払い）に関する設定情報を入力してください。"
+
+msgctxt "Languages::jp_kuroneko_webcollect_ccreg_registered_card"
+msgid "登録済みカード情報"
+msgstr "登録済みカード情報"
+
+msgctxt "Languages::jp_kuroneko_webcollect_connections_settings"
+msgid "接続設定"
+msgstr "接続設定"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cvs_type"
+msgid "コンビニ種別"
+msgstr "コンビニ種別"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cvs_error"
+msgid "コンビニ決済エラー"
+msgstr "コンビニ決済エラー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cvs_failed"
+msgid "コンビニ決済に失敗しました。<br />再度お試しいただくか他の支払方法を選択してご注文ください。"
+msgstr "コンビニ決済に失敗しました。<br />再度お試しいただくか他の支払方法を選択してご注文ください。"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cvs_notice"
+msgid "クロネコwebコレクト（コンビニ（オンライン）払い）に関する設定情報を入力してください。"
+msgstr "クロネコwebコレクト（コンビニ（オンライン）払い）に関する設定情報を入力してください。"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cvs_payment_settings"
+msgid "コンビニ決済設定"
+msgstr "コンビニ決済設定"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cvs_select_cvs"
+msgid "ご利用のコンビニを指定してください"
+msgstr "ご利用のコンビニを指定してください"
+
+msgctxt "Languages::jp_kuroneko_webcollect_error_code"
+msgid "エラーコード："
+msgstr "エラーコード："
+
+msgctxt "Languages::jp_kuroneko_webcollect_security_code"
+msgid "セキュリティコード"
+msgstr "セキュリティコード"
+
+msgctxt "Languages::jp_kuroneko_webcollect_what_is_security_code"
+msgid "セキュリティコードとは"
+msgstr "セキュリティコードとは"
+
+msgctxt "Languages::jp_kuroneko_webcollect_method"
+msgid "支払方法"
+msgstr "支払方法"
+
+msgctxt "Languages::jp_kuroneko_webcollect_paytimes"
+msgid "支払回数"
+msgstr "支払回数"
+
+msgctxt "Languages::jp_kuroneko_webcollect_use_3dsecure"
+msgid "本人認証サービス（3Dセキュア）を使用"
+msgstr "本人認証サービス（3Dセキュア）を使用"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cc_data_not_exists"
+msgid "ご指定の処理を実行できる注文がありませんでした。"
+msgstr "ご指定の処理を実行できる注文がありませんでした。"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cvs_name"
+msgid "支払先コンビ二名"
+msgstr "支払先コンビ二名"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cvs_billing_no"
+msgid "払込票番号"
+msgstr "払込票番号"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cvs_billing_url"
+msgid "払込票URL"
+msgstr "払込票URL"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cvs_expired_date"
+msgid "支払期限日"
+msgstr "支払期限日"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cvs_company_code"
+msgid "企業コード"
+msgstr "企業コード"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cvs_order_no_f"
+msgid "注文番号"
+msgstr "注文番号"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cvs_econ_no"
+msgid "受付番号"
+msgstr "受付番号"
+
+msgctxt "Languages::jp_kuroneko_webcollect_etc"
+msgid "など"
+msgstr "など"
+
+msgctxt "Languages::jp_kuroneko_webcollect_item_name"
+msgid "お買い上げ商品"
+msgstr "お買い上げ商品"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cvs_notification_title"
+msgid "コンビニ支払いに関するお知らせ"
+msgstr "コンビニ支払いに関するお知らせ"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cvs_notification_message"
+msgid "コンビニ支払いによるご注文を承りました。<br />[email] 宛にお支払い方法の詳細をお送りしましたので、ご確認のうえ期限日までにお支払いをお願いします。"
+msgstr "コンビニ支払いによるご注文を承りました。<br />[email] 宛にお支払い方法の詳細をお送りしましたので、ご確認のうえ期限日までにお支払いをお願いします。"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cc_status_change_failed"
+msgid "請求ステータスの更新に失敗しました。"
+msgstr "請求ステータスの更新に失敗しました。"
+
+msgctxt "Languages::jp_kuroneko_webcollect_wc_order_status0"
+msgid "決済依頼済"
+msgstr "決済依頼済"
+
+msgctxt "Languages::jp_kuroneko_webcollect_wc_order_status1"
+msgid "決済申込完了"
+msgstr "決済申込完了"
+
+msgctxt "Languages::jp_kuroneko_webcollect_wc_order_status2"
+msgid "入金完了（速報）"
+msgstr "入金完了（速報）"
+
+msgctxt "Languages::jp_kuroneko_webcollect_wc_order_status3"
+msgid "入金完了（確報）"
+msgstr "入金完了（確報）"
+
+msgctxt "Languages::jp_kuroneko_webcollect_wc_order_status4"
+msgid "与信完了"
+msgstr "与信完了"
+
+msgctxt "Languages::jp_kuroneko_webcollect_wc_order_status5"
+msgid "予約受付完了"
+msgstr "予約受付完了"
+
+msgctxt "Languages::jp_kuroneko_webcollect_wc_order_status6"
+msgid "継続課金申込完了"
+msgstr "継続課金申込完了"
+
+msgctxt "Languages::jp_kuroneko_webcollect_wc_order_status11"
+msgid "購入者都合エラー"
+msgstr "購入者都合エラー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_wc_order_status12"
+msgid "加盟店都合エラー"
+msgstr "加盟店都合エラー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_wc_order_status13"
+msgid "決済機関都合エラー"
+msgstr "決済機関都合エラー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_wc_order_status14"
+msgid "その他システムエラー"
+msgstr "その他システムエラー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_wc_order_status15"
+msgid "予約販売与信エラー"
+msgstr "予約販売与信エラー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_wc_order_status16"
+msgid "決済依頼取消エラー"
+msgstr "決済依頼取消エラー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_wc_order_status17"
+msgid "金額変更NG"
+msgstr "金額変更NG"
+
+msgctxt "Languages::jp_kuroneko_webcollect_wc_order_status18"
+msgid "継続課金与信エラー"
+msgstr "継続課金与信エラー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_wc_order_status20"
+msgid "決済中断"
+msgstr "決済中断"
+
+msgctxt "Languages::jp_kuroneko_webcollect_wc_order_status21"
+msgid "決済手続き中"
+msgstr "決済手続き中"
+
+msgctxt "Languages::jp_kuroneko_webcollect_wc_order_status22"
+msgid "継続課金停止中"
+msgstr "継続課金停止中"
+
+msgctxt "Languages::jp_kuroneko_webcollect_wc_order_status30"
+msgid "精算確定待ち"
+msgstr "精算確定待ち"
+
+msgctxt "Languages::jp_kuroneko_webcollect_wc_order_status31"
+msgid "精算確定"
+msgstr "精算確定"
+
+msgctxt "Languages::jp_kuroneko_webcollect_wc_order_status40"
+msgid "取消"
+msgstr "取消"
+
+
+
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_Z012000001"
+msgid "POST以外のリクエスト方式"
+msgstr "POST以外のリクエスト方式"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_Z012000002"
+msgid "機能区分なし"
+msgstr "機能区分なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_Z012000003"
+msgid "機能区分の不正セット"
+msgstr "機能区分の不正セット"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_Z012000004"
+msgid "同受注番号にて決済中エラー"
+msgstr "同受注番号にて決済中エラー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_Z012000005"
+msgid "リクエストタイムアウト"
+msgstr "リクエストタイムアウト"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_Z012000006"
+msgid "APIトランザクションのプール数オーバー"
+msgstr "APIトランザクションのプール数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_Z012000007"
+msgid "加盟店の取引停止"
+msgstr "加盟店の取引停止"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_Z012000008"
+msgid "加盟店のAPI利用不可"
+msgstr "加盟店のAPI利用不可"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_Z012000009"
+msgid "加盟店のAPI利用不可"
+msgstr "加盟店のAPI利用不可"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_Z012000010"
+msgid "認証パスワードエラー"
+msgstr "認証パスワードエラー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_Z019999999"
+msgid "システムエラー"
+msgstr "システムエラー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_Z010000000"
+msgid "メンテナンスエラー"
+msgstr "メンテナンスエラー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A011010201"
+msgid "加盟店コードなし"
+msgstr "加盟店コードなし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A011010202"
+msgid "加盟店コード桁数オーバー"
+msgstr "加盟店コード桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A011010204"
+msgid "加盟店コードに禁止文字あり"
+msgstr "加盟店コードに禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A011010301"
+msgid "端末区分なし"
+msgstr "端末区分なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A011010306"
+msgid "端末区分の不正セット"
+msgstr "端末区分の不正セット"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A011010401"
+msgid "受付番号なし"
+msgstr "受付番号なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A011010402"
+msgid "受付番号の桁数オーバー"
+msgstr "受付番号の桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A011010404"
+msgid "受付番号に禁止文字あり"
+msgstr "受付番号に禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A011010501"
+msgid "決済金額なし"
+msgstr "決済金額なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A011010502"
+msgid "決済金額の桁数オーバー"
+msgstr "決済金額の桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A011010504"
+msgid "決済金額に禁止文字あり"
+msgstr "決済金額に禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A011010601"
+msgid "購入者名(字)なし"
+msgstr "購入者名(字)なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A011010603"
+msgid "購入者名(字)桁数オーバー"
+msgstr "購入者名(字)桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A011010701"
+msgid "購入者TELなし"
+msgstr "購入者TELなし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A011010702"
+msgid "購入者TELの桁数不正"
+msgstr "購入者TELの桁数不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A011010704"
+msgid "購入者TELに禁止文字あり"
+msgstr "購入者TELに禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A011010801"
+msgid "購入者E-Mailなし"
+msgstr "購入者E-Mailなし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A011010802"
+msgid "購入者E-Mailの桁数オーバー"
+msgstr "購入者E-Mailの桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A011010901"
+msgid "認証区分なし"
+msgstr "認証区分なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A011011001"
+msgid "支払回数なし"
+msgstr "支払回数なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A011011002"
+msgid "支払回数の桁数オーバー"
+msgstr "支払回数の桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A011011004"
+msgid "支払回数に禁止文字あり"
+msgstr "支払回数に禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A011011101"
+msgid "オプションサービス区分なし"
+msgstr "オプションサービス区分なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A011011106"
+msgid "オプションサービス区分が不正"
+msgstr "オプションサービス区分が不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A011010571"
+msgid "決済金額の下限額チェック"
+msgstr "決済金額の下限額チェック"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A011010572"
+msgid "決済金額の上限額チェック"
+msgstr "決済金額の上限額チェック"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A011011271"
+msgid "商品名に禁止文字あり"
+msgstr "商品名に禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A011011272"
+msgid "商品名桁数オーバー"
+msgstr "商品名桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A011010671"
+msgid "購入者名(字)に禁止文字あり"
+msgstr "購入者名(字)に禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A011010672"
+msgid "購入者名(字)桁数オーバー"
+msgstr "購入者名(字)桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A011010871"
+msgid "購入者E-Mailに禁止文字あり"
+msgstr "購入者E-Mailに禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A011010872"
+msgid "購入者E-Mailに一部未入力あり"
+msgstr "購入者E-Mailに一部未入力あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A011010971"
+msgid "認証区分の不正セット"
+msgstr "認証区分の不正セット"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A011010972"
+msgid "認証区分の不正セット"
+msgstr "認証区分の不正セット"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A011011371"
+msgid "カード会社コード(API用)なし"
+msgstr "カード会社コード(API用)なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A011011372"
+msgid "カード会社コード(API用)の不正セット"
+msgstr "カード会社コード(API用)の不正セット"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A011011471"
+msgid "カード番号なし"
+msgstr "カード番号なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A011011472"
+msgid "カード番号の桁数オーバー"
+msgstr "カード番号の桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A011011473"
+msgid "カード番号に禁止文字あり"
+msgstr "カード番号に禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A011011571"
+msgid "セキュリティコードなし"
+msgstr "セキュリティコードなし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A011011572"
+msgid "セキュリティコードの桁数不正"
+msgstr "セキュリティコードの桁数不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A011011573"
+msgid "セキュリティコードに禁止文字あり"
+msgstr "セキュリティコードに禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A011011671"
+msgid "カード名義人なし"
+msgstr "カード名義人なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A011011672"
+msgid "カード名義人の桁数オーバー"
+msgstr "カード名義人の桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A011011673"
+msgid "カード名義人に禁止文字あり"
+msgstr "カード名義人に禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A011011771"
+msgid "カード有効期限なし"
+msgstr "カード有効期限なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A011011772"
+msgid "カード有効期限の形式不正"
+msgstr "カード有効期限の形式不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A011011773"
+msgid "カード有効期限の期限不正"
+msgstr "カード有効期限の期限不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A011012571"
+msgid "カード情報なし"
+msgstr "カード情報なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A011011871"
+msgid "加盟店ECサイトURLなし"
+msgstr "加盟店ECサイトURLなし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A011011872"
+msgid "加盟店ECサイトURLの桁数オーバー"
+msgstr "加盟店ECサイトURLの桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A011011873"
+msgid "加盟店ECサイトURLの形式不正"
+msgstr "加盟店ECサイトURLの形式不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A011011971"
+msgid "会員ＩＤなし"
+msgstr "会員ＩＤなし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A011011972"
+msgid "会員ＩＤの桁数オーバー"
+msgstr "会員ＩＤの桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A011011973"
+msgid "会員ＩＤに禁止文字あり"
+msgstr "会員ＩＤに禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A011012071"
+msgid "認証キーなし"
+msgstr "認証キーなし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A011012072"
+msgid "認証キーの桁数オーバー"
+msgstr "認証キーの桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A011012073"
+msgid "認証キーに禁止文字あり"
+msgstr "認証キーに禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A011012171"
+msgid "カード識別キーの不正セット"
+msgstr "カード識別キーの不正セット"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A011012271"
+msgid "最終利用日時の形式不正"
+msgstr "最終利用日時の形式不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A011012372"
+msgid "出荷予定日の形式不正"
+msgstr "出荷予定日の形式不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A011012373"
+msgid "出荷予定日の日付不正（下限日）"
+msgstr "出荷予定日の日付不正（下限日）"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A011012374"
+msgid "出荷予定日の日付不正（上限日）"
+msgstr "出荷予定日の日付不正（上限日）"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A011012471"
+msgid "チェックサムなし"
+msgstr "チェックサムなし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A011012472"
+msgid "チェックサムの改ざんあり"
+msgstr "チェックサムの改ざんあり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A012000001"
+msgid "加盟店の[device]決済利用不可"
+msgstr "加盟店の[device]決済利用不可"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A012000002"
+msgid "加盟店のクレジット決済利用不可"
+msgstr "加盟店のクレジット決済利用不可"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A012000003"
+msgid "加盟店の認証不可"
+msgstr "加盟店の認証不可"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A012010001"
+msgid "受注の二重決済"
+msgstr "受注の二重決済"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A012020001"
+msgid "加盟店のお預かり利用不可"
+msgstr "加盟店のお預かり利用不可"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A012030001"
+msgid "加盟店のお預かり取得不可"
+msgstr "加盟店のお預かり取得不可"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A012040001"
+msgid "加盟店のカード会社情報取得不可"
+msgstr "加盟店のカード会社情報取得不可"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A012040002"
+msgid "加盟店の支払方法取得不可"
+msgstr "加盟店の支払方法取得不可"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A012050001"
+msgid "3D認証不正"
+msgstr "3D認証不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A012050002"
+msgid "3D認証対象外"
+msgstr "3D認証対象外"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A012060001"
+msgid "加盟店の与信処理不可"
+msgstr "加盟店の与信処理不可"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A012070001"
+msgid "加盟店のお預かり処理不可"
+msgstr "加盟店のお預かり処理不可"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A012080001"
+msgid "システムエラー（マスタ）"
+msgstr "システムエラー（マスタ）"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A021010201"
+msgid "加盟店コードなし"
+msgstr "加盟店コードなし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A021010202"
+msgid "加盟店コード桁数オーバー"
+msgstr "加盟店コード桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A021010204"
+msgid "加盟店コードに禁止文字あり"
+msgstr "加盟店コードに禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A021010301"
+msgid "受付番号なし"
+msgstr "受付番号なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A021010302"
+msgid "受付番号の桁数オーバー"
+msgstr "受付番号の桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A021010304"
+msgid "受付番号に禁止文字あり"
+msgstr "受付番号に禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A021010401"
+msgid "3D認証応答電文パラメータ不正"
+msgstr "3D認証応答電文パラメータ不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A021010501"
+msgid "3D認証応答電文パラメータ不正"
+msgstr "3D認証応答電文パラメータ不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A021010601"
+msgid "3D認証応答電文パラメータ不正"
+msgstr "3D認証応答電文パラメータ不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A021010701"
+msgid "3D認証応答電文パラメータ不正"
+msgstr "3D認証応答電文パラメータ不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A021010801"
+msgid "3D認証応答電文パラメータ不正"
+msgstr "3D認証応答電文パラメータ不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A021010901"
+msgid "3D認証応答電文パラメータ不正"
+msgstr "3D認証応答電文パラメータ不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A021011001"
+msgid "3D認証応答電文パラメータ不正"
+msgstr "3D認証応答電文パラメータ不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A021011101"
+msgid "3D認証応答電文パラメータ不正"
+msgstr "3D認証応答電文パラメータ不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A021011201"
+msgid "3D認証応答電文パラメータ不正"
+msgstr "3D認証応答電文パラメータ不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A021011501"
+msgid "3D認証応答電文パラメータ不正"
+msgstr "3D認証応答電文パラメータ不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A021011701"
+msgid "3D認証応答電文パラメータ不正"
+msgstr "3D認証応答電文パラメータ不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A021011801"
+msgid "3D認証応答電文パラメータ不正"
+msgstr "3D認証応答電文パラメータ不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A021011901"
+msgid "3D認証応答電文パラメータ不正"
+msgstr "3D認証応答電文パラメータ不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A021012001"
+msgid "3Dトークンなし"
+msgstr "3Dトークンなし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A021012002"
+msgid "3Dトークンの桁数オーバー"
+msgstr "3Dトークンの桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A022000001"
+msgid "加盟店の[device]決済利用不可"
+msgstr "加盟店の[device]決済利用不可"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A022000002"
+msgid "加盟店のクレジット決済利用不可"
+msgstr "加盟店のクレジット決済利用不可"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A022010001"
+msgid "受注の二重決済 → リンク方式,メール方式,API方式(決済完了)と競合"
+msgstr "受注の二重決済 → リンク方式,メール方式,API方式(決済完了)と競合"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A022020001"
+msgid "3D認証応答電文不正"
+msgstr "3D認証応答電文不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A022020002"
+msgid "3D認証結果不正"
+msgstr "3D認証結果不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A022030001"
+msgid "加盟店の与信処理不可"
+msgstr "加盟店の与信処理不可"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A022040001"
+msgid "加盟店のお預かり処理不可"
+msgstr "加盟店のお預かり処理不可"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A022050001"
+msgid "各種マスタエラー"
+msgstr "各種マスタエラー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G011010201"
+msgid "加盟店コードなし"
+msgstr "加盟店コードなし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G011010202"
+msgid "加盟店コードの桁数不正"
+msgstr "加盟店コードの桁数不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G011010204"
+msgid "加盟店コードに禁止文字あり"
+msgstr "加盟店コードに禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G011010301"
+msgid "端末区分なし"
+msgstr "端末区分なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G011010306"
+msgid "端末区分の不正セット"
+msgstr "端末区分の不正セット"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G011010401"
+msgid "継続課金受付番号なし"
+msgstr "継続課金受付番号なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G011010402"
+msgid "継続課金受付番号の桁数不正"
+msgstr "継続課金受付番号の桁数不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G011010404"
+msgid "継続課金受付番号に禁止文字あり"
+msgstr "継続課金受付番号に禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G011010501"
+msgid "決済金額なし"
+msgstr "決済金額なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G011010502"
+msgid "決済金額の桁数不正"
+msgstr "決済金額の桁数不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G011010504"
+msgid "決済金額に禁止文字あり"
+msgstr "決済金額に禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G011010601"
+msgid "購入者名(漢字)なし"
+msgstr "購入者名(漢字)なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G011010701"
+msgid "購入者TELなし"
+msgstr "購入者TELなし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G011010702"
+msgid "購入者TELの桁数不正"
+msgstr "購入者TELの桁数不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G011010704"
+msgid "購入者TELに禁止文字あり"
+msgstr "購入者TELに禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G011010801"
+msgid "購入者E-Mailなし"
+msgstr "購入者E-Mailなし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G011010802"
+msgid "購入者E-Mailの桁数不正"
+msgstr "購入者E-Mailの桁数不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G011010901"
+msgid "認証区分なし"
+msgstr "認証区分なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G011011001"
+msgid "支払回数なし"
+msgstr "支払回数なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G011011002"
+msgid "支払回数の桁数不正"
+msgstr "支払回数の桁数不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G011011004"
+msgid "支払回数に禁止文字あり"
+msgstr "支払回数に禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G011011101"
+msgid "オプションサービス区分なし"
+msgstr "オプションサービス区分なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G011011106"
+msgid "オプションサービス区分の固定値チェック"
+msgstr "オプションサービス区分の固定値チェック"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G011011201"
+msgid "商品名なし"
+msgstr "商品名なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G011011901"
+msgid "会員ＩＤなし"
+msgstr "会員ＩＤなし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G011011902"
+msgid "会員ＩＤの桁数不正"
+msgstr "会員ＩＤの桁数不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G011012001"
+msgid "認証キーなし"
+msgstr "認証キーなし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G011012002"
+msgid "認証キーの桁数不正"
+msgstr "認証キーの桁数不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G011012106"
+msgid "カード識別キーの不正セット"
+msgstr "カード識別キーの不正セット"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G011012301"
+msgid "チェックサムなし"
+msgstr "チェックサムなし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G011012401"
+msgid "出荷予定日なし"
+msgstr "出荷予定日なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G011012405"
+msgid "出荷予定日のフォーマット不正"
+msgstr "出荷予定日のフォーマット不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G011012501"
+msgid "出荷サイクル（単位）なし"
+msgstr "出荷サイクル（単位）なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G011012502"
+msgid "出荷サイクル（単位）の桁数不正"
+msgstr "出荷サイクル（単位）の桁数不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G011012504"
+msgid "出荷サイクル（単位）に禁止文字あり"
+msgstr "出荷サイクル（単位）に禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G011012601"
+msgid "出荷サイクル（間隔）なし"
+msgstr "出荷サイクル（間隔）なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G011012602"
+msgid "出荷サイクル（間隔）の桁数不正"
+msgstr "出荷サイクル（間隔）の桁数不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G011012604"
+msgid "出荷サイクル（間隔）に禁止文字あり"
+msgstr "出荷サイクル（間隔）に禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G011012701"
+msgid "出荷サイクル（日）なし"
+msgstr "出荷サイクル（日）なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G011012702"
+msgid "出荷サイクル（日）の桁数不正"
+msgstr "出荷サイクル（日）の桁数不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G011012704"
+msgid "出荷サイクル（日）に禁止文字あり"
+msgstr "出荷サイクル（日）に禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G011012802"
+msgid "決済結果受取URLの桁数チェック"
+msgstr "決済結果受取URLの桁数チェック"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G011010571"
+msgid "決済金額の下限額オーバー"
+msgstr "決済金額の下限額オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G011010572"
+msgid "決済金額の上減額オーバー"
+msgstr "決済金額の上減額オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G011010671"
+msgid "購入者名(漢字)に禁止文字あり"
+msgstr "購入者名(漢字)に禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G011010672"
+msgid "購入者名(漢字)の半角桁・全角桁・バイト数不正"
+msgstr "購入者名(漢字)の半角桁・全角桁・バイト数不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G011010871"
+msgid "購入者E-Mailに禁止文字あり"
+msgstr "購入者E-Mailに禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G011010872"
+msgid "購入者E-Mailに未入力あり（アカウントORドメイン）"
+msgstr "購入者E-Mailに未入力あり（アカウントORドメイン）"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G011010971"
+msgid "認証区分の不正セット"
+msgstr "認証区分の不正セット"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G011010972"
+msgid "認証区分の不正セット"
+msgstr "認証区分の不正セット"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G011011271"
+msgid "商品名に禁止文字あり"
+msgstr "商品名に禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G011011272"
+msgid "商品名の半角桁・全角桁・バイト数不正"
+msgstr "商品名の半角桁・全角桁・バイト数不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G011011371"
+msgid "カード会社コード(API用)の不正セット"
+msgstr "カード会社コード(API用)の不正セット"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G011011471"
+msgid "カード番号の桁数不正"
+msgstr "カード番号の桁数不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G011011472"
+msgid "カード番号に禁止文字あり"
+msgstr "カード番号に禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G011011571"
+msgid "セキュリティコードなし"
+msgstr "セキュリティコードなし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G011011572"
+msgid "セキュリティコードの桁数不正"
+msgstr "セキュリティコードの桁数不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G011011573"
+msgid "セキュリティコードに禁止文字あり"
+msgstr "セキュリティコードに禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G011011671"
+msgid "カード名義人の桁数不正"
+msgstr "カード名義人の桁数不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G011011672"
+msgid "カード名義人に禁止文字あり"
+msgstr "カード名義人に禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G011011771"
+msgid "カード有効期限の形式不正"
+msgstr "カード有効期限の形式不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G011011772"
+msgid "カード有効期限の期限不正"
+msgstr "カード有効期限の期限不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G011012971"
+msgid "カード情報なし"
+msgstr "カード情報なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G011011871"
+msgid "加盟店ECサイトURLなし"
+msgstr "加盟店ECサイトURLなし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G011011872"
+msgid "加盟店ECサイトURLの桁数不正"
+msgstr "加盟店ECサイトURLの桁数不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G011011873"
+msgid "加盟店ECサイトURLの形式不正"
+msgstr "加盟店ECサイトURLの形式不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G011011971"
+msgid "会員ＩＤに禁止文字あり"
+msgstr "会員ＩＤに禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G011012071"
+msgid "認証キーに禁止文字あり"
+msgstr "認証キーに禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G011012271"
+msgid "最終利用日時の形式不正"
+msgstr "最終利用日時の形式不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G011012272"
+msgid "最終利用日時なし"
+msgstr "最終利用日時なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G011012371"
+msgid "チェックサムの改ざんあり"
+msgstr "チェックサムの改ざんあり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G011012471"
+msgid "出荷予定日の日付不正（下限日）"
+msgstr "出荷予定日の日付不正（下限日）"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G011012472"
+msgid "出荷予定日の日付不正（上限日）"
+msgstr "出荷予定日の日付不正（上限日）"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G011012771"
+msgid "出荷サイクル（日）のチェック"
+msgstr "出荷サイクル（日）のチェック"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G011012871"
+msgid "決済結果受取URLの文字形式不正"
+msgstr "決済結果受取URLの文字形式不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G012000001"
+msgid "加盟店のスマートフォン決済利用不可 ※ 端末区分「1：スマートフォン」"
+msgstr "加盟店のスマートフォン決済利用不可 ※ 端末区分「1：スマートフォン」"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G012000001"
+msgid "加盟店のパソコン決済利用不可 ※ 端末区分「2：パソコン」"
+msgstr "加盟店のパソコン決済利用不可 ※ 端末区分「2：パソコン」"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G012000001"
+msgid "加盟店の携帯電話決済利用不可 ※ 端末区分「3：携帯電話」"
+msgstr "加盟店の携帯電話決済利用不可 ※ 端末区分「3：携帯電話」"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G012000002"
+msgid "加盟店のクレジット決済利用不可"
+msgstr "加盟店のクレジット決済利用不可"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G012000003"
+msgid "加盟店の認証不可"
+msgstr "加盟店の認証不可"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G012010001"
+msgid "当該受注の二重決済 → リンク方式,メール方式,API方式(決済完了)と競合"
+msgstr "当該受注の二重決済 → リンク方式,メール方式,API方式(決済完了)と競合"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G012020001"
+msgid "加盟店のお預かり利用不可"
+msgstr "加盟店のお預かり利用不可"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G012030001"
+msgid "加盟店のお預かり取得不可"
+msgstr "加盟店のお預かり取得不可"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G012040001"
+msgid "加盟店のカード会社情報取得不可"
+msgstr "加盟店のカード会社情報取得不可"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G012040002"
+msgid "加盟店の支払方法取得不可"
+msgstr "加盟店の支払方法取得不可"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G012050001"
+msgid "3D認証不正"
+msgstr "3D認証不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G012050002"
+msgid "3D認証対象外"
+msgstr "3D認証対象外"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G012060001"
+msgid "与信処理不可"
+msgstr "与信処理不可"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G012070001"
+msgid "お預かり処理不可"
+msgstr "お預かり処理不可"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G012080001"
+msgid "システムエラー（マスタ）"
+msgstr "システムエラー（マスタ）"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G021010201"
+msgid "加盟店コードなし"
+msgstr "加盟店コードなし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G021010202"
+msgid "加盟店コードの桁数不正"
+msgstr "加盟店コードの桁数不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G021010204"
+msgid "加盟店コードに禁止文字あり"
+msgstr "加盟店コードに禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G021010301"
+msgid "継続課金受付番号なし"
+msgstr "継続課金受付番号なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G021010302"
+msgid "継続課金受付番号の桁数不正"
+msgstr "継続課金受付番号の桁数不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G021010304"
+msgid "継続課金受付番号に禁止文字あり"
+msgstr "継続課金受付番号に禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G021010401"
+msgid "3D認証応答電文パラメータ不正"
+msgstr "3D認証応答電文パラメータ不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G021010501"
+msgid "3D認証応答電文パラメータ不正"
+msgstr "3D認証応答電文パラメータ不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G021010601"
+msgid "3D認証応答電文パラメータ不正"
+msgstr "3D認証応答電文パラメータ不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G021010701"
+msgid "3D認証応答電文パラメータ不正"
+msgstr "3D認証応答電文パラメータ不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G021010801"
+msgid "3D認証応答電文パラメータ不正"
+msgstr "3D認証応答電文パラメータ不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G021010901"
+msgid "3D認証応答電文パラメータ不正"
+msgstr "3D認証応答電文パラメータ不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G021011001"
+msgid "3D認証応答電文パラメータ不正"
+msgstr "3D認証応答電文パラメータ不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G021011101"
+msgid "3D認証応答電文パラメータ不正"
+msgstr "3D認証応答電文パラメータ不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G021011201"
+msgid "3D認証応答電文パラメータ不正"
+msgstr "3D認証応答電文パラメータ不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G021011501"
+msgid "3D認証応答電文パラメータ不正"
+msgstr "3D認証応答電文パラメータ不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G021011701"
+msgid "3D認証応答電文パラメータ不正"
+msgstr "3D認証応答電文パラメータ不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G021011801"
+msgid "3D認証応答電文パラメータ不正"
+msgstr "3D認証応答電文パラメータ不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G021011901"
+msgid "3D認証応答電文パラメータ不正"
+msgstr "3D認証応答電文パラメータ不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G021012001"
+msgid "3Dトークンなし"
+msgstr "3Dトークンなし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G021012002"
+msgid "3Dトークンの桁数不正"
+msgstr "3Dトークンの桁数不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G022000001"
+msgid "加盟店の[device]決済利用不可"
+msgstr "加盟店の[device]決済利用不可"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G022000002"
+msgid "加盟店のクレジット決済利用不可"
+msgstr "加盟店のクレジット決済利用不可"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G022010001"
+msgid "当該受注の二重決済 → リンク方式,メール方式,API方式(決済完了)と競合"
+msgstr "当該受注の二重決済 → リンク方式,メール方式,API方式(決済完了)と競合"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G022020001"
+msgid "3D認証応答電文不正"
+msgstr "3D認証応答電文不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G022020002"
+msgid "3D認証結果不正"
+msgstr "3D認証結果不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G022030001"
+msgid "与信処理不可"
+msgstr "与信処理不可"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G022040001"
+msgid "お預かり処理不可"
+msgstr "お預かり処理不可"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_Z012000002"
+msgid "機能区分なし"
+msgstr "機能区分なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_Z012000003"
+msgid "機能区分の不正セット"
+msgstr "機能区分の不正セット"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A061010201"
+msgid "加盟店コードなし"
+msgstr "加盟店コードなし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A061010202"
+msgid "加盟店コード桁数オーバー"
+msgstr "加盟店コード桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A061010204"
+msgid "加盟店コードに禁止文字あり"
+msgstr "加盟店コードに禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A061010301"
+msgid "受付番号なし"
+msgstr "受付番号なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A061010302"
+msgid "受付番号の桁数オーバー"
+msgstr "受付番号の桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A061010304"
+msgid "受付番号に禁止文字あり"
+msgstr "受付番号に禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A062010001"
+msgid "受注データが存在しない"
+msgstr "受注データが存在しない"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A062010002"
+msgid "受注データ方式不正"
+msgstr "受注データ方式不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A062010003"
+msgid "受注データが取消不可ステータス"
+msgstr "受注データが取消不可ステータス"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A062010004"
+msgid "決済機関に処理レコードが存在しない（クレジットカード精算済み）"
+msgstr "決済機関に処理レコードが存在しない（クレジットカード精算済み）"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A062010005"
+msgid "与信エラー（ステータスNG）"
+msgstr "与信エラー（ステータスNG）"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A062010007"
+msgid "与信エラー（更新無し）"
+msgstr "与信エラー（更新無し）"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A062030001"
+msgid "請求後取消エラー"
+msgstr "請求後取消エラー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A070000000"
+msgid "バッチ処理時間帯により金額変更機能使用不可"
+msgstr "バッチ処理時間帯により金額変更機能使用不可"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A071010201"
+msgid "加盟店コードなし"
+msgstr "加盟店コードなし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A071010202"
+msgid "加盟店コードの桁数不正"
+msgstr "加盟店コードの桁数不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A071010204"
+msgid "加盟店コードに禁止文字あり"
+msgstr "加盟店コードに禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A071010301"
+msgid "受付番号なし"
+msgstr "受付番号なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A071010302"
+msgid "受付番号の桁数不正"
+msgstr "受付番号の桁数不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A071010304"
+msgid "受付番号に禁止文字あり"
+msgstr "受付番号に禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A071010401"
+msgid "変更後決済金額なし"
+msgstr "変更後決済金額なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A071010402"
+msgid "変更後決済金額の桁数不正"
+msgstr "変更後決済金額の桁数不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A071010404"
+msgid "決済金額に禁止文字あり"
+msgstr "決済金額に禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A071010471"
+msgid "決済金額の下限額オーバー"
+msgstr "決済金額の下限額オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A071010472"
+msgid "決済金額の上限額オーバー"
+msgstr "決済金額の上限額オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A073000001"
+msgid "受付番号の受注データ不正"
+msgstr "受付番号の受注データ不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A073000002"
+msgid "同梱中受注"
+msgstr "同梱中受注"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A074000001"
+msgid "金額変更なし"
+msgstr "金額変更なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A075000001"
+msgid "金額変更に利用するクレジットカード情報なし"
+msgstr "金額変更に利用するクレジットカード情報なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A076000001"
+msgid "金額変更時の与信処理に失敗"
+msgstr "金額変更時の与信処理に失敗"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A077000001"
+msgid "金額変更時の取消処理に失敗"
+msgstr "金額変更時の取消処理に失敗"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A031010201"
+msgid "加盟店コードなし"
+msgstr "加盟店コードなし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A031010202"
+msgid "加盟店コード桁数オーバー"
+msgstr "加盟店コード桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A031010204"
+msgid "加盟店コードに禁止文字あり"
+msgstr "加盟店コードに禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A031010301"
+msgid "会員ＩＤなし"
+msgstr "会員ＩＤなし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A031010302"
+msgid "会員ＩＤの桁数オーバー"
+msgstr "会員ＩＤの桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A031010401"
+msgid "認証キーなし"
+msgstr "認証キーなし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A031010402"
+msgid "認証キーの桁数オーバー"
+msgstr "認証キーの桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A031010501"
+msgid "チェックサムなし"
+msgstr "チェックサムなし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A031010371"
+msgid "会員ＩＤに禁止文字あり"
+msgstr "会員ＩＤに禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A031010471"
+msgid "認証キーに禁止文字あり"
+msgstr "認証キーに禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A031010571"
+msgid "チェックサム不正"
+msgstr "チェックサム不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A032000001"
+msgid "加盟店のお預かりサービス利用不可"
+msgstr "加盟店のお預かりサービス利用不可"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A033000001"
+msgid "お預かり情報の取得エラー"
+msgstr "お預かり情報の取得エラー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A041010201"
+msgid "加盟店コードなし"
+msgstr "加盟店コードなし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A041010202"
+msgid "加盟店コード桁数オーバー"
+msgstr "加盟店コード桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A041010204"
+msgid "加盟店コードに禁止文字あり"
+msgstr "加盟店コードに禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A041010301"
+msgid "会員ＩＤなし"
+msgstr "会員ＩＤなし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A041010302"
+msgid "会員ＩＤの桁数オーバー"
+msgstr "会員ＩＤの桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A041010401"
+msgid "認証キーなし"
+msgstr "認証キーなし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A041010402"
+msgid "認証キーの桁数オーバー"
+msgstr "認証キーの桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A041010501"
+msgid "チェックサムなし"
+msgstr "チェックサムなし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A041010601"
+msgid "カード識別キーなし"
+msgstr "カード識別キーなし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A041010606"
+msgid "カード識別キーの不正セット"
+msgstr "カード識別キーの不正セット"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A041010705"
+msgid "カード有効期限のフォーマット不正"
+msgstr "カード有効期限のフォーマット不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A041010802"
+msgid "カード名義人の桁数オーバー"
+msgstr "カード名義人の桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A041010804"
+msgid "カード名義人に禁止文字あり"
+msgstr "カード名義人に禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A041010906"
+msgid "カード会社コードの不正セット"
+msgstr "カード会社コードの不正セット"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A041011001"
+msgid "最終利用日時なし"
+msgstr "最終利用日時なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A041011005"
+msgid "最終利用日時のフォーマット不正"
+msgstr "最終利用日時のフォーマット不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A041010371"
+msgid "会員ＩＤに禁止文字あり"
+msgstr "会員ＩＤに禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A041010471"
+msgid "認証キーに禁止文字あり"
+msgstr "認証キーに禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A041010571"
+msgid "チェックサム不正"
+msgstr "チェックサム不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A041010771"
+msgid "カードの有効期限切れ"
+msgstr "カードの有効期限切れ"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A042000001"
+msgid "加盟店の決済利用不可"
+msgstr "加盟店の決済利用不可"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A042000002"
+msgid "加盟店のクレジット利用不可"
+msgstr "加盟店のクレジット利用不可"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A042000003"
+msgid "加盟店のお預かりサービス利用不可"
+msgstr "加盟店のお預かりサービス利用不可"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A042000004"
+msgid "加盟店のカード会社利用不可"
+msgstr "加盟店のカード会社利用不可"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A043000001"
+msgid "カードの排他エラー"
+msgstr "カードの排他エラー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A043000002"
+msgid "カードの変更なし ・カード有効期限 ・カード名義人 ・カード会社コード(API用)"
+msgstr "カードの変更なし ・カード有効期限 ・カード名義人 ・カード会社コード(API用)"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A043000003"
+msgid "カードの取得エラー"
+msgstr "カードの取得エラー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A044000001"
+msgid "カードの有効性エラー"
+msgstr "カードの有効性エラー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A045000001"
+msgid "カードの更新エラー"
+msgstr "カードの更新エラー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A051010201"
+msgid "加盟店コードなし"
+msgstr "加盟店コードなし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A051010202"
+msgid "加盟店コード桁数オーバー"
+msgstr "加盟店コード桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A051010204"
+msgid "加盟店コードに禁止文字あり"
+msgstr "加盟店コードに禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A051010301"
+msgid "会員ＩＤなし"
+msgstr "会員ＩＤなし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A051010302"
+msgid "会員ＩＤの桁数オーバー"
+msgstr "会員ＩＤの桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A051010401"
+msgid "認証キーなし"
+msgstr "認証キーなし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A051010402"
+msgid "認証キーの桁数オーバー"
+msgstr "認証キーの桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A051010501"
+msgid "チェックサムなし"
+msgstr "チェックサムなし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A051010601"
+msgid "カード識別キーなし"
+msgstr "カード識別キーなし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A051010606"
+msgid "カード識別キーの不正セット"
+msgstr "カード識別キーの不正セット"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A051010701"
+msgid "最終利用日時なし"
+msgstr "最終利用日時なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A051010705"
+msgid "最終利用日時のフォーマット不正"
+msgstr "最終利用日時のフォーマット不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A051010371"
+msgid "会員ＩＤに禁止文字あり"
+msgstr "会員ＩＤに禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A051010471"
+msgid "認証キーに禁止文字あり"
+msgstr "認証キーに禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A051010571"
+msgid "チェックサム不正"
+msgstr "チェックサム不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A052000001"
+msgid "加盟店のお預かりサービス利用不可"
+msgstr "加盟店のお預かりサービス利用不可"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A053000001"
+msgid "カードの排他エラー"
+msgstr "カードの排他エラー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A054000001"
+msgid "カードの削除エラー"
+msgstr "カードの削除エラー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G031010201"
+msgid "加盟店コードなし"
+msgstr "加盟店コードなし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G031010202"
+msgid "加盟店コードの桁数不正"
+msgstr "加盟店コードの桁数不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G031010204"
+msgid "加盟店コードに禁止文字あり"
+msgstr "加盟店コードに禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G031010301"
+msgid "継続課金受付番号なし"
+msgstr "継続課金受付番号なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G031010302"
+msgid "継続課金受付番号の桁数不正"
+msgstr "継続課金受付番号の桁数不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G031010304"
+msgid "継続課金受付番号に禁止文字あり"
+msgstr "継続課金受付番号に禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G032000001"
+msgid "加盟店のお預かり利用不可"
+msgstr "加盟店のお預かり利用不可"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G041010201"
+msgid "加盟店コードなし"
+msgstr "加盟店コードなし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G041010202"
+msgid "加盟店コードの桁数不正"
+msgstr "加盟店コードの桁数不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G041010204"
+msgid "加盟店コードに禁止文字あり"
+msgstr "加盟店コードに禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G041010301"
+msgid "継続課金受付番号なし"
+msgstr "継続課金受付番号なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G041010302"
+msgid "継続課金受付番号の桁数不正"
+msgstr "継続課金受付番号の桁数不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G041010304"
+msgid "継続課金受付番号に禁止文字あり"
+msgstr "継続課金受付番号に禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G041010402"
+msgid "決済金額の桁数不正"
+msgstr "決済金額の桁数不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G041010404"
+msgid "決済金額に禁止文字あり"
+msgstr "決済金額に禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G041010602"
+msgid "購入者TELの桁数不正"
+msgstr "購入者TELの桁数不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G041010604"
+msgid "購入者TELに禁止文字あり"
+msgstr "購入者TELに禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G041010702"
+msgid "購入者E-Mailの桁数不正"
+msgstr "購入者E-Mailの桁数不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G041010905"
+msgid "出荷予定日のフォーマット不正"
+msgstr "出荷予定日のフォーマット不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G041011002"
+msgid "出荷サイクル（間隔）の桁数不正"
+msgstr "出荷サイクル（間隔）の桁数不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G041011004"
+msgid "出荷サイクル（間隔）に禁止文字あり"
+msgstr "出荷サイクル（間隔）に禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G041011102"
+msgid "出荷サイクル（日）の桁数不正"
+msgstr "出荷サイクル（日）の桁数不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G041011104"
+msgid "出荷サイクル（日）に禁止文字あり"
+msgstr "出荷サイクル（日）に禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G041011202"
+msgid "決済結果受取URLの桁数チェック"
+msgstr "決済結果受取URLの桁数チェック"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G041010351"
+msgid "継続課金受付番号の継続課金データ不正"
+msgstr "継続課金受付番号の継続課金データ不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G041010471"
+msgid "決済金額の上限額オーバー"
+msgstr "決済金額の上限額オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G041010472"
+msgid "決済金額の下限額オーバー"
+msgstr "決済金額の下限額オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G041010871"
+msgid "商品名に禁止文字あり"
+msgstr "商品名に禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G041010872"
+msgid "商品名の半角桁・全角桁・バイト数不正"
+msgstr "商品名の半角桁・全角桁・バイト数不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G041010571"
+msgid "購入者名(漢字)に禁止文字あり"
+msgstr "購入者名(漢字)に禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G041010572"
+msgid "購入者名(漢字)の半角桁・全角桁・バイト数不正"
+msgstr "購入者名(漢字)の半角桁・全角桁・バイト数不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G041010771"
+msgid "購入者E-Mailに禁止文字あり"
+msgstr "購入者E-Mailに禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G041010772"
+msgid "購入者E-Mailに未入力あり（アカウントORドメイン）"
+msgstr "購入者E-Mailに未入力あり（アカウントORドメイン）"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G041010971"
+msgid "出荷予定日の日付不正（下限日）"
+msgstr "出荷予定日の日付不正（下限日）"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G041010972"
+msgid "出荷予定日の日付不正（上限日）"
+msgstr "出荷予定日の日付不正（上限日）"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G041011171"
+msgid "出荷サイクル（間隔）と出荷サイクル（日）の入力チェック"
+msgstr "出荷サイクル（間隔）と出荷サイクル（日）の入力チェック"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G041011172"
+msgid "出荷サイクルのマスタチェック"
+msgstr "出荷サイクルのマスタチェック"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G041011271"
+msgid "決済結果受取URLの文字形式不正"
+msgstr "決済結果受取URLの文字形式不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G042000001"
+msgid "変更項目なし"
+msgstr "変更項目なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G043000001"
+msgid "加盟店のお預かり利用不可"
+msgstr "加盟店のお預かり利用不可"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G044000001"
+msgid "継続課金データ更新エラー"
+msgstr "継続課金データ更新エラー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G045000001"
+msgid "各種マスタ取得失敗"
+msgstr "各種マスタ取得失敗"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G051010201"
+msgid "加盟店コードなし"
+msgstr "加盟店コードなし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G051010202"
+msgid "加盟店コードの桁数不正"
+msgstr "加盟店コードの桁数不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G051010204"
+msgid "加盟店コードに禁止文字あり"
+msgstr "加盟店コードに禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G051010301"
+msgid "継続課金受付番号なし"
+msgstr "継続課金受付番号なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G051010302"
+msgid "継続課金受付番号の桁数不正"
+msgstr "継続課金受付番号の桁数不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G051010304"
+msgid "継続課金受付番号に禁止文字あり"
+msgstr "継続課金受付番号に禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G051010451"
+msgid "継続課金受付番号の継続課金データ不正"
+msgstr "継続課金受付番号の継続課金データ不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G052000001"
+msgid "加盟店のお預かり利用不可"
+msgstr "加盟店のお預かり利用不可"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_G053000001"
+msgid "継続課金データ削除エラー"
+msgstr "継続課金データ削除エラー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_B011010201"
+msgid "加盟店コードなし"
+msgstr "加盟店コードなし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_B011010202"
+msgid "加盟店コード桁数オーバー"
+msgstr "加盟店コード桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_B011010204"
+msgid "加盟店コードに禁止文字あり"
+msgstr "加盟店コードに禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_B011010301"
+msgid "端末区分なし"
+msgstr "端末区分なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_B011010306"
+msgid "端末区分の不正セット"
+msgstr "端末区分の不正セット"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_B011010401"
+msgid "受付番号なし"
+msgstr "受付番号なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_B011010402"
+msgid "受付番号の桁数オーバー"
+msgstr "受付番号の桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_B011010404"
+msgid "受付番号に禁止文字あり"
+msgstr "受付番号に禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_B011010601"
+msgid "決済金額なし"
+msgstr "決済金額なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_B011010602"
+msgid "決済金額の桁数オーバー"
+msgstr "決済金額の桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_B011010604"
+msgid "決済金額に禁止文字あり"
+msgstr "決済金額に禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_B011010701"
+msgid "購入者名(漢字)なし"
+msgstr "購入者名(漢字)なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_B011010702"
+msgid "購入者名(漢字)の桁数不正"
+msgstr "購入者名(漢字)の桁数不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_B011010801"
+msgid "購入者E-Mailなし"
+msgstr "購入者E-Mailなし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_B011010802"
+msgid "購入者E-Mailの桁数オーバー"
+msgstr "購入者E-Mailの桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_B011010671"
+msgid "決済金額の下限額チェック"
+msgstr "決済金額の下限額チェック"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_B011010672"
+msgid "決済金額のセブン-イレブン上限額チェック"
+msgstr "決済金額のセブン-イレブン上限額チェック"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_B011010571"
+msgid "商品名に禁止文字あり"
+msgstr "商品名に禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_B011010572"
+msgid "商品名桁数オーバー"
+msgstr "商品名桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_B011010771"
+msgid "購入者名(漢字)に禁止文字あり"
+msgstr "購入者名(漢字)に禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_B011010772"
+msgid "購入者名(漢字)桁数オーバー"
+msgstr "購入者名(漢字)桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_B011010871"
+msgid "購入者E-Mailに禁止文字あり"
+msgstr "購入者E-Mailに禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_B012000001"
+msgid "加盟店の[device]決済利用不可"
+msgstr "加盟店の[device]決済利用不可"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_B012000002"
+msgid "加盟店のセブン-イレブン利用不可"
+msgstr "加盟店のセブン-イレブン利用不可"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_B013000001"
+msgid "受注の二重決済"
+msgstr "受注の二重決済"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_B014000001"
+msgid "決済申込みエラー"
+msgstr "決済申込みエラー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_B021010201"
+msgid "加盟店コードなし"
+msgstr "加盟店コードなし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_B021010202"
+msgid "加盟店コード桁数オーバー"
+msgstr "加盟店コード桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_B021010204"
+msgid "加盟店コードに禁止文字あり"
+msgstr "加盟店コードに禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_B021010301"
+msgid "端末区分なし"
+msgstr "端末区分なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_B021010306"
+msgid "端末区分の不正セット"
+msgstr "端末区分の不正セット"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_B021010401"
+msgid "受付番号なし"
+msgstr "受付番号なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_B021010402"
+msgid "受付番号の桁数オーバー"
+msgstr "受付番号の桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_B021010404"
+msgid "受付番号に禁止文字あり"
+msgstr "受付番号に禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_B021010601"
+msgid "決済金額なし"
+msgstr "決済金額なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_B021010602"
+msgid "決済金額の桁数オーバー"
+msgstr "決済金額の桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_B021010604"
+msgid "決済金額に禁止文字あり"
+msgstr "決済金額に禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_B021010701"
+msgid "購入者名(漢字)なし"
+msgstr "購入者名(漢字)なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_B021010702"
+msgid "購入者名(漢字)の桁数不正"
+msgstr "購入者名(漢字)の桁数不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_B021010801"
+msgid "購入者名(フリガナ)なし"
+msgstr "購入者名(フリガナ)なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_B021010802"
+msgid "購入者名(フリガナ)の桁数不正"
+msgstr "購入者名(フリガナ)の桁数不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_B021010901"
+msgid "購入者TELなし"
+msgstr "購入者TELなし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_B021010902"
+msgid "購入者TELの桁数不正"
+msgstr "購入者TELの桁数不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_B021010904"
+msgid "購入者TELに禁止文字あり"
+msgstr "購入者TELに禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_B021011001"
+msgid "購入者E-Mailなし"
+msgstr "購入者E-Mailなし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_B021011002"
+msgid "購入者E-Mailの桁数オーバー"
+msgstr "購入者E-Mailの桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_B021010671"
+msgid "決済金額の下限額チェック"
+msgstr "決済金額の下限額チェック"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_B021010672"
+msgid "決済金額のファミリーマート上限額チェック"
+msgstr "決済金額のファミリーマート上限額チェック"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_B021010571"
+msgid "商品名に禁止文字あり"
+msgstr "商品名に禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_B021010572"
+msgid "商品名桁数オーバー"
+msgstr "商品名桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_B021010771"
+msgid "購入者名(漢字)に禁止文字あり"
+msgstr "購入者名(漢字)に禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_B021010871"
+msgid "購入者名(フリガナ)に禁止文字あり"
+msgstr "購入者名(フリガナ)に禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_B021011071"
+msgid "購入者E-Mailに禁止文字あり"
+msgstr "購入者E-Mailに禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_B022000001"
+msgid "加盟店の[device]決済利用不可"
+msgstr "加盟店の[device]決済利用不可"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_B022000002"
+msgid "加盟店のファミリーマート利用不可"
+msgstr "加盟店のファミリーマート利用不可"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_B023000001"
+msgid "受注の二重決済 → リンク方式,メール方式,API方式(決済完了)と競合"
+msgstr "受注の二重決済 → リンク方式,メール方式,API方式(決済完了)と競合"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_B024000001"
+msgid "決済申込みエラー"
+msgstr "決済申込みエラー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_B0X1010201"
+msgid "加盟店コードなし"
+msgstr "加盟店コードなし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_B0X1010202"
+msgid "加盟店コード桁数オーバー"
+msgstr "加盟店コード桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_B0X1010204"
+msgid "加盟店コードに禁止文字あり"
+msgstr "加盟店コードに禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_B0X1010301"
+msgid "端末区分なし"
+msgstr "端末区分なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_B0X1010306"
+msgid "端末区分の不正セット"
+msgstr "端末区分の不正セット"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_B0X1010401"
+msgid "受付番号なし"
+msgstr "受付番号なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_B0X1010402"
+msgid "受付番号の桁数オーバー"
+msgstr "受付番号の桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_B0X1010404"
+msgid "受付番号に禁止文字あり"
+msgstr "受付番号に禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_B0X1010501"
+msgid "商品名なし"
+msgstr "商品名なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_B0X1010601"
+msgid "決済金額なし"
+msgstr "決済金額なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_B0X1010602"
+msgid "決済金額の桁数オーバー"
+msgstr "決済金額の桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_B0X1010604"
+msgid "決済金額に禁止文字あり"
+msgstr "決済金額に禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_B0X1010701"
+msgid "購入者名(漢字)なし"
+msgstr "購入者名(漢字)なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_B0X1010702"
+msgid "購入者名(漢字)の桁数不正"
+msgstr "購入者名(漢字)の桁数不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_B0X1010801"
+msgid "購入者TELなし"
+msgstr "購入者TELなし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_B0X1010802"
+msgid "購入者TELの桁数不正"
+msgstr "購入者TELの桁数不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_B0X1010804"
+msgid "購入者TELに禁止文字あり"
+msgstr "購入者TELに禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_B0X1010901"
+msgid "購入者E-Mailなし"
+msgstr "購入者E-Mailなし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_B0X1010902"
+msgid "購入者E-Mailの桁数オーバー"
+msgstr "購入者E-Mailの桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_B0X1010671"
+msgid "決済金額の下限額チェック"
+msgstr "決済金額の下限額チェック"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_B0X1010672"
+msgid "決済金額の[cvs_name]上限額チェック"
+msgstr "決済金額の[cvs_name]上限額チェック"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_B0X1010571"
+msgid "商品名に禁止文字あり"
+msgstr "商品名に禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_B0X1010572"
+msgid "商品名桁数オーバー"
+msgstr "商品名桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_B0X1010771"
+msgid "購入者名(漢字)に禁止文字あり"
+msgstr "購入者名(漢字)に禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_B0X1010871"
+msgid "購入者TELの桁数不正"
+msgstr "購入者TELの桁数不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_B0X1010971"
+msgid "購入者E-Mailに禁止文字あり"
+msgstr "購入者E-Mailに禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_B0X2000001"
+msgid "加盟店の[device]決済利用不可"
+msgstr "加盟店の[device]決済利用不可"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_B0X2000002"
+msgid "加盟店の[cvs_name]利用不可"
+msgstr "加盟店の[cvs_name]利用不可"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_B0X3000001"
+msgid "受注の二重決済 → リンク方式,メール方式,API方式(決済完了)と競合"
+msgstr "受注の二重決済 → リンク方式,メール方式,API方式(決済完了)と競合"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_B0X4000001"
+msgid "決済申込みエラー"
+msgstr "決済申込みエラー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_B0X4000002"
+msgid "サイト注文番号重複エラー(決済申込み時)"
+msgstr "サイト注文番号重複エラー(決済申込み時)"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_Z012000002"
+msgid "機能区分なし"
+msgstr "機能区分なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_Z012000003"
+msgid "機能区分の不正セット"
+msgstr "機能区分の不正セット"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C011010201"
+msgid "加盟店コードなし"
+msgstr "加盟店コードなし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C011010202"
+msgid "加盟店コード桁数オーバー"
+msgstr "加盟店コード桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C011010204"
+msgid "加盟店コードに禁止文字あり"
+msgstr "加盟店コードに禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C011010301"
+msgid "端末区分なし"
+msgstr "端末区分なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C011010306"
+msgid "端末区分の不正セット"
+msgstr "端末区分の不正セット"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C011010401"
+msgid "受付番号なし"
+msgstr "受付番号なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C011010402"
+msgid "受付番号の桁数オーバー"
+msgstr "受付番号の桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C011010404"
+msgid "受付番号に禁止文字あり"
+msgstr "受付番号に禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C011010601"
+msgid "決済金額なし"
+msgstr "決済金額なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C011010602"
+msgid "決済金額の桁数オーバー"
+msgstr "決済金額の桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C011010604"
+msgid "決済金額に禁止文字あり"
+msgstr "決済金額に禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C011010701"
+msgid "購入者名(漢字)なし"
+msgstr "購入者名(漢字)なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C011010801"
+msgid "購入者E-Mailなし"
+msgstr "購入者E-Mailなし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C011010802"
+msgid "購入者E-Mailの桁数オーバー"
+msgstr "購入者E-Mailの桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C011010901"
+msgid "決済完了通知URL必須エラー"
+msgstr "決済完了通知URL必須エラー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C011011071"
+msgid "決済金額の下限額チェック"
+msgstr "決済金額の下限額チェック"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C011011072"
+msgid "決済金額の上限額チェック"
+msgstr "決済金額の上限額チェック"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C011011171"
+msgid "商品名に禁止文字あり"
+msgstr "商品名に禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C011011172"
+msgid "商品名の桁数オーバー商品名の桁数オーバー"
+msgstr "商品名の桁数オーバー商品名の桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C011011271"
+msgid "購入者名に禁止文字あり"
+msgstr "購入者名に禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C011011272"
+msgid "購入者名(漢字)の桁数オーバー"
+msgstr "購入者名(漢字)の桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C011011371"
+msgid "購入者E-Mailに禁止文字あり"
+msgstr "購入者E-Mailに禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C011011473"
+msgid "決済完了通知URLの文字形式不正"
+msgstr "決済完了通知URLの文字形式不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C011010572"
+msgid "決済完了通知URL桁数エラー"
+msgstr "決済完了通知URL桁数エラー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C012000174"
+msgid "加盟店のパソコン決済利用不可 ※ 端末区分「2：パソコン」"
+msgstr "加盟店のパソコン決済利用不可 ※ 端末区分「2：パソコン」"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C012000175"
+msgid "加盟店の楽天Edy利用不可"
+msgstr "加盟店の楽天Edy利用不可"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C012000251"
+msgid "受注の二重決済"
+msgstr "受注の二重決済"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C012000371"
+msgid "決済申込みエラー"
+msgstr "決済申込みエラー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_Z012000002"
+msgid "機能区分なし"
+msgstr "機能区分なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_Z012000003"
+msgid "機能区分の不正セット"
+msgstr "機能区分の不正セット"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C021010201"
+msgid "加盟店コードなし"
+msgstr "加盟店コードなし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C021010202"
+msgid "加盟店コード桁数オーバー"
+msgstr "加盟店コード桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C021010204"
+msgid "加盟店コードに禁止文字あり"
+msgstr "加盟店コードに禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C021010301"
+msgid "端末区分なし"
+msgstr "端末区分なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C021010306"
+msgid "端末区分の不正セット"
+msgstr "端末区分の不正セット"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C021010401"
+msgid "受付番号なし"
+msgstr "受付番号なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C021010402"
+msgid "受付番号の桁数オーバー"
+msgstr "受付番号の桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C021010404"
+msgid "受付番号に禁止文字あり"
+msgstr "受付番号に禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C021010601"
+msgid "決済金額なし"
+msgstr "決済金額なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C021010602"
+msgid "決済金額の桁数オーバー"
+msgstr "決済金額の桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C021010604"
+msgid "決済金額に禁止文字あり"
+msgstr "決済金額に禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C021010701"
+msgid "購入者名(漢字)なし"
+msgstr "購入者名(漢字)なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C021010801"
+msgid "購入者E-Mailなし"
+msgstr "購入者E-Mailなし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C021010802"
+msgid "購入者E-Mailの桁数オーバー"
+msgstr "購入者E-Mailの桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C021010971"
+msgid "決済金額の下限額チェック"
+msgstr "決済金額の下限額チェック"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C021010972"
+msgid "決済金額の上限額チェック"
+msgstr "決済金額の上限額チェック"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C021011071"
+msgid "商品名に禁止文字あり"
+msgstr "商品名に禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C021011072"
+msgid "商品名の桁数オーバー"
+msgstr "商品名の桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C021011171"
+msgid "購入者名(漢字)に禁止文字あり"
+msgstr "購入者名(漢字)に禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C021011172"
+msgid "購入者名(漢字)の桁数オーバー"
+msgstr "購入者名(漢字)の桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C021011271"
+msgid "購入者E-Mailに禁止文字あり"
+msgstr "購入者E-Mailに禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C022000171"
+msgid "加盟店の[device]決済利用不可"
+msgstr "加盟店の[device]決済利用不可"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C022000174"
+msgid "加盟店の楽天Edy（Mobile）利用不可"
+msgstr "加盟店の楽天Edy（Mobile）利用不可"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C022000251"
+msgid "受注の二重決済"
+msgstr "受注の二重決済"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C022000371"
+msgid "決済申込みエラー"
+msgstr "決済申込みエラー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_Z012000002"
+msgid "機能区分なし"
+msgstr "機能区分なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_Z012000003"
+msgid "機能区分の不正セット"
+msgstr "機能区分の不正セット"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C031010201"
+msgid "加盟店コードなし"
+msgstr "加盟店コードなし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C031010202"
+msgid "加盟店コード桁数オーバー"
+msgstr "加盟店コード桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C031010204"
+msgid "加盟店コードに禁止文字あり"
+msgstr "加盟店コードに禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C031010301"
+msgid "端末区分なし"
+msgstr "端末区分なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C031010306"
+msgid "端末区分の不正セット"
+msgstr "端末区分の不正セット"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C031010401"
+msgid "受付番号なし"
+msgstr "受付番号なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C031010402"
+msgid "受付番号の桁数オーバー"
+msgstr "受付番号の桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C031010404"
+msgid "受付番号に禁止文字あり"
+msgstr "受付番号に禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C031010501"
+msgid "商品名なし"
+msgstr "商品名なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C031010601"
+msgid "決済金額なし"
+msgstr "決済金額なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C031010602"
+msgid "決済金額の桁数オーバー"
+msgstr "決済金額の桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C031010604"
+msgid "決済金額に禁止文字あり"
+msgstr "決済金額に禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C031010701"
+msgid "購入者名(漢字)なし"
+msgstr "購入者名(漢字)なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C031010801"
+msgid "購入者E-Mailなし"
+msgstr "購入者E-Mailなし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C031010802"
+msgid "購入者E-Mailの桁数オーバー"
+msgstr "購入者E-Mailの桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C031010901"
+msgid "戻り先URL必須エラー"
+msgstr "戻り先URL必須エラー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C031011071"
+msgid "決済金額の下限額チェック"
+msgstr "決済金額の下限額チェック"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C031011072"
+msgid "決済金額の上限額チェック"
+msgstr "決済金額の上限額チェック"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C031011171"
+msgid "商品名に禁止文字あり"
+msgstr "商品名に禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C031011172"
+msgid "商品名桁数オーバー"
+msgstr "商品名桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C031011271"
+msgid "購入者名(漢字)に禁止文字あり"
+msgstr "購入者名(漢字)に禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C031011272"
+msgid "購入者名(漢字)桁数オーバー"
+msgstr "購入者名(漢字)桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C031011371"
+msgid "購入者E-Mail不正"
+msgstr "購入者E-Mail不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C031011471"
+msgid "戻り先URLの文字形式不正"
+msgstr "戻り先URLの文字形式不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C031011472"
+msgid "戻り先URL桁数オーバー"
+msgstr "戻り先URL桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C032000001"
+msgid "加盟店のパソコン決済利用不可※ 端末区分「2：パソコン」"
+msgstr "加盟店のパソコン決済利用不可※ 端末区分「2：パソコン」"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C032000002"
+msgid "加盟店のSuica（インターネットサービス）利用不可"
+msgstr "加盟店のSuica（インターネットサービス）利用不可"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C032010001"
+msgid "受注の二重決済"
+msgstr "受注の二重決済"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C032020001"
+msgid "決済申込みエラー：その他"
+msgstr "決済申込みエラー：その他"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C032020002"
+msgid "決済申込みエラー：Suica未加入"
+msgstr "決済申込みエラー：Suica未加入"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C032020003"
+msgid "決済申込みエラー：決済依頼件数上限超過"
+msgstr "決済申込みエラー：決済依頼件数上限超過"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C032020004"
+msgid "決済申込みエラー：一時利用停止"
+msgstr "決済申込みエラー：一時利用停止"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C032020005"
+msgid "決済申込みエラー：メンテナンス"
+msgstr "決済申込みエラー：メンテナンス"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_Z012000002"
+msgid "機能区分なし"
+msgstr "機能区分なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_Z012000003"
+msgid "機能区分の不正セット"
+msgstr "機能区分の不正セット"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C041010201"
+msgid "加盟店コードなし"
+msgstr "加盟店コードなし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C041010202"
+msgid "加盟店コード桁数オーバー"
+msgstr "加盟店コード桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C041010204"
+msgid "加盟店コードに禁止文字あり"
+msgstr "加盟店コードに禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C041010301"
+msgid "端末区分なし"
+msgstr "端末区分なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C041010306"
+msgid "端末区分の不正セット"
+msgstr "端末区分の不正セット"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C041010401"
+msgid "受付番号なし"
+msgstr "受付番号なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C041010402"
+msgid "受付番号の桁数オーバー"
+msgstr "受付番号の桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C041010404"
+msgid "受付番号に禁止文字あり"
+msgstr "受付番号に禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C041010501"
+msgid "商品名なし"
+msgstr "商品名なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C041010601"
+msgid "決済金額なし"
+msgstr "決済金額なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C041010602"
+msgid "決済金額の桁数オーバー"
+msgstr "決済金額の桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C041010604"
+msgid "決済金額に禁止文字あり"
+msgstr "決済金額に禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C041010701"
+msgid "購入者名(漢字)なし"
+msgstr "購入者名(漢字)なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C041010801"
+msgid "購入者E-Mailなし"
+msgstr "購入者E-Mailなし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C041010802"
+msgid "購入者E-Mailの桁数オーバー"
+msgstr "購入者E-Mailの桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C041011071"
+msgid "決済金額の下限額チェック"
+msgstr "決済金額の下限額チェック"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C041011072"
+msgid "決済金額の上限額チェック"
+msgstr "決済金額の上限額チェック"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C041011171"
+msgid "商品名に禁止文字あり"
+msgstr "商品名に禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C041011172"
+msgid "商品名桁数オーバー"
+msgstr "商品名桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C041011271"
+msgid "購入者名(漢字)に禁止文字あり"
+msgstr "購入者名(漢字)に禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C041011272"
+msgid "購入者名(漢字)桁数オーバー"
+msgstr "購入者名(漢字)桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C041011371"
+msgid "購入者E-Mail不正"
+msgstr "購入者E-Mail不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C042000001"
+msgid "加盟店の[device]決済利用不可"
+msgstr "加盟店の[device]決済利用不可"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C042000004"
+msgid "加盟店のSuica（モバイル）利用不可"
+msgstr "加盟店のSuica（モバイル）利用不可"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C042010001"
+msgid "受注の二重決済"
+msgstr "受注の二重決済"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C042020001"
+msgid "決済申込みエラー：その他"
+msgstr "決済申込みエラー：その他"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C042020002"
+msgid "決済申込みエラー：モバイルSuica未加入"
+msgstr "決済申込みエラー：モバイルSuica未加入"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C042020003"
+msgid "決済申込みエラー：決済依頼件数上限超過"
+msgstr "決済申込みエラー：決済依頼件数上限超過"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C042020004"
+msgid "決済申込みエラー：一時利用停止"
+msgstr "決済申込みエラー：一時利用停止"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C042020005"
+msgid "決済申込みエラー：メンテナンス"
+msgstr "決済申込みエラー：メンテナンス"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C051010201"
+msgid "加盟店コードなし"
+msgstr "加盟店コードなし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C051010202"
+msgid "加盟店コード桁数オーバー"
+msgstr "加盟店コード桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C051010204"
+msgid "加盟店コードに禁止文字あり"
+msgstr "加盟店コードに禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C051010301"
+msgid "端末区分なし"
+msgstr "端末区分なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C051010306"
+msgid "端末区分の不正セット"
+msgstr "端末区分の不正セット"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C051010401"
+msgid "受付番号なし"
+msgstr "受付番号なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C051010402"
+msgid "受付番号の桁数オーバー"
+msgstr "受付番号の桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C051010404"
+msgid "受付番号に禁止文字あり"
+msgstr "受付番号に禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C051010501"
+msgid "商品名なし"
+msgstr "商品名なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C051010601"
+msgid "決済金額なし"
+msgstr "決済金額なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C051010602"
+msgid "決済金額の桁数オーバー"
+msgstr "決済金額の桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C051010604"
+msgid "決済金額に禁止文字あり"
+msgstr "決済金額に禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C051010701"
+msgid "購入者名(漢字)なし"
+msgstr "購入者名(漢字)なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C051010801"
+msgid "購入者E-Mailなし"
+msgstr "購入者E-Mailなし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C051010802"
+msgid "購入者E-Mailの桁数オーバー"
+msgstr "購入者E-Mailの桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C051010901"
+msgid "戻り先URL必須エラー"
+msgstr "戻り先URL必須エラー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C051010902"
+msgid "戻り先URL桁数オーバー"
+msgstr "戻り先URL桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C051010904"
+msgid "戻り先URLに禁止文字あり"
+msgstr "戻り先URLに禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C051010671"
+msgid "決済金額の下限額チェック"
+msgstr "決済金額の下限額チェック"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C051010672"
+msgid "決済金額の上限額チェック"
+msgstr "決済金額の上限額チェック"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C051010571"
+msgid "商品名に禁止文字あり"
+msgstr "商品名に禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C051010572"
+msgid "商品名桁数オーバー"
+msgstr "商品名桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C051010771"
+msgid "購入者名(漢字)に禁止文字あり"
+msgstr "購入者名(漢字)に禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C051010772"
+msgid "購入者名(漢字)桁数オーバー"
+msgstr "購入者名(漢字)桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C051010871"
+msgid "購入者E-Mail不正"
+msgstr "購入者E-Mail不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C051010971"
+msgid "戻り先URLの文字形式不正"
+msgstr "戻り先URLの文字形式不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C052000001"
+msgid "加盟店のパソコン決済利用不可"
+msgstr "加盟店のパソコン決済利用不可"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C052000002"
+msgid "加盟店のWAON(パソコン)利用不可"
+msgstr "加盟店のWAON(パソコン)利用不可"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C052010001"
+msgid "受注の二重決済"
+msgstr "受注の二重決済"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C052000003"
+msgid "加盟店のWAON決済利用不可"
+msgstr "加盟店のWAON決済利用不可"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C052020001"
+msgid "決済情報通知エラー"
+msgstr "決済情報通知エラー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C061010201"
+msgid "加盟店コードなし"
+msgstr "加盟店コードなし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C061010202"
+msgid "加盟店コード桁数オーバー"
+msgstr "加盟店コード桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C061010204"
+msgid "加盟店コードに禁止文字あり"
+msgstr "加盟店コードに禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C061010301"
+msgid "端末区分なし"
+msgstr "端末区分なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C061010306"
+msgid "端末区分の不正セット"
+msgstr "端末区分の不正セット"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C061010401"
+msgid "受付番号なし"
+msgstr "受付番号なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C061010402"
+msgid "受付番号の桁数オーバー"
+msgstr "受付番号の桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C061010404"
+msgid "受付番号に禁止文字あり"
+msgstr "受付番号に禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C061010501"
+msgid "商品名なし"
+msgstr "商品名なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C061010601"
+msgid "決済金額なし"
+msgstr "決済金額なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C061010602"
+msgid "決済金額の桁数オーバー"
+msgstr "決済金額の桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C061010604"
+msgid "決済金額に禁止文字あり"
+msgstr "決済金額に禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C061010701"
+msgid "購入者名(漢字)なし"
+msgstr "購入者名(漢字)なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C061010801"
+msgid "購入者E-Mailなし"
+msgstr "購入者E-Mailなし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C061010802"
+msgid "購入者E-Mailの桁数オーバー"
+msgstr "購入者E-Mailの桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C061010671"
+msgid "決済金額の下限額チェック"
+msgstr "決済金額の下限額チェック"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C061010672"
+msgid "決済金額の上限額チェック"
+msgstr "決済金額の上限額チェック"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C061010571"
+msgid "商品名に禁止文字あり"
+msgstr "商品名に禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C061010572"
+msgid "商品名桁数オーバー"
+msgstr "商品名桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C061010771"
+msgid "購入者名(漢字)に禁止文字あり"
+msgstr "購入者名(漢字)に禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C061010772"
+msgid "購入者名(漢字)桁数オーバー"
+msgstr "購入者名(漢字)桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C061010871"
+msgid "購入者E-Mail不正"
+msgstr "購入者E-Mail不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C062000001"
+msgid "加盟店の携帯電話決済利用不可"
+msgstr "加盟店の携帯電話決済利用不可"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C062000002"
+msgid "加盟店の11：モバイルWAON／モバイル J携帯電話 WAON利用不可"
+msgstr "加盟店の11：モバイルWAON／モバイル J携帯電話 WAON利用不可"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C062010001"
+msgid "受注の二重決済"
+msgstr "受注の二重決済"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C062000003"
+msgid "加盟店のWAON決済利用不可"
+msgstr "加盟店のWAON決済利用不可"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_C062020001"
+msgid "決済情報通知エラー"
+msgstr "決済情報通知エラー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_Z012000002"
+msgid "機能区分なし"
+msgstr "機能区分なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_Z012000003"
+msgid "機能区分の不正セット"
+msgstr "機能区分の不正セット"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_D011010201"
+msgid "加盟店コードなし"
+msgstr "加盟店コードなし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_D011010202"
+msgid "加盟店コード桁数オーバー"
+msgstr "加盟店コード桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_D011010204"
+msgid "加盟店コードに禁止文字あり"
+msgstr "加盟店コードに禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_D011010301"
+msgid "端末区分なし"
+msgstr "端末区分なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_D011010306"
+msgid "端末区分の不正セット"
+msgstr "端末区分の不正セット"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_D011010401"
+msgid "受付番号なし"
+msgstr "受付番号なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_D011010402"
+msgid "受付番号の桁数オーバー"
+msgstr "受付番号の桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_D011010404"
+msgid "受付番号に禁止文字あり"
+msgstr "受付番号に禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_D011010601"
+msgid "決済金額なし"
+msgstr "決済金額なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_D011010602"
+msgid "決済金額の桁数オーバー"
+msgstr "決済金額の桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_D011010604"
+msgid "決済金額に禁止文字あり"
+msgstr "決済金額に禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_D011010701"
+msgid "購入者名(漢字)なし"
+msgstr "購入者名(漢字)なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_D011010801"
+msgid "購入者E-Mailなし"
+msgstr "購入者E-Mailなし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_D011010802"
+msgid "購入者E-Mailの桁数オーバー"
+msgstr "購入者E-Mailの桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_D011010901"
+msgid "完了画面URLなし"
+msgstr "完了画面URLなし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_D011010903"
+msgid "完了戻りURL桁数オーバー"
+msgstr "完了戻りURL桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_D011011071"
+msgid "決済金額の下限額チェック"
+msgstr "決済金額の下限額チェック"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_D011011072"
+msgid "決済金額の上限額チェック"
+msgstr "決済金額の上限額チェック"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_D011011171"
+msgid "商品名に禁止文字あり"
+msgstr "商品名に禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_D011011172"
+msgid "商品名桁数オーバー"
+msgstr "商品名桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_D011011271"
+msgid "購入者名(漢字)に禁止文字あり"
+msgstr "購入者名(漢字)に禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_D011011272"
+msgid "購入者名(漢字)桁数オーバー"
+msgstr "購入者名(漢字)桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_D011011371"
+msgid "購入者E-Mail不正"
+msgstr "購入者E-Mail不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_D011011471"
+msgid "完了戻りURLの文字形式不正"
+msgstr "完了戻りURLの文字形式不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_D012000001"
+msgid "加盟店のパソコン決済利用不可※ 端末区分「2：パソコン」"
+msgstr "加盟店のパソコン決済利用不可※ 端末区分「2：パソコン」"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_D012000002"
+msgid "加盟店の携帯電話決済利用不可※ 端末区分「3：携帯電話」"
+msgstr "加盟店の携帯電話決済利用不可※ 端末区分「3：携帯電話」"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_D012000003"
+msgid "加盟店の楽天銀行決済利用不可"
+msgstr "加盟店の楽天銀行決済利用不可"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_D012010001"
+msgid "受注の二重決済"
+msgstr "受注の二重決済"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_D011011501"
+msgid "楽天銀行からの受信データ必須チェックエラー"
+msgstr "楽天銀行からの受信データ必須チェックエラー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_D011011574"
+msgid "楽天銀行からの受信データ（決済ステータス）妥当性エラー"
+msgstr "楽天銀行からの受信データ（決済ステータス）妥当性エラー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_D011011571"
+msgid "楽天銀行からの受信データ（取消日）妥当性エラー"
+msgstr "楽天銀行からの受信データ（取消日）妥当性エラー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_D011011572"
+msgid "楽天銀行からの受信データ（決済金額）妥当性エラー"
+msgstr "楽天銀行からの受信データ（決済金額）妥当性エラー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_D011011573"
+msgid "楽天銀行からの受信データ（トランザクション結果コード）妥当性エラー"
+msgstr "楽天銀行からの受信データ（トランザクション結果コード）妥当性エラー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_D012020001"
+msgid "データアンマッチエラー"
+msgstr "データアンマッチエラー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_D012030001"
+msgid "トランザクション結果エラー"
+msgstr "トランザクション結果エラー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_D012040001"
+msgid "その他システムエラー（決済後）"
+msgstr "その他システムエラー（決済後）"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_E011010201"
+msgid "加盟店コードなし"
+msgstr "加盟店コードなし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_E011010202"
+msgid "加盟店コード桁数オーバー"
+msgstr "加盟店コード桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_E011010204"
+msgid "加盟店コードに禁止文字あり"
+msgstr "加盟店コードに禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_E011010301"
+msgid "受付番号なし"
+msgstr "受付番号なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_E011010302"
+msgid "受付番号の桁数オーバー"
+msgstr "受付番号の桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_E011010304"
+msgid "受付番号に禁止文字あり"
+msgstr "受付番号に禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_E011010401"
+msgid "送り状番号なし"
+msgstr "送り状番号なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_E011010402"
+msgid "送り状番号の桁数不正"
+msgstr "送り状番号の桁数不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_E011010404"
+msgid "送り状番号に禁止文字あり"
+msgstr "送り状番号に禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_E011010251"
+msgid "加盟店が出荷情報登録不可"
+msgstr "加盟店が出荷情報登録不可"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_E011010351"
+msgid "受注データ不正"
+msgstr "受注データ不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_E011010451"
+msgid "伝票番号不正"
+msgstr "伝票番号不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_E012000001"
+msgid "伝票登録済みエラー"
+msgstr "伝票登録済みエラー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_E012000002"
+msgid "伝票番号が99件超"
+msgstr "伝票番号が99件超"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_E012000003"
+msgid "同梱の合計金額が30万円超"
+msgstr "同梱の合計金額が30万円超"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_E012000004"
+msgid "同梱対象が既に3件以上登録済み"
+msgstr "同梱対象が既に3件以上登録済み"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_E012000005"
+msgid "登録済み受注データが修正不可"
+msgstr "登録済み受注データが修正不可"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_E012000006"
+msgid "伝票登録しようとした伝票が同梱済み"
+msgstr "伝票登録しようとした伝票が同梱済み"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_E013000001"
+msgid "排他制御エラー"
+msgstr "排他制御エラー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_E021010201"
+msgid "加盟店コードなし"
+msgstr "加盟店コードなし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_E021010202"
+msgid "加盟店コード桁数オーバー"
+msgstr "加盟店コード桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_E021010204"
+msgid "加盟店コードに禁止文字あり"
+msgstr "加盟店コードに禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_E021010301"
+msgid "受付番号なし"
+msgstr "受付番号なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_E021010302"
+msgid "受付番号の桁数オーバー"
+msgstr "受付番号の桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_E021010304"
+msgid "受付番号に禁止文字あり"
+msgstr "受付番号に禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_E021010401"
+msgid "送り状番号なし"
+msgstr "送り状番号なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_E021010402"
+msgid "送り状番号の桁数不正"
+msgstr "送り状番号の桁数不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_E021010404"
+msgid "送り状番号に禁止文字あり"
+msgstr "送り状番号に禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_E021010251"
+msgid "加盟店の状態が出荷情報取消不可"
+msgstr "加盟店の状態が出荷情報取消不可"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_E021010351"
+msgid "受注データ不正"
+msgstr "受注データ不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_E022000001"
+msgid "伝票データ紐付けエラー"
+msgstr "伝票データ紐付けエラー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_E022000002"
+msgid "複数伝票取消エラー"
+msgstr "複数伝票取消エラー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_E022000003"
+msgid "登録済み受注データが修正不可"
+msgstr "登録済み受注データが修正不可"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_E023000001"
+msgid "排他制御エラー"
+msgstr "排他制御エラー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_E031010201"
+msgid "加盟店コードなし"
+msgstr "加盟店コードなし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_E031010202"
+msgid "加盟店コード桁数オーバー"
+msgstr "加盟店コード桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_E031010204"
+msgid "加盟店コードに禁止文字あり"
+msgstr "加盟店コードに禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_E031010301"
+msgid "受付番号なし"
+msgstr "受付番号なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_E031010302"
+msgid "受付番号の桁数オーバー"
+msgstr "受付番号の桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_E031010304"
+msgid "受付番号に禁止文字あり"
+msgstr "受付番号に禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_E031010401"
+msgid "出荷予定日なし"
+msgstr "出荷予定日なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_E031010405"
+msgid "出荷予定日のフォーマット不正"
+msgstr "出荷予定日のフォーマット不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_E032000001"
+msgid "加盟店のオプションサービス利用不可"
+msgstr "加盟店のオプションサービス利用不可"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_E031010351"
+msgid "受付番号の受注データ不正"
+msgstr "受付番号の受注データ不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_E031010471"
+msgid "出荷予定日下限チェック不正 （過去日チェック）"
+msgstr "出荷予定日下限チェック不正 （過去日チェック）"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_E031010472"
+msgid "出荷予定日上限チェック不正 （与信承認日より90日が上限）"
+msgstr "出荷予定日上限チェック不正 （与信承認日より90日が上限）"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_E033000001"
+msgid "排他制御エラー"
+msgstr "排他制御エラー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_E041010201"
+msgid "加盟店コードなし"
+msgstr "加盟店コードなし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_E041010202"
+msgid "加盟店コード桁数オーバー"
+msgstr "加盟店コード桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_E041010204"
+msgid "加盟店コードに禁止文字あり"
+msgstr "加盟店コードに禁止文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_E041010301"
+msgid "受付番号なし"
+msgstr "受付番号なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_E041010302"
+msgid "受付番号の桁数オーバー"
+msgstr "受付番号の桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_E041010304"
+msgid "受付番号に禁止文字あり"
+msgstr "受付番号に禁止文字あり"
+
+
+
+msgctxt "Languages::jp_kuroneko_webcollect_cc_errmsg_C01"
+msgid "被仕向会社コードエラー"
+msgstr "被仕向会社コードエラー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cc_errmsg_C03"
+msgid "最大電文長エラー"
+msgstr "最大電文長エラー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cc_errmsg_C12"
+msgid "被仕向センタビジー"
+msgstr "被仕向センタビジー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cc_errmsg_C13"
+msgid "被仕向センタ障害中"
+msgstr "被仕向センタ障害中"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cc_errmsg_C14"
+msgid "被仕向センタ個別終了"
+msgstr "被仕向センタ個別終了"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cc_errmsg_C15"
+msgid "CAFISセンタ終了"
+msgstr "CAFISセンタ終了"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cc_errmsg_C17"
+msgid "エンコード不正"
+msgstr "エンコード不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cc_errmsg_C33"
+msgid "CAFIS輻輳中"
+msgstr "CAFIS輻輳中"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cc_errmsg_C34"
+msgid "加盟店ショッピングデータフォーマット不正"
+msgstr "加盟店ショッピングデータフォーマット不正"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cc_errmsg_C35"
+msgid "アドバイス電文受信済"
+msgstr "アドバイス電文受信済"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cc_errmsg_C50"
+msgid "タイムアウト"
+msgstr "タイムアウト"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cc_errmsg_C51"
+msgid "経路重複"
+msgstr "経路重複"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cc_errmsg_C53"
+msgid "仕向会社コードエラー"
+msgstr "仕向会社コードエラー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cc_errmsg_C54"
+msgid "電文種別エラー"
+msgstr "電文種別エラー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cc_errmsg_C55"
+msgid "経路範囲外エラー"
+msgstr "経路範囲外エラー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cc_errmsg_C56"
+msgid "電文対応エラー"
+msgstr "電文対応エラー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cc_errmsg_C57"
+msgid "当該会社サービスなし"
+msgstr "当該会社サービスなし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cc_errmsg_C58"
+msgid "ニューメリックチェックエラー"
+msgstr "ニューメリックチェックエラー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cc_errmsg_C60"
+msgid "受信不可能状態で電文受信"
+msgstr "受信不可能状態で電文受信"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cc_errmsg_G02"
+msgid "カードローン融資残高不足"
+msgstr "カードローン融資残高不足"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cc_errmsg_G03"
+msgid "カードローン限度額オーバ"
+msgstr "カードローン限度額オーバ"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cc_errmsg_G04"
+msgid "キャッシング融資残高不足"
+msgstr "キャッシング融資残高不足"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cc_errmsg_G05"
+msgid "キャッシング限度額オーバ"
+msgstr "キャッシング限度額オーバ"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cc_errmsg_G12"
+msgid "カード使用不可"
+msgstr "カード使用不可"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cc_errmsg_G22"
+msgid "支払永久禁止"
+msgstr "支払永久禁止"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cc_errmsg_G30"
+msgid "取引判定保留（有人判定）"
+msgstr "取引判定保留（有人判定）"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cc_errmsg_G42"
+msgid "暗証番号エラー"
+msgstr "暗証番号エラー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cc_errmsg_G44"
+msgid "セキュリティコード誤り"
+msgstr "セキュリティコード誤り"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cc_errmsg_G45"
+msgid "セキュリティコード入力無"
+msgstr "セキュリティコード入力無"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cc_errmsg_G46"
+msgid "JIS２面情報エラー"
+msgstr "JIS２面情報エラー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cc_errmsg_G54"
+msgid "１口座利用回数又は金額オーバー"
+msgstr "１口座利用回数又は金額オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cc_errmsg_G55"
+msgid "１日利用限度額オーバー"
+msgstr "１日利用限度額オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cc_errmsg_G56"
+msgid "クレジットカード取り込み"
+msgstr "クレジットカード取り込み"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cc_errmsg_G60"
+msgid "事故カード"
+msgstr "事故カード"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cc_errmsg_G61"
+msgid "無効カード"
+msgstr "無効カード"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cc_errmsg_G65"
+msgid "会員番号エラー"
+msgstr "会員番号エラー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cc_errmsg_G67"
+msgid "商品コードエラー"
+msgstr "商品コードエラー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cc_errmsg_G68"
+msgid "金額エラー"
+msgstr "金額エラー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cc_errmsg_G69"
+msgid "税送料エラー"
+msgstr "税送料エラー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cc_errmsg_G70"
+msgid "ボーナス回数エラー"
+msgstr "ボーナス回数エラー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cc_errmsg_G71"
+msgid "ボーナス月エラー"
+msgstr "ボーナス月エラー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cc_errmsg_G72"
+msgid "ボーナス額エラー"
+msgstr "ボーナス額エラー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cc_errmsg_G73"
+msgid "支払開始月エラー"
+msgstr "支払開始月エラー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cc_errmsg_G74"
+msgid "分割回数エラー"
+msgstr "分割回数エラー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cc_errmsg_G75"
+msgid "分割金額エラー"
+msgstr "分割金額エラー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cc_errmsg_G76"
+msgid "初回金額エラー"
+msgstr "初回金額エラー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cc_errmsg_G77"
+msgid "業務区分エラー"
+msgstr "業務区分エラー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cc_errmsg_G78"
+msgid "支払区分エラー"
+msgstr "支払区分エラー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cc_errmsg_G79"
+msgid "照会区分エラー"
+msgstr "照会区分エラー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cc_errmsg_G80"
+msgid "取消区分エラー"
+msgstr "取消区分エラー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cc_errmsg_G81"
+msgid "取扱区分エラー"
+msgstr "取扱区分エラー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cc_errmsg_G83"
+msgid "有効期限エラー"
+msgstr "有効期限エラー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cc_errmsg_G85"
+msgid "サービス対象外カード"
+msgstr "サービス対象外カード"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cc_errmsg_G95"
+msgid "当該業務オンライン終了"
+msgstr "当該業務オンライン終了"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cc_errmsg_G96"
+msgid "事故カードデータエラー"
+msgstr "事故カードデータエラー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cc_errmsg_G97"
+msgid "当該要求拒否"
+msgstr "当該要求拒否"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cc_errmsg_G98"
+msgid "当該自社対象業務エラー"
+msgstr "当該自社対象業務エラー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cc_errmsg_G99"
+msgid "接続要求自社受付拒否"
+msgstr "接続要求自社受付拒否"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cc_errmsg_999"
+msgid "CAFIS応答タイムアウト"
+msgstr "CAFIS応答タイムアウト"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cc_errmsg_0200001"
+msgid "カード情報入力エラー（チェックデジットエラー）"
+msgstr "カード情報入力エラー（チェックデジットエラー）"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cc_errmsg_0200002"
+msgid "通信エラー（CAFISより不当な電文を受信）"
+msgstr "通信エラー（CAFISより不当な電文を受信）"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cc_errmsg_0200003"
+msgid "カード情報入力エラー（カード会社指定エラー）"
+msgstr "カード情報入力エラー（カード会社指定エラー）"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cc_errmsg_0400001"
+msgid "通信エラー（ＤＢアクセスエラー）"
+msgstr "通信エラー（ＤＢアクセスエラー）"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cc_errmsg_0500001"
+msgid "通信エラー（CAFIS通信エラー）"
+msgstr "通信エラー（CAFIS通信エラー）"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cc_errmsg_0500002"
+msgid "通信エラー（クレジット決済ＧＷ通信エラー）"
+msgstr "通信エラー（クレジット決済ＧＷ通信エラー）"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cc_errmsg_0600001"
+msgid "通信エラー（パラメータ指定漏れ）"
+msgstr "通信エラー（パラメータ指定漏れ）"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cc_errmsg_0600002"
+msgid "通信エラー（パラメータ形式エラー）"
+msgstr "通信エラー（パラメータ形式エラー）"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cc_errmsg_0700001"
+msgid "通信エラー（処理対象レコードが存在しない）"
+msgstr "通信エラー（処理対象レコードが存在しない）"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cc_errmsg_9900001"
+msgid "通信エラー（システムエラー）"
+msgstr "通信エラー（システムエラー）"
+
+
+msgctxt "Languages::jp_kuroneko_webcollect_tds_errindex_0002"
+msgid "認証失敗"
+msgstr "認証失敗"
+
+msgctxt "Languages::jp_kuroneko_webcollect_tds_errindex_0007"
+msgid "認証実行不能"
+msgstr "認証実行不能"
+
+msgctxt "Languages::jp_kuroneko_webcollect_tds_errindex_0008"
+msgid "認証実行不能"
+msgstr "認証実行不能"
+
+msgctxt "Languages::jp_kuroneko_webcollect_tds_errindex_0009"
+msgid "認証実行不能"
+msgstr "DSに接続できない、DSから不正な値が返却された等により本人認証が実行できませんでした。"
+
+msgctxt "Languages::jp_kuroneko_webcollect_tds_errindex_0010"
+msgid "認証実行不能"
+msgstr "認証実行不能"
+
+msgctxt "Languages::jp_kuroneko_webcollect_tds_errindex_0011"
+msgid "PARes署名 検証失敗"
+msgstr "PARes署名 検証失敗"
+
+msgctxt "Languages::jp_kuroneko_webcollect_tds_errindex_0012"
+msgid "PARes署名 検証失敗"
+msgstr "PARes署名 検証失敗"
+
+msgctxt "Languages::jp_kuroneko_webcollect_tds_errindex_0999"
+msgid "その他"
+msgstr "その他"
+
+msgctxt "Languages::jp_kuroneko_webcollect_tds_errindex_9001"
+msgid "指定パラメータ誤り"
+msgstr "指定パラメータ誤り"
+
+msgctxt "Languages::jp_kuroneko_webcollect_tds_errindex_9003"
+msgid "決済GWDB アクセスエラー"
+msgstr "決済GWDB アクセスエラー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_tds_errindex_9999"
+msgid "システムエラー"
+msgstr "システムエラー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_tds_errmsg_0002"
+msgid "入力されたパスワードに誤りがある、または3Dセキュア パスワード入力画面でキャンセルボタンが押下されました。"
+msgstr "入力されたパスワードに誤りがある、または3Dセキュア パスワード入力画面でキャンセルボタンが押下されました。"
+
+msgctxt "Languages::jp_kuroneko_webcollect_tds_errmsg_0007"
+msgid "ACS障害等により本人認証が実行できませんでした。"
+msgstr "ACS障害等により本人認証が実行できませんでした。"
+
+msgctxt "Languages::jp_kuroneko_webcollect_tds_errmsg_0008"
+msgid "ACSから不正な値が返却された等により本人認証が実行できませんでした。"
+msgstr "ACSから不正な値が返却された等により本人認証が実行できませんでした。"
+
+msgctxt "Languages::jp_kuroneko_webcollect_tds_errmsg_0009"
+msgid "DSに接続できない、DSから不正な値が返却された等により本人認証が実行できませんでした。"
+msgstr "DSに接続できない、DSから不正な値が返却された等により本人認証が実行できませんでした。"
+
+msgctxt "Languages::jp_kuroneko_webcollect_tds_errmsg_0010"
+msgid "ACSから不正な値が返却された、無効なセッションに対しACSから返答がきた等により本人認証が実行できませんでした。"
+msgstr "ACSから不正な値が返却された、無効なセッションに対しACSから返答がきた等により本人認証が実行できませんでした。"
+
+msgctxt "Languages::jp_kuroneko_webcollect_tds_errmsg_0011"
+msgid "3Dセキュア側の署名が確認できず本人認証が実行できませんでした。"
+msgstr "3Dセキュア側の署名が確認できず本人認証が実行できませんでした。"
+
+msgctxt "Languages::jp_kuroneko_webcollect_tds_errmsg_0012"
+msgid "3Dセキュア側の署名が確認できず本人認証が実行できませんでした。"
+msgstr "3Dセキュア側の署名が確認できず本人認証が実行できませんでした。"
+
+msgctxt "Languages::jp_kuroneko_webcollect_tds_errmsg_0999"
+msgid "3Dセキュア認証処理中にエラーが発生しました。"
+msgstr "3Dセキュア認証処理中にエラーが発生しました。"
+
+msgctxt "Languages::jp_kuroneko_webcollect_tds_errmsg_9001"
+msgid "POST電文チェック、チェックデジットに誤りがありました。"
+msgstr "POST電文チェック、チェックデジットに誤りがありました。"
+
+msgctxt "Languages::jp_kuroneko_webcollect_tds_errmsg_9003"
+msgid "決済サーバへのアクセスエラーが発生しました。"
+msgstr "決済サーバへのアクセスエラーが発生しました。"
+
+msgctxt "Languages::jp_kuroneko_webcollect_tds_errmsg_9999"
+msgid "タイムアウト、通信エラー等のシステムエラーが発生しました。"
+msgstr "タイムアウト、通信エラー等のシステムエラーが発生しました。"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARS002E"
+msgid "「加盟店コード」エラー - 加盟店コードの桁数が正しくありません"
+msgstr "「加盟店コード」エラー - 加盟店コードの桁数が正しくありません"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARS003E"
+msgid "「加盟店コード」エラー - 加盟店コードに半角数字以外の値が含まれています"
+msgstr "「加盟店コード」エラー - 加盟店コードに半角数字以外の値が含まれています"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARS004E"
+msgid "「加盟店コード」エラー - 加盟店コードが指定されていません"
+msgstr "「加盟店コード」エラー - 加盟店コードが指定されていません"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARA001E"
+msgid "「加盟店コード」エラー - 加盟店コードが指定されていません"
+msgstr "「加盟店コード」エラー - 加盟店コードが指定されていません"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARA002E"
+msgid "「加盟店コード」エラー - 加盟店コードに半角数字以外の値が指定されています"
+msgstr "「加盟店コード」エラー - 加盟店コードに半角数字以外の値が指定されています"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARA003E"
+msgid "「加盟店コード」エラー - 加盟店コードの桁数が指定桁数と異なります"
+msgstr "「加盟店コード」エラー - 加盟店コードの桁数が指定桁数と異なります"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARA004E"
+msgid "「加盟店コード」エラー - 未登録の加盟店コードが指定されています"
+msgstr "「加盟店コード」エラー - 未登録の加盟店コードが指定されています"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARA005E"
+msgid "「加盟店コード」エラー - 指定された加盟店コードはご利用いただけません"
+msgstr "「加盟店コード」エラー - 指定された加盟店コードはご利用いただけません"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARA006E"
+msgid "「受注番号」エラー - 受注番号が指定されていません"
+msgstr "「受注番号」エラー - 受注番号が指定されていません"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARA007E"
+msgid "「受注番号」エラー - 受注番号に半角英数字（およびハイフンまたはアンダーライン）以外の値が含まれています"
+msgstr "「受注番号」エラー - 受注番号に半角英数字（およびハイフンまたはアンダーライン）以外の値が含まれています"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARA008E"
+msgid "「受注番号」エラー - 受注番号が長すぎます"
+msgstr "「受注番号」エラー - 受注番号が長すぎます"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARA009E"
+msgid "「受注番号」エラー - 受注番号が重複しています"
+msgstr "「受注番号」エラー - 受注番号が重複しています"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARA010E"
+msgid "「受注日」エラー - 受注日が指定されていません"
+msgstr "「受注日」エラー - 受注日が指定されていません"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARA011E"
+msgid "「受注日」エラー - 受注日に半角数字以外の値が含まれています"
+msgstr "「受注日」エラー - 受注日に半角数字以外の値が含まれています"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARA012E"
+msgid "「受注日」エラー - 受注日は8桁で指定してください"
+msgstr "「受注日」エラー - 受注日は8桁で指定してください"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARA013E"
+msgid "「受注日」エラー - 受注日はyyyyMMdd形式で指定してください"
+msgstr "「受注日」エラー - 受注日はyyyyMMdd形式で指定してください"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARA014E"
+msgid "「出荷予定日」エラー - 出荷予定日が指定されていません"
+msgstr "「出荷予定日」エラー - 出荷予定日が指定されていません"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARA015E"
+msgid "「出荷予定日」エラー - 出荷予定日に半角数字以外の値が含まれています"
+msgstr "「出荷予定日」エラー - 出荷予定日に半角数字以外の値が含まれています"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARA016E"
+msgid "「出荷予定日」エラー - 出荷予定日は8桁で指定してください"
+msgstr "「出荷予定日」エラー - 出荷予定日は8桁で指定してください"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARA017E"
+msgid "「出荷予定日」エラー - 出荷予定日はyyyyMMdd形式で指定してください"
+msgstr "「出荷予定日」エラー - 出荷予定日はyyyyMMdd形式で指定してください"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARA018E"
+msgid "「出荷予定日」エラー - 出荷予定日が既定の期間を超過しています"
+msgstr "「出荷予定日」エラー - 出荷予定日が既定の期間を超過しています"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARA019E"
+msgid "「氏名」エラー - 氏名が指定されていません"
+msgstr "「氏名」エラー - 氏名が指定されていません"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARA020E"
+msgid "「氏名」エラー - 氏名には全角文字を使用してください"
+msgstr "「氏名」エラー - 氏名には全角文字を使用してください"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARA021E"
+msgid "「氏名」エラー - 氏名は30文字以内で指定してください"
+msgstr "「氏名」エラー - 氏名は30文字以内で指定してください"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARA022E"
+msgid "「氏名」エラー - 氏名に非対応の文字コードが含まれています"
+msgstr "「氏名」エラー - 氏名に非対応の文字コードが含まれています"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARA023E"
+msgid "「氏名カナ」エラー - 氏名カナは半角カナを使用してください"
+msgstr "「氏名カナ」エラー - 氏名カナは半角カナを使用してください"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARA024E"
+msgid "「氏名カナ」エラー - 氏名カナは40文字以内で指定してください"
+msgstr "「氏名カナ」エラー - 氏名カナは40文字以内で指定してください"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARA025E"
+msgid "「郵便番号」エラー - 郵便番号が指定されていません"
+msgstr "「郵便番号」エラー - 郵便番号が指定されていません"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARA026E"
+msgid "「郵便番号」エラー - 郵便番号に数値またはハイフン以外の値が含まれています"
+msgstr "「郵便番号」エラー - 郵便番号に数値またはハイフン以外の値が含まれています"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARA027E"
+msgid "「郵便番号」エラー - 郵便番号にハイフンが2つ以上存在します"
+msgstr "「郵便番号」エラー - 郵便番号にハイフンが2つ以上存在します"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARA028E"
+msgid "「郵便番号」エラー - 郵便番号は7桁で指定してください"
+msgstr "「郵便番号」エラー - 郵便番号は7桁で指定してください"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARA029E"
+msgid "「郵便番号」エラー - 存在しない郵便番号が指定されています"
+msgstr "「郵便番号」エラー - 存在しない郵便番号が指定されています"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARA030E"
+msgid "「住所１」エラー - 住所1が指定されていません"
+msgstr "「住所１」エラー - 住所1が指定されていません"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARA031E"
+msgid "「住所１」エラー - 住所1には全角文字を使用してください"
+msgstr "「住所１」エラー - 住所1には全角文字を使用してください"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARA032E"
+msgid "「住所１」エラー - 住所1は25文字以内で指定してください"
+msgstr "「住所１」エラー - 住所1は25文字以内で指定してください"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARA033E"
+msgid "「住所１」エラー - 住所1に非対応の文字コードが含まれています"
+msgstr "「住所１」エラー - 住所1に非対応の文字コードが含まれています"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARA034E"
+msgid "「住所１」エラー - 住所1が都道府県名以外の値で始まっています"
+msgstr "「住所１」エラー - 住所1が都道府県名以外の値で始まっています"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARA035E"
+msgid "「住所２」エラー - 住所2には全角文字を使用してください"
+msgstr "「住所２」エラー - 住所2には全角文字を使用してください"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARA036E"
+msgid "「住所２」エラー - 住所2は25文字以内で指定してください"
+msgstr "「住所２」エラー - 住所2は25文字以内で指定してください"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARA037E"
+msgid "「住所２」エラー - 住所2に非対応の文字コードが含まれています"
+msgstr "「住所２」エラー - 住所2に非対応の文字コードが含まれています"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARA038E"
+msgid "「電話番号」エラー - 電話番号が指定されていません"
+msgstr "「電話番号」エラー - 電話番号が指定されていません"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARA039E"
+msgid "「電話番号」エラー - 電話番号に数値またはハイフン以外の値が含まれています"
+msgstr "「電話番号」エラー - 電話番号に数値またはハイフン以外の値が含まれています"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARA040E"
+msgid "「電話番号」エラー - 電話番号の桁数に誤りがあります"
+msgstr "「電話番号」エラー - 電話番号の桁数に誤りがあります"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARA043E"
+msgid "「メールアドレス」エラー - メールアドレスに半角英数字と一部の記号以外の値が含まれています"
+msgstr "「メールアドレス」エラー - メールアドレスに半角英数字と一部の記号以外の値が含まれています"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARA044E"
+msgid "「メールアドレス」エラー - メールアドレスは64文字以内で指定してください"
+msgstr "「メールアドレス」エラー - メールアドレスは64文字以内で指定してください"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARA045E"
+msgid "「メールアドレス」エラー - メールアドレスに@が含まれていません"
+msgstr "「メールアドレス」エラー - メールアドレスに@が含まれていません"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARA046E"
+msgid "「決済金額総計」エラー - 決済金額総計が指定されていません"
+msgstr "「決済金額総計」エラー - 決済金額総計が指定されていません"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARA047E"
+msgid "「決済金額総計」エラー - 決済金額総計に半角数字以外の値が含まれています"
+msgstr "「決済金額総計」エラー - 決済金額総計に半角数字以外の値が含まれています"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARA048E"
+msgid "「決済金額総計」エラー - 決済金額総計に100万円以上の金額を指定することはできません"
+msgstr "「決済金額総計」エラー - 決済金額総計に100万円以上の金額を指定することはできません"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARA049E"
+msgid "「決済金額総計」エラー - 決済金額総計には1円以上999999円以内の金額を指定してください"
+msgstr "「決済金額総計」エラー - 決済金額総計には1円以上999999円以内の金額を指定してください"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARA050E"
+msgid "「送り先区分」エラー - 送り先区分が指定されていません"
+msgstr "「送り先区分」エラー - 送り先区分が指定されていません"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARA051E"
+msgid "「送り先区分」エラー - 送り先区分に半角数字以外の値が含まれています"
+msgstr "「送り先区分」エラー - 送り先区分に半角数字以外の値が含まれています"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARA052E"
+msgid "「送り先区分」エラー - 送り先区分が正しくありません"
+msgstr "「送り先区分」エラー - 送り先区分が正しくありません"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARA053E"
+msgid "「送り先区分」エラー - 送り先区分が正しくありません"
+msgstr "「送り先区分」エラー - 送り先区分が正しくありません"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARA054E"
+msgid "「購入商品名称(1～10)」エラー - 購入商品名称には全角文字を使用してください"
+msgstr "「購入商品名称(1～10)」エラー - 購入商品名称には全角文字を使用してください"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARA055E"
+msgid "「購入商品名称(1～10)」エラー - 購入商品名称は30文字以内で指定してください"
+msgstr "「購入商品名称(1～10)」エラー - 購入商品名称は30文字以内で指定してください"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARA056E"
+msgid "「購入商品名称(1～10)」エラー - 購入商品名称に非対応の文字コードが含まれています"
+msgstr "「購入商品名称(1～10)」エラー - 購入商品名称に非対応の文字コードが含まれています"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARA057E"
+msgid "「購入商品名称(1～10)」エラー - 購入商品名称(1)が指定されていません"
+msgstr "「購入商品名称(1～10)」エラー - 購入商品名称(1)が指定されていません"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARA058E"
+msgid "「購入商品数量(1～10)」エラー - 購入商品数量に半角数字以外の値が含まれています"
+msgstr "「購入商品数量(1～10)」エラー - 購入商品数量に半角数字以外の値が含まれています"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARA059E"
+msgid "「購入商品数量(1～10)」エラー - 購入商品数量は9999以内で指定してください"
+msgstr "「購入商品数量(1～10)」エラー - 購入商品数量は9999以内で指定してください"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARA060E"
+msgid "「購入商品単価(1～10)」エラー - 購入商品単価に数値(またはマイナス記号)以外の値が含まれています"
+msgstr "「購入商品単価(1～10)」エラー - 購入商品単価に数値(またはマイナス記号)以外の値が含まれています"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARA061E"
+msgid "「購入商品単価(1～10)」エラー - 購入商品単価は999999以内で指定してください"
+msgstr "「購入商品単価(1～10)」エラー - 購入商品単価は999999以内で指定してください"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARA062E"
+msgid "「購入商品単価(1～10)」エラー - 購入商品単価（マイナス値)は-999999以内で指定してください"
+msgstr "「購入商品単価(1～10)」エラー - 購入商品単価（マイナス値)は-999999以内で指定してください"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARA063E"
+msgid "「購入商品小計(1～10)」エラー - 購入商品小計に数値(またはマイナス記号)以外の値が含まれています"
+msgstr "「購入商品小計(1～10)」エラー - 購入商品小計に数値(またはマイナス記号)以外の値が含まれています"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARA064E"
+msgid "「購入商品小計(1～10)」エラー - 購入商品小計は999999以内で指定してください"
+msgstr "「購入商品小計(1～10)」エラー - 購入商品小計は999999以内で指定してください"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARA065E"
+msgid "「購入商品小計(1～10)」エラー - 購入商品小計（マイナス値)は-999999以内で指定してください"
+msgstr "「購入商品小計(1～10)」エラー - 購入商品小計（マイナス値)は-999999以内で指定してください"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARA066E"
+msgid "「送り先名称」エラー - 送り先名称には全角文字を使用してください"
+msgstr "「送り先名称」エラー - 送り先名称には全角文字を使用してください"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARA067E"
+msgid "「送り先名称」エラー - 送り先名称は30文字以内で指定してください"
+msgstr "「送り先名称」エラー - 送り先名称は30文字以内で指定してください"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARA068E"
+msgid "「送り先名称」エラー - 送り先名称に非対応の文字コードが含まれています"
+msgstr "「送り先名称」エラー - 送り先名称に非対応の文字コードが含まれています"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARA070E"
+msgid "「送り先郵便番号」エラー - 送り先郵便番号に数値またはハイフン以外の値が含まれています"
+msgstr "「送り先郵便番号」エラー - 送り先郵便番号に数値またはハイフン以外の値が含まれています"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARA071E"
+msgid "「送り先郵便番号」エラー - 送り先郵便番号にハイフンが2つ以上存在しています"
+msgstr "「送り先郵便番号」エラー - 送り先郵便番号にハイフンが2つ以上存在しています"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARA072E"
+msgid "「送り先郵便番号」エラー - 送り先郵便番号は7桁で指定してください"
+msgstr "「送り先郵便番号」エラー - 送り先郵便番号は7桁で指定してください"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARA073E"
+msgid "「送り先郵便番号」エラー - 存在しない送り先郵便番号が指定されています"
+msgstr "「送り先郵便番号」エラー - 存在しない送り先郵便番号が指定されています"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARA075E"
+msgid "「送り先住所１」エラー - 送り先住所1には全角文字を使用してください"
+msgstr "「送り先住所１」エラー - 送り先住所1には全角文字を使用してください"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARA076E"
+msgid "「送り先住所１」エラー - 送り先住所1は25文字以内で指定してください"
+msgstr "「送り先住所１」エラー - 送り先住所1は25文字以内で指定してください"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARA077E"
+msgid "「送り先住所１」エラー - 送り先住所1に非対応の文字コードが含まれています"
+msgstr "「送り先住所１」エラー - 送り先住所1に非対応の文字コードが含まれています"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARA078E"
+msgid "「送り先住所１」エラー - 送り先住所1が都道府県名以外の値で始まっています"
+msgstr "「送り先住所１」エラー - 送り先住所1が都道府県名以外の値で始まっています"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARA079E"
+msgid "「送り先住所２」エラー - 送り先住所2には全角文字を使用してください"
+msgstr "「送り先住所２」エラー - 送り先住所2には全角文字を使用してください"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARA080E"
+msgid "「送り先住所２」エラー - 送り先住所2は25文字以内で指定してください"
+msgstr "「送り先住所２」エラー - 送り先住所2は25文字以内で指定してください"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARA081E"
+msgid "「送り先住所２」エラー - 送り先住所2に非対応の文字コードが含まれています"
+msgstr "「送り先住所２」エラー - 送り先住所2に非対応の文字コードが含まれています"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARA082E"
+msgid "「送り先電話番号」エラー - 送り先電話番号に数値またはハイフン以外の値が含まれています"
+msgstr "「送り先電話番号」エラー - 送り先電話番号に数値またはハイフン以外の値が含まれています"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARA083E"
+msgid "「送り先電話番号」エラー - 送り先電話番号にハイフンが含まれる場合は、2つ以上のハイフンが必要です"
+msgstr "「送り先電話番号」エラー - 送り先電話番号にハイフンが含まれる場合は、2つ以上のハイフンが必要です"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARA084E"
+msgid "「送り先電話番号」エラー - 送り先電話番号の桁数に誤りがあります"
+msgstr "「送り先電話番号」エラー - 送り先電話番号の桁数に誤りがあります"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARA086E"
+msgid "「依頼日時」エラー - 依頼日時が指定されていません"
+msgstr "「依頼日時」エラー - 依頼日時が指定されていません"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARA087E"
+msgid "「依頼日時」エラー - 依頼日時に半角数字以外の値が含まれています"
+msgstr "「依頼日時」エラー - 依頼日時に半角数字以外の値が含まれています"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARA088E"
+msgid "「依頼日時」エラー - 依頼日時の桁数に誤りがあります"
+msgstr "「依頼日時」エラー - 依頼日時の桁数に誤りがあります"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARA089E"
+msgid "「依頼日時」エラー - 依頼日時はyyyyMMddHHmmss形式で指定してください"
+msgstr "「依頼日時」エラー - 依頼日時はyyyyMMddHHmmss形式で指定してください"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARA090E"
+msgid "「パスワード」エラー - パスワードが指定されていません"
+msgstr "「パスワード」エラー - パスワードが指定されていません"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARA091E"
+msgid "「パスワード」エラー - パスワードに半角英数字以外の値が含まれています"
+msgstr "「パスワード」エラー - パスワードに半角英数字以外の値が含まれています"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARA092E"
+msgid "「パスワード」エラー - パスワードが正しくありません"
+msgstr "「パスワード」エラー - パスワードが正しくありません"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARA093E"
+msgid "「電話番号」エラー - 電話番号は0で始まる必要があります"
+msgstr "「電話番号」エラー - 電話番号は0で始まる必要があります"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARA094E"
+msgid "「送り先電話番号」エラー - 送り先電話番号は0で始まる必要があります"
+msgstr "「送り先電話番号」エラー - 送り先電話番号は0で始まる必要があります"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARA100E"
+msgid "「関連チェック１」エラー - 出荷予定日には受注日以降の日付が指定されている必要があります"
+msgstr "「関連チェック１」エラー - 出荷予定日には受注日以降の日付が指定されている必要があります"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARA101E"
+msgid "「関連チェック２」エラー - 決済金額総計と購入商品小計の金額が一致しません"
+msgstr "「関連チェック２」エラー - 決済金額総計と購入商品小計の金額が一致しません"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARA102E"
+msgid "「関連チェック３」エラー - 送り先に関する情報（宛名、郵便番号、住所など）が指定されていません"
+msgstr "「関連チェック３」エラー - 送り先に関する情報（宛名、郵便番号、住所など）が指定されていません"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARA103E"
+msgid "「関連チェック４」エラー - 住所に番地が含まれていません"
+msgstr "「関連チェック４」エラー - 住所に番地が含まれていません"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARA104E"
+msgid "「関連チェック５」エラー - 送り先住所に番地が含まれていません"
+msgstr "「関連チェック５」エラー - 送り先住所に番地が含まれていません"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARS002E"
+msgid "「加盟店コード」エラー - 加盟店コードの桁数が正しくありません"
+msgstr "「加盟店コード」エラー - 加盟店コードの桁数が正しくありません"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARS003E"
+msgid "「加盟店コード」エラー - 加盟店コードに半角数字以外の値が含まれています"
+msgstr "「加盟店コード」エラー - 加盟店コードに半角数字以外の値が含まれています"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARS004E"
+msgid "「加盟店コード」エラー - 加盟店コードが指定されていません"
+msgstr "「加盟店コード」エラー - 加盟店コードが指定されていません"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARS005E"
+msgid "「受注番号」エラー - 受注番号が長すぎます"
+msgstr "「受注番号」エラー - 受注番号が長すぎます"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARS007E"
+msgid "「受注番号」エラー - 受注番号が指定されていません"
+msgstr "「受注番号」エラー - 受注番号が指定されていません"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARS008E"
+msgid "「受注番号」エラー - 受注番号が存在しないか、すでに取消済みです"
+msgstr "「受注番号」エラー - 受注番号が存在しないか、すでに取消済みです"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARS009E"
+msgid "「依頼日時」エラー - 依頼日時はyyyyMMddHHmmss形式で指定してください"
+msgstr "「依頼日時」エラー - 依頼日時はyyyyMMddHHmmss形式で指定してください"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARS010E"
+msgid "「依頼日時」エラー - 依頼日時に半角数字以外の値が含まれています"
+msgstr "「依頼日時」エラー - 依頼日時に半角数字以外の値が含まれています"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARS011E"
+msgid "「依頼日時」エラー - 依頼日時が指定されていません"
+msgstr "「依頼日時」エラー - 依頼日時が指定されていません"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARS012E"
+msgid "「パスワード」エラー - パスワードが正しくありません"
+msgstr "「パスワード」エラー - パスワードが正しくありません"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARS013E"
+msgid "「パスワード」エラー - パスワードが指定されていません"
+msgstr "「パスワード」エラー - パスワードが指定されていません"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAARS014E"
+msgid "「受注番号」エラー - 受注番号に半角英数字（およびハイフンまたはアンダーライン）以外の値が含まれています"
+msgstr "「受注番号」エラー - 受注番号に半角英数字（およびハイフンまたはアンダーライン）以外の値が含まれています"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAACL002E"
+msgid "「加盟店コード」エラー - 加盟店コードの桁数が正しくありません"
+msgstr "「加盟店コード」エラー - 加盟店コードの桁数が正しくありません"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAACL003E"
+msgid "「加盟店コード」エラー - 加盟店コードに半角数字以外の値が含まれています"
+msgstr "「加盟店コード」エラー - 加盟店コードに半角数字以外の値が含まれています"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAACL004E"
+msgid "「加盟店コード」エラー - 加盟店コードが指定されていません"
+msgstr "「加盟店コード」エラー - 加盟店コードが指定されていません"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAACL005E"
+msgid "「受注番号」エラー - 受注番号が長すぎます"
+msgstr "「受注番号」エラー - 受注番号が長すぎます"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAACL007E"
+msgid "「受注番号」エラー - 受注番号が指定されていません"
+msgstr "「受注番号」エラー - 受注番号が指定されていません"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAACL008E"
+msgid "「受注番号」エラー - 受注番号が存在しません"
+msgstr "「受注番号」エラー - 受注番号が存在しません"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAACL009E"
+msgid "「受注番号」エラー - 指定した受注番号については取消可能なお取引状況ではありません"
+msgstr "「受注番号」エラー - 指定した受注番号については取消可能なお取引状況ではありません"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAACL010E"
+msgid "「依頼日時」エラー - 依頼日時はyyyyMMddHHmmss形式で指定してください"
+msgstr "「依頼日時」エラー - 依頼日時はyyyyMMddHHmmss形式で指定してください"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAACL011E"
+msgid "「依頼日時」エラー - 依頼日時に半角数字以外の値が含まれています"
+msgstr "「依頼日時」エラー - 依頼日時に半角数字以外の値が含まれています"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAACL012E"
+msgid "「依頼日時」エラー - 依頼日時が指定されていません"
+msgstr "「依頼日時」エラー - 依頼日時が指定されていません"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAACL013E"
+msgid "「パスワード」エラー - パスワードが正しくありません"
+msgstr "「パスワード」エラー - パスワードが正しくありません"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAACL014E"
+msgid "「パスワード」エラー - パスワードが指定されていません"
+msgstr "「パスワード」エラー - パスワードが指定されていません"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAACL016E"
+msgid "「受注番号」エラー - 受注番号に半角英数字（およびハイフンまたはアンダーライン）以外の値が含まれています"
+msgstr "「受注番号」エラー - 受注番号に半角英数字（およびハイフンまたはアンダーライン）以外の値が含まれています"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAASL002E"
+msgid "「加盟店コード」エラー - 加盟店コードの桁数が正しくありません"
+msgstr "「加盟店コード」エラー - 加盟店コードの桁数が正しくありません"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAASL003E"
+msgid "「加盟店コード」エラー - 加盟店コードに半角数字以外の値が含まれています"
+msgstr "「加盟店コード」エラー - 加盟店コードに半角数字以外の値が含まれています"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAASL004E"
+msgid "「加盟店コード」エラー - 加盟店コードが指定されていません"
+msgstr "「加盟店コード」エラー - 加盟店コードが指定されていません"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAASL005E"
+msgid "「受注番号」エラー - 受注番号が長すぎます"
+msgstr "「受注番号」エラー - 受注番号が長すぎます"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAASL007E"
+msgid "「受注番号」エラー - 受注番号が指定されていません"
+msgstr "「受注番号」エラー - 受注番号が指定されていません"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAASL008E"
+msgid "「受注番号」エラー - 受注番号が存在しません"
+msgstr "「受注番号」エラー - 受注番号が存在しません"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAASL010E"
+msgid "「関連チェック１」エラー - 送り状番号が正しくありません"
+msgstr "「関連チェック１」エラー - 送り状番号が正しくありません"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAASL011E"
+msgid "「関連チェック１」エラー - 送り状番号が指定されていません"
+msgstr "「関連チェック１」エラー - 送り状番号が指定されていません"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAASL012E"
+msgid "「関連チェック１」エラー - 送り状番号に半角数字以外の値が含まれています"
+msgstr "「関連チェック１」エラー - 送り状番号に半角数字以外の値が含まれています"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAASL013E"
+msgid "「関連チェック１」エラー - 送り状番号が指定されています"
+msgstr "「関連チェック１」エラー - 送り状番号が指定されています"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAASL014E"
+msgid "「関連チェック１」エラー - 送り状番号の番号体系が不正です"
+msgstr "「関連チェック１」エラー - 送り状番号の番号体系が不正です"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAASL015E"
+msgid "「関連チェック１」エラー - この送り状番号は代金後払いで利用できません"
+msgstr "「関連チェック１」エラー - この送り状番号は代金後払いで利用できません"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAASL019E"
+msgid "「処理区分」エラー - 処理区分が指定されていません"
+msgstr "「処理区分」エラー - 処理区分が指定されていません"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAASL020E"
+msgid "「処理区分」エラー - 新規登録が可能なお取引状況ではありません"
+msgstr "「処理区分」エラー - 新規登録が可能なお取引状況ではありません"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAASL022E"
+msgid "「処理区分」エラー - 変更登録また取消が可能なお取引状況ではありません"
+msgstr "「処理区分」エラー - 変更登録また取消が可能なお取引状況ではありません"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAASL024E"
+msgid "「関連チェック３」エラー - 送り状番号に半角英数字以外の値が含まれています"
+msgstr "「関連チェック３」エラー - 送り状番号に半角英数字以外の値が含まれています"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAASL025E"
+msgid "「関連チェック３」エラー - 出荷予定日が指定されていません"
+msgstr "「関連チェック３」エラー - 出荷予定日が指定されていません"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAASL026E"
+msgid "「関連チェック３」エラー - 出荷予定日が指定されています"
+msgstr "「関連チェック３」エラー - 出荷予定日が指定されています"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAASL027E"
+msgid "「関連チェック３」エラー - 出荷予定日には受注日以降の日付が指定されている必要があります"
+msgstr "「関連チェック３」エラー - 出荷予定日には受注日以降の日付が指定されている必要があります"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAASL028E"
+msgid "「関連チェック２」エラー - 送り状番号が正しくありません"
+msgstr "「関連チェック２」エラー - 送り状番号が正しくありません"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAASL029E"
+msgid "「関連チェック２」エラー - 送り状番号に半角英数字以外の値が含まれています"
+msgstr "「関連チェック２」エラー - 送り状番号に半角英数字以外の値が含まれています"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAASL030E"
+msgid "「関連チェック２」エラー - 送り状番号が指定されていません"
+msgstr "「関連チェック２」エラー - 送り状番号が指定されていません"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAASL031E"
+msgid "「関連チェック２」エラー - 送り状番号が値が指定されています"
+msgstr "「関連チェック２」エラー - 送り状番号が値が指定されています"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAASL033E"
+msgid "「依頼日時」エラー - 依頼日時はyyyyMMddHHmmss形式で指定してください"
+msgstr "「依頼日時」エラー - 依頼日時はyyyyMMddHHmmss形式で指定してください"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAASL034E"
+msgid "「依頼日時」エラー - 依頼日時に半角数字以外の値が含まれています"
+msgstr "「依頼日時」エラー - 依頼日時に半角数字以外の値が含まれています"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAASL035E"
+msgid "「依頼日時」エラー - 依頼日時が指定されていません"
+msgstr "「依頼日時」エラー - 依頼日時が指定されていません"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAASL036E"
+msgid "「パスワード」エラー - パスワードが正しくありません"
+msgstr "「パスワード」エラー - パスワードが正しくありません"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAASL037E"
+msgid "「パスワード」エラー - パスワードが指定されていません"
+msgstr "「パスワード」エラー - パスワードが指定されていません"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAASL038E"
+msgid "「受注番号」エラー - 受注番号に半角英数字（およびハイフンまたはアンダーライン）以外の値が含まれています"
+msgstr "「受注番号」エラー - 受注番号に半角英数字（およびハイフンまたはアンダーライン）以外の値が含まれています"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAAST002E"
+msgid "「加盟店コード」エラー - 加盟店コードの桁数が正しくありません"
+msgstr "「加盟店コード」エラー - 加盟店コードの桁数が正しくありません"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAAST003E"
+msgid "「加盟店コード」エラー - 加盟店コードに半角数字以外の値が含まれています"
+msgstr "「加盟店コード」エラー - 加盟店コードに半角数字以外の値が含まれています"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAAST004E"
+msgid "「加盟店コード」エラー - 加盟店コードが指定されていません"
+msgstr "「加盟店コード」エラー - 加盟店コードが指定されていません"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAAST005E"
+msgid "「受注番号」エラー - 受注番号が長すぎます"
+msgstr "「受注番号」エラー - 受注番号が長すぎます"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAAST006E"
+msgid "「受注番号」エラー - 受注番号に半角英数字（およびハイフンまたはアンダーライン）以外の値が含まれています"
+msgstr "「受注番号」エラー - 受注番号に半角英数字（およびハイフンまたはアンダーライン）以外の値が含まれています"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAAST007E"
+msgid "「受注番号」エラー - 受注番号が指定されていません"
+msgstr "「受注番号」エラー - 受注番号が指定されていません"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAAST008E"
+msgid "「受注番号」エラー - 受注番号が存在しません"
+msgstr "「受注番号」エラー - 受注番号が存在しません"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAAST009E"
+msgid "「依頼日時」エラー - 依頼日時はyyyyMMddHHmmss形式で指定してください"
+msgstr "「依頼日時」エラー - 依頼日時はyyyyMMddHHmmss形式で指定してください"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAAST010E"
+msgid "「依頼日時」エラー - 依頼日時に半角数字以外の値が含まれています"
+msgstr "「依頼日時」エラー - 依頼日時に半角数字以外の値が含まれています"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAAST011E"
+msgid "「依頼日時」エラー - 依頼日時が指定されていません"
+msgstr "「依頼日時」エラー - 依頼日時が指定されていません"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAAST012E"
+msgid "「パスワード」エラー - パスワードが正しくありません"
+msgstr "「パスワード」エラー - パスワードが正しくありません"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAAST013E"
+msgid "「パスワード」エラー - パスワードが指定されていません"
+msgstr "「パスワード」エラー - パスワードが指定されていません"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAASD002E"
+msgid "「加盟店コード」エラー - 加盟店コードが指定されていません"
+msgstr "「加盟店コード」エラー - 加盟店コードが指定されていません"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAASD003E"
+msgid "「加盟店コード」エラー - 加盟店コードの桁数が正しくありません"
+msgstr "「加盟店コード」エラー - 加盟店コードの桁数が正しくありません"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAASD004E"
+msgid "「加盟店コード」エラー - 加盟店コードに半角数字以外の値が含まれています"
+msgstr "「加盟店コード」エラー - 加盟店コードに半角数字以外の値が含まれています"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAASD005E"
+msgid "「受注番号」エラー - 受注番号が指定されていません"
+msgstr "「受注番号」エラー - 受注番号が指定されていません"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAASD006E"
+msgid "「受注番号」エラー - 受注番号が長すぎます"
+msgstr "「受注番号」エラー - 受注番号が長すぎます"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAASD007E"
+msgid "「受注番号」エラー - 受注番号に半角英数字（およびハイフンまたはアンダーライン）以外の値が含まれています"
+msgstr "「受注番号」エラー - 受注番号に半角英数字（およびハイフンまたはアンダーライン）以外の値が含まれています"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAASD008E"
+msgid "「受注番号」エラー - 受注番号が存在しません"
+msgstr "「受注番号」エラー - 受注番号が存在しません"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAASD009E"
+msgid "「受注番号」エラー - 請求書印字情報を取得可能なお取引状況ではありません"
+msgstr "「受注番号」エラー - 請求書印字情報を取得可能なお取引状況ではありません"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAASD010E"
+msgid "「受注番号」エラー - 指定された受注番号のタイプが「同梱」ではありません"
+msgstr "「受注番号」エラー - 指定された受注番号のタイプが「同梱」ではありません"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAASD011E"
+msgid "「依頼日時」エラー - 依頼日時が指定されていません"
+msgstr "「依頼日時」エラー - 依頼日時が指定されていません"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAASD012E"
+msgid "「依頼日時」エラー - 依頼日時に半角数字以外の値が含まれています"
+msgstr "「依頼日時」エラー - 依頼日時に半角数字以外の値が含まれています"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAASD013E"
+msgid "「依頼日時」エラー - 依頼日時はyyyyMMddHHmmss形式で指定してください"
+msgstr "「依頼日時」エラー - 依頼日時はyyyyMMddHHmmss形式で指定してください"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAASD014E"
+msgid "「パスワード」エラー - パスワードが指定されていません"
+msgstr "「パスワード」エラー - パスワードが指定されていません"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAASD015E"
+msgid "「パスワード」エラー - パスワードが正しくありません"
+msgstr "「パスワード」エラー - パスワードが正しくありません"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_KAASD016E"
+msgid "「受注番号」エラー - 受注番号に半角英数字（およびハイフンまたはアンダーライン）以外の値が含まれています"
+msgstr "「受注番号」エラー - 受注番号に半角英数字（およびハイフンまたはアンダーライン）以外の値が含まれています"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A081010201"
+msgid "加盟店コードなし"
+msgstr "加盟店コードなし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A081010202"
+msgid "加盟店コード桁数オーバー"
+msgstr "加盟店コード桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A081010204"
+msgid "加盟店コード誤り"
+msgstr "加盟店コード誤り"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A081010301"
+msgid "端末区分なし"
+msgstr "端末区分なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A081010401"
+msgid "受付番号なし"
+msgstr "受付番号なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A081010402"
+msgid "受付番号の桁数オーバー"
+msgstr "受付番号の桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A081010404"
+msgid "受付番号文字種別誤り"
+msgstr "受付番号文字種別誤り"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A081010501"
+msgid "決済金額なし"
+msgstr "決済金額なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A081010502"
+msgid "決済金額オーバー"
+msgstr "決済金額オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A081010504"
+msgid "決済金額文字種別誤り"
+msgstr "決済金額文字種別誤り"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A081010571"
+msgid "決済金額誤り"
+msgstr "決済金額誤り"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A081010572"
+msgid "決済上限金額オーバー"
+msgstr "決済上限金額オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A081010601"
+msgid "購入者名(漢字)なし"
+msgstr "購入者名(漢字)なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A081010671"
+msgid "購入者名(漢字)にサポート外文字あり"
+msgstr "購入者名(漢字)にサポート外文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A081010672"
+msgid "購入者名(漢字)の桁数／バイト数オーバー"
+msgstr "購入者名(漢字)の桁数／バイト数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A081010701"
+msgid "購入者TEL なし"
+msgstr "購入者TEL なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A081010702"
+msgid "購入者TEL 桁数誤り"
+msgstr "購入者TEL 桁数誤り"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A081010704"
+msgid "購入者TEL 文字種別誤り"
+msgstr "購入者TEL 文字種別誤り"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A081010801"
+msgid "購入者E-Mail なし"
+msgstr "購入者E-Mail なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A081010802"
+msgid "購入者E-Mail の桁数オーバー"
+msgstr "購入者E-Mail の桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A081010871"
+msgid "購入者E-Mail 誤り"
+msgstr "購入者E-Mail 誤り"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A081010872"
+msgid "購入者 E-Mail に一部未入力あり"
+msgstr "購入者 E-Mail に一部未入力あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A081010901"
+msgid "支払回数なし"
+msgstr "支払回数なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A081010902"
+msgid "支払回数誤り"
+msgstr "支払回数誤り"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A081010904"
+msgid "支払回数文字種別誤り"
+msgstr "支払回数文字種別誤り"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A081011071"
+msgid "商品名にサポート外文字あり"
+msgstr "商品名にサポート外文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A081011072"
+msgid "商品名の桁数／バイト数オーバー"
+msgstr "商品名の桁数／バイト数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A081011171"
+msgid "カード会社コード(API 用)なし"
+msgstr "カード会社コード(API 用)なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A081011172"
+msgid "カード会社コード(API 用)誤り"
+msgstr "カード会社コード(API 用)誤り"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A081011201"
+msgid "トークンなし"
+msgstr "トークンなし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A081011202"
+msgid "トークンの桁数誤り"
+msgstr "トークンの桁数誤り"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A081011204"
+msgid "トークンにサポート外文字あり"
+msgstr "トークンにサポート外文字あり"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A081011371"
+msgid "加盟店EC サイトURL なし"
+msgstr "加盟店EC サイトURL なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A081011372"
+msgid "加盟店EC サイトURL 桁数オーバー"
+msgstr "加盟店EC サイトURL 桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A081011373"
+msgid "加盟店EC サイトURL 3D 認証不可"
+msgstr "加盟店EC サイトURL 3D 認証不可"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A081011471"
+msgid "出荷予定日の形式誤り"
+msgstr "出荷予定日の形式誤り"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A081011472"
+msgid "出荷予定日誤り（過去日）"
+msgstr "出荷予定日誤り（過去日）"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A081011473"
+msgid "出荷予定日誤り"
+msgstr "出荷予定日誤り"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A082000001"
+msgid "加盟店の決済利用不可"
+msgstr "加盟店の決済利用不可"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A082000002"
+msgid "クレジット決済利用開始日設定不備"
+msgstr "クレジット決済利用開始日設定不備"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A082000003"
+msgid "受付番号重複"
+msgstr "受付番号重複"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A082000004"
+msgid "トークンのカード情報取得失敗"
+msgstr "トークンのカード情報取得失敗"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A082000005"
+msgid "オプションサービスの契約無し"
+msgstr "オプションサービスの契約無し"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A082000006"
+msgid "システムエラー（カード情報取得）"
+msgstr "システムエラー（カード情報取得）"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A082000007"
+msgid "カード支払回数誤り"
+msgstr "カード支払回数誤り"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A082000008"
+msgid "クレジットカード情報誤り"
+msgstr "クレジットカード情報誤り"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A082000010"
+msgid "与信処理不可"
+msgstr "与信処理不可"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A082000011"
+msgid "お預かり処理不可"
+msgstr "お預かり処理不可"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A082000012"
+msgid "各種マスタ取得失敗"
+msgstr "各種マスタ取得失敗"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A091010201"
+msgid "加盟店コードなし"
+msgstr "加盟店コードなし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A091010202"
+msgid "加盟店コード桁数オーバー"
+msgstr "加盟店コード桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A091010204"
+msgid "加盟店コード誤り"
+msgstr "加盟店コード誤り"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A091010301"
+msgid "受付番号なし"
+msgstr "受付番号なし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A091010302"
+msgid "受付番号の桁数オーバー"
+msgstr "受付番号の桁数オーバー"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A091010304"
+msgid "受付番号文字種別誤り"
+msgstr "受付番号文字種別誤り"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A091010401"
+msgid "3D セキュア応答電文パラメータ誤り"
+msgstr "3D セキュア応答電文パラメータ誤り"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A091010501"
+msgid "3D セキュア応答電文パラメータ誤り"
+msgstr "3D セキュア応答電文パラメータ誤り"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A091010601"
+msgid "3D セキュア応答電文パラメータ誤り"
+msgstr "3D セキュア応答電文パラメータ誤り"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A091010701"
+msgid "3D セキュア応答電文パラメータ誤り"
+msgstr "3D セキュア応答電文パラメータ誤り"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A091010801"
+msgid "3D セキュア応答電文パラメータ誤り"
+msgstr "3D セキュア応答電文パラメータ誤り"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A091010901"
+msgid "3D セキュア応答電文パラメータ誤り"
+msgstr "3D セキュア応答電文パラメータ誤り"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A091011001"
+msgid "3D セキュア応答電文パラメータ誤り"
+msgstr "3D セキュア応答電文パラメータ誤り"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A091011101"
+msgid "3D セキュア応答電文パラメータ誤り"
+msgstr "3D セキュア応答電文パラメータ誤り"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A091011201"
+msgid "3D セキュア応答電文パラメータ誤り"
+msgstr "3D セキュア応答電文パラメータ誤り"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A091011501"
+msgid "3D セキュア応答電文パラメータ誤り"
+msgstr "3D セキュア応答電文パラメータ誤り"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A091011701"
+msgid "3D セキュア応答電文パラメータ誤り"
+msgstr "3D セキュア応答電文パラメータ誤り"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A091011801"
+msgid "3D セキュア応答電文パラメータ誤り"
+msgstr "3D セキュア応答電文パラメータ誤り"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A091011901"
+msgid "3D セキュア応答電文パラメータ誤り"
+msgstr "3D セキュア応答電文パラメータ誤り"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A091012001"
+msgid "3D トークンなし"
+msgstr "3D トークンなし"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A091012002"
+msgid "3D トークン桁数誤り"
+msgstr "3D トークン桁数誤り"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A092000001"
+msgid "受付番号重複"
+msgstr "受付番号重複"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A092000002"
+msgid "システムエラー（カード情報取得）"
+msgstr "システムエラー（カード情報取得）"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A092000003"
+msgid "3D セキュア応答電文誤り"
+msgstr "3D セキュア応答電文誤り"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A092000004"
+msgid "3D セキュア結果ＮＧ"
+msgstr "3D セキュア結果ＮＧ"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A092000005"
+msgid "与信処理NG"
+msgstr "与信処理NG"
+
+msgctxt "Languages::jp_kuroneko_webcollect_errmsg_A092000006"
+msgid "お預かり処理失敗"
+msgstr "お預かり処理失敗"
+
+msgctxt "Languages::jp_kuroneko_webcollect_ab_operate"
+msgid "別送 / 同梱運用"
+msgstr "別送 / 同梱運用"
+
+msgctxt "Languages::jp_kuroneko_webcollect_separate"
+msgid "別送"
+msgstr "別送"
+
+msgctxt "Languages::jp_kuroneko_webcollect_include"
+msgid "同梱"
+msgstr "同梱"
+
+msgctxt "Languages::jp_kuroneko_webcollect_delivery_service"
+msgid "配送サービス"
+msgstr "配送サービス"
+
+msgctxt "Languages::jp_kuroneko_webcollect_delivery_service_00"
+msgid "ヤマト配送"
+msgstr "ヤマト配送"
+
+msgctxt "Languages::jp_kuroneko_webcollect_delivery_service_99"
+msgid "他社配送"
+msgstr "他社配送"
+
+msgctxt "Languages::jp_kuroneko_webcollect_service_name_wc_cc_shipments"
+msgid "クロネコwebコレクト（カード払い）出荷登録"
+msgstr "クロネコwebコレクト（カード払い）出荷登録"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cc_shipments_status_long"
+msgid "クロネコwebコレクト（カード払い）の出荷情報登録状況"
+msgstr "クロネコwebコレクト（カード払い）の出荷情報登録状況"
+
+msgctxt "Languages::jp_kuroneko_webcollect_cancel_shipment"
+msgid "出荷情報取消"
+msgstr "出荷情報取消"
+
+msgctxt "Languages::jp_kuroneko_webcollect_add_shipment"
+msgid "出荷情報登録"
+msgstr "出荷情報登録"
+
+msgctxt "Languages::jp_kuroneko_webcollect_shipment_add_success"
+msgid "送り状番号 [slipno] の配送情報を登録しました。"
+msgstr "送り状番号 [slipno] の配送情報を登録しました。"
+
+msgctxt "Languages::jp_kuroneko_webcollect_shipment_no_slipno"
+msgid "注文番号 [order_id] に送り状番号が入力されていません。"
+msgstr "注文番号 [order_id] に送り状番号が入力されていません。"
+
+msgctxt "Languages::jp_kuroneko_webcollect_shipment_slipno_not_12digit"
+msgid "注文番号 [order_id] の送り状番号 [slipno] の桁数が不正です。"
+msgstr "注文番号 [order_id] の送り状番号 [slipno] の桁数が不正です。"
+
+msgctxt "Languages::jp_kuroneko_webcollect_shipment_slipno_not_num"
+msgid "注文番号 [order_id] の送り状番号 [slipno] に禁止文字があります。"
+msgstr "注文番号 [order_id] の送り状番号 [slipno] に禁止文字があります。"
+
+msgctxt "Languages::jp_kuroneko_webcollect__ab"
+msgid "クロネコ代金後払いサービス"
+msgstr "クロネコ代金後払いサービス"
+
+msgctxt "Languages::jp_kuroneko_webcollect__abchangeprice_success"
+msgid "金額変更が完了しました。"
+msgstr "金額変更が完了しました。"
+
+msgctxt "Languages::jp_kuroneko_webcollect_ab_changeprice_error_msg"
+msgid "金額変更に失敗しました。"
+msgstr "金額変更に失敗しました。"
+
+msgctxt "Languages::jp_kuroneko_webcollect_service_name_wc_ab_shipments"
+msgid "クロネコ代金後払いサービス 出荷登録"
+msgstr "クロネコ代金後払いサービス 出荷登録"
+
+msgctxt "Languages::jp_kuroneko_webcollect_ab_shipments_status_long"
+msgid "クロネコ代金後払いサービスの出荷情報登録状況"
+msgstr "クロネコ代金後払いサービスの出荷情報登録状況"
+
+msgctxt "Languages::jp_kuroneko_webcollect_ab_use_smartphone"
+msgid "スマホタイプ (請求書SMS送付) 使用"
+msgstr "スマホタイプ (請求書SMS送付) 使用"
+
+msgctxt "Languages::jp_kuroneko_webcollect_ab_sms_invoice"
+msgid "請求書SMS送付"
+msgstr "請求書SMS送付"
+
+msgctxt "Languages::jp_kuroneko_webcollect_ab_smartphone"
+msgid "携帯電話番号"
+msgstr "携帯電話番号"
+
+msgctxt "Languages::jp_kuroneko_webcollect_ab_sms_auth_nincode"
+msgid "請求書SMS送付 認証コード送信"
+msgstr "請求書SMS送付 認証コード送信"
+
+msgctxt "Languages::jp_kuroneko_webcollect_ab_nincode"
+msgid "認証コード"
+msgstr "認証コード"
+
+msgctxt "Languages::jp_kuroneko_webcollect_ab_payment_type"
+msgid "決済タイプ"
+msgstr "決済タイプ"
+
+msgctxt "Languages::jp_kuroneko_webcollect_ab_separate_include_only"
+msgid "別送/同梱のみ"
+msgstr "別送/同梱のみ"
+
+msgctxt "Languages::jp_kuroneko_webcollect_ab_smartphone_only"
+msgid "スマホタイプ(請求書SMS送付)のみ"
+msgstr "スマホタイプ(請求書SMS送付)のみ"
+
+msgctxt "Languages::jp_kuroneko_webcollect_ab_separate_include_or_smartphone"
+msgid "別送/同梱あるいはスマホタイプ(請求書SMS送付)"
+msgstr "別送/同梱あるいはスマホタイプ(請求書SMS送付)"

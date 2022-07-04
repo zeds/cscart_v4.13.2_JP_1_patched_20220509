@@ -1,0 +1,1 @@
+REPLACE INTO ?:page_descriptions (page_id, lang_code, page, description) VALUES ('30', 'ja', 'お問い合わせ', '下記フォームからお問い合わせいただけます。');

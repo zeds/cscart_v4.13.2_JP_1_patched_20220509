@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+	<id>nttstr</id>
+    <supplier>CS-Cart.jp</supplier>
+	<version>1.0</version>
+	<priority>1</priority>
+	<position>100</position>
+    <default_language>ja</default_language>
+    <status>active</status>
+    <settings edition_type="ROOT,ULT:VENDOR">
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="elm_connection_information">
+                        <type>header</type>
+                        <handler/>
+                    </item>
+                    <item id="shopid">
+                        <type>input</type>
+                        <default_value/>
+                    </item>
+                    <item id="accesskey">
+                        <type>input</type>
+                        <default_value/>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    <queries>
+        <item type="file">database/data_install.sql</item>
+    </queries>
+    <functions>
+        <item for="install">fn_nttstr_install</item>
+        <item for="uninstall">fn_nttstr_delete_payment_processors</item>
+    </functions>
+</addon>

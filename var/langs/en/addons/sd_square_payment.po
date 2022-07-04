@@ -1,0 +1,229 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::sd_square_payment"
+msgid "Simtech Development: Square Payment"
+msgstr "Simtech Development: Square Payment"
+
+msgctxt "Addons::description::sd_square_payment"
+msgid "Square Up Payment Method. <a href=\"https://www.simtechdev.com/\" target=\"_blank\">Support</a>"
+msgstr "Square Up Payment Method. <a href=\"https://www.simtechdev.com/\" target=\"_blank\">Support</a>"
+
+msgctxt "Languages::addons.sd_square_payment.location_id"
+msgid "Location ID"
+msgstr "Location ID"
+
+msgctxt "Languages::addons.sd_square_payment.only_auth"
+msgid "Only Auth"
+msgstr "Only Auth"
+
+msgctxt "Languages::addons.sd_square_payment.only_auth_tooltip"
+msgid "Authorization possible only for registered users. For guests capture will be processed automaticaly"
+msgstr "Authorization possible only for registered users. For guests capture will be processed automaticaly"
+
+msgctxt "Languages::addons.sd_square_payment.app_id"
+msgid "Application ID"
+msgstr "Application ID"
+
+msgctxt "Languages::addons.sd_square_payment.token_id"
+msgid "Application Access Token"
+msgstr "Application Access Token"
+
+msgctxt "SettingsOptions::sd_square_payment::app_id"
+msgid "Application ID"
+msgstr "Application ID"
+
+msgctxt "SettingsTooltips::sd_square_payment::app_id"
+msgid "Square Connect Application ID"
+msgstr "Square Connect Application ID"
+
+msgctxt "SettingsOptions::sd_square_payment::token_id"
+msgid "Application Access Token"
+msgstr "Application Access Token"
+
+msgctxt "SettingsTooltips::sd_square_payment::token_id"
+msgid "Square Connect Application Access Token"
+msgstr "Square Connect Application Access Token"
+
+msgctxt "SettingsOptions::sd_square_payment::location_id"
+msgid "Location ID"
+msgstr "Location ID"
+
+msgctxt "SettingsTooltips::sd_square_payment::location_id"
+msgid "Square Connect Location ID"
+msgstr "Square Connect Location ID"
+
+msgctxt "SettingsOptions::sd_square_payment::idempotency_prefix"
+msgid "Idempotency Prefix"
+msgstr "Idempotency Prefix"
+
+msgctxt "SettingsTooltips::sd_square_payment::idempotency_prefix"
+msgid "Prefix of the uniquely identifies transaction."
+msgstr "Prefix of the uniquely identifies transaction."
+
+msgctxt "SettingsOptions::sd_square_payment::show_postal_code"
+msgid "Show postal code"
+msgstr "Show postal code"
+
+msgctxt "SettingsTooltips::sd_square_payment::show_postal_code"
+msgid "Show postal on square card form"
+msgstr "Show postal on square card form"
+
+msgctxt "Languages::addons.sd_square_payment.encountered_errors"
+msgid "Encountered errors"
+msgstr "Encountered errors"
+
+msgctxt "Languages::addons.sd_square_payment.saved_cards"
+msgid "Square Saved cards"
+msgstr "Square Saved cards"
+
+msgctxt "Languages::addons.sd_square_payment.card_was_saved"
+msgid "Card was saved"
+msgstr "Card was saved"
+
+msgctxt "Languages::addons.sd_square_payment.empty_nonce"
+msgid "Incorrect request"
+msgstr "Incorrect request"
+
+msgctxt "Languages::addons.sd_square_payment.postal_code"
+msgid "Postal Code"
+msgstr "Postal Code"
+
+msgctxt "Languages::addons.sd_square_payment.add_new_card"
+msgid "Add new card"
+msgstr "Add new card"
+
+msgctxt "Languages::addons.sd_square_payment.no_saved_card"
+msgid "No saved cards"
+msgstr "No saved cards"
+
+msgctxt "Languages::addons.sd_square_payment.card_number"
+msgid "Card number"
+msgstr "Card number"
+
+msgctxt "Languages::addons.sd_square_payment.cvv"
+msgid "CVV"
+msgstr "CVV"
+
+msgctxt "Languages::addons.sd_square_payment.expiration_date"
+msgid "Expiration date"
+msgstr "Expiration date"
+
+msgctxt "Languages::addons.sd_square_payment.cardholder"
+msgid "Cardholder name"
+msgstr "Cardholder name"
+
+msgctxt "Languages::addons.sd_square_payment.my_cards"
+msgid "My cards"
+msgstr "My cards"
+
+msgctxt "Languages::addons.sd_square_payment.card_was_not_deleted"
+msgid "Card was not deleted"
+msgstr "Card was not deleted"
+
+msgctxt "Languages::addons.sd_square_payment.card_was_saved"
+msgid "Card was saved"
+msgstr "Card was saved"
+
+msgctxt "Languages::addons.sd_square_payment.card_was_deleted"
+msgid "Card was deleted"
+msgstr "Card was deleted"
+
+msgctxt "Languages::addons.sd_square_payment.default_error_message"
+msgid "Something was wrong in request to Square Connect"
+msgstr "Something was wrong in request to Square Connect"
+
+msgctxt "Languages::addons.sd_square_payment.captured"
+msgid "Captured"
+msgstr "Captured"
+
+msgctxt "Languages::addons.sd_square_payment.authorized"
+msgid "Authorized"
+msgstr "Authorized"
+
+msgctxt "Languages::addons.sd_square_payment.voided"
+msgid "Voided"
+msgstr "Voided"
+
+msgctxt "Languages::addons.sd_square_payment.refunded"
+msgid "Refunded"
+msgstr "Refunded"
+
+msgctxt "Languages::addons.sd_square_payment.capture"
+msgid "Capture"
+msgstr "Capture"
+
+msgctxt "Languages::addons.sd_square_payment.auth"
+msgid "Auth"
+msgstr "Auth"
+
+msgctxt "Languages::addons.sd_square_payment.void"
+msgid "Void"
+msgstr "Void"
+
+msgctxt "Languages::addons.sd_square_payment.refund"
+msgid "Refund"
+msgstr "Refund"
+
+msgctxt "Languages::addons.sd_square_payment.use_new_credit_card"
+msgid "Use new credit card"
+msgstr "Use new credit card"
+
+msgctxt "Languages::addons.sd_square_payment.status_code"
+msgid "Payment Status"
+msgstr "Payment Status"
+
+msgctxt "Languages::addons.sd_square_payment.attention"
+msgid "Attention!"
+msgstr "Attention!"
+
+msgctxt "Languages::addons.sd_square_payment.card_will_be_saved"
+msgid "Your card will be saved on Square"
+msgstr "Your card will be saved on Square"
+
+msgctxt "Languages::addons.sd_square_payment.incorrect_request"
+msgid "Incorrect request"
+msgstr "Incorrect request"
+
+msgctxt "Languages::card_nonce"
+msgid "Card nonce"
+msgstr "Card nonce"
+
+msgctxt "Languages::idempotency_key"
+msgid "Idempotency key"
+msgstr "Idempotency key"
+
+msgctxt "Languages::delay_capture"
+msgid "Only auth"
+msgstr "Only auth"
+
+msgctxt "Languages::card_id"
+msgid "Card ID"
+msgstr "Card ID"
+
+msgctxt "Languages::square_orders"
+msgid "Square Payments"
+msgstr "Square Payments"
+
+msgctxt "Languages::square_orders_menu_description"
+msgid "Orders paid by square"
+msgstr "Orders paid by square"
+
+msgctxt "Languages::addons.sd_square_payment.transaction_already_exists"
+msgid "Transaction already exists"
+msgstr "Transaction already exists"
+
+msgctxt "Languages::square_msg_card_not_valid"
+msgid "Credit card number is not valid"
+msgstr "Credit card number is not valid"
+
+msgctxt "Languages::square_msg_cvv_not_valid"
+msgid "CVV is not valid"
+msgstr "CVV is not valid"
+
+msgctxt "Languages::square_msg_exp_not_valid"
+msgid "Expiration date is not valid"
+msgstr "Expiration date is not valid"

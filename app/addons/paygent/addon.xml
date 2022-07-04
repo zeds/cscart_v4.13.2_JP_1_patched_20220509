@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+	<id>paygent</id>
+    <supplier>CS-Cart.jp</supplier>
+	<version>1.0</version>
+	<priority>1</priority>
+	<position>100</position>
+    <default_language>ja</default_language>
+    <status>active</status>
+    <settings edition_type="ROOT,ULT:VENDOR">
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="elm_connection_information">
+                        <type>header</type>
+                        <handler/>
+                    </item>
+                    <item id="merchant_id">
+                        <type>input</type>
+                        <default_value/>
+                    </item>
+                    <item id="connect_id">
+                        <type>input</type>
+                        <default_value/>
+                    </item>
+                    <item id="connect_password">
+                        <type>input</type>
+                        <default_value/>
+                    </item>
+                    <item id="telegram_version">
+                        <type>input</type>
+                        <default_value>1.0</default_value>
+                    </item>
+                    <item id="site_id">
+                        <type>input</type>
+                        <default_value/>
+                    </item>
+                    <item id="trading_id_prefix">
+                        <type>input</type>
+                        <default_value/>
+                    </item>
+                    <item id="cron_password">
+                        <type>input</type>
+                        <default_value/>
+                    </item>
+                    <item id="cron_diffchk_information">
+                        <type>header</type>
+                    </item>
+                    <item id="cron_diffchk_descr">
+                        <type>info</type>
+                        <handler>fn_paygent_get_cron_command</handler>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    <queries>
+        <item type="file">database/data_install.sql</item>
+        <item for="install">DROP TABLE IF EXISTS ?:jp_paygent_notice</item>
+        <item for="install">DROP TABLE IF EXISTS ?:jp_paygent_cc_status</item>
+        <item for="install">CREATE TABLE IF NOT EXISTS ?:jp_paygent_notice (`order_id` mediumint(8) unsigned NOT NULL, `payment_notice_id` int(11) unsigned NOT NULL default '0', PRIMARY KEY  (`order_id`,`payment_notice_id`) ) ENGINE=MYISAM DEFAULT CHARSET=utf8</item>
+        <item for="install">CREATE TABLE IF NOT EXISTS ?:jp_paygent_cc_status (order_id mediumint(8) unsigned NOT NULL, status_code varchar(32) NOT NULL default '', payment_id varchar(32) NOT NULL default '', PRIMARY KEY (`order_id`)) ENGINE=MyISAM DEFAULT CHARSET=utf8</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:jp_paygent_notice</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:jp_paygent_cc_status</item>
+    </queries>
+    <functions>
+        <item for="install">fn_pygnt_install</item>
+        <item for="uninstall">fn_pygnt_delete_payment_processors</item>
+    </functions>
+</addon>

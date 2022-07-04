@@ -1,0 +1,250 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Japanese\n"
+"Language: ja_JP\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.net\n"
+"Last-Translator: cscartjp <info@cs-cart.jp>\n"
+"PO-Revision-Date: 2017-11-24 04:42-0400\n"
+
+msgctxt "Addons::name::sd_square_payment"
+msgid "Square決済"
+msgstr "Square決済"
+
+msgctxt "Addons::description::sd_square_payment"
+msgid "CS-CartでSquare EコマースAPIを利用した決済を実現します"
+msgstr "CS-CartでSquare EコマースAPIを利用した決済を実現します"
+
+msgctxt "Languages::addons.sd_square_payment.location_id"
+msgid "Location ID"
+msgstr "Location ID"
+
+msgctxt "Languages::addons.sd_square_payment.only_auth"
+msgid "Only Auth"
+msgstr "与信のみ"
+
+msgctxt "Languages::addons.sd_square_payment.only_auth_tooltip"
+msgid "Authorization possible only for registered users. For guests capture will be processed automaticaly"
+msgstr "Authorization possible only for registered users. For guests capture will be processed automaticaly"
+
+msgctxt "Languages::addons.sd_square_payment.app_id"
+msgid "Application ID"
+msgstr "Application ID"
+
+msgctxt "Languages::addons.sd_square_payment.token_id"
+msgid "Application Access Token"
+msgstr "Application Access Token"
+
+msgctxt "SettingsOptions::sd_square_payment::app_id"
+msgid "Application ID"
+msgstr "Application ID"
+
+msgctxt "SettingsTooltips::sd_square_payment::app_id"
+msgid "Square Connect Application ID"
+msgstr "Square Connect Application ID"
+
+msgctxt "SettingsOptions::sd_square_payment::token_id"
+msgid "Application Access Token"
+msgstr "Application Access Token"
+
+msgctxt "SettingsTooltips::sd_square_payment::token_id"
+msgid "Square Connect Application Access Token"
+msgstr "Square Connect Application Access Token"
+
+msgctxt "SettingsOptions::sd_square_payment::location_id"
+msgid "Location ID"
+msgstr "Location ID"
+
+msgctxt "SettingsTooltips::sd_square_payment::location_id"
+msgid "Square Connect Location ID"
+msgstr "Square Connect Location ID"
+
+msgctxt "SettingsOptions::sd_square_payment::idempotency_prefix"
+msgid "Idempotency Prefix"
+msgstr "プレフィックス"
+
+msgctxt "SettingsTooltips::sd_square_payment::idempotency_prefix"
+msgid "Prefix of the uniquely identifies transaction."
+msgstr "処理を識別するためのプレフィックスです"
+
+msgctxt "SettingsOptions::sd_square_payment::show_postal_code"
+msgid "Show postal code"
+msgstr "郵便番号を表示"
+
+msgctxt "SettingsTooltips::sd_square_payment::show_postal_code"
+msgid "Show postal on square card form"
+msgstr "カード番号入力フォームに郵便番号を表示します"
+
+msgctxt "Languages::addons.sd_square_payment.encountered_errors"
+msgid "Encountered errors"
+msgstr "エラーが発生しました"
+
+msgctxt "Languages::addons.sd_square_payment.saved_cards"
+msgid "Square Saved cards"
+msgstr "登録済みクレジットカード"
+
+msgctxt "Languages::addons.sd_square_payment.card_was_saved"
+msgid "Card was saved"
+msgstr "カード情報を保存しました"
+
+msgctxt "Languages::addons.sd_square_payment.empty_nonce"
+msgid "Incorrect request"
+msgstr "不正なリクエスト"
+
+msgctxt "Languages::addons.sd_square_payment.postal_code"
+msgid "Postal Code"
+msgstr "郵便番号"
+
+msgctxt "Languages::addons.sd_square_payment.add_new_card"
+msgid "Add new card"
+msgstr "クレジットカード情報の新規登録"
+
+msgctxt "Languages::addons.sd_square_payment.no_saved_card"
+msgid "No saved cards"
+msgstr "カード情報は登録されていません"
+
+msgctxt "Languages::addons.sd_square_payment.card_number"
+msgid "Card number"
+msgstr "カード番号"
+
+msgctxt "Languages::addons.sd_square_payment.cvv"
+msgid "CVV"
+msgstr "セキュリティコード"
+
+msgctxt "Languages::addons.sd_square_payment.expiration_date"
+msgid "Expiration date"
+msgstr "有効期限"
+
+msgctxt "Languages::addons.sd_square_payment.cardholder"
+msgid "Cardholder name"
+msgstr "名義人（半角英字）"
+
+msgctxt "Languages::addons.sd_square_payment.my_cards"
+msgid "My cards"
+msgstr "登録済みクレジットカード"
+
+msgctxt "Languages::addons.sd_square_payment.card_was_not_deleted"
+msgid "Card was not deleted"
+msgstr "カード情報は削除されませんでした"
+
+msgctxt "Languages::addons.sd_square_payment.card_was_saved"
+msgid "Card was saved"
+msgstr "カード情報が登録されました"
+
+msgctxt "Languages::addons.sd_square_payment.card_was_deleted"
+msgid "Card was deleted"
+msgstr "カード情報が削除されました"
+
+msgctxt "Languages::addons.sd_square_payment.default_error_message"
+msgid "Something was wrong in request to Square Connect"
+msgstr "カード決済またはカード情報の登録時にエラーが発生しました"
+
+msgctxt "Languages::addons.sd_square_payment.captured"
+msgid "Captured"
+msgstr "売上確定済"
+
+msgctxt "Languages::addons.sd_square_payment.authorized"
+msgid "Authorized"
+msgstr "与信済"
+
+msgctxt "Languages::addons.sd_square_payment.voided"
+msgid "Voided"
+msgstr "与信取消済"
+
+msgctxt "Languages::addons.sd_square_payment.refunded"
+msgid "Refunded"
+msgstr "返金済"
+
+msgctxt "Languages::addons.sd_square_payment.capture"
+msgid "Capture"
+msgstr "売上確定"
+
+msgctxt "Languages::addons.sd_square_payment.auth"
+msgid "Auth"
+msgstr "与信"
+
+msgctxt "Languages::addons.sd_square_payment.void"
+msgid "Void"
+msgstr "与信取消"
+
+msgctxt "Languages::addons.sd_square_payment.refund"
+msgid "Refund"
+msgstr "返金"
+
+msgctxt "Languages::addons.sd_square_payment.use_new_credit_card"
+msgid "Use new credit card"
+msgstr "新しいカードを利用する"
+
+msgctxt "Languages::addons.sd_square_payment.status_code"
+msgid "Payment Status"
+msgstr "決済ステータス"
+
+msgctxt "Languages::addons.sd_square_payment.attention"
+msgid "Attention!"
+msgstr "お知らせ :"
+
+msgctxt "Languages::addons.sd_square_payment.card_will_be_saved"
+msgid "Your card will be saved on Square"
+msgstr "次回からカード情報を入力せずに決済いただけます"
+
+msgctxt "Languages::addons.sd_square_payment.incorrect_request"
+msgid "Incorrect request"
+msgstr "不正なリクエスト"
+
+msgctxt "Languages::card_nonce"
+msgid "Card nonce"
+msgstr "カードナンス"
+
+msgctxt "Languages::idempotency_key"
+msgid "Idempotency key"
+msgstr "識別キー"
+
+msgctxt "Languages::delay_capture"
+msgid "Only auth"
+msgstr "与信のみ"
+
+msgctxt "Languages::card_id"
+msgid "Card ID"
+msgstr "カードID"
+
+msgctxt "Languages::square_orders"
+msgid "Square Payments"
+msgstr "Square決済"
+
+msgctxt "Languages::square_orders_menu_description"
+msgid "Orders paid by square"
+msgstr "Square決済を利用した注文"
+
+msgctxt "Languages::addons.sd_square_payment.transaction_already_exists"
+msgid "Transaction already exists"
+msgstr "トランザクションはすでに存在します"
+
+msgctxt "Languages::square_msg_card_not_valid"
+msgid "Credit card number is not valid"
+msgstr "クレジットカード番号が入力されていないか、正しくありません"
+
+msgctxt "Languages::square_msg_cvv_not_valid"
+msgid "CVV is not valid"
+msgstr "セキュリティコードが入力されていないか、正しくありません"
+
+msgctxt "Languages::square_msg_exp_not_valid"
+msgid "Expiration date is not valid"
+msgstr "有効期限が入力されていないか、正しくありません"
+
+msgctxt "Languages::square_msg_cvv_check_failed"
+msgid "Card verification code check failed."
+msgstr "セキュリティコードの確認に失敗しました"
+
+msgctxt "Languages::square_msg_data_not_sent_capture"
+msgid "変更内容は保存されましたが減額処理（売上一部取消）ではないためSquareに注文データは送信されませんでした。<br />新規の売上処理などは実行されていません。<br />変更後の金額で売上処理を行う場合にはこの注文をキャンセルし、再度注文を行ってください。"
+msgstr "変更内容は保存されましたが減額処理（売上一部取消）ではないためSquareに注文データは送信されませんでした。<br />新規の売上処理などは実行されていません。<br />変更後の金額で売上処理を行う場合にはこの注文をキャンセルし、再度注文を行ってください。"
+
+msgctxt "Languages::square_msg_data_not_sent_auth_over_amount"
+msgid "変更内容は保存されましたが減額処理（与信一部取消）ではないためSquareに注文データは送信されませんでした。<br />Square上では変更前の金額で与信が行われています。<br />変更後の金額で与信を行う場合にはこの注文をキャンセルし、再度注文を行ってください。"
+msgstr "変更内容は保存されましたが減額処理（与信一部取消）ではないためSquareに注文データは送信されませんでした。<br />Square上では変更前の金額で与信が行われています。<br />変更後の金額で与信を行う場合にはこの注文をキャンセルし、再度注文を行ってください。"
+
+msgctxt "Languages::square_msg_data_not_sent_auth_after_capture"
+msgid "変更内容は保存されましたがSquareに注文データは送信されませんでした。<br />決済ステータスを「売上確定済」に変更する際に減額処理（与信一部取消）を実行します。"
+msgstr "変更内容は保存されましたがSquareに注文データは送信されませんでした。<br />決済ステータスを「売上確定済」に変更する際に減額処理（与信一部取消）を実行します。"

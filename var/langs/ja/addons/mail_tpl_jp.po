@@ -1,0 +1,450 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Japanese\n"
+"Language: ja_JP\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.net\n"
+"Last-Translator: cscartjp <info@cs-cart.jp>\n"
+"PO-Revision-Date: 2014-10-20 04:42-0400\n"
+
+msgctxt "Addons::name::mail_tpl_jp"
+msgid "メールテンプレート"
+msgstr "メールテンプレート"
+
+msgctxt "Addons::description::mail_tpl_jp"
+msgid "テンプレートを利用した各種メールの送信を可能にします"
+msgstr "テンプレートを利用した各種メールの送信を可能にします"
+
+msgctxt "Languages::privileges.manage_mail_tpl_jp"
+msgid "メールテンプレートの管理"
+msgstr "メールテンプレートの管理"
+
+msgctxt "Languages::mtpl_activation_url"
+msgid "アクティベーション用URL"
+msgstr "アクティベーション用URL"
+
+msgctxt "Languages::mtpl_b_address"
+msgid "請求先の番地"
+msgstr "請求先の番地"
+
+msgctxt "Languages::mtpl_b_address_2"
+msgid "請求先のビル・建物名"
+msgstr "請求先のビル・建物名"
+
+msgctxt "Languages::mtpl_b_city"
+msgid "請求先の市区町村名"
+msgstr "請求先の市区町村名"
+
+msgctxt "Languages::mtpl_b_country"
+msgid "請求先の国名"
+msgstr "請求先の国名"
+
+msgctxt "Languages::mtpl_b_extra_profile_fields"
+msgid "請求先追加情報"
+msgstr "請求先追加情報"
+
+msgctxt "Languages::mtpl_b_first_name"
+msgid "請求先の姓"
+msgstr "請求先の姓"
+
+msgctxt "Languages::mtpl_b_last_name"
+msgid "請求先の名"
+msgstr "請求先の名"
+
+msgctxt "Languages::mtpl_b_phone"
+msgid "請求先の電話番号"
+msgstr "請求先の電話番号"
+
+msgctxt "Languages::mtpl_b_state"
+msgid "請求先の都道府県名"
+msgstr "請求先の都道府県名"
+
+msgctxt "Languages::mtpl_b_title"
+msgid "請求先の敬称"
+msgstr "請求先の敬称"
+
+msgctxt "Languages::mtpl_b_zipcodes"
+msgid "請求先の郵便番号"
+msgstr "請求先の郵便番号"
+
+msgctxt "Languages::mtpl_c_company"
+msgid "連絡先の会社名"
+msgstr "連絡先の会社名"
+
+msgctxt "Languages::mtpl_c_email"
+msgid "連絡先のEメール"
+msgstr "連絡先のEメール"
+
+msgctxt "Languages::mtpl_c_extra_profile_fields"
+msgid "連絡先追加情報"
+msgstr "連絡先追加情報"
+
+msgctxt "Languages::mtpl_c_first_name"
+msgid "連絡先の姓"
+msgstr "連絡先の姓"
+
+msgctxt "Languages::mtpl_c_last_name"
+msgid "連絡先の名"
+msgstr "連絡先の名"
+
+msgctxt "Languages::mtpl_c_phone"
+msgid "連絡先電話番号"
+msgstr "連絡先電話番号"
+
+msgctxt "Languages::mtpl_cm_shop_address"
+msgid "ショップ住所（番地・ビル建物名）"
+msgstr "ショップ住所（番地・ビル建物名）"
+
+msgctxt "Languages::mtpl_cm_shop_city"
+msgid "ショップ住所（市区町村）"
+msgstr "ショップ住所（市区町村）"
+
+msgctxt "Languages::mtpl_cm_shop_country"
+msgid "ショップ住所（国名）"
+msgstr "ショップ住所（国名）"
+
+msgctxt "Languages::mtpl_cm_shop_email_admin"
+msgid "ショップ管理者のEメール"
+msgstr "ショップ管理者のEメール"
+
+msgctxt "Languages::mtpl_cm_shop_email_cs"
+msgid "顧客担当部署のEメール "
+msgstr "顧客担当部署のEメール "
+
+msgctxt "Languages::mtpl_cm_shop_email_order"
+msgid "注文担当部署のEメール"
+msgstr "注文担当部署のEメール"
+
+msgctxt "Languages::mtpl_cm_shop_email_support"
+msgid "ヘルプ/サポート担当部署のEメール "
+msgstr "ヘルプ/サポート担当部署のEメール "
+
+msgctxt "Languages::mtpl_cm_shop_fax"
+msgid "ショップのFAX番号"
+msgstr "ショップのFAX番号"
+
+msgctxt "Languages::mtpl_cm_shop_phone"
+msgid "ショップの電話番号"
+msgstr "ショップの電話番号"
+
+msgctxt "Languages::mtpl_cm_shop_phone_2"
+msgid "ショップの電話番号(2)"
+msgstr "ショップの電話番号(2)"
+
+msgctxt "Languages::mtpl_cm_shop_state"
+msgid "ショップ住所（都道府県）"
+msgstr "ショップ住所（都道府県）"
+
+msgctxt "Languages::mtpl_cm_shop_url"
+msgid "ショップのURL"
+msgstr "ショップのURL"
+
+msgctxt "Languages::mtpl_cm_shop_zipcode"
+msgid "ショップ住所（郵便番号）"
+msgstr "ショップ住所（郵便番号）"
+
+msgctxt "Languages::mtpl_comment_object_desc"
+msgid "コメント対象の名前"
+msgstr "コメント対象の名前"
+
+msgctxt "Languages::mtpl_comment_object_name"
+msgid "コメント対象"
+msgstr "コメント対象"
+
+msgctxt "Languages::mtpl_comments"
+msgid "メッセージ"
+msgstr "メッセージ"
+
+msgctxt "Languages::mtpl_comments_approval"
+msgid "コメントの承認に関する注記"
+msgstr "コメントの承認に関する注記"
+
+msgctxt "Languages::mtpl_coupon_desc"
+msgid "クーポンの内容"
+msgstr "クーポンの内容"
+
+msgctxt "Languages::mtpl_days"
+msgid "パスワード更新からの経過日数"
+msgstr "パスワード更新からの経過日数"
+
+msgctxt "Languages::mtpl_email_marketing_subscription_url"
+msgid "メルマガ購読確認用URL"
+msgstr "メルマガ購読確認用URL"
+
+msgctxt "Languages::mtpl_email_marketing_unsubscribe_url"
+msgid "メルマガ購読解除用URL"
+msgstr "メルマガ購読解除用URL"
+
+msgctxt "Languages::mtpl_edp_link"
+msgid "ダウンロード商品のリンク"
+msgstr "ダウンロード商品のリンク"
+
+msgctxt "Languages::mtpl_firstname_kana"
+msgid "姓フリガナ"
+msgstr "姓フリガナ"
+
+msgctxt "Languages::mtpl_for_b_info"
+msgid "請求先の"
+msgstr "請求先の"
+
+msgctxt "Languages::mtpl_for_c_info"
+msgid "連絡先の"
+msgstr "連絡先の"
+
+msgctxt "Languages::mtpl_for_s_info"
+msgid "配送先の"
+msgstr "配送先の"
+
+msgctxt "Languages::mtpl_form_contents"
+msgid "フォームの内容"
+msgstr "フォームの内容"
+
+msgctxt "Languages::mtpl_form_title"
+msgid "フォームの名前"
+msgstr "フォームの名前"
+
+msgctxt "Languages::mtpl_friend_email"
+msgid "送信先Eメール"
+msgstr "送信先Eメール"
+
+msgctxt "Languages::mtpl_friend_name"
+msgid "送信先氏名"
+msgstr "送信先氏名"
+
+msgctxt "Languages::mtpl_lastname_kana"
+msgid "名フリガナ"
+msgstr "名フリガナ"
+
+msgctxt "Languages::mtpl_login_url"
+msgid "ログインURL"
+msgstr "ログインURL"
+
+msgctxt "Languages::mtpl_mail_tpl"
+msgid "メールテンプレート"
+msgstr "メールテンプレート"
+
+msgctxt "Languages::mtpl_o_misc"
+msgid "割引、送料、手数料など"
+msgstr "割引、送料、手数料など"
+
+msgctxt "Languages::mtpl_order_track_link"
+msgid "注文確認用リンク"
+msgstr "注文確認用リンク"
+
+msgctxt "Languages::mtpl_pass_recovery_link"
+msgid "パスワード再設定用リンク"
+msgstr "パスワード再設定用リンク"
+
+msgctxt "Languages::mtpl_product_link"
+msgid "商品ページへのリンク"
+msgstr "商品ページへのリンク"
+
+msgctxt "Languages::mtpl_products_status"
+msgid "商品の掲載ステータス"
+msgstr "商品の掲載ステータス"
+
+msgctxt "Languages::mtpl_products_status_changed"
+msgid "掲載ステータスが変更された商品"
+msgstr "掲載ステータスが変更された商品"
+
+msgctxt "Languages::mtpl_promotion_name"
+msgid "キャンペーン名"
+msgstr "キャンペーン名"
+
+msgctxt "Languages::mtpl_return_id"
+msgid "返品申請ID"
+msgstr "返品申請ID"
+
+msgctxt "Languages::mtpl_return_status"
+msgid "返品申請ステータス"
+msgstr "返品申請ステータス"
+
+msgctxt "Languages::mtpl_s_address"
+msgid "配送先の番地"
+msgstr "配送先の番地"
+
+msgctxt "Languages::mtpl_s_address_2"
+msgid "配送先のビル・建物名"
+msgstr "配送先のビル・建物名"
+
+msgctxt "Languages::mtpl_s_city"
+msgid "配送先の市区町村名"
+msgstr "配送先の市区町村名"
+
+msgctxt "Languages::mtpl_s_country"
+msgid "配送先の国名"
+msgstr "配送先の国名"
+
+msgctxt "Languages::mtpl_s_extra_profile_fields"
+msgid "配送先追加情報"
+msgstr "配送先追加情報"
+
+msgctxt "Languages::mtpl_s_first_name"
+msgid "配送先の姓"
+msgstr "配送先の姓"
+
+msgctxt "Languages::mtpl_s_last_name"
+msgid "配送先の名"
+msgstr "配送先の名"
+
+msgctxt "Languages::mtpl_s_phone"
+msgid "配送先の電話番号"
+msgstr "配送先の電話番号"
+
+msgctxt "Languages::mtpl_s_state"
+msgid "配送先の都道府県名"
+msgstr "配送先の都道府県名"
+
+msgctxt "Languages::mtpl_s_title"
+msgid "配送先の敬称"
+msgstr "配送先の敬称"
+
+msgctxt "Languages::mtpl_s_zipcodes"
+msgid "配送先の郵便番号"
+msgstr "配送先の郵便番号"
+
+msgctxt "Languages::mtpl_tbd"
+msgid "未定"
+msgstr "未定"
+
+msgctxt "Languages::mtpl_tpl_common_vars"
+msgid "共通テンプレート変数"
+msgstr "共通テンプレート変数"
+
+msgctxt "Languages::mtpl_tpl_vars"
+msgid "個別テンプレート変数"
+msgstr "個別テンプレート変数"
+
+msgctxt "Languages::mtpl_trigger"
+msgid "メールの送信トリガー"
+msgstr "メールの送信トリガー"
+
+msgctxt "Languages::mtpl_use_footer"
+msgid "フッターを表示する"
+msgstr "フッターを表示する"
+
+msgctxt "Languages::mtpl_your_email"
+msgid "送信元Eメール"
+msgstr "送信元Eメール"
+
+msgctxt "Languages::mtpl_your_name"
+msgid "送信元氏名"
+msgstr "送信元氏名"
+
+msgctxt "Languages::issuer"
+msgid "発行者"
+msgstr "発行者"
+
+msgctxt "Languages::requestor"
+msgid "要求者"
+msgstr "要求者"
+
+msgctxt "Languages::accounting_url"
+msgid "URL"
+msgstr "URL"
+
+msgctxt "Languages::status_from"
+msgid "変更前ステータス"
+msgstr "変更前ステータス"
+
+msgctxt "Languages::status_to"
+msgid "変更後ステータス"
+msgstr "変更後ステータス"
+
+msgctxt "Languages::admin_message"
+msgid "管理者ステータス変更メッセージ"
+msgstr "管理者ステータス変更メッセージ"
+
+msgctxt "Languages::company_status_A"
+msgid "有効"
+msgstr "有効"
+
+msgctxt "Languages::company_status_D"
+msgid "無効"
+msgstr "無効"
+
+msgctxt "Languages::company_status_P"
+msgid "保留"
+msgstr "保留"
+
+msgctxt "Languages::company_status_S"
+msgid "一時停止"
+msgstr "一時停止"
+
+msgctxt "Languages::company_status_N"
+msgid "新規"
+msgstr "新規"
+
+msgctxt "Languages::company_admin_message_update"
+msgid "アカウントタイプが管理者に変更されました。"
+msgstr "アカウントタイプが管理者に変更されました。"
+
+msgctxt "Languages::company_admin_message_new"
+msgid "新しい管理者アカウントが作成されました。"
+msgstr "新しい管理者アカウントが作成されました。"
+
+msgctxt "Languages::plan_name"
+msgid "プラン名"
+msgstr "プラン名"
+
+msgctxt "Languages::products_limit"
+msgid "商品数の上限"
+msgstr "商品数の上限"
+
+msgctxt "Languages::revenue_limit"
+msgid "収入の上限"
+msgstr "収入の上限"
+
+msgctxt "Languages::is_shop"
+msgid "専用ページ"
+msgstr "専用ページ"
+
+msgctxt "Languages::user_name"
+msgid "お客様名"
+msgstr "お客様名"
+
+msgctxt "Languages::msg_access_admin_url"
+msgid "次のURLから管理画面にアクセスできます"
+msgstr "次のURLから管理画面にアクセスできます"
+
+msgctxt "Languages::login_info"
+msgid "ログイン情報"
+msgstr "ログイン情報"
+
+msgctxt "Languages::err_log_msg"
+msgid "エラーログメッセージ"
+msgstr "エラーログメッセージ"
+
+msgctxt "Languages::mtpl_otp"
+msgid "ワンタイムパスワード"
+msgstr "ワンタイムパスワード"
+
+msgctxt "Languages::product_url"
+msgid "商品URL"
+msgstr "商品URL"
+
+msgctxt "Languages::product_reviews_url"
+msgid "商品レビューURL"
+msgstr "商品レビューURL"
+
+msgctxt "Languages::rating_text"
+msgid "評価（文字）"
+msgstr "評価（文字）"
+
+msgctxt "Languages::rating_icon"
+msgid "評価（アイコン）"
+msgstr "評価（アイコン）"
+
+msgctxt "Languages::suspended_vendor_list"
+msgid "一時停止となった出品者一覧"
+msgstr "一時停止となった出品者一覧"
+
+msgctxt "Languages::activated_vendor_list"
+msgid "有効となった出品者一覧"
+msgstr "有効となった出品者一覧"
+
+msgctxt "Languages::total_debt"
+msgid "出品者負債合計"
+msgstr "出品者負債合計"

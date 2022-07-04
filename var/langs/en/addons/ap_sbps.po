@@ -1,0 +1,709 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::ap_sbps"
+msgid "SBペイメントサービス"
+msgstr "SBペイメントサービス"
+
+msgctxt "Addons::description::ap_sbps"
+msgid "SBペイメントサービスの決済を利用可能にします。"
+msgstr "SBペイメントサービスの決済を利用可能にします。"
+
+msgctxt "SettingsOptions::ap_sbps::permit_rb_cancel_contract"
+msgid "Ap Rb Operation Rb Permit Cancel Contract"
+msgstr "顧客による継続課金の解約を許可する"
+
+msgctxt "Languages::sbps_company_name"
+msgid "Sbps Company Name"
+msgstr "SBペイメントサービス株式会社"
+
+msgctxt "Languages::sbps_cctkn_notice"
+msgid "Sbps Cctkn Notice"
+msgstr "SBペイメントサービス（クレジットカード・トークン決済）に関する設定情報を入力してください。"
+
+msgctxt "Languages::sbps_ccreg_notice"
+msgid "Sbps Ccreg Notice"
+msgstr "SBペイメントサービス（クレジットカード・登録済みカード決済）に関する設定情報を入力してください。"
+
+msgctxt "Languages::sbps_rb_cctkn_notice"
+msgid "Sbps Rb Cctkn Notice"
+msgstr "SBペイメントサービス（クレジットカード・継続課金）に関する設定情報を入力してください。"
+
+msgctxt "Languages::sbps_rp_cctkn_notice"
+msgid "Sbps Rb Cctkn Notice"
+msgstr "SBペイメントサービス（クレジットカード・定期購入）に関する設定情報を入力してください。"
+
+msgctxt "Languages::sbps_link_notice"
+msgid "Sbps Link Notice"
+msgstr "SBペイメントサービス（リンク決済）に関する設定情報を入力してください。"
+
+msgctxt "Languages::sbps_rb_link_notice"
+msgid "Sbps Rb Link Notice"
+msgstr "SBペイメントサービス（リンク決済・継続課金）に関する設定情報を入力してください。"
+
+msgctxt "Languages::sbps_rp_link_notice"
+msgid "Sbps Rp Link Notice"
+msgstr "SBペイメントサービス（リンク決済・定期購入）に関する設定情報を入力してください。"
+
+msgctxt "Languages::sbps_connections_settings"
+msgid "Sbps Connections Settings"
+msgstr "接続設定"
+
+msgctxt "Languages::sbps_test"
+msgid "Sbps Test"
+msgstr "試験（テスト）環境"
+
+msgctxt "Languages::sbps_live"
+msgid "Sbps Live"
+msgstr "本番（商用）環境"
+
+msgctxt "Languages::sbps_merchant_id"
+msgid "Sbps Merchant Id"
+msgstr "マーチャントID"
+
+msgctxt "Languages::sbps_service_id"
+msgid "Sbps Service Id"
+msgstr "サービスID"
+
+msgctxt "Languages::sbps_hashkey"
+msgid "Sbps Hashkey"
+msgstr "ハッシュキー"
+
+msgctxt "Languages::sbps_encrypt_key"
+msgid "Sbps Encrypt Key"
+msgstr "3DES 暗号化キー"
+
+msgctxt "Languages::sbps_init_key"
+msgid "Sbps Init Key"
+msgstr "3DES 初期化キー"
+
+msgctxt "Languages::sbps_payment_settings"
+msgid "Sbps Payment Settings"
+msgstr "決済設定"
+
+msgctxt "Languages::sbps_cc_payment_settings"
+msgid "Sbps Cc Payment Settings"
+msgstr "カード決済設定"
+
+msgctxt "Languages::sbps_cc_use_cvv"
+msgid "Sbps Cc Use Cvv"
+msgstr "セキュリティコード(CVV2)を使用"
+
+msgctxt "Languages::sbps_cc_bonus"
+msgid "Sbps Cc Bonus"
+msgstr "ボーナス一括払い"
+
+msgctxt "Languages::ap_sbps_manager"
+msgid "Ap Sbps Manager"
+msgstr "請求管理(SBPS)"
+
+msgctxt "Languages::ap_sbps_rb_manager"
+msgid "継続課金請求管理(SBPS)"
+msgstr "継続課金請求管理(SBPS)"
+
+msgctxt "Languages::ap_sbps_rp_manager"
+msgid "定期購入請求管理(SBPS)"
+msgstr "定期購入請求管理(SBPS)"
+
+msgctxt "Languages::ap_sbps_credit"
+msgid "Ap Sbps Credit"
+msgstr "クレジット"
+
+msgctxt "Languages::ap_sbps_career"
+msgid "Ap Sbps Career"
+msgstr "キャリア"
+
+msgctxt "Languages::ap_sbps_prepaid"
+msgid "Ap Sbps Prepaid"
+msgstr "プリペイド"
+
+msgctxt "Languages::ap_sbps_point"
+msgid "Ap Sbps Point"
+msgstr "ポイント"
+
+msgctxt "Languages::ap_sbps_wallet"
+msgid "Ap Sbps Wallet"
+msgstr "ウォレット"
+
+msgctxt "Languages::ap_sbps_em"
+msgid "Ap Sbps Em"
+msgstr "電子マネー"
+
+msgctxt "Languages::ap_sbps_offline"
+msgid "Ap Sbps Offline"
+msgstr "オフライン"
+
+msgctxt "Languages::ap_sbps_applepay"
+msgid "Ap Sbps Applepay"
+msgstr "ApplePay"
+
+msgctxt "Languages::ap_sbps_recruitc"
+msgid "Ap Sbps Recruitc"
+msgstr "リクルートかんたん支払い(クレジットカード)"
+
+msgctxt "Languages::ap_sbps_recruito"
+msgid "Ap Sbps Recruito"
+msgstr "リクルートかんたん支払い(Webコンビニ)"
+
+msgctxt "Languages::ap_sbps_paypay"
+msgid "Ap Sbps Paypay"
+msgstr "PayPay"
+
+msgctxt "Languages::sbps_cc_cust_manage"
+msgid "クレジットカード情報お預かり機能"
+msgstr "クレジットカード情報お預かり機能"
+
+msgctxt "Languages::sbps_rb_camp_type"
+msgid "購入月無料"
+msgstr "購入月無料"
+
+msgctxt "Languages::sbps_security_code"
+msgid "Sbps Security Code"
+msgstr "セキュリティコード"
+
+msgctxt "Languages::sbps_what_is_security_code"
+msgid "Sbps What Is Security Code"
+msgstr "セキュリティコードとは"
+
+msgctxt "Languages::sbps_cc_register_card_info_use"
+msgid "次回以降のお買い物でこのカード情報を使用する"
+msgstr "次回以降のお買い物でこのカード情報を使用する"
+
+msgctxt "Languages::sbps_registered_card"
+msgid "登録済みカード情報"
+msgstr "登録済みカード情報"
+
+msgctxt "Languages::sbps_no_card_info"
+msgid "カード情報は登録されていません"
+msgstr "カード情報は登録されていません"
+
+msgctxt "Languages::sbps_delete_card_info"
+msgid "カード情報の削除"
+msgstr "カード情報の削除"
+
+msgctxt "Languages::sbps_payment_status"
+msgid "Sbps Payment Status"
+msgstr "決済ステータス"
+
+msgctxt "Languages::sbps_payment_status_1"
+msgid "Sbps Payment Status 1"
+msgstr "与信済"
+
+msgctxt "Languages::sbps_payment_status_2"
+msgid "Sbps Payment Status 2"
+msgstr "売上済"
+
+msgctxt "Languages::sbps_payment_status_3"
+msgid "Sbps Payment Status 3"
+msgstr "与信取消済"
+
+msgctxt "Languages::sbps_payment_status_4"
+msgid "Sbps Payment Status 4"
+msgstr "返金済"
+
+msgctxt "Languages::sbps_payment_status_5"
+msgid "Sbps Payment Status 5"
+msgstr "部分返金済"
+
+msgctxt "Languages::sbps_payment_status_6"
+msgid "Sbps Payment Status 6"
+msgstr "返金要求済"
+
+msgctxt "Languages::sbps_payment_status_10"
+msgid "Sbps Payment Status 10"
+msgstr "与信済"
+
+msgctxt "Languages::sbps_payment_status_11"
+msgid "Sbps Payment Status 11"
+msgstr "与信取消済・返金済"
+
+msgctxt "Languages::sbps_payment_status_20"
+msgid "Sbps Payment Status 20"
+msgstr "与信受付"
+
+msgctxt "Languages::sbps_payment_status_21"
+msgid "Sbps Payment Status 21"
+msgstr "売上受付"
+
+msgctxt "Languages::sbps_payment_status_22"
+msgid "Sbps Payment Status 22"
+msgstr "金額変更受付"
+
+msgctxt "Languages::sbps_payment_status_90"
+msgid "Sbps Payment Status 90"
+msgstr "与信確定エラー"
+
+msgctxt "Languages::sbps_payment_status_91"
+msgid "Sbps Payment Status 91"
+msgstr "売上確定エラー"
+
+msgctxt "Languages::sbps_payment_status_92"
+msgid "Sbps Payment Status 92"
+msgstr "金額変更エラー"
+
+msgctxt "Languages::sbps_offline_payment_status_1"
+msgid "Sbps Offline Payment Status 1"
+msgstr "未入金"
+
+msgctxt "Languages::sbps_offline_payment_status_2"
+msgid "Sbps Offline Payment Status 2"
+msgstr "一部入金済"
+
+msgctxt "Languages::sbps_offline_payment_status_3"
+msgid "Sbps Offline Payment Status 3"
+msgstr "満額入金済"
+
+msgctxt "Languages::sbps_offline_payment_status_4"
+msgid "Sbps Offline Payment Status 4"
+msgstr "過入金済"
+
+msgctxt "Languages::sbps_offline_payment_status_9"
+msgid "Sbps Offline Payment Status 5"
+msgstr "キャンセル"
+
+msgctxt "Languages::sbps_paypay_payment_status_0"
+msgid "Sbps Paypay Payment Status 0"
+msgstr "処理中"
+
+msgctxt "Languages::sbps_paypay_payment_status_1"
+msgid "Sbps Paypay Payment Status 1"
+msgstr "与信済"
+
+msgctxt "Languages::sbps_paypay_payment_status_2"
+msgid "Sbps Paypay Payment Status 2"
+msgstr "売上処理中"
+
+msgctxt "Languages::sbps_paypay_payment_status_3"
+msgid "Sbps Paypay Payment Status 3"
+msgstr "売上済"
+
+msgctxt "Languages::sbps_paypay_payment_status_4"
+msgid "Sbps Paypay Payment Status 4"
+msgstr "与信取消済"
+
+msgctxt "Languages::sbps_paypay_payment_status_5"
+msgid "Sbps Paypay Payment Status 5"
+msgstr "返金済"
+
+msgctxt "Languages::sbps_paypay_payment_status_9"
+msgid "Sbps Paypay Payment Status 9"
+msgstr "処理エラー"
+
+msgctxt "Languages::sbps_paypay_payment_status_10"
+msgid "Sbps Paypay Payment Status 10"
+msgstr "与信済"
+
+msgctxt "Languages::sbps_is_charge"
+msgid "Sbps Is Charge"
+msgstr "課金状態"
+
+msgctxt "Languages::sbps_is_charge_0"
+msgid "Sbps Is Charge 0"
+msgstr "解約済"
+
+msgctxt "Languages::sbps_is_charge_1"
+msgid "Sbps Is Charge 1"
+msgstr "継続中"
+
+msgctxt "Languages::sbps_is_canceled"
+msgid "Sbps Is Canceled"
+msgstr "購入状態"
+
+msgctxt "Languages::sbps_is_canceled_0"
+msgid "Sbps Is Canceled 0"
+msgstr "定期購入中"
+
+msgctxt "Languages::sbps_is_canceled_1"
+msgid "Sbps Is Canceled 1"
+msgstr "解約済"
+
+msgctxt "Languages::sbps_canceled_at"
+msgid "Sbps Canceled At"
+msgstr "解約日時"
+
+msgctxt "Languages::sbps_refunded_at"
+msgid "Sbps Refuned At"
+msgstr "返金月"
+
+msgctxt "Languages::sbps_refund_rowno"
+msgid "Sbps Refund rowno"
+msgstr "返金回数"
+
+msgctxt "Languages::sbps_sales_confirm"
+msgid "Sbps Sales Confirm"
+msgstr "売上確定"
+
+msgctxt "Languages::sbps_cancel"
+msgid "Sbps Cancel"
+msgstr "与信取消・返金"
+
+msgctxt "Languages::sbps_update_payment_info"
+msgid "Sbps Update Payment Info"
+msgstr "決済情報更新"
+
+msgctxt "Languages::sbps_refund"
+msgid "Sbps Refund"
+msgstr "返金"
+
+msgctxt "Languages::sbps_rb_cancel_contract"
+msgid "Sbps Rb Cancel Contract"
+msgstr "解約"
+
+msgctxt "Languages::sbps_rb_refund"
+msgid "Sbps Rb Refund"
+msgstr "返金"
+
+msgctxt "Languages::sbps_rp_cancel_contract"
+msgid "Sbps Rb Cancel Contract"
+msgstr "解約"
+
+msgctxt "Languages::sbps_rp_sales_confirm"
+msgid "Sbps Rp Sales Confirm"
+msgstr "売上確定"
+
+msgctxt "Languages::sbps_rp_cancel"
+msgid "Sbps Rp Cancel"
+msgstr "与信取消・返金"
+
+msgctxt "Languages::sbps_rp_cancel_contract"
+msgid "Sbps Rp Cancel Contract"
+msgstr "解約"
+
+msgctxt "Languages::sbps_rp_update_payment_info"
+msgid "Sbps Rp Update Payment Info"
+msgstr "決済情報更新"
+
+msgctxt "Languages::subscription_payment"
+msgid "Subscription Payment"
+msgstr "継続課金"
+
+msgctxt "Languages::sbps_rb_status"
+msgid "Sbps Rb Status"
+msgstr "継続課金ステータス"
+
+msgctxt "Languages::sbps_rb_status_1"
+msgid "Sbps Rb Status 1"
+msgstr "継続中"
+
+msgctxt "Languages::sbps_rb_status_2"
+msgid "Sbps Rb Status 2"
+msgstr "解約済"
+
+msgctxt "Languages::sbps_cc_company_code"
+msgid "Sbps Cc Company Code"
+msgstr "クレジット会社コード"
+
+msgctxt "Languages::sbps_cardbrand_code"
+msgid "Sbps Cardbrand Code"
+msgstr "カード会社ブランドコード"
+
+msgctxt "Languages::sbps_cardbrand_code_j"
+msgid "Sbps Cardbrand Code J"
+msgstr "JCBブランド"
+
+msgctxt "Languages::sbps_cardbrand_code_v"
+msgid "Sbps Cardbrand Code V"
+msgstr "Visaブランド"
+
+msgctxt "Languages::sbps_cardbrand_code_m"
+msgid "Sbps Cardbrand Code M"
+msgstr "Masterブランド"
+
+msgctxt "Languages::sbps_cardbrand_code_a"
+msgid "Sbps Cardbrand Code A"
+msgstr "AMEXブランド"
+
+msgctxt "Languages::sbps_cardbrand_code_d"
+msgid "Sbps Cardbrand Code D"
+msgstr "Dinersブランド"
+
+msgctxt "Languages::sbps_cardbrand_code_x"
+msgid "Sbps Cardbrand Code X"
+msgstr "その他"
+
+msgctxt "Languages::sbps_dealings_type"
+msgid "Sbps Dealings Type"
+msgstr "取引区分"
+
+msgctxt "Languages::sbps_dealings_type_10"
+msgid "Sbps Dealings Type 10"
+msgstr "一括"
+
+msgctxt "Languages::sbps_dealings_type_21"
+msgid "Sbps Dealings Type 21"
+msgstr "ボーナス一括"
+
+msgctxt "Languages::sbps_dealings_type_61"
+msgid "Sbps Dealings Type 61"
+msgstr "分割"
+
+msgctxt "Languages::sbps_dealings_type_80"
+msgid "Sbps Dealings Type 80"
+msgstr "リボ"
+
+msgctxt "Languages::sbps_devide_times"
+msgid "Sbps Devide Times"
+msgstr "分割回数"
+
+msgctxt "Languages::sbps_tracking_id"
+msgid "Sbps Traking Id"
+msgstr "トラッキングID"
+
+msgctxt "Languages::sbps_pay_method"
+msgid "Sbps Pay Method"
+msgstr "支払方法"
+
+msgctxt "Languages::sbps_pay_method_credit"
+msgid "Sbps Pay Method Credit"
+msgstr "クレジットカード決済"
+
+msgctxt "Languages::sbps_pay_method_credit3d"
+msgid "Sbps Pay Method Credit3d"
+msgstr "クレジットカード決済(3Dセキュア)"
+
+msgctxt "Languages::sbps_pay_method_unionpay"
+msgid "Sbps Pay Method Unionpay"
+msgstr "銀聯ネット決済"
+
+msgctxt "Languages::sbps_pay_method_webcvs"
+msgid "Sbps Pay Method Webcvs"
+msgstr "Webコンビニ決済"
+
+msgctxt "Languages::sbps_pay_method_payeasy"
+msgid "Sbps Pay Method Payeasy"
+msgstr "Pay-easy 決済"
+
+msgctxt "Languages::sbps_pay_method_banktransfer"
+msgid "Sbps Pay Method Banktransfer"
+msgstr "総合振込決済"
+
+msgctxt "Languages::sbps_pay_method_cyberedy"
+msgid "Sbps Pay Method Cyberedy"
+msgstr "楽天Edy決済(楽天Edy)"
+
+msgctxt "Languages::sbps_pay_method_mobileedy"
+msgid "Sbps Pay Method Mobileedy"
+msgstr "楽天Edy決済(モバイル楽天Edy)"
+
+msgctxt "Languages::sbps_pay_method_suica"
+msgid "Sbps Pay Method Suica"
+msgstr "モバイルSuica決済"
+
+msgctxt "Languages::sbps_pay_method_webmoney"
+msgid "Sbps Pay Method Webmoney"
+msgstr "WebMoney決済"
+
+msgctxt "Languages::sbps_pay_method_netcash"
+msgid "Sbps Pay Method Netcash"
+msgstr "Net Cash決済"
+
+msgctxt "Languages::sbps_pay_method_bitcash"
+msgid "Sbps Pay Method Bitcash"
+msgstr "BitCash決済"
+
+msgctxt "Languages::sbps_pay_method_prepaid"
+msgid "Sbps Pay Method Prepaid"
+msgstr "JCB PREMO決済"
+
+msgctxt "Languages::sbps_pay_method_docomo"
+msgid "Sbps Pay Method Docomo"
+msgstr "ドコモ払い"
+
+msgctxt "Languages::sbps_pay_method_auone"
+msgid "Sbps Pay Method Auone"
+msgstr "auかんたん決済"
+
+msgctxt "Languages::sbps_pay_method_softbank"
+msgid "Sbps Pay Method Softbank"
+msgstr "S!まとめて支払い"
+
+msgctxt "Languages::sbps_pay_method_yahoowallet"
+msgid "Sbps Pay Method Yahoowallet"
+msgstr "Yahoo!ウォレット"
+
+msgctxt "Languages::sbps_pay_method_yahoowalletdg"
+msgid "Sbps Pay Method Yahoowalletdg"
+msgstr "Yahoo!ウォレット(デジコン版)"
+
+msgctxt "Languages::sbps_pay_method_rakuten"
+msgid "Sbps Pay Method Rakuten"
+msgstr "楽天ペイ(オンライン決済)"
+
+msgctxt "Languages::sbps_pay_method_recruit"
+msgid "Sbps Pay Method Recruit"
+msgstr "リクルートかんたん支払い"
+
+msgctxt "Languages::sbps_pay_method_recruito"
+msgid "Sbps Pay Method Recruito"
+msgstr "リクルートかんたん支払い"
+
+msgctxt "Languages::sbps_pay_method_recruitc"
+msgid "Sbps Pay Method Recruitc"
+msgstr "リクルートかんたん支払い"
+
+msgctxt "Languages::sbps_pay_method_recruito"
+msgid "Sbps Pay Method Recruito"
+msgstr "リクルートかんたん支払い"
+
+msgctxt "Languages::sbps_pay_method_alipay"
+msgid "Sbps Pay Method Alipay"
+msgstr "Alipay国際決済"
+
+msgctxt "Languages::sbps_pay_method_paypal"
+msgid "Sbps Pay Method Paypal"
+msgstr "Paypal決済"
+
+msgctxt "Languages::sbps_pay_method_netmile"
+msgid "Sbps Pay Method Netmile"
+msgstr "ネットマイル決済"
+
+msgctxt "Languages::sbps_pay_method_mysoftbank"
+msgid "Sbps Pay Method Mysoftbank"
+msgstr "ソフトバンクまとめて支払い(A)"
+
+msgctxt "Languages::sbps_pay_method_softbank2"
+msgid "Sbps Pay Method Softbank2"
+msgstr "ソフトバンクまとめて支払い(B)"
+
+msgctxt "Languages::sbps_pay_method_saisonpoint"
+msgid "Sbps Pay Method Saisonpoint"
+msgstr "永久不滅ポイント"
+
+msgctxt "Languages::sbps_pay_method_linepay"
+msgid "Sbps Pay Method Linepay"
+msgstr "LINE Pay"
+
+msgctxt "Languages::sbps_pay_method_tpoint"
+msgid "Sbps Pay Method Tpoint"
+msgstr "Tポイントプログラム(オンライン決済)"
+
+msgctxt "Languages::sbps_pay_method_applepay"
+msgid "Sbps Pay Method Applepay"
+msgstr "Apple Pay"
+
+msgctxt "Languages::sbps_pay_method_paypay"
+msgid "Sbps Pay Method Paypay"
+msgstr "PayPay(オンライン決済)"
+
+msgctxt "Languages::sbps_pay_method_rb_credit"
+msgid "Sbps Pay Method Rb Credit"
+msgstr "[継続課金]クレジットカード決済"
+
+msgctxt "Languages::sbps_pay_method_rb_credit3d"
+msgid "Sbps Pay Method Rb Credit3d"
+msgstr "[継続課金]クレジットカード決済(3Dセキュア)"
+
+msgctxt "Languages::sbps_pay_method_rb_recruitc"
+msgid "Sbps Pay Method Rb Recruitc"
+msgstr "[継続課金]リクルートかんたん支払い"
+
+msgctxt "Languages::sbps_pay_method_rb_docomo"
+msgid "Sbps Pay Method Rb Docomo"
+msgstr "[継続課金]ドコモ払い"
+
+msgctxt "Languages::sbps_pay_method_rb_auone"
+msgid "Sbps Pay Method Rb Auone"
+msgstr "[継続課金]auかんたん決済"
+
+msgctxt "Languages::sbps_pay_method_rp_credit"
+msgid "Sbps Pay Method Rp Credit"
+msgstr "[定期購入]クレジットカード決済"
+
+msgctxt "Languages::sbps_pay_method_rp_credit3d"
+msgid "Sbps Pay Method Rp Credit3d"
+msgstr "[定期購入]クレジットカード決済(3Dセキュア)"
+
+msgctxt "Languages::sbps_pay_method_rp_softbank2"
+msgid "Sbps Pay Method Rp Softbank2"
+msgstr "[定期購入]ソフトバンクまとめて支払い(B)"
+
+msgctxt "Languages::sbps_pay_method_rp_docomo"
+msgid "Sbps Pay Method Rp Docomo"
+msgstr "[定期購入]ドコモ払い"
+
+msgctxt "Languages::sbps_pay_method_rp_auone"
+msgid "Sbps Pay Method Rp Auone"
+msgstr "[定期購入]auかんたん決済"
+
+msgctxt "Languages::sbps_pay_method_rp_recruitc"
+msgid "Sbps Pay Method Rp Recruitc"
+msgstr "[定期購入]リクルートかんたん支払い"
+
+msgctxt "Languages::sbps_pay_method_rp_rakuten"
+msgid "Sbps Pay Method Rp Rakuten"
+msgstr "[定期購入]楽天ペイ(オンライン決済)"
+
+msgctxt "Languages::sbps_rb_cancel_contract_btn_label"
+msgid "Sbps Rb Cancel Contract Btn Label"
+msgstr "この継続課金を解約"
+
+msgctxt "Languages::sbps_rb_stopped_this_order"
+msgid "Sbps Rb Stopped This Order."
+msgstr "この継続課金は停止されました。"
+
+msgctxt "Languages::sbps_warning_reference_failed"
+msgid "Sbps Warning Reference Failed"
+msgstr "決済結果の参照に失敗しました。"
+
+msgctxt "Languages::sbps_warning_different_payment"
+msgid "Sbps Warning Different Payment"
+msgstr "変更内容は保存されましたが異なる支払方法が利用されているため支払処理は実行されませんでした。"
+
+msgctxt "Languages::sbps_warning_price_no_change"
+msgid "Sbps Warning Price No Change"
+msgstr "変更内容は保存されましたが金額に変更がないため支払処理は実行されませんでした。"
+
+msgctxt "Languages::sbps_warning_payment_not_permit"
+msgid "Sbps Warning payment not permit"
+msgstr "支払処理が実行できないため、支払処理を中断しました。<br />注文情報のロールバックが実行されているため、手動で注文情報を変更している場合はご確認ください。"
+
+msgctxt "Languages::sbps_error_cc_payment_failed"
+msgid "Sbps Error Cc Payment Failed"
+msgstr "クレジットカードによる決済に失敗しました。<br />再度カード情報を入力いただくか他の支払方法を選択してご注文ください。"
+
+msgctxt "Languages::sbps_error_re_auth_failed"
+msgid "Sbps Error Re Auth Failed"
+msgstr "再与信に失敗したため、支払処理を中断しました。<br />注文情報のロールバックが実行されているため、手動で注文情報を変更している場合はご確認ください。"
+
+msgctxt "Languages::sbps_error_re_auth_confirm_failed"
+msgid "Sbps Error Re Auth Confirm Failed"
+msgstr "再与信確定に失敗したため、支払処理を中断しました。<br />注文情報のロールバックが実行されているため、手動で注文情報を変更している場合はご確認ください。"
+
+msgctxt "Languages::sbps_error_refund_failed"
+msgid "Sbps Error Refund Failed"
+msgstr "返金に失敗したため、支払処理を中断しました。<br />注文情報のロールバックが実行されているため、手動で注文情報を変更している場合はご確認ください。"
+
+msgctxt "Languages::sbps_error_refund_confirm_failed"
+msgid "Sbps Error Refund Confirm Failed"
+msgstr "返金確定に失敗したため、支払処理を中断しました。<br />注文情報のロールバックが実行されているため、手動で注文情報を変更している場合はご確認ください。"
+
+msgctxt "Languages::sbps_error_change_amount_failed"
+msgid "Sbps Error Change Amount Failed"
+msgstr "金額変更に失敗したため、支払処理を中断しました。<br />注文情報のロールバックが実行されているため、手動で注文情報を変更している場合はご確認ください。"
+
+msgctxt "Languages::sbps_error_pre_process_cancel_failed"
+msgid "Sbps Error Pre Process Cancel Failed"
+msgstr "前決済の取消に失敗しました。<br />決済管理ツールから取消を行ってください。"
+
+msgctxt "Languages::sbps_error_pre_process_cancel_confirm_failed"
+msgid "Sbps Error Pre Process Cancel Confirm Failed"
+msgstr "前決済の取消確定に失敗しました。<br />決済管理ツールから取消確定を行ってください。"
+
+msgctxt "Languages::sbps_error_exec_failed"
+msgid "Sbps Error Exec Failed"
+msgstr "ご指定の処理を実行に失敗しました。"
+
+msgctxt "Languages::sbps_error_exec_data_not_exists"
+msgid "Sbps Error Exec Data Not Exists"
+msgstr "ご指定の処理を実行できる注文がありませんでした。"
+
+msgctxt "Languages::sbps_error_rb_cancel_contract"
+msgid "Sbps Error Rb Cancel Contract"
+msgstr "継続課金の解約に失敗しました。"
+
+msgctxt "Languages::sbps_error_rp_cancel_contract"
+msgid "Sbps Error Rp Cancel Contract"
+msgstr "定期購入の解約に失敗しました。"

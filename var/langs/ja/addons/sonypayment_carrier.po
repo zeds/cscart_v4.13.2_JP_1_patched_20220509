@@ -1,0 +1,2665 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Japanese\n"
+"Language: ja_JP\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 1.7.4\n"
+"Last-Translator: Toshihiro Yoshiura <yoshiura@frogman.co.jp>\n"
+"PO-Revision-Date: 2015-03-24 16:45+0900\n"
+"POT-Creation-Date: \n"
+"MIME-Version: 1.0\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgctxt "Addons::name::sonypayment_carrier"
+msgid "ソニーペイメントサービス - キャリア決済"
+msgstr "ソニーペイメントサービス - キャリア決済"
+
+msgctxt "Addons::description::sonypayment_carrier"
+msgid "ソニーペイメントのキャリア決済（都度決済・継続課金）を利用した決済を可能にします"
+msgstr "ソニーペイメントのキャリア決済（都度決済・継続課金）を利用した決済を可能にします"
+
+msgctxt "SettingsSections::sonypayment_carrier::general"
+msgid "基本設定"
+msgstr "基本設定"
+
+msgctxt "SettingsOptions::sonypayment_carrier::elm_connection_information"
+msgid "接続設定"
+msgstr "接続設定"
+
+msgctxt "SettingsOptions::sonypayment_carrier::merchant_id"
+msgid "マーチャントID"
+msgstr "マーチャントID"
+
+msgctxt "SettingsOptions::sonypayment_carrier::merchant_pass"
+msgid "マーチャントパスワード"
+msgstr "マーチャントパスワード"
+
+msgctxt "SettingsOptions::sonypayment_carrier::aes_encrypt_key"
+msgid "AES暗号化キー"
+msgstr "AES暗号化キー"
+
+msgctxt "SettingsOptions::sonypayment_carrier::elm_carrier_information"
+msgid "各種キャリア設定"
+msgstr "各種キャリア設定"
+
+msgctxt "SettingsOptions::sonypayment_carrier::docomo_pass"
+msgid "NTTドコモパスワード"
+msgstr "NTTドコモパスワード"
+
+msgctxt "SettingsOptions::sonypayment_carrier::docomo_ep_tenant_id"
+msgid "NTTドコモ都度決済店舗コード"
+msgstr "NTTドコモ都度決済店舗コード"
+
+msgctxt "SettingsOptions::sonypayment_carrier::docomo_rb_tenant_id"
+msgid "NTTドコモ継続課金店舗コード"
+msgstr "NTTドコモ継続課金店舗コード"
+
+msgctxt "SettingsOptions::sonypayment_carrier::au_pass"
+msgid "auパスワード"
+msgstr "auパスワード"
+
+msgctxt "SettingsOptions::sonypayment_carrier::au_ep_tenant_id"
+msgid "au都度決済店舗コード"
+msgstr "au都度決済店舗コード"
+
+msgctxt "SettingsOptions::sonypayment_carrier::au_rb_tenant_id"
+msgid "au継続課金店舗コード"
+msgstr "au継続課金店舗コード"
+
+msgctxt "SettingsOptions::sonypayment_carrier::softbank_pass"
+msgid "ソフトバンクパスワード"
+msgstr "ソフトバンクパスワード"
+
+msgctxt "SettingsOptions::sonypayment_carrier::softbank_ep_tenant_id"
+msgid "ソフトバンク都度決済店舗コード"
+msgstr "ソフトバンク都度決済店舗コード"
+
+msgctxt "SettingsOptions::sonypayment_carrier::softbank_rb_tenant_id"
+msgid "ソフトバンクパ継続課金店舗コード"
+msgstr "ソフトバンクパ継続課金店舗コード"
+
+msgctxt "SettingsOptions::sonypayment_carrier::pending_status"
+msgid "正常入金が行われなかった注文に割り当てる注文ステータス"
+msgstr "正常入金が行われなかった注文に割り当てる注文ステータス"
+
+msgctxt "Languages::jp_sonypayment_carrier_ep_status"
+msgid "請求ステータス"
+msgstr "請求ステータス"
+
+msgctxt "Languages::jp_sonypayment_carrier_ep_auth"
+msgid "与信"
+msgstr "与信"
+
+msgctxt "Languages::jp_sonypayment_carrier_ep_auth_cancel"
+msgid "与信取消"
+msgstr "与信取消"
+
+msgctxt "Languages::jp_sonypayment_carrier_ep_auth_cancel_error"
+msgid "与信取消エラー"
+msgstr "与信取消エラー"
+
+msgctxt "Languages::jp_sonypayment_carrier_ep_auth_cancelled"
+msgid "与信を取り消しました。"
+msgstr "与信を取り消しました。"
+
+msgctxt "Languages::jp_sonypayment_carrier_ep_auth_only"
+msgid "与信のみ"
+msgstr "与信のみ"
+
+msgctxt "Languages::jp_sonypayment_carrier_ep_auth_only_softbank"
+msgid "指定売上"
+msgstr "指定売上"
+
+msgctxt "Languages::jp_sonypayment_carrier_ep_capture"
+msgid "売上確定"
+msgstr "売上確定"
+
+msgctxt "Languages::jp_sonypayment_carrier_ep_data_not_exists"
+msgid "ご指定の処理を実行できる注文がありませんでした。"
+msgstr "ご指定の処理を実行できる注文がありませんでした。"
+
+msgctxt "Languages::jp_sonypayment_carrier_ep_delete"
+msgid "取消"
+msgstr "取消"
+
+msgctxt "Languages::jp_sonypayment_carrier_ep_error"
+msgid "都度決済エラー"
+msgstr "都度決済エラー"
+
+msgctxt "Languages::jp_sonypayment_carrier_ep_error_code"
+msgid "エラーコード"
+msgstr "エラーコード"
+
+msgctxt "Languages::jp_sonypayment_carrier_ep_failed"
+msgid "都度決済に失敗しました。<br />再度情報を入力いただくか他の支払方法を選択してご注文ください。"
+msgstr "都度決済に失敗しました。<br />再度情報を入力いただくか他の支払方法を選択してご注文ください。"
+
+msgctxt "Languages::jp_sonypayment_carrier_clear_cart"
+msgid "同じカート情報では重複エラーとなるためカートを空にしました。再度商品をカートに追加してください。"
+msgstr "同じカート情報では重複エラーとなるためカートを空にしました。再度商品をカートに追加してください。"
+
+msgctxt "Languages::jp_sonypayment_carrier_ep_canceled"
+msgid "購入がキャンセルされました。<br />再度情報を入力いただくか他の支払方法を選択してご注文ください。"
+msgstr "購入がキャンセルされました。<br />再度情報を入力いただくか他の支払方法を選択してご注文ください。"
+
+msgctxt "Languages::jp_sonypayment_carrier_ep_gathering"
+msgid "与信売上確定"
+msgstr "与信売上確定"
+
+msgctxt "Languages::jp_sonypayment_carrier_ep_gathering_softbank"
+msgid "自動売上"
+msgstr "自動売上"
+
+msgctxt "Languages::jp_sonypayment_carrier_ep_invalid"
+msgid "ソニーペイメントからの戻り値が正しくありません。<br />再度注文処理をしていただくか他の支払方法を選択してご注文ください。"
+msgstr "ソニーペイメントからの戻り値が正しくありません。<br />再度注文処理をしていただくか他の支払方法を選択してご注文ください。"
+
+msgctxt "Languages::jp_sonypayment_carrier_ep_manager"
+msgid "ソニーペイメントキャリア決済（都度決済）"
+msgstr "ソニーペイメントキャリア決済（都度決済）"
+
+msgctxt "Languages::jp_sonypayment_carrier_ep_notice"
+msgid "ソニーペイメントサービス - キャリア決済（都度決済）に関する設定情報を入力してください。"
+msgstr "ソニーペイメントサービス - キャリア決済（都度決済）に関する設定情報を入力してください。"
+
+msgctxt "Languages::jp_sonypayment_carrier_ep_process_type"
+msgid "決済データの処理方法 (ドコモ、au)"
+msgstr "決済データの処理方法 (ドコモ、au)"
+
+msgctxt "Languages::jp_sonypayment_carrier_ep_process_type_softbank"
+msgid "決済データの処理方法 (ソフトバンク)"
+msgstr "決済データの処理方法 (ソフトバンク)"
+
+msgctxt "Languages::jp_sonypayment_carrier_ep_sales_cancel"
+msgid "売上取消"
+msgstr "売上取消"
+
+msgctxt "Languages::jp_sonypayment_carrier_ep_sales_cancel_error"
+msgid "売上取消エラー"
+msgstr "売上取消エラー"
+
+msgctxt "Languages::jp_sonypayment_carrier_ep_sales_cancelled"
+msgid "売上を取り消しました。"
+msgstr "売上を取り消しました。"
+
+msgctxt "Languages::jp_sonypayment_carrier_ep_sales_completed"
+msgid "売上を確定しました。"
+msgstr "売上を確定しました。"
+
+msgctxt "Languages::jp_sonypayment_carrier_ep_sales_confirm"
+msgid "売上確定"
+msgstr "売上確定"
+
+msgctxt "Languages::jp_sonypayment_carrier_ep_sales_confirm_error"
+msgid "売上確定エラー"
+msgstr "売上確定エラー"
+
+msgctxt "Languages::jp_sonypayment_carrier_ep_search"
+msgid "取引参照"
+msgstr "取引参照"
+
+msgctxt "Languages::jp_sonypayment_carrier_status"
+msgid "請求ステータス"
+msgstr "請求ステータス"
+
+msgctxt "Languages::jp_sonypayment_carrier_rb_notice"
+msgid "ソニーペイメントサービス - キャリア決済（継続課金）に関する設定情報を入力してください。"
+msgstr "ソニーペイメントサービス - キャリア決済（継続課金）に関する設定情報を入力してください。"
+
+msgctxt "Languages::jp_sonypayment_carrier_connections_settings"
+msgid "接続設定"
+msgstr "接続設定"
+
+msgctxt "Languages::jp_sonypayment_carrier_transaction_date"
+msgid "取引日付"
+msgstr "取引日付"
+
+msgctxt "Languages::jp_sonypayment_carrier_transaction_id"
+msgid "処理通番"
+msgstr "処理通番"
+
+msgctxt "Languages::jp_sonypayment_carrier_settlement_no"
+msgid "決済番号"
+msgstr "決済番号"
+
+msgctxt "Languages::jp_sonypayment_carrier_ep_payment_settings"
+msgid "都度決済設定"
+msgstr "都度決済設定"
+
+msgctxt "Languages::jp_sonypayment_carrier_rb_payment_settings"
+msgid "継続課金設定"
+msgstr "継続課金設定"
+
+msgctxt "Languages::jp_sonypayment_carrier_crkind"
+msgid "キャリア種別"
+msgstr "キャリア種別"
+
+msgctxt "Languages::jp_sonypayment_carrier_cd"
+msgid "キャリア区分"
+msgstr "キャリア区分"
+
+msgctxt "Languages::jp_sonypayment_carrier_docomo"
+msgid "NTTドコモ"
+msgstr "NTTドコモ"
+
+msgctxt "Languages::jp_sonypayment_carrier_au"
+msgid "au"
+msgstr "au"
+
+msgctxt "Languages::jp_sonypayment_carrier_softbank"
+msgid "ソフトバンク"
+msgstr "ソフトバンク"
+
+msgctxt "Languages::jp_sonypayment_carrier_rb_payment"
+msgid "ソニーペイメントキャリア決済（継続課金）"
+msgstr "ソニーペイメントキャリア決済（継続課金）"
+
+msgctxt "Languages::jp_sonypayment_carrier_rb_first_payment_day"
+msgid "初回継続課金日"
+msgstr "初回継続課金日"
+
+msgctxt "Languages::jp_sonypayment_carrier_rb_payment_day"
+msgid "継続課金日"
+msgstr "継続課金日"
+
+msgctxt "Languages::jp_sonypayment_carrier_rb_payment_registered_day"
+msgid "登録処理完了日"
+msgstr "登録処理完了日"
+
+msgctxt "Languages::jp_sonypayment_carrier_rb_payment_carrier_day"
+msgid "キャリア別課金日"
+msgstr "キャリア別課金日"
+
+msgctxt "Languages::jp_sonypayment_carrier_rb_payment_ifpast_nextmonth"
+msgid "過去日の場合は翌月"
+msgstr "過去日の場合は翌月"
+
+msgctxt "Languages::jp_sonypayment_carrier_rb_day_none"
+msgid "未設定"
+msgstr "未設定"
+
+msgctxt "Languages::jp_sonypayment_carrier_rb_day_eom"
+msgid "月末"
+msgstr "月末"
+
+msgctxt "Languages::jp_sonypayment_carrier_rb_day_day"
+msgid "日"
+msgstr "日"
+
+msgctxt "Languages::jp_sonypayment_carrier_rb_recstart"
+msgid "継続課金登録"
+msgstr "継続課金登録"
+
+msgctxt "Languages::jp_sonypayment_carrier_rb_reccancel"
+msgid "継続課金解約"
+msgstr "継続課金解約"
+
+msgctxt "Languages::jp_sonypayment_carrier_rb_error"
+msgid "継続課金エラー"
+msgstr "継続課金エラー"
+
+msgctxt "Languages::jp_sonypayment_carrier_rb_cancel_error"
+msgid "継続課金解約エラー"
+msgstr "継続課金解約エラー"
+
+msgctxt "Languages::jp_sonypayment_carrier_rb_error_code"
+msgid "エラーコード"
+msgstr "エラーコード"
+
+msgctxt "Languages::jp_sonypayment_carrier_rb_failed"
+msgid "継続課金登録に失敗しました。<br />再度情報を入力いただくか他の支払方法を選択してご注文ください。"
+msgstr "継続課金登録に失敗しました。<br />再度情報を入力いただくか他の支払方法を選択してご注文ください。"
+
+msgctxt "Languages::jp_sonypayment_carrier_rb_invalid"
+msgid "ソニーペイメントからの戻り値が正しくありません。<br />再度注文処理をしていただくか他の支払方法を選択してご注文ください。"
+msgstr "ソニーペイメントからの戻り値が正しくありません。<br />再度注文処理をしていただくか他の支払方法を選択してご注文ください。"
+
+msgctxt "Languages::jp_sonypayment_carrier_rb_canceled"
+msgid "購入がキャンセルされました。<br />再度情報を入力いただくか他の支払方法を選択してご注文ください。"
+msgstr "購入がキャンセルされました。<br />再度情報を入力いただくか他の支払方法を選択してご注文ください。"
+
+msgctxt "Languages::jp_sonypayment_carrier_rb_everymonth"
+msgid "毎月"
+msgstr "毎月"
+
+msgctxt "Languages::jp_sonypayment_carrier_rb_charge"
+msgid "に課金"
+msgstr "に課金"
+
+msgctxt "Languages::jp_sonypayment_carrier_7auth"
+msgid "与信"
+msgstr "与信"
+
+msgctxt "Languages::jp_sonypayment_carrier_7gathering"
+msgid "与信売上確定"
+msgstr "与信売上確定"
+
+msgctxt "Languages::jp_sonypayment_carrier_auth_cancel"
+msgid "与信取消"
+msgstr "与信取消"
+
+msgctxt "Languages::jp_sonypayment_carrier_sales_confirm"
+msgid "売上確定"
+msgstr "売上確定"
+
+msgctxt "Languages::jp_sonypayment_carrier_sales_cancel"
+msgid "売上確定取消"
+msgstr "売上確定取消"
+
+msgctxt "Languages::jp_sonypayment_carrier_7recstart"
+msgid "継続課金登録"
+msgstr "継続課金登録"
+
+msgctxt "Languages::jp_sonypayment_carrier_rb_cancel"
+msgid "継続課金解約"
+msgstr "継続課金解約"
+
+msgctxt "Languages::jp_sonypayment_carrier_orderid"
+msgid "注文番号#"
+msgstr "注文番号#"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_k01"
+msgid "オンライン取引電文精査エラー。"
+msgstr "オンライン取引電文精査エラー。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_k02"
+msgid "項目「MerchantId」精査エラー。"
+msgstr "項目「MerchantId」精査エラー。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_k03"
+msgid "項目「MerchantPass」精査エラー。"
+msgstr "項目「MerchantPass」精査エラー。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_k04"
+msgid "項目「TenantId」精査エラー。"
+msgstr "項目「TenantId」精査エラー。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_k05"
+msgid "項目「TransactionDate」精査エラー。"
+msgstr "項目「TransactionDate」精査エラー。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_k06"
+msgid "項目「OperateId」精査エラー。"
+msgstr "項目「OperateId」精査エラー。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_k07"
+msgid "項目「MerchantFree1」精査エラー。"
+msgstr "項目「MerchantFree1」精査エラー。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_k08"
+msgid "項目「MerchantFree2」精査エラー。"
+msgstr "項目「MerchantFree2」精査エラー。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_k09"
+msgid "項目「MerchantFree3」精査エラー。"
+msgstr "項目「MerchantFree3」精査エラー。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_k10"
+msgid "項目「ProcessId」精査エラー。"
+msgstr "項目「ProcessId」精査エラー。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_k11"
+msgid "項目「ProcessPass」精査エラー。"
+msgstr "項目「ProcessPass」精査エラー。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_k23"
+msgid "項目「Amount」精査エラー。"
+msgstr "項目「Amount」精査エラー。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_k86"
+msgid "項目「処理番号：ProcNo」精査エラー。"
+msgstr "項目「処理番号：ProcNo」精査エラー。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_k89"
+msgid "処理番号の重複エラー。"
+msgstr "処理番号の重複エラー。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_k96"
+msgid "本システム通信障害発生（タイムアウト）"
+msgstr "本システム通信障害発生（タイムアウト）"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_k99"
+msgid "その他例外エラー"
+msgstr "その他例外エラー"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_kb0"
+msgid "項目「キャリア区分：CarrierKbn」精査エラー。"
+msgstr "項目「キャリア区分：CarrierKbn」精査エラー。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_kb1"
+msgid "項目「キャリアパスワード：CarrierPass」精査エラー。"
+msgstr "項目「キャリアパスワード：CarrierPass」精査エラー。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_kb2"
+msgid "項目「顧客ID：CustomerId」精査エラー。"
+msgstr "項目「顧客ID：CustomerId」精査エラー。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_kb3"
+msgid "項目「商品ID：ProductId」精査エラー。"
+msgstr "項目「商品ID：ProductId」精査エラー。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_kb4"
+msgid "項目「決済番号：SettlementNo」精査エラー。"
+msgstr "項目「決済番号：SettlementNo」精査エラー。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_kb5"
+msgid "項目「表示項目内容1：DisplayItem1」精査エラー。"
+msgstr "項目「表示項目内容1：DisplayItem1」精査エラー。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_kb6"
+msgid "項目「表示項目内容2：DisplayItem2」精査エラー。"
+msgstr "項目「表示項目内容2：DisplayItem2」精査エラー。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_kb7"
+msgid "項目「申込完了時URL：SuccesURL」精査エラー。"
+msgstr "項目「申込完了時URL：SuccesURL」精査エラー。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_kb8"
+msgid "項目「申込キャンセル時URL：CancelURL」精査エラー。"
+msgstr "項目「申込キャンセル時URL：CancelURL」精査エラー。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_kb9"
+msgid "項目「エラー時URL：ErrorURL」精査エラー。"
+msgstr "項目「エラー時URL：ErrorURL」精査エラー。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_kba"
+msgid "項目「在庫確認POST先URL：OrderConfirmURL」精査エラー。"
+msgstr "項目「在庫確認POST先URL：OrderConfirmURL」精査エラー。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_kbb"
+msgid "項目「状態通知POST先URL：EndNoticeURL」精査エラー。"
+msgstr "項目「状態通知POST先URL：EndNoticeURL」精査エラー。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_kbc"
+msgid "項目「サイトID：sSpcd」精査エラー。"
+msgstr "項目「サイトID：sSpcd」精査エラー。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_kbd"
+msgid "項目「加盟店トークン：sCptok」精査エラー。"
+msgstr "項目「加盟店トークン：sCptok」精査エラー。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_kbe"
+msgid "項目「加盟店注文番号：sSpnm」精査エラー。"
+msgstr "項目「加盟店注文番号：sSpnm」精査エラー。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_kbf"
+msgid "項目「加盟店指定パラメータ：sSpsppr」精査エラー。"
+msgstr "項目「加盟店指定パラメータ：sSpsppr」精査エラー。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_kbg"
+msgid "項目「決済番号：sSlcd」精査エラー。"
+msgstr "項目「決済番号：sSlcd」精査エラー。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_kbh"
+msgid "項目「ユーザ認証日時：sDate」精査エラー。"
+msgstr "項目「ユーザ認証日時：sDate」精査エラー。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_kbi"
+msgid "項目「識別子：sType」精査エラー。"
+msgstr "項目「識別子：sType」精査エラー。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_kbj"
+msgid "項目「決済金額：sPric」精査エラー。"
+msgstr "項目「決済金額：sPric」精査エラー。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_kbk"
+msgid "項目「ドコモ指定パラメータ：sStkn」精査エラー。"
+msgstr "項目「ドコモ指定パラメータ：sStkn」精査エラー。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_kbl"
+msgid "項目「docomoOpenID：sOpenid_identity」精査エラー。"
+msgstr "項目「docomoOpenID：sOpenid_identity」精査エラー。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_kbm"
+msgid "項目「realm：sOpenID_realm」精査エラー。"
+msgstr "項目「realm：sOpenID_realm」精査エラー。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_kbn"
+msgid "項目「加盟店パラメータ：sSppr」精査エラー。"
+msgstr "項目「加盟店パラメータ：sSppr」精査エラー。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_kbo"
+msgid "項目「Wi-Fi、デザリング利用：sWitethe」精査エラー。"
+msgstr "項目「Wi-Fi、デザリング利用：sWitethe」精査エラー。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_kbp"
+msgid "項目「端末区分：sTerkn」精査エラー。"
+msgstr "項目「端末区分：sTerkn」精査エラー。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_kbq"
+msgid "項目「インターフェース区分：ifKbn」精査エラー。"
+msgstr "項目「インターフェース区分：ifKbn」精査エラー。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_kbr"
+msgid "項目「異常検知件数：sFail」精査エラー。"
+msgstr "項目「異常検知件数：sFail」精査エラー。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_kbs"
+msgid "項目「正常受付件数：sSucc」精査エラー。"
+msgstr "項目「正常受付件数：sSucc」精査エラー。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_kbt"
+msgid "項目「要求結果：sStat」精査エラー。"
+msgstr "項目「要求結果：sStat」精査エラー。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_kbu"
+msgid "接続端末エラー。"
+msgstr "接続端末エラー。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_kbv"
+msgid "キャリア決済タイムアウトエラー。"
+msgstr "キャリア決済タイムアウトエラー。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_kbw"
+msgid "OpenID取得失敗エラー。"
+msgstr "OpenID取得失敗エラー。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_kbx"
+msgid "二重取引エラー"
+msgstr "二重取引エラー"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_kbz"
+msgid "元取引無しエラー。"
+msgstr "元取引無しエラー。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_kc0"
+msgid "レスポンス不明。"
+msgstr "レスポンス不明。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_kc1"
+msgid "ユーザ認証日時エラー。"
+msgstr "ユーザ認証日時エラー。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_kc2"
+msgid "決済金額エラー。"
+msgstr "決済金額エラー。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_kc3"
+msgid "通知時間エラー。"
+msgstr "通知時間エラー。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_kc4"
+msgid "キャンセル。"
+msgstr "キャンセル。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_kc5"
+msgid "在庫確認結果NG。"
+msgstr "在庫確認結果NG。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_kc6"
+msgid "パラメー タエラー"
+msgstr "パラメー タエラー"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_kc7"
+msgid "決済中止"
+msgstr "決済中止"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_kc8"
+msgid "項目「処理結果コード：X-ResultCd」精査エラー。"
+msgstr "項目「処理結果コード：X-ResultCd」精査エラー。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_kc9"
+msgid "項目「トランザクションID：transactionId」精査エラー。"
+msgstr "項目「トランザクションID：transactionId」精査エラー。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_kca"
+msgid "自動売上確定済。"
+msgstr "自動売上確定済。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_kcb"
+msgid "課金対象月売上確定済エラー。"
+msgstr "課金対象月売上確定済エラー。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_kcc"
+msgid "項目「処理結果支払方法：res_pay_method」精査エラー。"
+msgstr "項目「処理結果支払方法：res_pay_method」精査エラー。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_kcd"
+msgid "項目「処理結果ステータス：res_result」精査エラー。"
+msgstr "項目「処理結果ステータス：res_result」精査エラー。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_kce"
+msgid "項目「処理トラッキングID：res_tracking_id」精査エラー。"
+msgstr "項目「処理トラッキングID：res_tracking_id」精査エラー。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_kcf"
+msgid "項目「処理SPS顧客ID：res_sps_cust_no」精査エラー。"
+msgstr "項目「処理SPS顧客ID：res_sps_cust_no」精査エラー。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_kcg"
+msgid "項目「処理SPS支払方法管理番号：res_sps_payment_no」精査エラー。"
+msgstr "項目「処理SPS支払方法管理番号：res_sps_payment_no」精査エラー。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_kch"
+msgid "項目「顧客決済情報：res_payinfo_key」精査エラー。"
+msgstr "項目「顧客決済情報：res_payinfo_key」精査エラー。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_kci"
+msgid "項目「購入完了処理日時：res_payment_date」精査エラー。"
+msgstr "項目「購入完了処理日時：res_payment_date」精査エラー。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_kcj"
+msgid "項目「エラーコード：res_err_code」精査エラー。"
+msgstr "項目「エラーコード：res_err_code」精査エラー。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_kck"
+msgid "項目「レスポンス日時：res_date」精査エラー。"
+msgstr "項目「レスポンス日時：res_date」精査エラー。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_kcl"
+msgid "項目「レスポンス許容時間：limit_second」精査エラー。"
+msgstr "項目「レスポンス許容時間：limit_second」精査エラー。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_kcm"
+msgid "項目「チェックサム：sps_hashcode」精査エラー。"
+msgstr "項目「チェックサム：sps_hashcode」精査エラー。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_kcn"
+msgid "チェックサムエラー"
+msgstr "チェックサムエラー"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_kco"
+msgid "項目「インターフェース区分：ifKbn」精査エラー。"
+msgstr "項目「インターフェース区分：ifKbn」精査エラー。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_kd0"
+msgid "項目「トランザクションステータス：transactionStatus」精査エラー。"
+msgstr "項目「トランザクションステータス：transactionStatus」精査エラー。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_kd1"
+msgid "項目「決済ステータス：payStatus」精査エラー。"
+msgstr "項目「決済ステータス：payStatus」精査エラー。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_kd2"
+msgid "項目「決済情報番号：payInfoNo」精査エラー。"
+msgstr "項目「決済情報番号：payInfoNo」精査エラー。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_kd3"
+msgid "項目「継続課金ID：continueAccountId」精査エラー。"
+msgstr "項目「継続課金ID：continueAccountId」精査エラー。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_kda"
+msgid "項目「OpenID：OpenID」精査エラー。"
+msgstr "項目「OpenID：OpenID」精査エラー。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_kg8"
+msgid "加盟店認証に連続して失敗し、ロックアウトされました。"
+msgstr "加盟店認証に連続して失敗し、ロックアウトされました。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_kg9"
+msgid "項目「初回継続課金日：FirstRecDate」精査エラー。"
+msgstr "項目「初回継続課金日：FirstRecDate」精査エラー。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_kga"
+msgid "項目「継続課金日：RecDate」精査エラー。"
+msgstr "項目「継続課金日：RecDate」精査エラー。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_kgb"
+msgid "初回無料期間中のため、売上確定できません。"
+msgstr "初回無料期間中のため、売上確定できません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_kgd"
+msgid "取引ステータス不整合エラー"
+msgstr "取引ステータス不整合エラー"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_kge"
+msgid "継続課金終了しているため、処理できません。"
+msgstr "継続課金終了しているため、処理できません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_kgf"
+msgid "項目「応答日時：sDate」精査エラー"
+msgstr "項目「応答日時：sDate」精査エラー"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_kgg"
+msgid "項目「CSVファイル：sFile」精査エラー"
+msgstr "項目「CSVファイル：sFile」精査エラー"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d01"
+msgid "パラメータ異常エラー。"
+msgstr "パラメータ異常エラー。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d02"
+msgid "要求重複エラー。"
+msgstr "要求重複エラー。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d03"
+msgid "期限切れエラー。"
+msgstr "期限切れエラー。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d04"
+msgid "該当データなし。"
+msgstr "該当データなし。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d05"
+msgid "処理済みエラー。"
+msgstr "処理済みエラー。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d06"
+msgid "要求金額エラー。"
+msgstr "要求金額エラー。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d07"
+msgid "その他エラー。"
+msgstr "その他エラー。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d08"
+msgid "翌月確定要求受付済エラー。"
+msgstr "翌月確定要求受付済エラー。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d09"
+msgid "翌月取消要求受付済エラー。"
+msgstr "翌月取消要求受付済エラー。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d10"
+msgid "継続変更要求受付済エラー。"
+msgstr "継続変更要求受付済エラー。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d11"
+msgid "継続終了要求受付済エラー。"
+msgstr "継続終了要求受付済エラー。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d12"
+msgid "未受付。"
+msgstr "未受付。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d13"
+msgid "未応答"
+msgstr "未応答"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d14"
+msgid "利用判定NG"
+msgstr "利用判定NG"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d15"
+msgid "処理失敗"
+msgstr "処理失敗"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d16"
+msgid "抹消"
+msgstr "抹消"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d17"
+msgid "前月抹消"
+msgstr "前月抹消"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d18"
+msgid "終了"
+msgstr "終了"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d19"
+msgid "変更"
+msgstr "変更"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d90"
+msgid "OpenID無効エラー"
+msgstr "OpenID無効エラー"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d98"
+msgid "携帯電話会社接続エラー。"
+msgstr "携帯電話会社接続エラー。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d99"
+msgid "携帯電話会社その他例外エラー"
+msgstr "携帯電話会社その他例外エラー"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_da0"
+msgid "処理種別が設定されていないか、誤りがあります。"
+msgstr "処理種別が設定されていないか、誤りがあります。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_da1"
+msgid "必須項目チェックエラー。決済情報番号が設定されていません。"
+msgstr "必須項目チェックエラー。決済情報番号が設定されていません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_da2"
+msgid "必須項目チェックエラー。金額が設定されていません。"
+msgstr "必須項目チェックエラー。金額が設定されていません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_da3"
+msgid "必須項目チェックエラー。サービスIDが設定されていません。"
+msgstr "必須項目チェックエラー。サービスIDが設定されていません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_da4"
+msgid "必須項目チェックエラー。OpenIDが設定されていません。"
+msgstr "必須項目チェックエラー。OpenIDが設定されていません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_da5"
+msgid "必須項目チェックエラー。課金間隔が設定されていません。"
+msgstr "必須項目チェックエラー。課金間隔が設定されていません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_da6"
+msgid "必須項目チェックエラー。初回課金年月日が設定されていません。"
+msgstr "必須項目チェックエラー。初回課金年月日が設定されていません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_da7"
+msgid "必須項目チェックエラー。初回金額が設定されていません。"
+msgstr "必須項目チェックエラー。初回金額が設定されていません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_da8"
+msgid "必須項目チェックエラー。翌月以降金額が設定されていません。"
+msgstr "必須項目チェックエラー。翌月以降金額が設定されていません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_da9"
+msgid "必須項目チェックエラー。課金タイミング区分が設定されていません。"
+msgstr "必須項目チェックエラー。課金タイミング区分が設定されていません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_db0"
+msgid "必須項目チェックエラー。課金タイミングが設定されていません。"
+msgstr "必須項目チェックエラー。課金タイミングが設定されていません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_db1"
+msgid "必須項目チェックエラー。加盟店IDが設定されていません。"
+msgstr "必須項目チェックエラー。加盟店IDが設定されていません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_db2"
+msgid "必須項目チェックエラー。セキュアキーが設定されていません。"
+msgstr "必須項目チェックエラー。セキュアキーが設定されていません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_db3"
+msgid "必須項目チェックエラー。トランザクションIDが設定されていません。"
+msgstr "必須項目チェックエラー。トランザクションIDが設定されていません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_db4"
+msgid "必須項目チェックエラー。認証区分が設定されていません。"
+msgstr "必須項目チェックエラー。認証区分が設定されていません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_db5"
+msgid "必須項目チェックエラー。認証OK加盟店URLが設定されていません。"
+msgstr "必須項目チェックエラー。認証OK加盟店URLが設定されていません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_db6"
+msgid "必須項目チェックエラー。認証NG加盟店URLが設定されていません。"
+msgstr "必須項目チェックエラー。認証NG加盟店URLが設定されていません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_db7"
+msgid "必須項目チェックエラー。処理ファイルが設定されていません。"
+msgstr "必須項目チェックエラー。処理ファイルが設定されていません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_db8"
+msgid "必須項目チェックエラー。処理番号が設定されていません。"
+msgstr "必須項目チェックエラー。処理番号が設定されていません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_db9"
+msgid "必須項目チェックエラー。継続課金IDが設定されていません。"
+msgstr "必須項目チェックエラー。継続課金IDが設定されていません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dc0"
+msgid "必須項目チェックエラー。課金年月日が設定されていません。"
+msgstr "必須項目チェックエラー。課金年月日が設定されていません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dc1"
+msgid "必須項目チェックエラー。課金間隔区分が設定されていません。"
+msgstr "必須項目チェックエラー。課金間隔区分が設定されていません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dc2"
+msgid "必須パラメータなし：必須とされているパラメータが存在しません。"
+msgstr "必須パラメータなし：必須とされているパラメータが存在しません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dc3"
+msgid "必須項目チェックエラー。加盟店管理番号が設定されていません。"
+msgstr "必須項目チェックエラー。加盟店管理番号が設定されていません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dc4"
+msgid "必須項目チェックエラー。クレジットカード番号が設定されていません。"
+msgstr "必須項目チェックエラー。クレジットカード番号が設定されていません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dc5"
+msgid "必須項目チェックエラー。有効期限（月/年）が設定されていません。"
+msgstr "必須項目チェックエラー。有効期限（月/年）が設定されていません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dc6"
+msgid "必須項目チェックエラー。セキュリティコードが設定されていません。"
+msgstr "必須項目チェックエラー。セキュリティコードが設定されていません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dc7"
+msgid "必須項目チェックエラー。支払方法が設定されていません。"
+msgstr "必須項目チェックエラー。支払方法が設定されていません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dc8"
+msgid "必須項目チェックエラー。au IDパスワードが設定されていません。"
+msgstr "必須項目チェックエラー。au IDパスワードが設定されていません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dc9"
+msgid "必須項目チェックエラー。ニックネームが設定されていません。"
+msgstr "必須項目チェックエラー。ニックネームが設定されていません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dd0"
+msgid "必須項目チェックエラー。性別が設定されていません。"
+msgstr "必須項目チェックエラー。性別が設定されていません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dd1"
+msgid "必須項目チェックエラー。生年月日が設定されていません。"
+msgstr "必須項目チェックエラー。生年月日が設定されていません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dd2"
+msgid "必須項目チェックエラー。氏名（漢字）（姓）が設定されていません。"
+msgstr "必須項目チェックエラー。氏名（漢字）（姓）が設定されていません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dd3"
+msgid "必須項目チェックエラー。氏名（漢字）（名）が設定されていません。"
+msgstr "必須項目チェックエラー。氏名（漢字）（名）が設定されていません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dd4"
+msgid "必須項目チェックエラー。氏名（フリガナ）（姓カナ）が設定されていません。"
+msgstr "必須項目チェックエラー。氏名（フリガナ）（姓カナ）が設定されていません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dd5"
+msgid "必須項目チェックエラー。氏名（フリガナ）（名カナ）が設定されていません。"
+msgstr "必須項目チェックエラー。氏名（フリガナ）（名カナ）が設定されていません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dd6"
+msgid "必須項目チェックエラー。住所（郵便番号）が設定されていません。"
+msgstr "必須項目チェックエラー。住所（郵便番号）が設定されていません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dd7"
+msgid "必須項目チェックエラー。住所が設定されていません。"
+msgstr "必須項目チェックエラー。住所が設定されていません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dd8"
+msgid "必須項目チェックエラー。連絡先電話番号が設定されていません。"
+msgstr "必須項目チェックエラー。連絡先電話番号が設定されていません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dd9"
+msgid "必須項目チェックエラー。Eメールアドレスが設定されていません。"
+msgstr "必須項目チェックエラー。Eメールアドレスが設定されていません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_de0"
+msgid "必須項目チェックエラー。秘密の質問が設定されていません。"
+msgstr "必須項目チェックエラー。秘密の質問が設定されていません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_de1"
+msgid "必須項目チェックエラー。秘密の質問の答えが設定されていません。"
+msgstr "必須項目チェックエラー。秘密の質問の答えが設定されていません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_de2"
+msgid "必須項目チェックエラー。ショップIDが設定されていません。"
+msgstr "必須項目チェックエラー。ショップIDが設定されていません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_de3"
+msgid "必須項目チェックエラー。オーダーIDが設定されていません。"
+msgstr "必須項目チェックエラー。オーダーIDが設定されていません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_de4"
+msgid "必須項目チェックエラー。現状態が設定されていません。"
+msgstr "必須項目チェックエラー。現状態が設定されていません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_de5"
+msgid "必須項目チェックエラー。処理日時が設定されていません。"
+msgstr "必須項目チェックエラー。処理日時が設定されていません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_de6"
+msgid "必須項目チェックエラー。キャンセル区分が設定されていません。"
+msgstr "必須項目チェックエラー。キャンセル区分が設定されていません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_de7"
+msgid "必須項目チェックエラー。再入力Eメールアドレスが設定されていません。"
+msgstr "必須項目チェックエラー。再入力Eメールアドレスが設定されていません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_de8"
+msgid "必須項目チェックエラー。決済結果画面URLが設定されていません。"
+msgstr "必須項目チェックエラー。決済結果画面URLが設定されていません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_de9"
+msgid "必須項目チェックエラー。ボタン区分が設定されていません。"
+msgstr "必須項目チェックエラー。ボタン区分が設定されていません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_df0"
+msgid "項目チェックエラー。処理種別が正しくありません。"
+msgstr "項目チェックエラー。処理種別が正しくありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_df1"
+msgid "項目チェックエラー。決済情報番号が正しくありません。"
+msgstr "項目チェックエラー。決済情報番号が正しくありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_df2"
+msgid "項目チェックエラー。金額が正しくありません。"
+msgstr "項目チェックエラー。金額が正しくありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_df3"
+msgid "項目チェックエラー。サービスIDが正しくありません。"
+msgstr "項目チェックエラー。サービスIDが正しくありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_df4"
+msgid "項目チェックエラー。OpenIDが正しくありません。"
+msgstr "項目チェックエラー。OpenIDが正しくありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_df5"
+msgid "項目チェックエラー。加盟店管理番号が正しくありません。"
+msgstr "項目チェックエラー。加盟店管理番号が正しくありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_df6"
+msgid "項目チェックエラー。摘要が正しくありません。"
+msgstr "項目チェックエラー。摘要が正しくありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_df7"
+msgid "項目チェックエラー。サービス名略称が正しくありません。"
+msgstr "項目チェックエラー。サービス名略称が正しくありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_df8"
+msgid "項目チェックエラー。問い合わせ電話番号が正しくありません。"
+msgstr "項目チェックエラー。問い合わせ電話番号が正しくありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_df9"
+msgid "項目チェックエラー。課金間隔が正しくありません。"
+msgstr "項目チェックエラー。課金間隔が正しくありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dg0"
+msgid "項目チェックエラー。初回課金年月日が正しくありません。"
+msgstr "項目チェックエラー。初回課金年月日が正しくありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dg1"
+msgid "項目チェックエラー。初回金額が正しくありません。"
+msgstr "項目チェックエラー。初回金額が正しくありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dg2"
+msgid "項目チェックエラー。翌月以降金額が正しくありません。"
+msgstr "項目チェックエラー。翌月以降金額が正しくありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dg3"
+msgid "項目チェックエラー。課金タイミング区分が正しくありません。"
+msgstr "項目チェックエラー。課金タイミング区分が正しくありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dg4"
+msgid "項目チェックエラー。課金タイミングが正しくありません。"
+msgstr "項目チェックエラー。課金タイミングが正しくありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dg5"
+msgid "項目チェックエラー。加盟店IDが正しくありません。"
+msgstr "項目チェックエラー。加盟店IDが正しくありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dg6"
+msgid "項目チェックエラー。セッションIDが正しくありません。"
+msgstr "項目チェックエラー。セッションIDが正しくありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dg7"
+msgid "項目チェックエラー。セキュアキーが正しくありません。"
+msgstr "項目チェックエラー。セキュアキーが正しくありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dg8"
+msgid "項目チェックエラー。トランザクションIDが正しくありません。"
+msgstr "項目チェックエラー。トランザクションIDが正しくありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dg9"
+msgid "項目チェックエラー。認証区分が正しくありません。"
+msgstr "項目チェックエラー。認証区分が正しくありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dh0"
+msgid "項目チェックエラー。認証OK加盟店URLが正しくありません。"
+msgstr "項目チェックエラー。認証OK加盟店URLが正しくありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dh1"
+msgid "項目チェックエラー。認証NG加盟店URLが正しくありません。"
+msgstr "項目チェックエラー。認証NG加盟店URLが正しくありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dh2"
+msgid "項目チェックエラー。処理ファイルが正しくありません。"
+msgstr "項目チェックエラー。処理ファイルが正しくありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dh3"
+msgid "項目チェックエラー。処理番号が正しくありません。"
+msgstr "項目チェックエラー。処理番号が正しくありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dh4"
+msgid "項目チェックエラー。継続課金IDが正しくありません。"
+msgstr "項目チェックエラー。継続課金IDが正しくありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dh5"
+msgid "項目チェックエラー。課金年月日が正しくありません。"
+msgstr "項目チェックエラー。課金年月日が正しくありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dh6"
+msgid "項目チェックエラー。課金間隔区分が正しくありません。"
+msgstr "項目チェックエラー。課金間隔区分が正しくありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dh7"
+msgid "加盟店の送信したパラメータがDBにない、形式異常など、不正な場合"
+msgstr "加盟店の送信したパラメータがDBにない、形式異常など、不正な場合"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dh8"
+msgid "項目チェックエラー。予約領域1が正しくありません。"
+msgstr "項目チェックエラー。予約領域1が正しくありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dh9"
+msgid "項目チェックエラー。予約領域2が正しくありません。"
+msgstr "項目チェックエラー。予約領域2が正しくありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_di0"
+msgid "項目チェックエラー。クレジットカード番号が正しくありません。"
+msgstr "項目チェックエラー。クレジットカード番号が正しくありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_di1"
+msgid "項目チェックエラー。有効期限（月/年）が正しくありません。"
+msgstr "項目チェックエラー。有効期限（月/年）が正しくありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_di2"
+msgid "項目チェックエラー。セキュリティコードが正しくありません。"
+msgstr "項目チェックエラー。セキュリティコードが正しくありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_di3"
+msgid "項目チェックエラー。支払方法が正しくありません。"
+msgstr "項目チェックエラー。支払方法が正しくありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_di4"
+msgid "項目チェックエラー。au IDパスワードが正しくありません。"
+msgstr "項目チェックエラー。au IDパスワードが正しくありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_di5"
+msgid "項目チェックエラー。ニックネームが正しくありません。"
+msgstr "項目チェックエラー。ニックネームが正しくありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_di6"
+msgid "項目チェックエラー。性別が正しくありません。"
+msgstr "項目チェックエラー。性別が正しくありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_di7"
+msgid "項目チェックエラー。生年月日が正しくありません。"
+msgstr "項目チェックエラー。生年月日が正しくありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_di8"
+msgid "項目チェックエラー。氏名（漢字）（姓）が正しくありません。"
+msgstr "項目チェックエラー。氏名（漢字）（姓）が正しくありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_di9"
+msgid "項目チェックエラー。氏名（漢字）（名）が正しくありません。"
+msgstr "項目チェックエラー。氏名（漢字）（名）が正しくありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dj0"
+msgid "項目チェックエラー。氏名（フリガナ）（姓カナ）が正しくありません。"
+msgstr "項目チェックエラー。氏名（フリガナ）（姓カナ）が正しくありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dj1"
+msgid "項目チェックエラー。氏名（フリガナ）（名カナ）が正しくありません。"
+msgstr "項目チェックエラー。氏名（フリガナ）（名カナ）が正しくありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dj2"
+msgid "項目チェックエラー。住所（郵便番号）が正しくありません。"
+msgstr "項目チェックエラー。住所（郵便番号）が正しくありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dj3"
+msgid "項目チェックエラー。住所が正しくありません。"
+msgstr "項目チェックエラー。住所が正しくありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dj4"
+msgid "項目チェックエラー。連絡先電話番号が正しくありません。"
+msgstr "項目チェックエラー。連絡先電話番号が正しくありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dj5"
+msgid "項目チェックエラー。Eメールアドレスが正しくありません。"
+msgstr "項目チェックエラー。Eメールアドレスが正しくありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dj6"
+msgid "項目チェックエラー。秘密の質問が正しくありません。"
+msgstr "項目チェックエラー。秘密の質問が正しくありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dj7"
+msgid "項目チェックエラー。秘密の質問の答えが正しくありません。"
+msgstr "項目チェックエラー。秘密の質問の答えが正しくありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dj8"
+msgid "項目チェックエラー。ショップIDが正しくありません。"
+msgstr "項目チェックエラー。ショップIDが正しくありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dj9"
+msgid "項目チェックエラー。オーダーIDが正しくありません。"
+msgstr "項目チェックエラー。オーダーIDが正しくありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dk0"
+msgid "項目チェックエラー。処理日時が正しくありません。"
+msgstr "項目チェックエラー。処理日時が正しくありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dk1"
+msgid "項目チェックエラー。管理番号が正しくありません。"
+msgstr "項目チェックエラー。管理番号が正しくありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dk2"
+msgid "項目チェックエラー。決済コードが正しくありません。"
+msgstr "項目チェックエラー。決済コードが正しくありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dk3"
+msgid "項目チェックエラー。キャンセル区分が正しくありません。"
+msgstr "項目チェックエラー。キャンセル区分が正しくありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dk4"
+msgid "項目チェックエラー。再入力Eメールアドレスが正しくありません。"
+msgstr "項目チェックエラー。再入力Eメールアドレスが正しくありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dk5"
+msgid "項目チェックエラー。決済結果画面URLが正しくありません。"
+msgstr "項目チェックエラー。決済結果画面URLが正しくありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dk6"
+msgid "項目チェックエラー。ボタン区分が正しくありません。"
+msgstr "項目チェックエラー。ボタン区分が正しくありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dk7"
+msgid "項目チェックエラー。ポイント充当額が正しくありません。"
+msgstr "項目チェックエラー。ポイント充当額が正しくありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dk8"
+msgid "項目チェックエラー。ポイント利用区分が正しくありません。"
+msgstr "項目チェックエラー。ポイント利用区分が正しくありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dk9"
+msgid "項目チェックエラー。利用ポイントが正しくありません。"
+msgstr "項目チェックエラー。利用ポイントが正しくありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dl0"
+msgid "項目チェックエラー。秘密の質問の登録区分が正しくありません。"
+msgstr "項目チェックエラー。秘密の質問の登録区分が正しくありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dl1"
+msgid "項目チェックエラー。クレジットカードの登録区分が正しくありません。"
+msgstr "項目チェックエラー。クレジットカードの登録区分が正しくありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dl2"
+msgid "項目チェックエラー。コンテツIDが正しくありません。"
+msgstr "項目チェックエラー。コンテツIDが正しくありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dl3"
+msgid "課金間隔区分は月単位しか選択できません。"
+msgstr "課金間隔区分は月単位しか選択できません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dl4"
+msgid "課金間隔は1（ヶ月）しか選択できません。"
+msgstr "課金間隔は1（ヶ月）しか選択できません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dl5"
+msgid "初回課金日は登録日から6ヶ月以内にしてください。"
+msgstr "初回課金日は登録日から6ヶ月以内にしてください。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dl6"
+msgid "金額は１円以上を設定してください。"
+msgstr "金額は１円以上を設定してください。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dl7"
+msgid "認証区分は「01」を設定してください。"
+msgstr "認証区分は「01」を設定してください。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dl8"
+msgid "認証区分は「01」を設定してください。"
+msgstr "認証区分は「01」を設定してください。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dl9"
+msgid "支払方法は(02(クレジットカード)、03(WebMoney)を設定してください。"
+msgstr "支払方法は(02(クレジットカード)、03(WebMoney)を設定してください。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dm0"
+msgid "性別は1(男)、2(女)を設定してください。"
+msgstr "性別は1(男)、2(女)を設定してください。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dm1"
+msgid "ニックネームに使用できない文字が入力されています。"
+msgstr "ニックネームに使用できない文字が入力されています。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dm2"
+msgid "生年月日の入力が無効な日付です。"
+msgstr "生年月日の入力が無効な日付です。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dm3"
+msgid "秘密の質問を選択してください。"
+msgstr "秘密の質問を選択してください。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dm4"
+msgid "秘密の質問の答えに使用できない文字が入力されています。"
+msgstr "秘密の質問の答えに使用できない文字が入力されています。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dm5"
+msgid "秘密の質問の答えが入力可能文字数を超過しています。"
+msgstr "秘密の質問の答えが入力可能文字数を超過しています。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dm6"
+msgid "再入力のEメールアドレスが一致しません。"
+msgstr "再入力のEメールアドレスが一致しません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dm7"
+msgid "秘密の質問の答えを半角スペースのみで登録することはできません。"
+msgstr "秘密の質問の答えを半角スペースのみで登録することはできません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dm8"
+msgid "秘密の質問の答えに絵文字を使用することはできません。"
+msgstr "秘密の質問の答えに絵文字を使用することはできません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dm9"
+msgid "ボタン区分は01(次へ（他の決済方法）、02(次へ（au IDのケータイPC連動設定）)を設定してください。"
+msgstr "ボタン区分は01(次へ（他の決済方法）、02(次へ（au IDのケータイPC連動設定）)を設定してください。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dn0"
+msgid "認証区分（OpenID）に該当するOpenIDが設定されていません。"
+msgstr "認証区分（OpenID）に該当するOpenIDが設定されていません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dn1"
+msgid "認証区分（セッションID）に該当するセッションIDが設定されていません。"
+msgstr "認証区分（セッションID）に該当するセッションIDが設定されていません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dn2"
+msgid "認証区分に該当するデータが設定されていません。"
+msgstr "認証区分に該当するデータが設定されていません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dn3"
+msgid "認証区分に該当するデータが設定されていません。"
+msgstr "認証区分に該当するデータが設定されていません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dn4"
+msgid "要求された課金処理結果がありません。"
+msgstr "要求された課金処理結果がありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dn5"
+msgid "決済処理が行われていません。時間を置き再度実行してください。"
+msgstr "決済処理が行われていません。時間を置き再度実行してください。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dn6"
+msgid "継続課金結果がありません。"
+msgstr "継続課金結果がありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dn7"
+msgid "継続課金情報処理結果がありません。"
+msgstr "継続課金情報処理結果がありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dn8"
+msgid "ファイルフォーマットエラー(ヘッダー行）"
+msgstr "ファイルフォーマットエラー(ヘッダー行）"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dn9"
+msgid "ファイルフォーマットエラー（データ行）"
+msgstr "ファイルフォーマットエラー（データ行）"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_do0"
+msgid "ファイルサイズエラー"
+msgstr "ファイルサイズエラー"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_do1"
+msgid "ファイル名サイズが不正です。"
+msgstr "ファイル名サイズが不正です。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_do2"
+msgid "ファイルの拡張子が不正です。"
+msgstr "ファイルの拡張子が不正です。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_do3"
+msgid "ファイルフォーマット連続20件エラー"
+msgstr "ファイルフォーマット連続20件エラー"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_do4"
+msgid "ファイルフォーマット100件上エラー"
+msgstr "ファイルフォーマット100件上エラー"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_do5"
+msgid "ファイルフォーマットデータ無しエラー"
+msgstr "ファイルフォーマットデータ無しエラー"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_do6"
+msgid "OpenIDリストフォーマッチェクエラー：OpenID解除にて、削除対象となるOpenIDが不正な場合"
+msgstr "OpenIDリストフォーマッチェクエラー：OpenID解除にて、削除対象となるOpenIDが不正な場合"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_do7"
+msgid "OpenIDExistチェックエラー：OpenID解除にて、削除対象となるOpenIDが存在しない場合"
+msgstr "OpenIDExistチェックエラー：OpenID解除にて、削除対象となるOpenIDが存在しない場合"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_do8"
+msgid "HTTPヘッダが不正です。"
+msgstr "HTTPヘッダが不正です。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_do9"
+msgid "加盟店IDあるいはセキュアキーに間違いがあります。"
+msgstr "加盟店IDあるいはセキュアキーに間違いがあります。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dp0"
+msgid "加盟店IDあるいはセキュアキーに間違いがあります。"
+msgstr "加盟店IDあるいはセキュアキーに間違いがあります。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dp1"
+msgid "不正なトランザクションIDです。"
+msgstr "不正なトランザクションIDです。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dp2"
+msgid "実行許可のないトランザクションです。"
+msgstr "実行許可のないトランザクションです。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dp3"
+msgid "契約が失効しています。"
+msgstr "契約が失効しています。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dp4"
+msgid "要求された機能を行う権限がありません。"
+msgstr "要求された機能を行う権限がありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dp5"
+msgid "要求された機能を行う権限がありません。"
+msgstr "要求された機能を行う権限がありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dp6"
+msgid "決済PFの利用権限がありません。"
+msgstr "決済PFの利用権限がありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dp7"
+msgid "サービスが利用できない状態です。"
+msgstr "サービスが利用できない状態です。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dp8"
+msgid "他加盟店の決済情報になります。"
+msgstr "他加盟店の決済情報になります。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dp9"
+msgid "決済PFの利用権限が停止されています。"
+msgstr "決済PFの利用権限が停止されています。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dq0"
+msgid "サービスがありません。"
+msgstr "サービスがありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dq1"
+msgid "サービスが適用前です。"
+msgstr "サービスが適用前です。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dq2"
+msgid "CPサービス解除エラー：加盟店がサービス解除されている場合"
+msgstr "CPサービス解除エラー：加盟店がサービス解除されている場合"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dq3"
+msgid "決済PFの利用権限が停止されています。"
+msgstr "決済PFの利用権限が停止されています。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dq4"
+msgid "サービス情報が取得できません。"
+msgstr "サービス情報が取得できません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dq5"
+msgid "トランザクションがタイムアウトになりました。"
+msgstr "トランザクションがタイムアウトになりました。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dq6"
+msgid "有効なユーザでありません。"
+msgstr "有効なユーザでありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dq7"
+msgid "有効なOpenIDではありません。"
+msgstr "有効なOpenIDではありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dq8"
+msgid "有効なOpenIDではありません。"
+msgstr "有効なOpenIDではありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dq9"
+msgid "有効なユーザでありません。"
+msgstr "有効なユーザでありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dr0"
+msgid "有効なセッションIDではありません。"
+msgstr "有効なセッションIDではありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dr1"
+msgid "使用されたセッションIDです。"
+msgstr "使用されたセッションIDです。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dr2"
+msgid "セッションIDの有効時間を過ぎています。"
+msgstr "セッションIDの有効時間を過ぎています。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dr3"
+msgid "有効なユーザでありません。"
+msgstr "有効なユーザでありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dr4"
+msgid "有効なユーザでありません。"
+msgstr "有効なユーザでありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dr5"
+msgid "有効なユーザでありません。"
+msgstr "有効なユーザでありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dr6"
+msgid "有効なユーザでありません。"
+msgstr "有効なユーザでありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dr7"
+msgid "有効なユーザでありません。"
+msgstr "有効なユーザでありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dr8"
+msgid "クレジットカード情報が削除されています。"
+msgstr "クレジットカード情報が削除されています。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dr9"
+msgid "クレジットカード会員情報が削除されています。"
+msgstr "クレジットカード会員情報が削除されています。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_ds0"
+msgid "有効なユーザでありません。"
+msgstr "有効なユーザでありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_ds1"
+msgid "クレジットカード情報が無効です。"
+msgstr "クレジットカード情報が無効です。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_ds2"
+msgid "セキュリティパスワードに誤りがあります。"
+msgstr "セキュリティパスワードに誤りがあります。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_ds3"
+msgid "セキュリティパスワードに誤りがあります。"
+msgstr "セキュリティパスワードに誤りがあります。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_ds4"
+msgid "セキュリティパスワードがロックされています。翌日までお待ちください。"
+msgstr "セキュリティパスワードがロックされています。翌日までお待ちください。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_ds5"
+msgid "有効なユーザでありません。"
+msgstr "有効なユーザでありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_ds6"
+msgid "ユーザが処理中断しました。"
+msgstr "ユーザが処理中断しました。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_ds7"
+msgid "有効なユーザでありません。（許諾同意が必要です）"
+msgstr "有効なユーザでありません。（許諾同意が必要です）"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_ds8"
+msgid "セキュリティパスワードがロックされました。"
+msgstr "セキュリティパスワードがロックされました。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_ds9"
+msgid "システム障害が発生しています。"
+msgstr "システム障害が発生しています。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dt0"
+msgid "ユーザを識別できません(IP)。"
+msgstr "ユーザを識別できません(IP)。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dt1"
+msgid "セキュリティパスワードに誤りがあます。"
+msgstr "セキュリティパスワードに誤りがあます。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dt2"
+msgid "セキュリティパスワードがロックされています。翌日までお待ちください。"
+msgstr "セキュリティパスワードがロックされています。翌日までお待ちください。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dt3"
+msgid "有効なユーザでありません。"
+msgstr "有効なユーザでありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dt4"
+msgid "ユーザが処理中断しました。"
+msgstr "ユーザが処理中断しました。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dt5"
+msgid "有効なユーザでありません。（許諾同意が必要です）"
+msgstr "有効なユーザでありません。（許諾同意が必要です）"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dt6"
+msgid "セキュリティパスワードがロックされました。"
+msgstr "セキュリティパスワードがロックされました。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dt7"
+msgid "Deisy障害"
+msgstr "Deisy障害"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dt8"
+msgid "お客様のブラウザではご利用いただけません。"
+msgstr "お客様のブラウザではご利用いただけません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dt9"
+msgid "EZ番号が存在しないため、ご利用になれません。"
+msgstr "EZ番号が存在しないため、ご利用になれません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_du0"
+msgid "au ID/PW認証でエラーが発生しました。"
+msgstr "au ID/PW認証でエラーが発生しました。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_du1"
+msgid "パスワードロック中（CAPTCHA認証が必要）"
+msgstr "パスワードロック中（CAPTCHA認証が必要）"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_du2"
+msgid "認可コード不正・変換不可／期限切れエラー"
+msgstr "認可コード不正・変換不可／期限切れエラー"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_du3"
+msgid "アクセストークン期限切れエラー"
+msgstr "アクセストークン期限切れエラー"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_du4"
+msgid "au ID取得不可（aSTインストールされてない、またはインストールされてない、またはauoneトークン未取得）"
+msgstr "au ID取得不可（aSTインストールされてない、またはインストールされてない、またはauoneトークン未取得）"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_du5"
+msgid "au ID取得不可（通信エラー）"
+msgstr "au ID取得不可（通信エラー）"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_du6"
+msgid "有効なユーザでありません。"
+msgstr "有効なユーザでありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_du7"
+msgid "継続課金データがありません。"
+msgstr "継続課金データがありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_du8"
+msgid "課金データがありません。"
+msgstr "課金データがありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_du9"
+msgid "請求情報が存在しません。"
+msgstr "請求情報が存在しません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dv0"
+msgid "オーソリ取消が行われています。"
+msgstr "オーソリ取消が行われています。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dv1"
+msgid "売上確定が行われています。"
+msgstr "売上確定が行われています。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dv2"
+msgid "売上取消が行われています。"
+msgstr "売上取消が行われています。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dv3"
+msgid "返金が行われています。"
+msgstr "返金が行われています。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dv4"
+msgid "売上確定が行われていません。"
+msgstr "売上確定が行われていません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dv5"
+msgid "請求が行われています。"
+msgstr "請求が行われています。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dv6"
+msgid "すでに解約されています。"
+msgstr "すでに解約されています。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dv7"
+msgid "返金可能期間を過ぎています。"
+msgstr "返金可能期間を過ぎています。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dv8"
+msgid "継続課金情報はオーソリ取消できません。"
+msgstr "継続課金情報はオーソリ取消できません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dv9"
+msgid "設定された売上金額がオーソリ金額よりも高くなっています。"
+msgstr "設定された売上金額がオーソリ金額よりも高くなっています。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dw0"
+msgid "オーソリ額が限度を超えています。"
+msgstr "オーソリ額が限度を超えています。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dw1"
+msgid "変更後の金額は請求より低い金額を設定してください。"
+msgstr "変更後の金額は請求より低い金額を設定してください。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dw2"
+msgid "継続課金情報は売上確定できません。"
+msgstr "継続課金情報は売上確定できません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dw3"
+msgid "実行許可のないデータです。"
+msgstr "実行許可のないデータです。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dw4"
+msgid "売上確定可能期間を過ぎています。"
+msgstr "売上確定可能期間を過ぎています。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dw5"
+msgid "継続課金情報は売上取消できません。"
+msgstr "継続課金情報は売上取消できません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dw6"
+msgid "返金が行えない課金データです。"
+msgstr "返金が行えない課金データです。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dw7"
+msgid "利用規約同意済みです。(規約同意のみのケース)"
+msgstr "利用規約同意済みです。(規約同意のみのケース)"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dw8"
+msgid "利用規約同意がキャンセルされました。(規約同意のみのケース)"
+msgstr "利用規約同意がキャンセルされました。(規約同意のみのケース)"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dw9"
+msgid "au料金合算請求によるお支払い以外の決済データです。"
+msgstr "au料金合算請求によるお支払い以外の決済データです。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dx0"
+msgid "購入がキャンセルされました。"
+msgstr "購入がキャンセルされました。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dx1"
+msgid "WebMoneyの支払方法は売上取消ができません。"
+msgstr "WebMoneyの支払方法は売上取消ができません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dx2"
+msgid "WebMoneyの支払方法は返金ができません。"
+msgstr "WebMoneyの支払方法は返金ができません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dx3"
+msgid "WebMoneyの支払方法は処理取消ができません。"
+msgstr "WebMoneyの支払方法は処理取消ができません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dx4"
+msgid "有効なクレジットカードではありません。"
+msgstr "有効なクレジットカードではありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dx5"
+msgid "au WALLET カード運用システムより利用不可応答が返されました。"
+msgstr "au WALLET カード運用システムより利用不可応答が返されました。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dx6"
+msgid "支払方法が利用できません。"
+msgstr "支払方法が利用できません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dx7"
+msgid "購入がキャンセルされました。（WebMoney画面キャンセルボタン押下より）"
+msgstr "購入がキャンセルされました。（WebMoney画面キャンセルボタン押下より）"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dx8"
+msgid "支払方法がクレジットカードではありません。"
+msgstr "支払方法がクレジットカードではありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dx9"
+msgid "支払方法がWebMoneyではありません。"
+msgstr "支払方法がWebMoneyではありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dy0"
+msgid "オーソリデータが不整合です。"
+msgstr "オーソリデータが不整合です。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dy1"
+msgid "代行会社より不正な応答が返されました。"
+msgstr "代行会社より不正な応答が返されました。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dy2"
+msgid "WebMoneyの支払方法は売上確定ができません。"
+msgstr "WebMoneyの支払方法は売上確定ができません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dy3"
+msgid "設定された売上金額がオーソリと同一の金額ではありません。"
+msgstr "設定された売上金額がオーソリと同一の金額ではありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dy4"
+msgid "WebMoneyの支払方法はオーソリ取消ができません。"
+msgstr "WebMoneyの支払方法はオーソリ取消ができません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dy5"
+msgid "WebMoneyの支払方法は売上取消/返金ができません。"
+msgstr "WebMoneyの支払方法は売上取消/返金ができません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dy6"
+msgid "auポイントシステム認証情報の取得でエラーが発生しました。"
+msgstr "auポイントシステム認証情報の取得でエラーが発生しました。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dy7"
+msgid "利用auポイントが保有を超えています。"
+msgstr "利用auポイントが保有を超えています。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dy8"
+msgid "auポイントシステムからユーザの情報が取得できませんでした。"
+msgstr "auポイントシステムからユーザの情報が取得できませんでした。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dy9"
+msgid "auポイントシステムとの接続でエラーが発生しました。"
+msgstr "auポイントシステムとの接続でエラーが発生しました。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dz0"
+msgid "auポイントシステムとの接続でタイムアウトが発生しました。"
+msgstr "auポイントシステムとの接続でタイムアウトが発生しました。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dz1"
+msgid "すでに購入済みのサービスです。"
+msgstr "すでに購入済みのサービスです。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dz2"
+msgid "システムエラーが発生しています。"
+msgstr "システムエラーが発生しています。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dz3"
+msgid "システムエラーが発生しています。"
+msgstr "システムエラーが発生しています。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dz4"
+msgid "HTTPヘッダが不正です。"
+msgstr "HTTPヘッダが不正です。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dz5"
+msgid "必須項目チェックエラー。au IDが設定されていません。"
+msgstr "必須項目チェックエラー。au IDが設定されていません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dz6"
+msgid "必須項目チェックエラー。パスワードが設定されていません。"
+msgstr "必須項目チェックエラー。パスワードが設定されていません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dz7"
+msgid "必須項目チェックエラー。対象処理区分が設定されていません。"
+msgstr "必須項目チェックエラー。対象処理区分が設定されていません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dz8"
+msgid "必須項目チェックエラー。秘密の質問の登録区分が設定されていません。"
+msgstr "必須項目チェックエラー。秘密の質問の登録区分が設定されていません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_dz9"
+msgid "必須項目チェックエラー。クレジットカードの登録区分が設定されていません。"
+msgstr "必須項目チェックエラー。クレジットカードの登録区分が設定されていません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d0a"
+msgid "必須項目チェックエラー。対象年月が設定されていません。"
+msgstr "必須項目チェックエラー。対象年月が設定されていません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d0b"
+msgid "必須項目チェックエラー。顧客暗証番号が設定されていません。"
+msgstr "必須項目チェックエラー。顧客暗証番号が設定されていません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d0c"
+msgid "必須項目チェックエラー。同意バージョンが設定されていません。"
+msgstr "必須項目チェックエラー。同意バージョンが設定されていません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d0d"
+msgid "必須項目チェックエラー。限度額が設定されていません。"
+msgstr "必須項目チェックエラー。限度額が設定されていません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d0e"
+msgid "必須項目チェックエラー。メール配信先が設定されていません。"
+msgstr "必須項目チェックエラー。メール配信先が設定されていません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d0f"
+msgid "必須項目チェックエラー。購入時メール送信設定が設定されていません。"
+msgstr "必須項目チェックエラー。購入時メール送信設定が設定されていません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d0g"
+msgid "必須項目チェックエラー。決済利用制限（ユーザ）設定が設定されていません。"
+msgstr "必須項目チェックエラー。決済利用制限（ユーザ）設定が設定されていません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d0h"
+msgid "必須項目チェックエラー。シーケンス番号が設定されていません。"
+msgstr "必須項目チェックエラー。シーケンス番号が設定されていません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d0i"
+msgid "必須項目チェックエラー。送信日時が設定されていません。"
+msgstr "必須項目チェックエラー。送信日時が設定されていません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d0j"
+msgid "必須項目チェックエラー。バージョンが設定されていません。"
+msgstr "必須項目チェックエラー。バージョンが設定されていません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d0k"
+msgid "必須項目チェックエラー。変更区分が設定されていません。"
+msgstr "必須項目チェックエラー。変更区分が設定されていません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d0l"
+msgid "必須項目チェックエラー。暗証番号またはau IDパスワードまたは顧客暗証番号が設定されていません。"
+msgstr "必須項目チェックエラー。暗証番号またはau IDパスワードまたは顧客暗証番号が設定されていません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d0m"
+msgid "項目チェックエラー。au IDが正しくありません。"
+msgstr "項目チェックエラー。au IDが正しくありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d0n"
+msgid "項目チェックエラー。パスワードが正しくありません。"
+msgstr "項目チェックエラー。パスワードが正しくありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d0o"
+msgid "項目チェックエラー。対象処理区分が正しくありません。"
+msgstr "項目チェックエラー。対象処理区分が正しくありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d0p"
+msgid "項目チェックエラー。対象年月が正しくありません。"
+msgstr "項目チェックエラー。対象年月が正しくありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d0q"
+msgid "項目チェックエラー。顧客暗証番号が正しくありません。"
+msgstr "項目チェックエラー。顧客暗証番号が正しくありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d0r"
+msgid "項目チェックエラー。同意バージョンが正しくありません。"
+msgstr "項目チェックエラー。同意バージョンが正しくありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d0s"
+msgid "項目チェックエラー。限度額が正しくありません。"
+msgstr "項目チェックエラー。限度額が正しくありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d0t"
+msgid "項目チェックエラー。メール配信先が正しくありません。"
+msgstr "項目チェックエラー。メール配信先が正しくありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d0u"
+msgid "項目チェックエラー。購入時メール送信設定が正しくありません。"
+msgstr "項目チェックエラー。購入時メール送信設定が正しくありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d0v"
+msgid "項目チェックエラー。決済利用制限（ユーザ）設定が正しくありません。"
+msgstr "項目チェックエラー。決済利用制限（ユーザ）設定が正しくありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d0w"
+msgid "項目チェックエラー。シーケンス番号が正しくありません。"
+msgstr "項目チェックエラー。シーケンス番号が正しくありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d0x"
+msgid "項目チェックエラー。送信日時が正しくありません。"
+msgstr "項目チェックエラー。送信日時が正しくありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d0y"
+msgid "項目チェックエラー。バージョンが正しくありません。"
+msgstr "項目チェックエラー。バージョンが正しくありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d0z"
+msgid "項目チェックエラー。変更区分が正しくありません。"
+msgstr "項目チェックエラー。変更区分が正しくありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d1a"
+msgid "秘密の質問の登録区分は01（登録済）、02（未登録）を設定してください。"
+msgstr "秘密の質問の登録区分は01（登録済）、02（未登録）を設定してください。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d1b"
+msgid "クレジットカードの登録区分は01（登録済）、02（未登録）を設定してください。"
+msgstr "クレジットカードの登録区分は01（登録済）、02（未登録）を設定してください。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d1c"
+msgid "対象処理区分は00（オーソリ）、01（オーソリ＆売上確定）、03（継続課金情報登録）を設定してください。"
+msgstr "対象処理区分は00（オーソリ）、01（オーソリ＆売上確定）、03（継続課金情報登録）を設定してください。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d1d"
+msgid "対象処理区分は01（オーソリ＆売上確定）、02（売上確定）を設定してください。"
+msgstr "対象処理区分は01（オーソリ＆売上確定）、02（売上確定）を設定してください。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d1e"
+msgid "現在適用されている同意バージョンではありません。"
+msgstr "現在適用されている同意バージョンではありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d1f"
+msgid "シーケンス番号、送信日時が重複したリクエストです。"
+msgstr "シーケンス番号、送信日時が重複したリクエストです。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d1g"
+msgid "決済データ情報がありません。"
+msgstr "決済データ情報がありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d1h"
+msgid "レコード件数エラー"
+msgstr "レコード件数エラー"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d1i"
+msgid "購入中に課金先が変更されました。"
+msgstr "購入中に課金先が変更されました。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d1j"
+msgid "au ID/PW認証でエラーが発生しました。"
+msgstr "au ID/PW認証でエラーが発生しました。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d1k"
+msgid "パスワードが初期化されました。"
+msgstr "パスワードが初期化されました。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d1l"
+msgid "顧客暗証番号がロックされました。"
+msgstr "顧客暗証番号がロックされました。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d1m"
+msgid "au IDパスワードがロックされました。"
+msgstr "au IDパスワードがロックされました。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d1n"
+msgid "代表課金先が設定されていません。"
+msgstr "代表課金先が設定されていません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d1o"
+msgid "EZメールアドレスが登録されていません。"
+msgstr "EZメールアドレスが登録されていません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d1p"
+msgid "auメールアドレスが登録されていません。"
+msgstr "auメールアドレスが登録されていません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d1q"
+msgid "ユーザを識別できません。"
+msgstr "ユーザを識別できません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d1r"
+msgid "au IDパスワードが有効期限切れです。"
+msgstr "au IDパスワードが有効期限切れです。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d1s"
+msgid "PW強制変更の必要あり"
+msgstr "PW強制変更の必要あり"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d1t"
+msgid "SMS送信が失敗しました。"
+msgstr "SMS送信が失敗しました。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d1u"
+msgid "パスワード間違いで、ワンタイムPWが失効しました。"
+msgstr "パスワード間違いで、ワンタイムPWが失効しました。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d1v"
+msgid "有効期限切れで、ワンタイムPWが失効しました。"
+msgstr "有効期限切れで、ワンタイムPWが失効しました。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d1w"
+msgid "登録情報（auoneID）が変更された継続課金情報です。"
+msgstr "登録情報（auoneID）が変更された継続課金情報です。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d1x"
+msgid "変更後の金額は売上確定の金額より低い金額を設定してください。"
+msgstr "変更後の金額は売上確定の金額より低い金額を設定してください。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d1y"
+msgid "登録情報（OpenID）が変更された継続課金情報です。"
+msgstr "登録情報（OpenID）が変更された継続課金情報です。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d1z"
+msgid "登録可能な件数を超えています。"
+msgstr "登録可能な件数を超えています。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d2a"
+msgid "すでに解除されています。"
+msgstr "すでに解除されています。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d2b"
+msgid "金額が単価上限限度額を超えています。"
+msgstr "金額が単価上限限度額を超えています。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d2c"
+msgid "金額が上限限度額を超えています。"
+msgstr "金額が上限限度額を超えています。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d2d"
+msgid "利用可能ポイントがありません。"
+msgstr "利用可能ポイントがありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d2e"
+msgid "auポイント運用システムより不正な応答が返されました。"
+msgstr "auポイント運用システムより不正な応答が返されました。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d2f"
+msgid "ポイントご利用額が制限を超えています。"
+msgstr "ポイントご利用額が制限を超えています。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d2g"
+msgid "ユーザの利用パスワード設定が取得できませんでした。"
+msgstr "ユーザの利用パスワード設定が取得できませんでした。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d2h"
+msgid "決済可能な加盟店ではありません。"
+msgstr "決済可能な加盟店ではありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d2i"
+msgid "決済可能なサービスではありません。"
+msgstr "決済可能なサービスではありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d2j"
+msgid "決済可能な商品ではありません。"
+msgstr "決済可能な商品ではありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d2k"
+msgid "有効サービスではありません。"
+msgstr "有効サービスではありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d2l"
+msgid "既に合算請求へ変更されています。"
+msgstr "既に合算請求へ変更されています。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d2m"
+msgid "解約されているため支払い方法を変更できません。"
+msgstr "解約されているため支払い方法を変更できません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d2n"
+msgid "限度額が上限を超えています。"
+msgstr "限度額が上限を超えています。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d2o"
+msgid "限度額が利用額よりも低くなっています。"
+msgstr "限度額が利用額よりも低くなっています。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d2p"
+msgid "購入時のau IDと異なるため、ご利用いただけません。購入時のauIDでログインの上、再度やり直してください。"
+msgstr "購入時のau IDと異なるため、ご利用いただけません。購入時のauIDでログインの上、再度やり直してください。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d2q"
+msgid "必須項目チェックエラー。商品総件数が設定されていません。"
+msgstr "必須項目チェックエラー。商品総件数が設定されていません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d2r"
+msgid "項目チェックエラー。商品総件数が正しくありません。"
+msgstr "項目チェックエラー。商品総件数が正しくありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d2s"
+msgid "項目チェックエラー。決済支払方法指定が正しくありません。"
+msgstr "項目チェックエラー。決済支払方法指定が正しくありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d2t"
+msgid "項目チェックエラー。ポイント利用指定が正しくありません。"
+msgstr "項目チェックエラー。ポイント利用指定が正しくありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d2u"
+msgid "商品金額合計は9,999,999を超えています。"
+msgstr "商品金額合計は9,999,999を超えています。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d2v"
+msgid "購入可能商品総件数を超えています。"
+msgstr "購入可能商品総件数を超えています。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d2w"
+msgid "商品総件数は１件以上を設定してください。"
+msgstr "商品総件数は１件以上を設定してください。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d2x"
+msgid "加盟店IDが指定されていない場合には、サービスIDの指定はできません。"
+msgstr "加盟店IDが指定されていない場合には、サービスIDの指定はできません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d2y"
+msgid "年齢制限チェックエラー。"
+msgstr "年齢制限チェックエラー。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d2z"
+msgid "固定回線契約課金ではありません。"
+msgstr "固定回線契約課金ではありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d3a"
+msgid "購入時のauIDとアクセス端末に紐付くauIDが一致しません。"
+msgstr "購入時のauIDとアクセス端末に紐付くauIDが一致しません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d3b"
+msgid "購入金額が０円のため、オーソリができません。"
+msgstr "購入金額が０円のため、オーソリができません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d3c"
+msgid "指定された支払方法が利用できません。"
+msgstr "指定された支払方法が利用できません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d3d"
+msgid "有効なユーザでありません。"
+msgstr "有効なユーザでありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d3e"
+msgid "オーソリ状態と異なる決済ステータスがあります。"
+msgstr "オーソリ状態と異なる決済ステータスがあります。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d3f"
+msgid "不正なトランザクションIDです。"
+msgstr "不正なトランザクションIDです。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d3g"
+msgid "ソフトバンクケータイ払い決済センターにてエラーが発生したため、処理を中止しました。"
+msgstr "ソフトバンクケータイ払い決済センターにてエラーが発生したため、処理を中止しました。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d3h"
+msgid "売上確定可能期間を過ぎているため、売上処理を中止しました。"
+msgstr "売上確定可能期間を過ぎているため、売上処理を中止しました。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d3i"
+msgid "取消可能期間を過ぎているため、取消処理を中止しました。"
+msgstr "取消可能期間を過ぎているため、取消処理を中止しました。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d3j"
+msgid "返金可能期間を過ぎているため、返金処理を中止しました。"
+msgstr "返金可能期間を過ぎているため、返金処理を中止しました。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d3k"
+msgid "与信結果が存在しないため、売上処理を中止しました。"
+msgstr "与信結果が存在しないため、売上処理を中止しました。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d3l"
+msgid "与信取消済みのため、売上処理を中止しました。"
+msgstr "与信取消済みのため、売上処理を中止しました。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d3m"
+msgid "指定された金額が、与信時金額と違うため、売上処理を中止しました。"
+msgstr "指定された金額が、与信時金額と違うため、売上処理を中止しました。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d3n"
+msgid "売上処理済みのため、売上処理を中止しました。"
+msgstr "売上処理済みのため、売上処理を中止しました。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d3o"
+msgid "自動売上が設定されているため、売上処理は不要です。"
+msgstr "自動売上が設定されているため、売上処理は不要です。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d3p"
+msgid "与信結果が存在しないため、売上処理を中止しました。"
+msgstr "与信結果が存在しないため、売上処理を中止しました。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d3q"
+msgid "売上処理済みのため、売上処理を中止しました。"
+msgstr "売上処理済みのため、売上処理を中止しました。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d3r"
+msgid "取消処理済みのため、売上処理を中止しました。"
+msgstr "取消処理済みのため、売上処理を中止しました。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d3s"
+msgid "既に取消処理中のため、売上処理を中止しました。"
+msgstr "既に取消処理中のため、売上処理を中止しました。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d3t"
+msgid "既に売上処理中のため、売上処理を中止しました。"
+msgstr "既に売上処理中のため、売上処理を中止しました。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d3u"
+msgid "指定された金額が、与信時金額と違うため、売上処理を中止しました。"
+msgstr "指定された金額が、与信時金額と違うため、売上処理を中止しました。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d3v"
+msgid "自動売上の場合、返金処理を使用して下さい。"
+msgstr "自動売上の場合、返金処理を使用して下さい。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d3w"
+msgid "与信結果が存在しないため、取消処理を中止しました。"
+msgstr "与信結果が存在しないため、取消処理を中止しました。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d3x"
+msgid "売上処理済みのため、取消処理を中止しました。"
+msgstr "売上処理済みのため、取消処理を中止しました。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d3y"
+msgid "取消処理済みのため、取消処理を中止しました。"
+msgstr "取消処理済みのため、取消処理を中止しました。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d3z"
+msgid "既に取消処理中のため、取消処理を中止しました。"
+msgstr "既に取消処理中のため、取消処理を中止しました。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d4a"
+msgid "既に売上処理中のため、取消処理を中止しました。"
+msgstr "既に売上処理中のため、取消処理を中止しました。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d4b"
+msgid "与信結果が存在しないため、返金処理を中止しました。"
+msgstr "与信結果が存在しないため、返金処理を中止しました。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d4c"
+msgid "売上処理未実施のため、返金処理を中止しました。"
+msgstr "売上処理未実施のため、返金処理を中止しました。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d4d"
+msgid "取消処理済みのため、返金処理を中止しました。"
+msgstr "取消処理済みのため、返金処理を中止しました。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d4e"
+msgid "返金処理済みのため、返金処理を中止しました。"
+msgstr "返金処理済みのため、返金処理を中止しました。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d4f"
+msgid "既に返金処理中のため、返金処理を中止しました。"
+msgstr "既に返金処理中のため、返金処理を中止しました。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d4g"
+msgid "与信結果が存在しないため、取消返金処理を中止しました。"
+msgstr "与信結果が存在しないため、取消返金処理を中止しました。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d4h"
+msgid "GWシステムエラー"
+msgstr "GWシステムエラー"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d4i"
+msgid "APIリクエストパラメータエラー"
+msgstr "APIリクエストパラメータエラー"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d4j"
+msgid "GWレコード検索エラー"
+msgstr "GWレコード検索エラー"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d4k"
+msgid "APIシステムエラー"
+msgstr "APIシステムエラー"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d4l"
+msgid "GW接続エラー"
+msgstr "GW接続エラー"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d4m"
+msgid "再入力上限回数制限エラー"
+msgstr "再入力上限回数制限エラー"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d4n"
+msgid "決済未完了エラー"
+msgstr "決済未完了エラー"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d4o"
+msgid "2重リクエストエラー"
+msgstr "2重リクエストエラー"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d4p"
+msgid "XML形式エラー"
+msgstr "XML形式エラー"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d4q"
+msgid "支払方法有効性エラー"
+msgstr "支払方法有効性エラー"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d4r"
+msgid "APIリクエストID存在エラー"
+msgstr "APIリクエストID存在エラー"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d4s"
+msgid "必須エラー"
+msgstr "必須エラー"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d4t"
+msgid "属性エラー"
+msgstr "属性エラー"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d4u"
+msgid "桁数エラー"
+msgstr "桁数エラー"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d4v"
+msgid "形式エラー"
+msgstr "形式エラー"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d4w"
+msgid "定義値エラー"
+msgstr "定義値エラー"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d4x"
+msgid "ハッシュ値エラー"
+msgstr "ハッシュ値エラー"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d4y"
+msgid "リクエスト有効期限エラー"
+msgstr "リクエスト有効期限エラー"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d4z"
+msgid "処理対象SBPSトランザクションIDエラー"
+msgstr "処理対象SBPSトランザクションIDエラー"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d5a"
+msgid "処理対象トラッキングIDエラー"
+msgstr "処理対象トラッキングIDエラー"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d5b"
+msgid "指定不可エラー"
+msgstr "指定不可エラー"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d5c"
+msgid "マーチャントID・ｻｰﾋﾞｽID 不正ｴﾗｰ"
+msgstr "マーチャントID・ｻｰﾋﾞｽID 不正ｴﾗｰ"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d5d"
+msgid "APIリクエストIDエラー"
+msgstr "APIリクエストIDエラー"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d5e"
+msgid "マーチャントIDエラー"
+msgstr "マーチャントIDエラー"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d5f"
+msgid "サービスIDエラー"
+msgstr "サービスIDエラー"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d5g"
+msgid "顧客IDエラー"
+msgstr "顧客IDエラー"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d5h"
+msgid "購入IDエラー"
+msgstr "購入IDエラー"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d5i"
+msgid "商品IDエラー"
+msgstr "商品IDエラー"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d5j"
+msgid "商品名称エラー"
+msgstr "商品名称エラー"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d5k"
+msgid "税額エラー"
+msgstr "税額エラー"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d5l"
+msgid "金額(税込)エラー"
+msgstr "金額(税込)エラー"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d5m"
+msgid "結果通知先CGIエラー"
+msgstr "結果通知先CGIエラー"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d5n"
+msgid "自由欄1エラー"
+msgstr "自由欄1エラー"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d5o"
+msgid "自由欄2エラー"
+msgstr "自由欄2エラー"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d5p"
+msgid "自由欄3エラー"
+msgstr "自由欄3エラー"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d5q"
+msgid "請求番号枝番エラー"
+msgstr "請求番号枝番エラー"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d5r"
+msgid "明細行番号エラー"
+msgstr "明細行番号エラー"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d5s"
+msgid "明細商品IDエラー"
+msgstr "明細商品IDエラー"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d5t"
+msgid "明細商品名称エラー"
+msgstr "明細商品名称エラー"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d5u"
+msgid "明細数量エラー"
+msgstr "明細数量エラー"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d5v"
+msgid "明細税額エラー"
+msgstr "明細税額エラー"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d5w"
+msgid "明細金額(税込)エラー"
+msgstr "明細金額(税込)エラー"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d5x"
+msgid "決済区分エラー"
+msgstr "決済区分エラー"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d5y"
+msgid "最終課金月エラー"
+msgstr "最終課金月エラー"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d5z"
+msgid "キャンペーンタイプエラー"
+msgstr "キャンペーンタイプエラー"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d6a"
+msgid "リクエスト日時エラー"
+msgstr "リクエスト日時エラー"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d6b"
+msgid "リクエスト許容時間エラー"
+msgstr "リクエスト許容時間エラー"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d6c"
+msgid "チェックサムエラー"
+msgstr "チェックサムエラー"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d6d"
+msgid "処理対象SBPSトランザクションIDエラー"
+msgstr "処理対象SBPSトランザクションIDエラー"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d6e"
+msgid "処理対象トラッキングIDエラー"
+msgstr "処理対象トラッキングIDエラー"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d6f"
+msgid "3DES 暗号化フラグエラー"
+msgstr "3DES 暗号化フラグエラー"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d6g"
+msgid "処理日時エラー"
+msgstr "処理日時エラー"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d6h"
+msgid "指定された金額が、利用可能金額の範囲外であるため、購入要求処理を中止しました。"
+msgstr "指定された金額が、利用可能金額の範囲外であるため、購入要求処理を中止しました。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d6i"
+msgid "MySoftBank決済センターにてエラーが発生しました為、処理を中止しました。"
+msgstr "MySoftBank決済センターにてエラーが発生しました為、処理を中止しました。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d6j"
+msgid "一定時間操作されなかったため処理を中断しました。再度MySoftbankログインよりお手続きをお願いします。"
+msgstr "一定時間操作されなかったため処理を中断しました。再度MySoftbankログインよりお手続きをお願いします。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d6k"
+msgid "一定時間操作されなかったため処理を中断しました。再度、ご購入手続きを最初からお願い致します。"
+msgstr "一定時間操作されなかったため処理を中断しました。再度、ご購入手続きを最初からお願い致します。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d6l"
+msgid "決済ができませんでした。詳細は、決済機関にお問合せください。"
+msgstr "決済ができませんでした。詳細は、決済機関にお問合せください。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d6m"
+msgid "決済ができませんでした。詳細は、決済機関にお問合せください。"
+msgstr "決済ができませんでした。詳細は、決済機関にお問合せください。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d6n"
+msgid "決済ができませんでした。詳細は、決済機関にお問合せください。"
+msgstr "決済ができませんでした。詳細は、決済機関にお問合せください。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d6o"
+msgid "決済ができませんでした。詳細は、決済機関にお問合せください。"
+msgstr "決済ができませんでした。詳細は、決済機関にお問合せください。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d6p"
+msgid "決済ができませんでした。詳細は、決済機関にお問合せください。"
+msgstr "決済ができませんでした。詳細は、決済機関にお問合せください。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d6q"
+msgid "決済ができませんでした。詳細は、決済機関にお問合せください。"
+msgstr "決済ができませんでした。詳細は、決済機関にお問合せください。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d6r"
+msgid "ご利用出来る限度額を超えています。他のお支払い方法にて、再度、お手続きをお願い致します。"
+msgstr "ご利用出来る限度額を超えています。他のお支払い方法にて、再度、お手続きをお願い致します。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d6s"
+msgid "決済ができませんでした。詳細は、決済機関にお問合せください。"
+msgstr "決済ができませんでした。詳細は、決済機関にお問合せください。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d6t"
+msgid "決済ができませんでした。詳細は、決済機関にお問合せください。"
+msgstr "決済ができませんでした。詳細は、決済機関にお問合せください。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d6u"
+msgid "決済ができませんでした。詳細は、決済機関にお問合せください。"
+msgstr "決済ができませんでした。詳細は、決済機関にお問合せください。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d6v"
+msgid "決済ができませんでした。詳細は、決済機関にお問合せください。"
+msgstr "決済ができませんでした。詳細は、決済機関にお問合せください。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d6w"
+msgid "決済ができませんでした。詳細は、決済機関にお問合せください。"
+msgstr "決済ができませんでした。詳細は、決済機関にお問合せください。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d6x"
+msgid "メンテナンス中のためソフトバンクまとめて支払いはご利用できません。しばらく待って、再度お手続きをお願いします。"
+msgstr "メンテナンス中のためソフトバンクまとめて支払いはご利用できません。しばらく待って、再度お手続きをお願いします。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d6y"
+msgid "ポイントをご利用いただけません。"
+msgstr "ポイントをご利用いただけません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d6z"
+msgid "API利用不可です。"
+msgstr "API利用不可です。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d7a"
+msgid "au WALLET クレジットカードが利用不可。"
+msgstr "au WALLET クレジットカードが利用不可。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d7b"
+msgid "au WALLET クレジットカードが利用不可。"
+msgstr "au WALLET クレジットカードが利用不可。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d7c"
+msgid "次回金額が継続課金登録金額上限を超えています。"
+msgstr "次回金額が継続課金登録金額上限を超えています。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d7d"
+msgid "端末からのアクセス不可（統合FEP専用）"
+msgstr "端末からのアクセス不可（統合FEP専用）"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d7e"
+msgid "EZ番号が存在しません（統合FEP専用）"
+msgstr "EZ番号が存在しません（統合FEP専用）"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d7f"
+msgid "合算請求不可になっています。"
+msgstr "合算請求不可になっています。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d7g"
+msgid "有効なau WALLET カードがありません。"
+msgstr "有効なau WALLET カードがありません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d7h"
+msgid "購入金額が０円のため、当該支払方法が利用できません。"
+msgstr "購入金額が０円のため、当該支払方法が利用できません。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d7i"
+msgid "自動売上が設定されているため、売上処理は不要です。"
+msgstr "自動売上が設定されているため、売上処理は不要です。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d7j"
+msgid "与信結果が存在しないため、取消返金処理を中止しました。"
+msgstr "与信結果が存在しないため、取消返金処理を中止しました。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d7k"
+msgid "与信取消済みのため、取消返金処理を中止しました。"
+msgstr "与信取消済みのため、取消返金処理を中止しました。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d7l"
+msgid "返金処理済みのため、返金処理を中止しました。"
+msgstr "返金処理済みのため、返金処理を中止しました。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d7m"
+msgid "取消返金可能期間を過ぎています。"
+msgstr "取消返金可能期間を過ぎています。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d7n"
+msgid "売上確定可能期間を過ぎています。"
+msgstr "売上確定可能期間を過ぎています。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d7o"
+msgid "ソフトバンクまとめて支払いB決済センターにてエラーが発生したため、処理を中止しました。"
+msgstr "ソフトバンクまとめて支払いB決済センターにてエラーが発生したため、処理を中止しました。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d7p"
+msgid "既に売上処理中のため、売上処理を中止しました。"
+msgstr "既に売上処理中のため、売上処理を中止しました。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d7q"
+msgid "既に売上処理中のため、取消処理を中止しました。"
+msgstr "既に売上処理中のため、取消処理を中止しました。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d7r"
+msgid "既に返金処理中のため、返金処理を中止しました。"
+msgstr "既に返金処理中のため、返金処理を中止しました。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d7s"
+msgid "自動売上の場合、返金処理を使用して下さい。"
+msgstr "自動売上の場合、返金処理を使用して下さい。"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d7t"
+msgid "決済機関システムエラー"
+msgstr "決済機関システムエラー"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d7u"
+msgid "顧客情報整合性エラー"
+msgstr "顧客情報整合性エラー"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d7v"
+msgid "SBPS 顧客情報返却フラグ"
+msgstr "SBPS 顧客情報返却フラグ"
+
+msgctxt "Languages::jp_sonypayment_carrier_error_msg_d7w"
+msgid "該当項目なし"
+msgstr "該当項目なし"

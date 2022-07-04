@@ -1,0 +1,549 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Japanese\n"
+"Language: ja_JP\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 1.7.4\n"
+"Last-Translator: Toshihiro Yoshiura <yoshiura@frogman.co.jp>\n"
+"PO-Revision-Date: 2015-03-24 16:45+0900\n"
+"POT-Creation-Date: \n"
+"MIME-Version: 1.0\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgctxt "Addons::name::sonypayment_subpay"
+msgid "ソニーペイメントサービス - 定期購入"
+msgstr "ソニーペイメントサービス - 定期購入"
+
+msgctxt "Addons::description::sonypayment_subpay"
+msgid "ソニーペイメントの定期購入を利用した決済を可能にします"
+msgstr "ソニーペイメントの定期購入を利用した決済を可能にします"
+
+msgctxt "SettingsSections::sonypayment_subpay::general"
+msgid "基本設定"
+msgstr "基本設定"
+
+msgctxt "SettingsOptions::sonypayment_subpay::elm_connection_information"
+msgid "接続設定"
+msgstr "接続設定"
+
+msgctxt "SettingsOptions::sonypayment_subpay::merchant_id"
+msgid "マーチャントID"
+msgstr "マーチャントID"
+
+msgctxt "SettingsOptions::sonypayment_subpay::merchant_pass"
+msgid "マーチャントパスワード"
+msgstr "マーチャントパスワード"
+
+msgctxt "SettingsOptions::sonypayment_subpay::tenant_id"
+msgid "店舗コード（オプション）"
+msgstr "店舗コード（オプション）"
+
+msgctxt "SettingsOptions::sonypayment_subpay::offset"
+msgid "初回定期オフセット"
+msgstr "初回定期オフセット"
+
+msgctxt "SettingsOptions::sonypayment_subpay::is_user_cancel"
+msgid "ユーザーの休止を有効にする"
+msgstr "ユーザーの休止を有効にする"
+
+msgctxt "SettingsOptions::sonypayment_subpay::second_process_type"
+msgid "二回目以降決済データの処理方法"
+msgstr "二回目以降決済データの処理方法"
+
+msgctxt "Languages::jp_sonypayment_subpay_notice"
+msgid "ソニーペイメントサービス - 定期購入に関する設定情報を入力してください。"
+msgstr "ソニーペイメントサービス - 定期購入に関する設定情報を入力してください。"
+
+msgctxt "Languages::jp_sonypayment_subpay_connections_settings"
+msgid "接続設定"
+msgstr "接続設定"
+
+msgctxt "Languages::jp_sonypayment_subpay_payment_settings"
+msgid "決済設定"
+msgstr "決済設定"
+
+msgctxt "Languages::jp_sonypayment_subpay_use_cvv"
+msgid "セキュリティコード(CVV2)を使用"
+msgstr "セキュリティコード(CVV2)を使用"
+
+msgctxt "Languages::jp_sonys_token_ninsyocode"
+msgid "トークン認証コード"
+msgstr "トークン認証コード"
+
+msgctxt "Languages::jp_sonys_security_code"
+msgid "セキュリティコード"
+msgstr "セキュリティコード"
+
+msgctxt "Languages::jp_sonys_security_code_is_empty"
+msgid "セキュリティコードが入力されていません"
+msgstr "セキュリティコードが入力されていません"
+
+msgctxt "Languages::jp_sonys_cc_what_is_security_code"
+msgid "セキュリティコードとは"
+msgstr "セキュリティコードとは"
+
+msgctxt "Languages::jp_sonys_error"
+msgid "クレジットカード決済エラー"
+msgstr "クレジットカード決済エラー"
+
+msgctxt "Languages::jp_sonys_error_code"
+msgid "エラーコード"
+msgstr "エラーコード"
+
+msgctxt "Languages::jp_sonys_cc_failed"
+msgid "クレジットカードによる決済に失敗しました。<br />再度カード情報を入力いただくか他の支払方法を選択してご注文ください。"
+msgstr "クレジットカードによる決済に失敗しました。<br />再度カード情報を入力いただくか他の支払方法を選択してご注文ください。"
+
+msgctxt "Languages::jp_sonys_transaction_id"
+msgid "処理通番"
+msgstr "処理通番"
+
+msgctxt "Languages::jp_sonys_transaction_date"
+msgid "取引日付"
+msgstr "取引日付"
+
+msgctxt "Languages::jp_sonys_process_type"
+msgid "決済データの処理方法"
+msgstr "決済データの処理方法"
+
+msgctxt "Languages::jp_sonys_gathering"
+msgid "与信売上計上"
+msgstr "与信売上計上"
+
+msgctxt "Languages::jp_sonys_auth_only"
+msgid "与信のみ"
+msgstr "与信のみ"
+
+msgctxt "Languages::jp_sonys_1auth"
+msgid "与信"
+msgstr "与信"
+
+msgctxt "Languages::jp_sonys_company_code"
+msgid "カード会社コード"
+msgstr "カード会社コード"
+
+msgctxt "Languages::jp_sonys_approve_no"
+msgid "承認番号"
+msgstr "承認番号"
+
+msgctxt "Languages::jp_sonys_status"
+msgid "請求ステータス"
+msgstr "請求ステータス"
+
+msgctxt "Languages::jp_sonys_1gathering"
+msgid "与信売上計上"
+msgstr "与信売上計上"
+
+msgctxt "Languages::jp_sonys_auth"
+msgid "与信"
+msgstr "与信"
+
+msgctxt "Languages::jp_sonys_auth_amount"
+msgid "与信金額"
+msgstr "与信金額"
+
+msgctxt "Languages::jp_sonys_auth_cancel"
+msgid "与信取消"
+msgstr "与信取消"
+
+msgctxt "Languages::jp_sonys_cc_auth_cancel_error"
+msgid "クレジット与信取消エラー"
+msgstr "クレジット与信取消エラー"
+
+msgctxt "Languages::jp_sonys_auth_cancel_failed"
+msgid "注文番号 [oid] は与信取消できませんでした。"
+msgstr "注文番号 [oid] は与信取消できませんでした。"
+
+msgctxt "Languages::jp_sonys_auth_cancelled"
+msgid "与信を取り消しました。"
+msgstr "与信を取り消しました。"
+
+msgctxt "Languages::jp_sonys_auth_ng"
+msgid "与信NG"
+msgstr "与信NG"
+
+msgctxt "Languages::jp_sonys_delete_success"
+msgid "クレジットカード情報を削除しました。"
+msgstr "クレジットカード情報を削除しました。"
+
+msgctxt "Languages::jp_sonys_register_failed"
+msgid "クレジットカード情報の登録に失敗しました。"
+msgstr "クレジットカード情報の登録に失敗しました。"
+
+msgctxt "Languages::jp_sonys_register_success"
+msgid "クレジットカード情報を登録しました。"
+msgstr "クレジットカード情報を登録しました。"
+
+msgctxt "Languages::jp_sonys_register_required"
+msgid "定期購入をご利用の場合は会員登録が必要です。"
+msgstr "定期購入をご利用の場合は会員登録が必要です。"
+
+msgctxt "Languages::jp_sonys_registered_card"
+msgid "定期購入:登録済みカード情報"
+msgstr "定期購入:登録済みカード情報"
+
+msgctxt "Languages::jp_sonys_subpay_list"
+msgid "定期購入一覧"
+msgstr "定期購入一覧"
+
+msgctxt "Languages::jp_sonys_delete_card_info"
+msgid "カード情報の削除"
+msgstr "カード情報の削除"
+
+msgctxt "Languages::jp_sonys_no_card_info"
+msgid "カード情報は登録されていません"
+msgstr "カード情報は登録されていません"
+
+msgctxt "Languages::jp_sonys_register_card_info"
+msgid "カード情報の登録"
+msgstr "カード情報の登録"
+
+msgctxt "Languages::jp_sonys_update_card_info"
+msgid "カード情報の更新"
+msgstr "カード情報の更新"
+
+msgctxt "Languages::jp_sonys_payment"
+msgid "ソニーペイメントサービス - 定期購入"
+msgstr "ソニーペイメントサービス - 定期購入"
+
+msgctxt "Languages::jp_sonys_second_price"
+msgid "2 回目以降の販売価格(円)"
+msgstr "2 回目以降の販売価格(円)"
+
+msgctxt "Languages::jp_sonys_deliver_freq"
+msgid "定期配送頻度"
+msgstr "定期配送頻度"
+
+msgctxt "Languages::jp_sonys_deliver_freq_w"
+msgid "毎週"
+msgstr "毎週"
+
+msgctxt "Languages::jp_sonys_deliver_freq_bw"
+msgid "隔週"
+msgstr "隔週"
+
+msgctxt "Languages::jp_sonys_deliver_freq_m"
+msgid "毎月"
+msgstr "毎月"
+
+msgctxt "Languages::jp_sonys_deliver_freq_bm"
+msgid "隔月"
+msgstr "隔月"
+
+msgctxt "Languages::jp_sonys_deliver_send_day"
+msgid "発送日"
+msgstr "発送日"
+
+msgctxt "Languages::jp_sonys_deliver_send_day_1"
+msgid "月曜日"
+msgstr "月曜日"
+
+msgctxt "Languages::jp_sonys_deliver_send_day_2"
+msgid "火曜日"
+msgstr "火曜日"
+
+msgctxt "Languages::jp_sonys_deliver_send_day_3"
+msgid "水曜日"
+msgstr "水曜日"
+
+msgctxt "Languages::jp_sonys_deliver_send_day_4"
+msgid "木曜日"
+msgstr "木曜日"
+
+msgctxt "Languages::jp_sonys_deliver_send_day_5"
+msgid "金曜日"
+msgstr "金曜日"
+
+msgctxt "Languages::jp_sonys_deliver_send_day_6"
+msgid "土曜日"
+msgstr "土曜日"
+
+msgctxt "Languages::jp_sonys_deliver_send_day_7"
+msgid "日曜日"
+msgstr "日曜日"
+
+msgctxt "Languages::jp_sonys_deliver_send_m_day_1"
+msgid "1日"
+msgstr "1日"
+
+msgctxt "Languages::jp_sonys_deliver_send_m_day_5"
+msgid "5日"
+msgstr "5日"
+
+msgctxt "Languages::jp_sonys_deliver_send_m_day_10"
+msgid "10日"
+msgstr "10日"
+
+msgctxt "Languages::jp_sonys_deliver_send_m_day_15"
+msgid "15日"
+msgstr "15日"
+
+msgctxt "Languages::jp_sonys_deliver_send_m_day_25"
+msgid "25日"
+msgstr "25日"
+
+msgctxt "Languages::jp_sonys_deliver_send_m_day_end"
+msgid "末日"
+msgstr "末日"
+
+msgctxt "Languages::jp_sonys_deliver_send_time"
+msgid "お届け時間"
+msgstr "お届け時間"
+
+msgctxt "Languages::jp_sonys_deliver_send_time_am"
+msgid "午前"
+msgstr "午前"
+
+msgctxt "Languages::jp_sonys_deliver_send_time_pm"
+msgid "午後"
+msgstr "午後"
+
+msgctxt "Languages::jp_sonys_deliver_send_time_8_10"
+msgid "8時～10時"
+msgstr "8時～10時"
+
+msgctxt "Languages::jp_sonys_deliver_send_time_10_12"
+msgid "10時～12時"
+msgstr "10時～12時"
+
+msgctxt "Languages::jp_sonys_deliver_send_time_12_14"
+msgid "12時～14時"
+msgstr "12時～14時"
+
+msgctxt "Languages::jp_sonys_deliver_send_time_14_16"
+msgid "14時～16時"
+msgstr "14時～16時"
+
+msgctxt "Languages::jp_sonys_deliver_send_time_16_18"
+msgid "16時～18時"
+msgstr "16時～18時"
+
+msgctxt "Languages::jp_sonys_deliver_send_time_18_20"
+msgid "18時～20時"
+msgstr "18時～20時"
+
+msgctxt "Languages::jp_sonys_deliver_send_time_20_22"
+msgid "20時～22時"
+msgstr "20時～22時"
+
+msgctxt "Languages::jp_sonys_start_date"
+msgid "開始日"
+msgstr "開始日"
+
+msgctxt "Languages::jp_sonys_end_date"
+msgid "終了日"
+msgstr "終了日"
+
+msgctxt "Languages::jp_sonys_first_free_desc"
+msgid "※ この定期購入商品は初回無料商品です。２回目以降の金額は [price] 円です。"
+msgstr "※ この定期購入商品は初回無料商品です。２回目以降の金額は [price] 円です。"
+
+msgctxt "Languages::jp_sonys_without_product_period_desc"
+msgid "※ この定期購入商品は期間対象外のため購入できません。"
+msgstr "※ この定期購入商品は期間対象外のため購入できません。"
+
+msgctxt "Languages::jp_sonys_subsc_without_product_period_desc"
+msgid "定期購入 [subpay_id] において、商品が期間対象外のため処理できません。"
+msgstr "定期購入 [subpay_id] において、商品が期間対象外のため処理できません"
+
+msgctxt "Languages::jp_sonys_subsc_manager"
+msgid "ソニーペイメントサービス - 定期購入管理"
+msgstr "ソニーペイメントサービス  - 定期購入管理"
+
+msgctxt "Languages::jp_sonys_next_send_date"
+msgid "次回発送予定日"
+msgstr "次回発送予定日"
+
+msgctxt "Languages::jp_sonys_subscription_payment"
+msgid "定期購入"
+msgstr "定期購入"
+
+msgctxt "Languages::jp_sonys_subsc_cnt"
+msgid "定期回数"
+msgstr "定期回数"
+
+msgctxt "Languages::jp_sonys_order_id_status"
+msgid "最新注文#/ステータス"
+msgstr "最新注文#/ステータス"
+
+msgctxt "Languages::jp_sonys_subsc_status"
+msgid "継続状況"
+msgstr "継続状況"
+
+msgctxt "Languages::jp_sonys_subsc_status_a"
+msgid "継続"
+msgstr "継続"
+
+msgctxt "Languages::jp_sonys_subsc_status_p"
+msgid "休止"
+msgstr "休止"
+
+msgctxt "Languages::jp_sonys_subsc_status_d"
+msgid "解約"
+msgstr "解約"
+
+msgctxt "Languages::jp_sonys_subsc_status_e"
+msgid "決済失敗"
+msgstr "決済失敗"
+
+msgctxt "Languages::jp_sonys_date_from"
+msgid "から"
+msgstr "から"
+
+msgctxt "Languages::jp_sonys_date_to"
+msgid "まで"
+msgstr "まで"
+
+msgctxt "Languages::jp_sonys_next_send_date_invalid"
+msgid "定期購入 [subpay_id] において、次回発送予定日が今月と来月以外の月のため処理ができません。"
+msgstr "定期購入 [subpay_id] において、次回発送予定日が今月と来月以外の月のため処理ができません。"
+
+msgctxt "Languages::jp_sonys_change"
+msgid "利用額変更"
+msgstr "利用額変更"
+
+msgctxt "Languages::jp_sonys_process"
+msgid "受注処理"
+msgstr "受注処理"
+
+msgctxt "Languages::jp_sonys_bulk_process"
+msgid "受注一括処理"
+msgstr "受注一括処理"
+
+msgctxt "Languages::jp_sonys_subpay_order_history"
+msgid "定期購入 #[subpay_id] 注文履歴"
+msgstr "定期購入 #[subpay_id] 注文履歴"
+
+msgctxt "Languages::jp_sonys_sales_cancel"
+msgid "売上取消"
+msgstr "売上取消"
+
+msgctxt "Languages::jp_sonys_cc_sales_cancel_error"
+msgid "クレジット売上取消エラー"
+msgstr "クレジット売上取消エラー"
+
+msgctxt "Languages::jp_sonys_sales_cancel_failed"
+msgid "注文番号 [oid] は売上取消できませんでした。"
+msgstr "注文番号 [oid] は売上取消できませんでした。"
+
+msgctxt "Languages::jp_sonys_sales_cancelled"
+msgid "売上を取り消しました。"
+msgstr "売上を取り消しました。"
+
+msgctxt "Languages::jp_sonys_sales_completed"
+msgid "請求を確定しました。"
+msgstr "請求を確定しました。"
+
+msgctxt "Languages::jp_sonys_sales_confirm"
+msgid "売上計上"
+msgstr "売上計上"
+
+msgctxt "Languages::jp_sonys_cc_sales_confirm_error"
+msgid "クレジット売上計上エラー"
+msgstr "クレジット売上計上エラー"
+
+msgctxt "Languages::jp_sonys_sales_confirm_failed"
+msgid "注文番号 [oid] は売上計上できませんでした。"
+msgstr "注文番号 [oid] は売上計上できませんでした。"
+
+msgctxt "Languages::jp_sonys_data_not_exists"
+msgid "ご指定の処理を実行できる注文がありませんでした。"
+msgstr "ご指定の処理を実行できる注文がありませんでした。"
+
+msgctxt "Languages::jp_sonys_subsc_data_not_exists"
+msgid "ご指定の処理を実行できる定期購入がありませんでした。"
+msgstr "ご指定の処理を実行できる定期購入がありませんでした。"
+
+msgctxt "Languages::jp_sonys_subsc_success"
+msgid "定期購入 [subpay_id] において、注文番号 [oid] が作成されました。"
+msgstr "定期購入 [subpay_id] において、注文番号 [oid] が作成されました。"
+
+msgctxt "Languages::jp_sonys_subsc_fail"
+msgid "定期購入 [subpay_id] において、与信売上計上に失敗しました。エラーコード： [err_cd]"
+msgstr "定期購入 [subpay_id] において、与信売上計上に失敗しました。エラーコード： [err_cd]"
+
+msgctxt "Languages::jp_sonys_process_type"
+msgid "決済データの処理方法"
+msgstr "決済データの処理方法"
+
+msgctxt "Languages::jp_sonys_3dsecure_settings"
+msgid "本人認証サービス設定"
+msgstr "本人認証サービス設定"
+
+msgctxt "Languages::jp_sonys_use_3dsecure"
+msgid "本人認証サービス（3Dセキュア）を使用"
+msgstr "本人認証サービス（3Dセキュア）を使用"
+
+msgctxt "Languages::jp_sonys_3dsecure_aes_key"
+msgid "本人認証サービス（3Dセキュア）認証暗号化キー"
+msgstr "本人認証サービス（3Dセキュア）認証暗号化キー"
+
+msgctxt "Languages::jp_sonys_3dsecure_aes_iv"
+msgid "本人認証サービス（3Dセキュア）初期化ベクトル"
+msgstr "本人認証サービス（3Dセキュア）初期化ベクトル"
+
+msgctxt "Languages::jp_sonys_3d_err_1"
+msgid "3Dセキュア本人認証NG"
+msgstr "3Dセキュア本人認証NG"
+
+msgctxt "Languages::jp_sonys_3d_err_2"
+msgid "お客様カードの3Dセキュアパスワード未設定のため3Dセキュア認証未実施"
+msgstr "お客様カードの3Dセキュアパスワード未設定のため3Dセキュア認証未実施"
+
+msgctxt "Languages::jp_sonys_3d_err_3"
+msgid "カード発行会社3Dセキュア未対応のため3Dセキュア認証未実施"
+msgstr "カード発行会社3Dセキュア未対応のため3Dセキュア認証未実施"
+
+msgctxt "Languages::jp_sonys_3d_err_8"
+msgid "認証システムがメンテナンス中のため3Dセキュア認証未実施"
+msgstr "認証システムがメンテナンス中のため3Dセキュア認証未実施"
+
+msgctxt "Languages::jp_sonys_3d_err_9"
+msgid "認証システムでエラーが発生したため3Dセキュア認証未実施"
+msgstr "認証システムでエラーが発生したため3Dセキュア認証未実施"
+
+msgctxt "Languages::jp_sonys_cc_change_error_no_processid"
+msgid "process_id が存在しないため金額の変更ができません"
+msgstr "process_id が存在しないため金額の変更ができません"
+
+msgctxt "Languages::jp_sonys_cc_change_error_pay_status"
+msgid "請求ステータスが売上計上でないため金額の変更ができません"
+msgstr "請求ステータスが売上計上でないため金額の変更ができません"
+
+msgctxt "Languages::jp_sonys_cc_change_error_ref"
+msgid "利用金額が参照できなかったため金額の変更ができません"
+msgstr "利用金額が参照できなかったため金額の変更ができません"
+
+msgctxt "Languages::jp_sonys_cc_change_error_amount"
+msgid "金額に変更が無いため金額の変更ができません"
+msgstr "金額に変更が無いため金額の変更ができません"
+
+msgctxt "Languages::jp_sonys_cc_change_error_pay_method"
+msgid "支払方法が変更されたため金額の変更ができません"
+msgstr "支払方法が変更されたため金額の変更ができません"
+
+msgctxt "Languages::jp_sonys_subsc_status_error"
+msgid "継続状況が継続でないため処理ができません"
+msgstr "継続状況が継続でないため処理ができません"
+
+msgctxt "Languages::jp_sonys_no_registered_card_error"
+msgid "カードが登録されていないため処理ができません"
+msgstr "カードが登録されていないため処理ができません"
+
+msgctxt "Languages::jp_sonys_subsc_status_update"
+msgid "定期購入 [subpay_id] において、継続状況が [status] に変更されました"
+msgstr "定期購入 [subpay_id] において、継続状況が [status] に変更されました"
+
+msgctxt "Languages::jp_sonys_subsc_change_ship_addr"
+msgid "配送住所変更"
+msgstr "配送住所変更"
+
+msgctxt "Languages::jp_sonys_subsc_same_for_all"
+msgid "上記住所を全ての定期購入に適用"
+msgstr "上記住所を全ての定期購入に適用"
+
+msgctxt "Languages::jp_sonys_subsc_ship_addr_update_notice"
+msgid "配送住所が変更されました"
+msgstr "配送住所が変更されました"

@@ -1,0 +1,126 @@
+<?xml version="1.0"?>
+<addon scheme="3.0" edition_type="ROOT,ULT:VENDOR">
+    <id>amazon_checkout</id>
+    <version>1.0</version>
+    <default_language>ja</default_language>
+    <priority>1000</priority>
+    <status>active</status>
+    <authors>
+        <author>
+            <name>CS-Cart.jp</name>
+            <email>info@cs-cart.jp</email>
+            <url>http://cs-cart.jp</url>
+        </author>
+    </authors>
+    <supplier>CS-Cart.jp</supplier>
+    <supplier_link>http://cs-cart.jp</supplier_link>
+    <compatibility>
+        <core_version>
+            <min>4.3.4</min>
+        </core_version>
+        <core_edition>
+            ULTIMATE
+        </core_edition>
+        <php_version>
+            <min>5.3.0</min>
+        </php_version>
+        <php_extensions>
+            <curl>
+                <supported>Y</supported>
+            </curl>
+        </php_extensions>
+    </compatibility>
+    <license></license>
+    <tab_order>prepend</tab_order>
+    <settings layout="popup" edition_type="ROOT,ULT:VENDOR">
+        <sections>
+            <section id="section1">
+                <items>
+                    <item id="elm_amazon_settings">
+                        <type>header</type>
+                    </item>
+                    <item id="client_id">
+                        <type>input</type>
+                    </item>
+                    <item id="client_secret">
+                        <type>input</type>
+                    </item>
+                    <item id="merchant_id">
+                        <type>input</type>
+                    </item>
+                    <item id="access_key">
+                        <type>input</type>
+                    </item>
+                    <item id="access_secret">
+                        <type>input</type>
+                    </item>
+                    <item id="auth_id_prefix">
+                        <type>input</type>
+                    </item>
+                    <item id="test_mode">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                    <item id="capture_now">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                    <item id="region">
+                        <type>selectbox</type>
+                        <variants>
+                            <item id="jp"></item>
+                            <item id="us"></item>
+                            <item id="uk"></item>
+                            <item id="de"></item>
+                        </variants>
+                        <default_value>jp</default_value>
+                    </item>
+                    <item id="button_type">
+                        <type>selectbox</type>
+                        <variants>
+                            <item id="PwA"></item>
+                        </variants>
+                    </item>
+                    <item id="button_color">
+                        <type>selectbox</type>
+                        <variants>
+                            <item id="Gold"></item>
+                            <item id="LightGray"></item>
+                            <item id="DarkGray"></item>
+                        </variants>
+                    </item>
+                    <item id="button_size">
+                        <type>selectbox</type>
+                        <variants>
+                            <item id="small"></item>
+                            <item id="medium"></item>
+                            <item id="large"></item>
+                            <item id="x-large"></item>
+                        </variants>
+                    </item>
+                    <item id="add_to_cart">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                    <item id="create_account">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                    <item id="delay_before_redirect">
+                        <type>input</type>
+                        <default_value>2000</default_value>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    <queries>
+        <item for="install">INSERT INTO ?:payment_processors (processor, processor_script, processor_template, admin_template, callback, type, addon) VALUES ("Amazon Pay", 'pay_with_amazon.php', 'addons/amazon_checkout/views/orders/components/payments/pay_with_amazon.tpl', 'pay_with_amazon.tpl', 'Y', 'P', 'amazon_checkout');</item>
+        <item for="install">ALTER TABLE ?:payments ADD COLUMN is_amazon_payment VARCHAR(1) NOT NULL DEFAULT 'N';</item>
+        <item for="uninstall">ALTER TABLE ?:payments DROP COLUMN is_amazon_payment;</item>
+        <item for="uninstall">DELETE FROM `?:payment_processors` WHERE `processor_script` LIKE '%pay_with_amazon%'</item>
+    </queries>
+    <functions>
+        <item for="before_install">fn_amznlap_addon_before_install</item>
+    </functions>
+</addon>

@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+	<id>payjp</id>
+    <supplier>CS-Cart.jp</supplier>
+	<version>1.0</version>
+	<priority>1</priority>
+	<position>100</position>
+    <default_language>ja</default_language>
+    <status>active</status>
+    <compatibility>
+        <core_version>
+            <min>4.10.4</min>
+        </core_version>
+        <core_edition>
+            ULTIMATE
+        </core_edition>
+        <php_version>
+            <min>5.6.0</min>
+        </php_version>
+        <php_extensions>
+            <curl>
+                <supported>Y</supported>
+            </curl>
+        </php_extensions>
+    </compatibility>
+    <settings edition_type="ROOT,ULT:VENDOR">
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="elm_connection_information">
+                        <type>header</type>
+                        <handler/>
+                    </item>
+                    <item id="public_key">
+                        <type>input</type>
+                        <default_value/>
+                    </item>
+                    <item id="secret_key">
+                        <type>input</type>
+                        <default_value/>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    <queries>
+        <item type="file">database/data_install.sql</item>
+    </queries>
+    <functions>
+        <item for="install">fn_payjp_install</item>
+        <item for="uninstall">fn_payjp_delete_payment_processors</item>
+    </functions>
+</addon>

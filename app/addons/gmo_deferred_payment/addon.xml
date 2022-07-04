@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>gmo_deferred_payment</id>
+    <version>1.0</version>
+    <priority>9998</priority>
+    <position>0</position>
+    <default_language>ja</default_language>
+    <status>active</status>
+    <supplier>ANDPLUS</supplier>
+    <compatibility>
+        <core_edition>
+            ULTIMATE
+        </core_edition>
+    </compatibility>
+    <functions>
+      <item for="install">fn_gmo_deferred_payment_add_payment_processors</item>
+      <item for="uninstall">fn_gmo_deferred_payment_delete_payment_processors</item>
+    </functions>
+</addon>

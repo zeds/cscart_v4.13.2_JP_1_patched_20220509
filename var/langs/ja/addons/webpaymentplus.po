@@ -1,0 +1,38 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Japanese\n"
+"Language: ja_JP\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.net\n"
+"Last-Translator: cscartjp <info@cs-cart.jp>\n"
+"PO-Revision-Date: 2014-10-20 04:42-0400\n"
+
+msgctxt "Addons::name::webpaymentplus"
+msgid "ペイパルウェブペイメントプラス（クレジットカード）"
+msgstr "ペイパルウェブペイメントプラス（クレジットカード）"
+
+msgctxt "Addons::description::webpaymentplus"
+msgid "ペイパルウェブペイメントプラスによるクレジットカード決済を利用可能にします。"
+msgstr "ペイパルウェブペイメントプラスによるクレジットカード決済を利用可能にします。"
+
+msgctxt "Languages::pwpp_connection_settings"
+msgid "接続設定"
+msgstr "接続設定"
+
+msgctxt "Languages::pwpp_desc"
+msgid "支払いページをロード中です。しばらくお待ちください。"
+msgstr "支払いページをロード中です。しばらくお待ちください。"
+
+msgctxt "Languages::pwpp_pay_by_pwpp"
+msgid "ペイパルウェブペイメントプラスによるお支払い"
+msgstr "ペイパルウェブペイメントプラスによるお支払い"
+
+msgctxt "Languages::pwpp_pay_settings_desc"
+msgid "【事前審査が必要です】<br />ペイパルウェブペイメントプラスをご利用いただくには事前審査が必要となります。<br />詳しくは下記までお問い合わせください。<br />・お電話( 9:30-18:00 / 土・日・祝 )：03-6739-7135<br />・メール：wpp@paypal.com<br />※お問い合わせの際は、CS-Cartを利用をお伝え下さい。<br /><br /><br />【ご注意ください】<br />CS-CartではPaypal ウェブペイメントプラスの「PayPalで支払う」機能は利用できません。クレジットカードによる支払いのみ利用いただけます。<br />ペイパル様にご連絡のうえ、iframe上に表示されるフォームから「PayPalで支払う」ボタンを削除するよう依頼してください。<br />通常のPaypalによる支払いはCS-Cart管理画面から別途支払い方法を設定してください。"
+msgstr "【事前審査が必要です】<br />ペイパルウェブペイメントプラスをご利用いただくには事前審査が必要となります。<br />詳しくは下記までお問い合わせください。<br />・お電話( 9:30-18:00 / 土・日・祝 )：03-6739-7135<br />・メール：wpp@paypal.com<br />※お問い合わせの際は、CS-Cartを利用をお伝え下さい。<br /><br /><br />【ご注意ください】<br />CS-CartではPaypal ウェブペイメントプラスの「PayPalで支払う」機能は利用できません。クレジットカードによる支払いのみ利用いただけます。<br />ペイパル様にご連絡のうえ、iframe上に表示されるフォームから「PayPalで支払う」ボタンを削除するよう依頼してください。<br />通常のPaypalによる支払いはCS-Cart管理画面から別途支払い方法を設定してください。"
+
+msgctxt "Languages::pwpp_registration_link"
+msgid "ペイパル口座開設はこちら"
+msgstr "ペイパル口座開設はこちら"

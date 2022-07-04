@@ -1,0 +1,160 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+	<id>localization_jp</id>
+	<supplier>CS-Cart.jp</supplier>
+	<version>1.0</version>
+	<priority>9999</priority>
+	<position>9999</position>
+    <default_language>ja</default_language>
+	<status>active</status>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <settings edition_type="ROOT,ULT:VENDOR">
+		<sections>
+			<section id="general">
+				<items>
+					<item id="elm_contact_information">
+						<type>header</type>
+					</item>
+					<item id="jp_familyname_kana_c">
+						<type>selectbox</type>
+						<default_value>36</default_value>
+					</item>
+					<item id="jp_firstname_kana_c">
+						<type>selectbox</type>
+						<default_value>37</default_value>
+					</item>
+					<item id="elm_billing_information">
+						<type>header</type>
+					</item>
+					<item id="jp_familyname_kana_b">
+						<type>selectbox</type>
+						<default_value>38</default_value>
+					</item>
+					<item id="jp_firstname_kana_b">
+						<type>selectbox</type>
+						<default_value>40</default_value>
+					</item>
+					<item id="elm_shipping_information">
+						<type>header</type>
+					</item>
+					<item id="jp_familyname_kana_s">
+						<type>selectbox</type>
+						<default_value>39</default_value>
+					</item>
+					<item id="jp_firstname_kana_s">
+						<type>selectbox</type>
+						<default_value>41</default_value>
+					</item>
+                    <item id="jp_sagawa_timezone">
+                        <type>radiogroup</type>
+                        <default_value>6</default_value>
+                        <variants>
+                            <item id="5">
+                            </item>
+                            <item id="6">
+                            </item>
+                        </variants>
+                    </item>
+					<item id="elm_design">
+						<type>header</type>
+					</item>
+					<item id="jp_specific_css">
+						<type>checkbox</type>
+						<default_value>Y</default_value>
+					</item>
+					<item id="elm_email">
+						<type>header</type>
+					</item>
+					<item id="jp_notify_customer_default">
+						<type>checkbox</type>
+						<default_value>Y</default_value>
+					</item>
+					<item id="jp_notify_admin_default">
+						<type>checkbox</type>
+						<default_value>Y</default_value>
+					</item>
+					<item id="jp_notify_supplier_default">
+						<type>checkbox</type>
+						<default_value>Y</default_value>
+					</item>
+					<item id="elm_export">
+						<type>header</type>
+					</item>
+					<item id="jp_export_char_code">
+						<type>radiogroup</type>
+						<default_value>UTF-8</default_value>
+						<variants>
+							<item id="UTF-8">
+							</item>
+							<item id="SJIS">
+							</item>
+						</variants>
+					</item>
+				</items>
+			</section>
+			<section id="jp_holidays">
+				<items>
+					<item id="elm_holiday">
+						<type>header</type>
+					</item>
+					<item id="jp_holiday_mon">
+						<type>checkbox</type>
+						<default_value>N</default_value>
+					</item>
+					<item id="jp_holiday_tue">
+						<type>checkbox</type>
+						<default_value>N</default_value>
+					</item>
+					<item id="jp_holiday_wed">
+						<type>checkbox</type>
+						<default_value>N</default_value>
+					</item>
+					<item id="jp_holiday_thu">
+						<type>checkbox</type>
+						<default_value>N</default_value>
+					</item>
+					<item id="jp_holiday_fri">
+						<type>checkbox</type>
+						<default_value>N</default_value>
+					</item>
+					<item id="jp_holiday_sat">
+						<type>checkbox</type>
+						<default_value>N</default_value>
+					</item>
+					<item id="jp_holiday_sun">
+						<type>checkbox</type>
+						<default_value>N</default_value>
+					</item>
+					<item id="jp_holiday_ph">
+						<type>checkbox</type>
+						<default_value>N</default_value>
+					</item>
+					<item id="jp_shipping_sunday">
+						<type>checkbox</type>
+						<default_value>N</default_value>
+					</item>
+					<item id="jp_shipping_holiday">
+						<type>checkbox</type>
+						<default_value>N</default_value>
+					</item>
+				</items>
+			</section>
+		</sections>
+	</settings>
+	<queries>
+        <item>DROP TABLE IF EXISTS ?:jp_carriers;</item>
+        <item>DROP TABLE IF EXISTS ?:jp_carrier_services;</item>
+        <item>DROP TABLE IF EXISTS ?:jp_carrier_zones;</item>
+        <item>DROP TABLE IF EXISTS ?:jp_cc_quickpay;</item>
+        <item>DROP TABLE IF EXISTS ?:jp_delivery_date;</item>
+        <item>DROP TABLE IF EXISTS ?:jp_order_delivery_info;</item>
+        <item>DROP TABLE IF EXISTS ?:jp_order_status_sort;</item>
+        <item>DROP TABLE IF EXISTS ?:jp_shipping_rates;</item>
+        <item editions="MULTIVENDOR,ULTIMATE">REPLACE INTO ?:privileges (privilege, is_default, section_id) VALUES ('manage_shipping_rates_jp', 'Y', 'addons');</item>
+        <item for="uninstall" editions="MULTIVENDOR,ULTIMATE">DELETE FROM ?:privileges WHERE privilege LIKE 'manage_shipping_rates_jp'</item>
+	</queries>
+	<functions>
+        <item for="install">fn_lcjp_addon_install</item>
+		<item for="uninstall">fn_lcjp_addon_uninstall</item>
+	</functions>
+</addon>

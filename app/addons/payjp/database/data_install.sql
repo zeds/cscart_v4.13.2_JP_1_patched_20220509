@@ -1,0 +1,3 @@
+INSERT INTO cscart_payment_processors (processor, processor_script, processor_template, admin_template, callback, type) VALUES ('PAY.JP（カード決済）', 'payjp_cc.php', 'addons/payjp/views/orders/components/payments/payjp_cc.tpl', 'payjp_cc.tpl', 'N', 'P');
+
+CREATE TABLE IF NOT EXISTS cscart_jp_payjp_cc_status (order_id mediumint(8) unsigned NOT NULL, status_code varchar(32) NOT NULL DEFAULT '', PRIMARY KEY (`order_id`)) ENGINE=MyISAM DEFAULT CHARSET=utf8;

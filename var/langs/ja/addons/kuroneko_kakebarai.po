@@ -1,0 +1,2158 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Japanese\n"
+"Language: ja_JP\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscartjp <tommy@cs-cart.jp>\n"
+"PO-Revision-Date: 2015-12-14 15:00-0900\n"
+
+msgctxt "Addons::name::kuroneko_kakebarai"
+msgid "クロネコ掛け払い"
+msgstr "クロネコ掛け払い"
+
+msgctxt "Addons::description::kuroneko_kakebarai"
+msgid "クロネコ掛け払いによる決済を利用可能にします。"
+msgstr "クロネコ掛け払いによる決済を利用可能にします。"
+
+msgctxt "SettingsSections::kuroneko_kakebarai::general"
+msgid "基本設定"
+msgstr "基本設定"
+
+msgctxt "SettingsOptions::kuroneko_kakebarai::elm_kuroneko_kakebarai_connection_information"
+msgid "接続設定"
+msgstr "接続設定"
+
+msgctxt "SettingsOptions::kuroneko_kakebarai::trader_code"
+msgid "加盟店コード"
+msgstr "加盟店コード"
+
+msgctxt "SettingsOptions::kuroneko_kakebarai::password"
+msgid "パスワード"
+msgstr "パスワード"
+
+msgctxt "SettingsOptions::kuroneko_kakebarai::use_usergroup"
+msgid "クロネコ掛け払い取引先ユーザーグループのお客様のみ使用可能"
+msgstr "クロネコ掛け払い取引先ユーザーグループのお客様のみ使用可能"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_name"
+msgid "クロネコ掛け払い"
+msgstr "クロネコ掛け払い"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_usergroup_name"
+msgid "クロネコ掛け払い取引先"
+msgstr "クロネコ掛け払い取引先"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_user_info"
+msgid "クロネコ掛け払い取引先登録・照会"
+msgstr "クロネコ掛け払い取引先登録・照会"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_user_info_reg"
+msgid "クロネコ掛け払い取引先登録"
+msgstr "クロネコ掛け払い取引先登録"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_user_info_ref"
+msgid "クロネコ掛け払い取引先照会"
+msgstr "クロネコ掛け払い取引先照会"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_error"
+msgid "クロネコ掛け払いエラー"
+msgstr "クロネコ掛け払いエラー"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_failed"
+msgid "クロネコ掛け払いによる決済に失敗しました。<br />再度決済いただくか他の支払方法を選択してご注文ください。"
+msgstr "クロネコ掛け払いによる決済に失敗しました。<br />再度決済いただくか他の支払方法を選択してご注文ください。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_notice"
+msgid "クロネコ掛け払いに関する設定情報を入力してください。"
+msgstr "クロネコ掛け払いに関する設定情報を入力してください。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_connections_settings"
+msgid "接続設定"
+msgstr "接続設定"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_buyer_name"
+msgid "取引先名"
+msgstr "取引先名"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_judge_status"
+msgid "審査状況"
+msgstr "審査状況"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_buyer_info"
+msgid "取引先情報"
+msgstr "取引先情報"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_cid"
+msgid "取引先（会員）ID"
+msgstr "取引先（会員）ID"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_hjkjkbn"
+msgid "法人・個人事業主"
+msgstr "法人・個人事業主"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_hjkjkbn_1"
+msgid "法人"
+msgstr "法人"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_hjkjkbn_2"
+msgid "個人事業主"
+msgstr "個人事業主"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_houjinkaku"
+msgid "法人格"
+msgstr "法人格"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_houjinkaku_1"
+msgid "株式会社"
+msgstr "株式会社"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_houjinkaku_2"
+msgid "有限会社"
+msgstr "有限会社"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_houjinkaku_3"
+msgid "合同会社"
+msgstr "合同会社"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_houjinkaku_4"
+msgid "合資会社"
+msgstr "合資会社"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_houjinkaku_5"
+msgid "合名会社"
+msgstr "合名会社"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_houjinkaku_6"
+msgid "医療法人"
+msgstr "医療法人"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_houjinkaku_7"
+msgid "医療法人社団"
+msgstr "医療法人社団"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_houjinkaku_8"
+msgid "医療法人財団"
+msgstr "医療法人財団"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_houjinkaku_9"
+msgid "社会医療法人"
+msgstr "社会医療法人"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_houjinkaku_10"
+msgid "一般社団法人"
+msgstr "一般社団法人"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_houjinkaku_11"
+msgid "公益社団法人"
+msgstr "公益社団法人"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_houjinkaku_12"
+msgid "一般財団法人"
+msgstr "一般財団法人"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_houjinkaku_13"
+msgid "公益財団法人"
+msgstr "公益財団法人"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_houjinkaku_14"
+msgid "協同組合"
+msgstr "協同組合"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_houjinkaku_15"
+msgid "社会福祉法人"
+msgstr "社会福祉法人"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_houjinkaku_16"
+msgid "特定非営利活動法人"
+msgstr "特定非営利活動法人"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_houjinkaku_17"
+msgid "学校法人"
+msgstr "学校法人"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_houjinkaku_18"
+msgid "国立大学法人"
+msgstr "国立大学法人"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_houjinkaku_19"
+msgid "公立大学法人"
+msgstr "公立大学法人"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_houjinkaku_20"
+msgid "宗教法人"
+msgstr "宗教法人"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_houjinzengo"
+msgid "法人格前後"
+msgstr "法人格前後"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_houjinzengo_0"
+msgid "前"
+msgstr "前"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_houjinzengo_1"
+msgid "後"
+msgstr "後"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_smei"
+msgid "取引先名(漢字)"
+msgstr "取引先名(漢字)"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_shitenmei"
+msgid "支店名(漢字)"
+msgstr "支店名(漢字)"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_smeikana"
+msgid "取引先名(カナ)"
+msgstr "取引先名(カナ)"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_shitenmeikana"
+msgid "支店名(カナ)"
+msgstr "支店名(カナ)"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_ybnno"
+msgid "郵便番号"
+msgstr "郵便番号"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_adress"
+msgid "住所（漢字）"
+msgstr "住所（漢字）"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_telno"
+msgid "電話番号(代表)"
+msgstr "電話番号(代表)"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_keitaino"
+msgid "携帯電話番号"
+msgstr "携帯電話番号"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_gyscod1"
+msgid "事業内容1"
+msgstr "事業内容1"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_gyscod1_07"
+msgid "床・内装工事業"
+msgstr "床・内装工事業"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_gyscod1_15"
+msgid "印刷関連サービス業"
+msgstr "印刷関連サービス業"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_gyscod1_50"
+msgid "各種商品卸売業"
+msgstr "各種商品卸売業"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_gyscod1_57"
+msgid "織物・衣服・身の回り品小売業"
+msgstr "織物・衣服・身の回り品小売業"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_gyscod1_58"
+msgid "飲食料品小売業"
+msgstr "飲食料品小売業"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_gyscod1_59"
+msgid "機械器具小売業"
+msgstr "機械器具小売業"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_gyscod1_60"
+msgid "その他小売業"
+msgstr "その他小売業"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_gyscod1_76"
+msgid "飲食店"
+msgstr "飲食店"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_gyscod1_83"
+msgid "医療業"
+msgstr "医療業"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_gyscod1_85"
+msgid "社会保険・社会福祉・介護事業"
+msgstr "社会保険・社会福祉・介護事業"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_gyscod1_92"
+msgid "その他の事業サービス業"
+msgstr "その他の事業サービス業"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_gyscod2"
+msgid "事業内容2"
+msgstr "事業内容2"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_gyscod2_0782"
+msgid "内装工事業"
+msgstr "内装工事業"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_gyscod2_0799"
+msgid "その他"
+msgstr "その他"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_gyscod2_1591"
+msgid "印刷"
+msgstr "印刷"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_gyscod2_1599"
+msgid "その他"
+msgstr "その他"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_gyscod2_5011"
+msgid "各種食品小売業"
+msgstr "各種食品小売業"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_gyscod2_5099"
+msgid "その他"
+msgstr "その他"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_gyscod2_5799"
+msgid "その他"
+msgstr "その他"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_gyscod2_5831"
+msgid "食肉小売業"
+msgstr "食肉小売業"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_gyscod2_5863"
+msgid "パン小売（製造小売）"
+msgstr "パン小売（製造小売）"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_gyscod2_5899"
+msgid "その他"
+msgstr "その他"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_gyscod2_5931"
+msgid "電機機械器具小売業"
+msgstr "電機機械器具小売業"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_gyscod2_5999"
+msgid "その他"
+msgstr "その他"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_gyscod2_6031"
+msgid "ドラッグストア"
+msgstr "ドラッグストア"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_gyscod2_6032"
+msgid "医薬品小売業（調剤薬局を除く）"
+msgstr "医薬品小売業（調剤薬局を除く）"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_gyscod2_6033"
+msgid "調剤薬局"
+msgstr "調剤薬局"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_gyscod2_6064"
+msgid "紙・文房具小売業"
+msgstr "紙・文房具小売業"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_gyscod2_6071"
+msgid "スポーツ用品小売業"
+msgstr "スポーツ用品小売業"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_gyscod2_6093"
+msgid "生花"
+msgstr "生花"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_gyscod2_6096"
+msgid "ペット・ペット用品小売業"
+msgstr "ペット・ペット用品小売業"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_gyscod2_6099"
+msgid "その他"
+msgstr "その他"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_gyscod2_7611"
+msgid "食堂、レストラン"
+msgstr "食堂、レストラン"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_gyscod2_7629"
+msgid "専門料理店"
+msgstr "専門料理店"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_gyscod2_7631"
+msgid "そば・うどん店"
+msgstr "そば・うどん店"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_gyscod2_7641"
+msgid "すし店"
+msgstr "すし店"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_gyscod2_7651"
+msgid "酒屋、ビヤホール"
+msgstr "酒屋、ビヤホール"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_gyscod2_7661"
+msgid "バー、キャバレー、ナイトクラブ"
+msgstr "バー、キャバレー、ナイトクラブ"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_gyscod2_7671"
+msgid "喫茶店"
+msgstr "喫茶店"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_gyscod2_7699"
+msgid "その他"
+msgstr "その他"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_gyscod2_8311"
+msgid "病院（動物病院含む）"
+msgstr "病院（動物病院含む）"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_gyscod2_8321"
+msgid "一般診療所"
+msgstr "一般診療所"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_gyscod2_8331"
+msgid "歯科診療所"
+msgstr "歯科診療所"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_gyscod2_8361"
+msgid "歯科技工所"
+msgstr "歯科技工所"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_gyscod2_8399"
+msgid "その他"
+msgstr "その他"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_gyscod2_8549"
+msgid "社会保険・社会福祉・介護事業"
+msgstr "社会保険・社会福祉・介護事業"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_gyscod2_8599"
+msgid "その他"
+msgstr "その他"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_gyscod2_9221"
+msgid "清掃用品"
+msgstr "清掃用品"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_gyscod2_9299"
+msgid "その他"
+msgstr "その他"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_setsuritungt"
+msgid "設立年月（YYYYMM）"
+msgstr "設立年月（YYYYMM）"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_shk"
+msgid "資本金 (万円)"
+msgstr "資本金 (万円)"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_nsyo"
+msgid "年商 (万円)"
+msgstr "年商 (万円)"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_kmssyainsu"
+msgid "従業員数 (人)"
+msgstr "従業員数 (人)"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_daikjmeisei"
+msgid "代表者名(漢字・姓)"
+msgstr "代表者名(漢字・姓)"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_daikjmeimei"
+msgid "代表者名(漢字・名)"
+msgstr "代表者名(漢字・名)"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_daiknameisei"
+msgid "代表者名(カナ・姓)"
+msgstr "代表者名(カナ・姓)"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_daiknameimei"
+msgid "代表者名(カナ・名)"
+msgstr "代表者名(カナ・名)"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_daiinfo"
+msgid "代表者情報"
+msgstr "代表者情報"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_daiybnno"
+msgid "自宅郵便番号"
+msgstr "自宅郵便番号"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_daiaddress"
+msgid "自宅住所（漢字）"
+msgstr "自宅住所（漢字）"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_szumu"
+msgid "運営会社有無"
+msgstr "運営会社有無"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_szumu_0"
+msgid "運営会社無し"
+msgstr "運営会社無し"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_szumu_1"
+msgid "運営会社有り"
+msgstr "運営会社有り"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_szinfo"
+msgid "運営会社情報"
+msgstr "運営会社情報"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_szhjkjkbn"
+msgid "法人・個人事業主"
+msgstr "法人・個人事業主"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_szhoujinkaku"
+msgid "法人格"
+msgstr "法人格"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_szhoujinzengo"
+msgid "法人格前後"
+msgstr "法人格前後"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_szhonknjmei"
+msgid "運営会社名(漢字)"
+msgstr "運営会社名(漢字)"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_szhonknamei"
+msgid "運営会社名(カナ)"
+msgstr "運営会社名(カナ)"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_szybnno"
+msgid "郵便番号"
+msgstr "郵便番号"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_szaddress"
+msgid "住所（漢字）"
+msgstr "住所（漢字）"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_sztelno"
+msgid "電話番号（代表）"
+msgstr "電話番号（代表）"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_szdaikjmei_sei"
+msgid "代表者名(漢字・姓)"
+msgstr "代表者名(漢字・姓)"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_szdaikjmei_mei"
+msgid "代表者名(漢字・名)"
+msgstr "代表者名(漢字・名)"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_szdaiknamei_sei"
+msgid "代表者名(カナ・姓)"
+msgstr "代表者名(カナ・姓)"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_szdaiknamei_mei"
+msgid "代表者名(カナ・名)"
+msgstr "代表者名(カナ・名)"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_sqssfkbn"
+msgid "送付先選択"
+msgstr "送付先選択"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_sqssfkbn_1"
+msgid "上記入力の取引先情報と同様"
+msgstr "上記入力の取引先情報と同様"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_sqssfkbn_2"
+msgid "上記入力の運営会社情報と同様"
+msgstr "上記入力の運営会社情報と同様"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_sqssfkbn_9"
+msgid "その他"
+msgstr "その他"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_sqssfinfo"
+msgid "請求書送付先情報"
+msgstr "請求書送付先情報"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_sqybnno"
+msgid "郵便番号"
+msgstr "郵便番号"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_sqaddress"
+msgid "住所（漢字）"
+msgstr "住所（漢字）"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_sofuknjnam"
+msgid "送付先名称"
+msgstr "送付先名称"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_sofutntnam"
+msgid "担当者名"
+msgstr "担当者名"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_syz"
+msgid "部署・役職"
+msgstr "部署・役職"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_kmstelno"
+msgid "電話番号"
+msgstr "電話番号"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_shrhohkbn"
+msgid "支払方法"
+msgstr "支払方法"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_shrhohkbn_2"
+msgid "銀行振込"
+msgstr "銀行振込"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_shrhohkbn_8"
+msgid "口座振替"
+msgstr "口座振替"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_shrhohkbn_9"
+msgid "コンビニ送金"
+msgstr "コンビニ送金"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_basicinfo"
+msgid "基本情報"
+msgstr "基本情報"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_judge_status_ok"
+msgid "ご利用可"
+msgstr "ご利用可"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_judge_status_nc"
+msgid "申込不備"
+msgstr "申込不備"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_judge_status_no"
+msgid "ご利用不可"
+msgstr "ご利用不可"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_judge_status_cn"
+msgid "取消"
+msgstr "取消"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_judge_status_cp"
+msgid "限度額変更"
+msgstr "限度額変更"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_use_usable_ok"
+msgid "利用可"
+msgstr "利用可"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_buyer_registered"
+msgid "取引先が登録されました。"
+msgstr "取引先が登録されました。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_judge_status_ng"
+msgid "クロネコ掛け払いはご利用できません（[status]）"
+msgstr "クロネコ掛け払いはご利用できません（[status]）"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_usage_notice"
+msgid "【クロネコ掛け払い】<br/>利用状況: [useUsable]<br/>利用限度額: [useOverLimit]<br/>利用金額: [usePayment]"
+msgstr "【クロネコ掛け払い】<br/>利用状況: [useUsable]<br/>利用限度額: [useOverLimit]<br/>利用金額: [usePayment]"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_data_not_exists"
+msgid "ご指定の処理を実行できる注文がありませんでした。"
+msgstr "ご指定の処理を実行できる注文がありませんでした。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_cancel_error_msg"
+msgid "クロネコ掛け払いの決済取消に失敗しました。"
+msgstr "クロネコ掛け払いの決済取消に失敗しました。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_status_1"
+msgid "登録"
+msgstr "登録"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_status_2"
+msgid "取消"
+msgstr "取消"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_order_status_long"
+msgid "クロネコ掛け払いの取引状況"
+msgstr "クロネコ掛け払いの取引状況"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_order_status"
+msgid "取引状況"
+msgstr "取引状況"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_cancel"
+msgid "決済取消"
+msgstr "決済取消"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_check_delivery_status"
+msgid "配達状況の確認"
+msgstr "配達状況の確認"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_send_slip_no"
+msgid "出荷情報をクロネコ掛け払いに送信する"
+msgstr "出荷情報をクロネコ掛け払いに送信する"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_slip_no"
+msgid "送り状番号"
+msgstr "送り状番号"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_shipment_delete_success"
+msgid "送り状番号 [slipno] の配送情報を削除しました。"
+msgstr "送り状番号 [slipno] の配送情報を削除しました。"
+
+msgctxt "Languages::jp_kuroneko_kakabarai_shipment_delete_failed"
+msgid "送り状番号 [slipno] の配送情報の削除に失敗しました。"
+msgstr "送り状番号 [slipno] の配送情報の削除に失敗しました。"
+
+msgctxt "Languages::jp_kuroneko_kakabarai_shipment_delete_faile"
+msgid "配送情報の削除に失敗しました。"
+msgstr "配送情報の削除に失敗しました。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_shipment_entry_error"
+msgid "出荷情報登録エラー"
+msgstr "出荷情報登録エラー"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_shipment_entry_error_msg"
+msgid "送り状番号の登録に失敗しました。配送情報は登録されませんでした。"
+msgstr "送り状番号の登録に失敗しました。配送情報は登録されませんでした。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_return_date"
+msgid "送信日時"
+msgstr "送信日時"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_error_code"
+msgid "エラーコード"
+msgstr "エラーコード"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_no_valid_payment_method"
+msgid "有効なクロネコ掛け払いの支払方法がありません"
+msgstr "有効なクロネコ掛け払いの支払方法がありません"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_cancel_order"
+msgid "注文番号:[order_id]の決済を取り消しました"
+msgstr "注文番号:[order_id]の決済を取り消しました"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_order_id"
+msgid "注文番号:[order_id]"
+msgstr "注文番号:[order_id]"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_bill_to_notice"
+msgid "クロネコ掛け払いの請求先情報を変更する場合、別途手続きが必要となりますので、お問い合わせください"
+msgstr "クロネコ掛け払いの請求先情報を変更する場合、別途手続きが必要となりますので、お問い合わせください"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_sample_smei"
+msgid "例:クロネコ商事"
+msgstr "例:クロネコ商事"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_sample_smei_warning"
+msgid "※法人格を除く"
+msgstr "※法人格を除く"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_sample_shitenmei"
+msgid "例:豊島支店"
+msgstr "例:豊島支店"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_sample_smeikana"
+msgid "例:クロネコショウジ"
+msgstr "例:クロネコショウジ"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_sample_shitenmeikana"
+msgid "例:トシマシテン"
+msgstr "例:トシマシテン"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_sample_ybnno"
+msgid "例:1710033"
+msgstr "例:1710033"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_sample_city"
+msgid "例:豊島区高田"
+msgstr "例:豊島区高田"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_sample_address"
+msgid "例:３丁目１５－１０"
+msgstr "例:３丁目１５－１０"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_sample_address2"
+msgid "例:○○○ビル　５階"
+msgstr "例:○○○ビル　５階"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_sample_telno"
+msgid "例:03-0000-0000"
+msgstr "例:03-0000-0000"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_sample_keitaino"
+msgid "例:090-0000-0000"
+msgstr "例:090-0000-0000"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_sample_setsuritungt"
+msgid "例:201304 (2013年4月の場合)"
+msgstr "例:201304 (2013年4月の場合)"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_sample_shk"
+msgid "例:1000"
+msgstr "例:1000"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_sample_nsyo"
+msgid "例:10000"
+msgstr "例:10000"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_sample_kmssyainsu"
+msgid "例:100"
+msgstr "例:100"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_sample_daikjmeisei"
+msgid "例:黒猫"
+msgstr "例:黒猫"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_sample_daikjmeimei"
+msgid "例:大和"
+msgstr "例:大和"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_sample_daiknameisei"
+msgid "例:クロネコ"
+msgstr "例:クロネコ"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_sample_daiknameimei"
+msgid "例:ヤマト"
+msgstr "例:ヤマト"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_sample_szhonknjmei"
+msgid "例:シロネコ物産"
+msgstr "例:シロネコ物産"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_sample_szhonknamei"
+msgid "例:シロネコブッサン"
+msgstr "例:シロネコブッサン"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_sample_szybnno"
+msgid "例:1040061"
+msgstr "例:1040061"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_sample_szybnno_warning"
+msgid "※登記上の住所を入力してください。"
+msgstr "※登記上の住所を入力してください。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_sample_szaddress_city"
+msgid "例:中央区銀座"
+msgstr "例:中央区銀座"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_sample_szaddress_address"
+msgid "例:２丁目１２－１８"
+msgstr "例:２丁目１２－１８"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_sample_szaddress_address2"
+msgid "例:ヤマト銀座ビル　６階"
+msgstr "例:ヤマト銀座ビル　６階"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_sample_szdaikjmei_sei"
+msgid "例:白猫"
+msgstr "例:白猫"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_sample_szdaikjmei_mei"
+msgid "例:太郎"
+msgstr "例:太郎"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_sample_szdaiknamei_sei"
+msgid "例:シロネコ"
+msgstr "例:シロネコ"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_sample_szdaiknamei_mei"
+msgid "例:タロウ"
+msgstr "例:タロウ"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_sample_sqybnno"
+msgid "例:1048125"
+msgstr "例:1048125"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_sample_sqaddress_city"
+msgid "例:中央区銀座"
+msgstr "例:中央区銀座"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_sample_sqaddress_address"
+msgid "例:２丁目１６－１０"
+msgstr "例:２丁目１６－１０"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_sample_sqaddress_address2"
+msgid "例:○○○タワー　５階"
+msgstr "例:○○○タワー　５階"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_sample_sofuknjnam"
+msgid "例:イイネコ商事"
+msgstr "例:イイネコ商事"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_sample_sofutntnam"
+msgid "例:伊々猫　花子"
+msgstr "例:伊々猫　花子"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_sample_syz"
+msgid "例:経理部　部長"
+msgstr "例:経理部　部長"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_A010001"
+msgid "「加盟店コード」エラー - 値が指定されていること。"
+msgstr "「加盟店コード」エラー - 値が指定されていること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_A010002"
+msgid "「加盟店コード」エラー - 指定桁数(9桁)であること。"
+msgstr "「加盟店コード」エラー - 指定桁数(9桁)であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_A010003"
+msgid "「加盟店コード」エラー - 半角数字であること。"
+msgstr "「加盟店コード」エラー - 半角数字であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_A010004"
+msgid "「加盟店コード」エラー - 当社で既に登録済の加盟店コードであること。"
+msgstr "「加盟店コード」エラー - 当社で既に登録済の加盟店コードであること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_A040001"
+msgid "「受注日」エラー - 値が指定されていること。"
+msgstr "「受注日」エラー - 値が指定されていること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_A040002"
+msgid "「受注日」エラー - 半角数字であること。"
+msgstr "「受注日」エラー - 半角数字であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_A040003"
+msgid "「受注日」エラー - 日付として妥当であること。　[西暦年月日、yyyyMMdd形式]　また、登録日よりも未来の日付ではないこと。"
+msgstr "「受注日」エラー - 日付として妥当であること。　[西暦年月日、yyyyMMdd形式]　また、登録日よりも未来の日付ではないこと。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_A020001"
+msgid "「受注番号」エラー - 値が指定されていること。"
+msgstr "「受注番号」エラー - 値が指定されていること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_A020002"
+msgid "「受注番号」エラー - 指定桁数(20桁)以内であること。"
+msgstr "「受注番号」エラー - 指定桁数(20桁)以内であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_A020003"
+msgid "「受注番号」エラー - 半角文字であること。"
+msgstr "「受注番号」エラー - 半角文字であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_A020004"
+msgid "「受注番号」エラー - 重複する受注番号でないこと。"
+msgstr "「受注番号」エラー - 重複する受注番号でないこと。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_A030001"
+msgid "「取引先（会員）ID」エラー - 値が指定されていること。"
+msgstr "「取引先（会員）ID」エラー - 値が指定されていること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_A030002"
+msgid "「取引先（会員）ID」エラー - 指定桁数(20桁)以内であること。"
+msgstr "「取引先（会員）ID」エラー - 指定桁数(20桁)以内であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_A030003"
+msgid "「取引先（会員）ID」エラー - 半角英数字または”-”[ハイフン]の組み合わせであること。"
+msgstr "「取引先（会員）ID」エラー - 半角英数字または”-”[ハイフン]の組み合わせであること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_A060001"
+msgid "「決済金額」エラー - 値が指定されていること。"
+msgstr "「決済金額」エラー - 値が指定されていること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_A060002"
+msgid "「決済金額」エラー - 指定桁数(9桁)以内であること。　"
+msgstr "「決済金額」エラー - 指定桁数(9桁)以内であること。　"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_A060003"
+msgid "「決済金額」エラー - 半角数字であること。"
+msgstr "「決済金額」エラー - 半角数字であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_A060004"
+msgid "「決済金額」エラー - 決済金額が決済(与信)の上限以下であること。"
+msgstr "「決済金額」エラー - 決済金額が決済(与信)の上限以下であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_A060005"
+msgid "「決済金額」エラー - 「明細有無」が「1:明細あり」の場合、、明細1～99の決済金額を合計した金額と等しいこと。"
+msgstr "「決済金額」エラー - 「明細有無」が「1:明細あり」の場合、、明細1～99の決済金額を合計した金額と等しいこと。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_A070001"
+msgid "「消費税」エラー - 値が指定されていること。"
+msgstr "「消費税」エラー - 値が指定されていること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_A070002"
+msgid "「消費税」エラー - 指定桁数(6桁)以内であること。"
+msgstr "「消費税」エラー - 指定桁数(6桁)以内であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_A070003"
+msgid "「消費税」エラー - 半角数字であること。"
+msgstr "「消費税」エラー - 半角数字であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_A070004"
+msgid "「消費税」エラー - 決済金額+消費税の合計金額が、決済(与信)の上限以下であること。"
+msgstr "「消費税」エラー - 決済金額+消費税の合計金額が、決済(与信)の上限以下であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_A070005"
+msgid "「消費税」エラー - 「明細有無」が「1:明細あり」の場合、明細1～99の消費税を合計した金額と等しいこと。"
+msgstr "「消費税」エラー - 「明細有無」が「1:明細あり」の場合、明細1～99の消費税を合計した金額と等しいこと。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_A080001"
+msgid "「明細有無」エラー - 値が指定されていること。"
+msgstr "「明細有無」エラー - 値が指定されていること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_A080002"
+msgid "「明細有無」エラー - 入力されている内容が、1(明細有り)または、2(明細無し)であること。"
+msgstr "「明細有無」エラー - 入力されている内容が、1(明細有り)または、2(明細無し)であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_A090001"
+msgid "「明細1～99商品名」エラー - 指定桁数(全角30文字、半角60文字)以内であること。"
+msgstr "「明細1～99商品名」エラー - 指定桁数(全角30文字、半角60文字)以内であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_A090002"
+msgid "「明細1～99商品名」エラー - 指定された文字コードの範囲文字であること。"
+msgstr "「明細1～99商品名」エラー - 指定された文字コードの範囲文字であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_A100001"
+msgid "「明細1～99商品コード」エラー - 指定桁数(10桁)以内であること。"
+msgstr "「明細1～99商品コード」エラー - 指定桁数(10桁)以内であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_A100002"
+msgid "「明細1～99商品コード」エラー - 半角文字であること"
+msgstr "「明細1～99商品コード」エラー - 半角文字であること"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_A110001"
+msgid "「明細1～99数量」エラー - 指定桁数(9桁)以内であること。"
+msgstr "「明細1～99数量」エラー - 指定桁数(9桁)以内であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_A110002"
+msgid "「明細1～99数量」エラー - 半角数字または”.”[小数点]または”-”[ハイフン]の組み合わせであること。小数点が入力されている場合、小数部が2桁以内であること。ハイフンが入力されている場合、先頭（マイナス符号）であること。"
+msgstr "「明細1～99数量」エラー - 半角数字または”.”[小数点]または”-”[ハイフン]の組み合わせであること。小数点が入力されている場合、小数部が2桁以内であること。ハイフンが入力されている場合、先頭（マイナス符号）であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_A120001"
+msgid "「明細1～99単位」エラー - 指定桁数(全角5文字)以内であること。"
+msgstr "「明細1～99単位」エラー - 指定桁数(全角5文字)以内であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_A120002"
+msgid "「明細1～99単位」エラー - 指定された文字コードの範囲文字であること。"
+msgstr "「明細1～99単位」エラー - 指定された文字コードの範囲文字であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_A120003"
+msgid "「明細1～99単位」エラー - 全角文字であること。"
+msgstr "「明細1～99単位」エラー - 全角文字であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_A130001"
+msgid "「明細1～99」エラー - 指定桁数(8桁)以内であること。"
+msgstr "「明細1～99」エラー - 指定桁数(8桁)以内であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_A130002"
+msgid "「明細1～99」エラー - 半角数字または”.”[小数点]または”-”[ハイフン]の組み合わせであること。小数点が入力されている場合、小数部が2桁以内であること。（単価のみ小数点入力可）ハイフンが入力されている場合、先頭（マイナス符号）であること。"
+msgstr "「明細1～99」エラー - 半角数字または”.”[小数点]または”-”[ハイフン]の組み合わせであること。小数点が入力されている場合、小数部が2桁以内であること。（単価のみ小数点入力可）ハイフンが入力されている場合、先頭（マイナス符号）であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_A140001"
+msgid "「パスワード」エラー - パスワードが一致すること。"
+msgstr "「パスワード」エラー - パスワードが一致すること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_A150001"
+msgid "「カート社識別コード」エラー - 指定桁数(20桁)以内であること。"
+msgstr "「カート社識別コード」エラー - 指定桁数(20桁)以内であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_A150002"
+msgid "「カート社識別コード」エラー - カンマ、スペース以外の半角文字であること。アスキー文字コードであること。"
+msgstr "「カート社識別コード」エラー - カンマ、スペース以外の半角文字であること。アスキー文字コードであること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_A130003"
+msgid "「関連する項目チェック２」エラー - 明細1～99数量が0未満の場合、明細1～99単価が0円以上であること。明細1～99単価が0円未満の場合、明細1～99数量が0以上であること。"
+msgstr "「関連する項目チェック２」エラー - 明細1～99数量が0未満の場合、明細1～99単価が0円以上であること。明細1～99単価が0円未満の場合、明細1～99数量が0以上であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_A130004"
+msgid "「関連する項目チェック３」エラー - 明細1～99決済金額を合計した金額が0円以上であること。"
+msgstr "「関連する項目チェック３」エラー - 明細1～99決済金額を合計した金額が0円以上であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_A130005"
+msgid "「関連する項目チェック４」エラー - 明細1～99消費税を合計した金額が0円以上であること。"
+msgstr "「関連する項目チェック４」エラー - 明細1～99消費税を合計した金額が0円以上であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_A130006"
+msgid "「関連する項目チェック５」エラー - 明細1～99決済金額が0円以上の場合、明細1～99消費税が0円以上であること。"
+msgstr "「関連する項目チェック５」エラー - 明細1～99決済金額が0円以上の場合、明細1～99消費税が0円以上であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_A130007"
+msgid "「関連する項目チェック５」エラー - 明細1～99決済金額が0円未満の場合、明細1～99消費税が0円以下であること。"
+msgstr "「関連する項目チェック５」エラー - 明細1～99決済金額が0円未満の場合、明細1～99消費税が0円以下であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_0400001"
+msgid "「その他エラーチェック」エラー - DBアクセスエラー"
+msgstr "「その他エラーチェック」エラー - DBアクセスエラー"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_0500001"
+msgid "「その他エラーチェック」エラー - DBアクセスエラー"
+msgstr "「その他エラーチェック」エラー - DBアクセスエラー"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_0500002"
+msgid "「その他エラーチェック」エラー - DB登録エラー"
+msgstr "「その他エラーチェック」エラー - DB登録エラー"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_9900001"
+msgid "「その他エラーチェック」エラー - システムエラー"
+msgstr "「その他エラーチェック」エラー - システムエラー"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_Z020001"
+msgid "「その他エラーチェック」エラー - 処理エラー"
+msgstr "「その他エラーチェック」エラー - 処理エラー"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_G12"
+msgid "「その他エラーチェック」エラー - 一時ご利用不可"
+msgstr "「その他エラーチェック」エラー - 一時ご利用不可"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_G55"
+msgid "「その他エラーチェック」エラー - 限度額オーバー"
+msgstr "「その他エラーチェック」エラー - 限度額オーバー"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_G61"
+msgid "「その他エラーチェック」エラー - ご利用停止・解約等"
+msgstr "「その他エラーチェック」エラー - ご利用停止・解約等"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_G65"
+msgid "「その他エラーチェック」エラー - 会員番号エラー（会員番号該当番号なし）"
+msgstr "「その他エラーチェック」エラー - 会員番号エラー（会員番号該当番号なし）"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_G78"
+msgid "「その他エラーチェック」エラー - 加盟店情報エラー"
+msgstr "「その他エラーチェック」エラー - 加盟店情報エラー"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_G97"
+msgid "「その他エラーチェック」エラー - 当該要求、取扱不可能"
+msgstr "「その他エラーチェック」エラー - 当該要求、取扱不可能"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_B010001"
+msgid "「加盟店コード」エラー - 値が指定されていること。"
+msgstr "「加盟店コード」エラー - 値が指定されていること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_B010002"
+msgid "「加盟店コード」エラー - 指定桁数(9桁)であること。 "
+msgstr "「加盟店コード」エラー - 指定桁数(9桁)であること。 "
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_B010003"
+msgid "「加盟店コード」エラー - 半角数字であること。"
+msgstr "「加盟店コード」エラー - 半角数字であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_B010004"
+msgid "「加盟店コード」エラー - 当社で既に登録済の加盟店コードであること。"
+msgstr "「加盟店コード」エラー - 当社で既に登録済の加盟店コードであること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_B020001"
+msgid "「受注番号」エラー - 値が指定されていること。"
+msgstr "「受注番号」エラー - 値が指定されていること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_B020002"
+msgid "「受注番号」エラー - 指定桁数(20桁)以内であること。"
+msgstr "「受注番号」エラー - 指定桁数(20桁)以内であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_B020003"
+msgid "「受注番号」エラー - 半角文字であること。"
+msgstr "「受注番号」エラー - 半角文字であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_B020004"
+msgid "「受注番号」エラー - 登録されている受注番号であること。"
+msgstr "「受注番号」エラー - 登録されている受注番号であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_B020005"
+msgid "「受注番号」エラー - 取消可能な決済であること。"
+msgstr "「受注番号」エラー - 取消可能な決済であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_B030001"
+msgid "「取引先（会員）ID」エラー - 値が指定されていること。"
+msgstr "「取引先（会員）ID」エラー - 値が指定されていること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_B030002"
+msgid "「取引先（会員）ID」エラー - 指定桁数(20桁)以内であること。"
+msgstr "「取引先（会員）ID」エラー - 指定桁数(20桁)以内であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_B030003"
+msgid "「取引先（会員）ID」エラー - 半角数字または”-”[ハイフン]の組み合わせであること。"
+msgstr "「取引先（会員）ID」エラー - 半角数字または”-”[ハイフン]の組み合わせであること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_B040001"
+msgid "「パスワード」エラー - パスワードが一致すること。"
+msgstr "「パスワード」エラー - パスワードが一致すること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_B050001"
+msgid "「関連する項目チェック１」エラー - 決済取消実施後に、取引先の決済金額合計が0円以上であること。"
+msgstr "「関連する項目チェック１」エラー - 決済取消実施後に、取引先の決済金額合計が0円以上であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_0700001"
+msgid "「その他エラーチェック」エラー - 取消対象レコードなし"
+msgstr "「その他エラーチェック」エラー - 取消対象レコードなし"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_C010001"
+msgid "「加盟店コード」エラー - 値が指定されていること。"
+msgstr "「加盟店コード」エラー - 値が指定されていること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_C010002"
+msgid "「加盟店コード」エラー - 指定桁数(9桁)であること。 "
+msgstr "「加盟店コード」エラー - 指定桁数(9桁)であること。 "
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_C010003"
+msgid "「加盟店コード」エラー - 半角数字であること。"
+msgstr "「加盟店コード」エラー - 半角数字であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_C010004"
+msgid "「加盟店コード」エラー - 当社で既に登録済の加盟店コードであること。"
+msgstr "「加盟店コード」エラー - 当社で既に登録済の加盟店コードであること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_C020001"
+msgid "「受注番号」エラー - 値が指定されていること。"
+msgstr "「受注番号」エラー - 値が指定されていること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_C020002"
+msgid "「受注番号」エラー - 指定桁数(20桁)以内であること。"
+msgstr "「受注番号」エラー - 指定桁数(20桁)以内であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_C020003"
+msgid "「受注番号」エラー - 半角文字であること。"
+msgstr "「受注番号」エラー - 半角文字であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_C020004"
+msgid "「受注番号」エラー - 登録されている受注番号であること。"
+msgstr "「受注番号」エラー - 登録されている受注番号であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_C020005"
+msgid "「受注番号」エラー - 出荷登録可能なステータスであること。"
+msgstr "「受注番号」エラー - 出荷登録可能なステータスであること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_C030001"
+msgid "「送り状番号」エラー - 値が指定されていること。"
+msgstr "「送り状番号」エラー - 値が指定されていること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_C030003"
+msgid "「送り状番号」エラー - 送り状番号の形式で登録されていること。(セブンチェック)"
+msgstr "「送り状番号」エラー - 送り状番号の形式で登録されていること。(セブンチェック)"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_C030004"
+msgid "「送り状番号」エラー - 出荷確定されている送り状番号と重複していないこと。同じ送り状番号が重複上限に達していないこと。(5件まで重複可能)"
+msgstr "「送り状番号」エラー - 出荷確定されている送り状番号と重複していないこと。同じ送り状番号が重複上限に達していないこと。(5件まで重複可能)"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_C030005"
+msgid "「送り状番号」エラー - クロネコ掛け払いで使用可能な伝票であること。"
+msgstr "「送り状番号」エラー - クロネコ掛け払いで使用可能な伝票であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_C030006"
+msgid "「送り状番号」エラー - 同梱する商品の決済合計金額が決済(与信)の上限以下であること。"
+msgstr "「送り状番号」エラー - 同梱する商品の決済合計金額が決済(与信)の上限以下であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_C030002"
+msgid "「送り状番号」エラー - 指定桁数(12桁)以内であること。"
+msgstr "「送り状番号」エラー - 指定桁数(12桁)以内であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_C040001"
+msgid "「パスワード」エラー - パスワードが一致すること。"
+msgstr "「パスワード」エラー - パスワードが一致すること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_D010001"
+msgid "「加盟店コード」エラー - 値が指定されていること。"
+msgstr "「加盟店コード」エラー - 値が指定されていること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_D010002"
+msgid "「加盟店コード」エラー - 指定桁数(9桁)であること。 "
+msgstr "「加盟店コード」エラー - 指定桁数(9桁)であること。 "
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_D010003"
+msgid "「加盟店コード」エラー - 半角数字であること。"
+msgstr "「加盟店コード」エラー - 半角数字であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_D010004"
+msgid "「加盟店コード」エラー - 当社で既に登録済の加盟店コードであること。"
+msgstr "「加盟店コード」エラー - 当社で既に登録済の加盟店コードであること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_D020001"
+msgid "「受注番号」エラー - 値が指定されていること。"
+msgstr "「受注番号」エラー - 値が指定されていること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_D020002"
+msgid "「受注番号」エラー - 指定桁数(20桁)以内であること。"
+msgstr "「受注番号」エラー - 指定桁数(20桁)以内であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_D020003"
+msgid "「受注番号」エラー - 半角文字であること。"
+msgstr "「受注番号」エラー - 半角文字であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_D020004"
+msgid "「受注番号」エラー - 登録されている受注番号であること。"
+msgstr "「受注番号」エラー - 登録されている受注番号であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_D020005"
+msgid "「受注番号」エラー - 出荷取消可能なステータスであること。"
+msgstr "「受注番号」エラー - 出荷取消可能なステータスであること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_D030001"
+msgid "「送り状番号」エラー - 値が指定されていること。"
+msgstr "「送り状番号」エラー - 値が指定されていること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_D030003"
+msgid "「送り状番号」エラー - 送り状番号の形式で登録されていること。(セブンチェック)"
+msgstr "「送り状番号」エラー - 送り状番号の形式で登録されていること。(セブンチェック)"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_D030004"
+msgid "「送り状番号」エラー - 出荷番号が登録されている受注番号が存在すること。"
+msgstr "「送り状番号」エラー - 出荷番号が登録されている受注番号が存在すること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_D030005"
+msgid "「送り状番号」エラー - 出荷番号が登録されている受注番号のステータスが、出荷取消可能なステータスであること。取消可能なステータスは、ステータスが3(送り状番号登録済)。"
+msgstr "「送り状番号」エラー - 出荷番号が登録されている受注番号のステータスが、出荷取消可能なステータスであること。取消可能なステータスは、ステータスが3(送り状番号登録済)。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_D030002"
+msgid "「送り状番号」エラー - 指定桁数(12桁)以内であること。"
+msgstr "「送り状番号」エラー - 指定桁数(12桁)以内であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_D040001"
+msgid "「パスワード」エラー - パスワードが一致すること。"
+msgstr "「パスワード」エラー - パスワードが一致すること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_E010001"
+msgid "「加盟店コード」エラー - 値が指定されていること。"
+msgstr "「加盟店コード」エラー - 値が指定されていること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_E010002"
+msgid "「加盟店コード」エラー - 指定桁数(9桁)であること。"
+msgstr "「加盟店コード」エラー - 指定桁数(9桁)であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_E010003"
+msgid "「加盟店コード」エラー - 半角数字であること。"
+msgstr "「加盟店コード」エラー - 半角数字であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_E010004"
+msgid "「加盟店コード」エラー - 当社で既に登録済の加盟店コードであること。"
+msgstr "「加盟店コード」エラー - 当社で既に登録済の加盟店コードであること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_E020001"
+msgid "「取引先（会員）ID」エラー - 指定桁数(20桁)以内であること。"
+msgstr "「取引先（会員）ID」エラー - 指定桁数(20桁)以内であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_E020002"
+msgid "「取引先（会員）ID」エラー - 半角英数字または”-”[ハイフン]の組み合わせであること。"
+msgstr "「取引先（会員）ID」エラー - 半角英数字または”-”[ハイフン]の組み合わせであること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_E030001"
+msgid "「取引先電話番号」エラー - 指定桁数(13桁)以内であること。"
+msgstr "「取引先電話番号」エラー - 指定桁数(13桁)以内であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_E030002"
+msgid "「取引先電話番号」エラー - 半角数字または”-”[ハイフン]の組み合わせであること。"
+msgstr "「取引先電話番号」エラー - 半角数字または”-”[ハイフン]の組み合わせであること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_E040001"
+msgid "「パスワード」エラー - 値が指定されていること。"
+msgstr "「パスワード」エラー - 値が指定されていること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_E050002"
+msgid "「パスワード」エラー - パスワードが一致すること。"
+msgstr "「パスワード」エラー - パスワードが一致すること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_E050001"
+msgid "「関連する項目チェック１」エラー - 取引先(会員)ID、取引先電話番号の内いずれか一つ設定されていること。"
+msgstr "「関連する項目チェック１」エラー - 取引先(会員)ID、取引先電話番号の内いずれか一つ設定されていること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_E050003"
+msgid "「関連する項目チェック１」エラー - 取引先(会員)IDのみ設定されている場合、取引先(会員)IDに紐付く取引先(会員)が1件であること。"
+msgstr "「関連する項目チェック１」エラー - 取引先(会員)IDのみ設定されている場合、取引先(会員)IDに紐付く取引先(会員)が1件であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_E050004"
+msgid "「関連する項目チェック１」エラー - 取引先電話番号のみ設定されている場合、取引先電話番号に紐付く取引先(会員)が存在すること。"
+msgstr "「関連する項目チェック１」エラー - 取引先電話番号のみ設定されている場合、取引先電話番号に紐付く取引先(会員)が存在すること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_E050005"
+msgid "「関連する項目チェック１」エラー - 取引先電話番号のみ設定されている場合、取引先電話番号に紐付く取引先(会員)が1件であること。"
+msgstr "「関連する項目チェック１」エラー - 取引先電話番号のみ設定されている場合、取引先電話番号に紐付く取引先(会員)が1件であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_E050006"
+msgid "「関連する項目チェック１」エラー - 取引先(会員)IDと、取引先電話番号がいずれも設定されている場合、取引先(会員)IDと取引先電話番号の両方に紐付く取引先(会員)が存在すること。"
+msgstr "「関連する項目チェック１」エラー - 取引先(会員)IDと、取引先電話番号がいずれも設定されている場合、取引先(会員)IDと取引先電話番号の両方に紐付く取引先(会員)が存在すること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F010001"
+msgid "「加盟店コード」エラー - 値が指定されていること。"
+msgstr "「加盟店コード」エラー - 値が指定されていること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F010002"
+msgid "「加盟店コード」エラー - 指定桁数(9桁)であること。"
+msgstr "「加盟店コード」エラー - 指定桁数(9桁)であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F010003"
+msgid "「加盟店コード」エラー - 半角数字であること。"
+msgstr "「加盟店コード」エラー - 半角数字であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F010004"
+msgid "「加盟店コード」エラー - 当社で既に登録済の加盟店コードであること。"
+msgstr "「加盟店コード」エラー - 当社で既に登録済の加盟店コードであること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F020001"
+msgid "「取引先（会員）ID」エラー - 値が指定されていること。"
+msgstr "「取引先（会員）ID」エラー - 値が指定されていること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F020002"
+msgid "「取引先（会員）ID」エラー - 指定桁数(20桁)以内であること。"
+msgstr "「取引先（会員）ID」エラー - 指定桁数(20桁)以内であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F020003"
+msgid "「取引先（会員）ID」エラー - 半角英数字または”-”[ハイフン]の組み合わせであること。"
+msgstr "「取引先（会員）ID」エラー - 半角英数字または”-”[ハイフン]の組み合わせであること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F020004"
+msgid "「取引先（会員）ID」エラー - 重複する取引先（会員）ID でないこと"
+msgstr "「取引先（会員）ID」エラー - 重複する取引先（会員）ID でないこと"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F030001"
+msgid "「法人・個人事業主」エラー - 値が指定されていること。"
+msgstr "「法人・個人事業主」エラー - 値が指定されていること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F030002"
+msgid "「法人・個人事業主」エラー - 指定桁数(1桁)であること。"
+msgstr "「法人・個人事業主」エラー - 指定桁数(1桁)であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F030003"
+msgid "「法人・個人事業主」エラー - 半角数字であること。"
+msgstr "「法人・個人事業主」エラー - 半角数字であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F030004"
+msgid "「法人・個人事業主」エラー - 区分値が存在すること。"
+msgstr "「法人・個人事業主」エラー - 区分値が存在すること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F040001"
+msgid "「法人格」エラー - 「法人・個人事業主」が「1:法人」の場合、値が指定されていること。"
+msgstr "「法人格」エラー - 「法人・個人事業主」が「1:法人」の場合、値が指定されていること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F040002"
+msgid "「法人格」エラー - 指定桁数(2桁)以内であること。"
+msgstr "「法人格」エラー - 指定桁数(2桁)以内であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F040003"
+msgid "「法人格」エラー - 半角数字であること。"
+msgstr "「法人格」エラー - 半角数字であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F040004"
+msgid "「法人格」エラー - 区分値が存在すること。"
+msgstr "「法人格」エラー - 区分値が存在すること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F050001"
+msgid "「法人格前後」エラー - 「法人・個人事業主」が「 1:法人」の場合、値が指定されていること。"
+msgstr "「法人格前後」エラー - 「法人・個人事業主」が「 1:法人」の場合、値が指定されていること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F050002"
+msgid "「法人格前後」エラー - 指定桁数(1桁)であること。"
+msgstr "「法人格前後」エラー - 指定桁数(1桁)であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F050003"
+msgid "「法人格前後」エラー - 半角数字であること。"
+msgstr "「法人格前後」エラー - 半角数字であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F050004"
+msgid "「法人格前後」エラー - 区分値が存在すること。"
+msgstr "「法人格前後」エラー - 区分値が存在すること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F060001"
+msgid "「取引先名(漢字)」エラー - 値が指定されていること。"
+msgstr "「取引先名(漢字)」エラー - 値が指定されていること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F060002"
+msgid "「取引先名(漢字)」エラー - 指定桁数(全角30文字)以内であること。"
+msgstr "「取引先名(漢字)」エラー - 指定桁数(全角30文字)以内であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F060003"
+msgid "「取引先名(漢字)」エラー - 全角文字であること。"
+msgstr "「取引先名(漢字)」エラー - 全角文字であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F060004"
+msgid "「取引先名(漢字)」エラー - 指定された文字コードの範囲文字であること。"
+msgstr "「取引先名(漢字)」エラー - 指定された文字コードの範囲文字であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F060005"
+msgid "「取引先名(漢字)」エラー - 法人格を含まないこと。"
+msgstr "「取引先名(漢字)」エラー - 法人格を含まないこと。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F070001"
+msgid "「支店名(漢字)」エラー - 指定桁数(全角30文字)以内であること。"
+msgstr "「支店名(漢字)」エラー - 指定桁数(全角30文字)以内であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F070002"
+msgid "「支店名(漢字)」エラー - 全角文字であること。"
+msgstr "「支店名(漢字)」エラー - 全角文字であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F070003"
+msgid "「支店名(漢字)」エラー - 指定された文字コードの範囲文字であること。"
+msgstr "「支店名(漢字)」エラー - 指定された文字コードの範囲文字であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F090001"
+msgid "「取引先名(カナ)」エラー - 値が指定されていること。"
+msgstr "「取引先名(カナ)」エラー - 値が指定されていること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F090002"
+msgid "「取引先名(カナ)」エラー - 指定桁数(全角60文字)以内であること。"
+msgstr "「取引先名(カナ)」エラー - 指定桁数(全角60文字)以内であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F090003"
+msgid "「取引先名(カナ)」エラー - 全角カナ文字であること。"
+msgstr "「取引先名(カナ)」エラー - 全角カナ文字であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F090004"
+msgid "「取引先名(カナ)」エラー - 指定された文字コードの範囲文字であること。"
+msgstr "「取引先名(カナ)」エラー - 指定された文字コードの範囲文字であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F090005"
+msgid "「取引先名(カナ)」エラー - 法人格を含まないこと。"
+msgstr "「取引先名(カナ)」エラー - 法人格を含まないこと。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F100001"
+msgid "「支店名(カナ)」エラー - 指定桁数(全角60文字)以内であること。"
+msgstr "「支店名(カナ)」エラー - 指定桁数(全角60文字)以内であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F100002"
+msgid "「支店名(カナ)」エラー - 全角カナ文字であること。"
+msgstr "「支店名(カナ)」エラー - 全角カナ文字であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F100003"
+msgid "「支店名(カナ)」エラー - 指定された文字コードの範囲文字であること。"
+msgstr "「支店名(カナ)」エラー - 指定された文字コードの範囲文字であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F120001"
+msgid "「郵便番号」エラー - 値が指定されていること。"
+msgstr "「郵便番号」エラー - 値が指定されていること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F120002"
+msgid "「郵便番号」エラー - 指定桁数(7桁)であること。"
+msgstr "「郵便番号」エラー - 指定桁数(7桁)であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F120003"
+msgid "「郵便番号」エラー - 半角数字であること。"
+msgstr "「郵便番号」エラー - 半角数字であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F120004"
+msgid "「郵便番号」エラー - 存在する郵便番号であること。"
+msgstr "「郵便番号」エラー - 存在する郵便番号であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F130001"
+msgid "「住所（漢字）」エラー - 値が指定されていること。"
+msgstr "「住所（漢字）」エラー - 値が指定されていること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F130002"
+msgid "「住所（漢字）」エラー - 指定桁数(全角50文字)以内であること。"
+msgstr "「住所（漢字）」エラー - 指定桁数(全角50文字)以内であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F130003"
+msgid "「住所（漢字）」エラー - 全角文字であること。"
+msgstr "「住所（漢字）」エラー - 全角文字であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F130004"
+msgid "「住所（漢字）」エラー - 指定された文字コードの範囲文字であること。"
+msgstr "「住所（漢字）」エラー - 指定された文字コードの範囲文字であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F140001"
+msgid "「電話番号(代表)」エラー - 値が指定されていること。"
+msgstr "「電話番号(代表)」エラー - 値が指定されていること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F140002"
+msgid "「電話番号(代表)」エラー - 指定桁数(”-”[ハイフン]を除き、10～11桁)であること。"
+msgstr "「電話番号(代表)」エラー - 指定桁数(”-”[ハイフン]を除き、10～11桁)であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F140003"
+msgid "「電話番号(代表)」エラー - 半角数字またはハイフンの組み合わせであること。"
+msgstr "「電話番号(代表)」エラー - 半角数字またはハイフンの組み合わせであること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F140004"
+msgid "「電話番号(代表)」エラー - ハイフンが2つであること。"
+msgstr "「電話番号(代表)」エラー - ハイフンが2つであること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F150001"
+msgid "「携帯電話番号」エラー - 指定桁数(”-”[ハイフン]を除き、10～11桁)であること。"
+msgstr "「携帯電話番号」エラー - 指定桁数(”-”[ハイフン]を除き、10～11桁)であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F150002"
+msgid "「携帯電話番号」エラー - 半角数字またはハイフンの組み合わせであること。"
+msgstr "「携帯電話番号」エラー - 半角数字またはハイフンの組み合わせであること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F150003"
+msgid "「携帯電話番号」エラー - ハイフンが2つであること。"
+msgstr "「携帯電話番号」エラー - ハイフンが2つであること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F160001"
+msgid "「事業内容1」エラー - 「取引先情報-事業内容2」が入力されている場合、値が指定されていること。"
+msgstr "「事業内容1」エラー - 「取引先情報-事業内容2」が入力されている場合、値が指定されていること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F160002"
+msgid "「事業内容1」エラー - 指定桁数(2桁)以内であること。"
+msgstr "「事業内容1」エラー - 指定桁数(2桁)以内であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F160003"
+msgid "「事業内容1」エラー - 半角数字であること。"
+msgstr "「事業内容1」エラー - 半角数字であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F160004"
+msgid "「事業内容1」エラー - 区分値が存在すること。"
+msgstr "「事業内容1」エラー - 区分値が存在すること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F170002"
+msgid "「事業内容2」エラー - 指定桁数(3桁)以内であること。"
+msgstr "「事業内容2」エラー - 指定桁数(3桁)以内であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F170003"
+msgid "「事業内容2」エラー - 半角数字であること。"
+msgstr "「事業内容2」エラー - 半角数字であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F170004"
+msgid "「事業内容2」エラー - 区分値が存在すること。"
+msgstr "「事業内容2」エラー - 区分値が存在すること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F170005"
+msgid "「事業内容2」エラー - 事業内容1と事業内容2の組み合わせが正しいこと。"
+msgstr "「事業内容2」エラー - 事業内容1と事業内容2の組み合わせが正しいこと。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F180002"
+msgid "「設立年月」エラー - 指定桁数(6桁)であること。"
+msgstr "「設立年月」エラー - 指定桁数(6桁)であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F180003"
+msgid "「設立年月」エラー - 半角数字であること。"
+msgstr "「設立年月」エラー - 半角数字であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F180004"
+msgid "「設立年月」エラー - 1月～12月であること。"
+msgstr "「設立年月」エラー - 1月～12月であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F180005"
+msgid "「設立年月」エラー - 未来日付ではないこと。"
+msgstr "「設立年月」エラー - 未来日付ではないこと。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F190001"
+msgid "「資本金」エラー - 指定桁数(5桁)以内であること。"
+msgstr "「資本金」エラー - 指定桁数(5桁)以内であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F190002"
+msgid "「資本金」エラー - 半角数字であること。"
+msgstr "「資本金」エラー - 半角数字であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F200002"
+msgid "「年商」エラー - 指定桁数(5桁)以内であること。"
+msgstr "「年商」エラー - 指定桁数(5桁)以内であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F200003"
+msgid "「年商」エラー - 半角数字であること。"
+msgstr "「年商」エラー - 半角数字であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F210001"
+msgid "「従業員」エラー - 指定桁数(5桁)以内であること。"
+msgstr "「従業員」エラー - 指定桁数(5桁)以内であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F210002"
+msgid "「従業員」エラー - 半角数字であること。"
+msgstr "「従業員」エラー - 半角数字であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F220001"
+msgid "「代表者名(漢字・姓)」エラー - 値が指定されていること。"
+msgstr "「代表者名(漢字・姓)」エラー - 値が指定されていること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F220002"
+msgid "「代表者名(漢字・姓)」エラー - 指定桁数(全角14文字)以内であること。"
+msgstr "「代表者名(漢字・姓)」エラー - 指定桁数(全角14文字)以内であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F220003"
+msgid "「代表者名(漢字・姓)」エラー - 全角文字であること。"
+msgstr "「代表者名(漢字・姓)」エラー - 全角文字であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F220004"
+msgid "「代表者名(漢字・姓)」エラー - 指定された文字コードの範囲文字であること。"
+msgstr "「代表者名(漢字・姓)」エラー - 指定された文字コードの範囲文字であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F230001"
+msgid "「代表者名(漢字・名)」エラー - 値が指定されていること。"
+msgstr "「代表者名(漢字・名)」エラー - 値が指定されていること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F230002"
+msgid "「代表者名(漢字・名)」エラー - 指定桁数(全角14文字)以内であること。"
+msgstr "「代表者名(漢字・名)」エラー - 指定桁数(全角14文字)以内であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F230003"
+msgid "「代表者名(漢字・名)」エラー - 全角文字であること。"
+msgstr "「代表者名(漢字・名)」エラー - 全角文字であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F230004"
+msgid "「代表者名(漢字・名)」エラー - 指定された文字コードの範囲文字であること。"
+msgstr "「代表者名(漢字・名)」エラー - 指定された文字コードの範囲文字であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F240001"
+msgid "「代表者名(カナ・姓)」エラー - 値が指定されていること。"
+msgstr "「代表者名(カナ・姓)」エラー - 値が指定されていること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F240002"
+msgid "「代表者名(カナ・姓)」エラー - 指定桁数(全角29文字)以内であること。"
+msgstr "「代表者名(カナ・姓)」エラー - 指定桁数(全角29文字)以内であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F240003"
+msgid "「代表者名(カナ・姓)」エラー - 全角カナ文字であること。"
+msgstr "「代表者名(カナ・姓)」エラー - 全角カナ文字であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F240004"
+msgid "「代表者名(カナ・姓)」エラー - 指定された文字コードの範囲文字であること。"
+msgstr "「代表者名(カナ・姓)」エラー - 指定された文字コードの範囲文字であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F250001"
+msgid "「代表者名(カナ・名)」エラー - 値が指定されていること。"
+msgstr "「代表者名(カナ・名)」エラー - 値が指定されていること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F250002"
+msgid "「代表者名(カナ・名)」エラー - 指定桁数(全角29文字)以内であること。"
+msgstr "「代表者名(カナ・名)」エラー - 指定桁数(全角29文字)以内であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F250003"
+msgid "「代表者名(カナ・名)」エラー - 全角カナ文字であること。"
+msgstr "「代表者名(カナ・名)」エラー - 全角カナ文字であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F250004"
+msgid "「代表者名(カナ・名)」エラー - 指定された文字コードの範囲文字であること。"
+msgstr "「代表者名(カナ・名)」エラー - 指定された文字コードの範囲文字であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F260001"
+msgid "「自宅郵便番号」エラー - 「法人・個人事業主」が「2:個人事業主」の場合、値が指定されていること。"
+msgstr "「自宅郵便番号」エラー - 「法人・個人事業主」が「2:個人事業主」の場合、値が指定されていること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F260002"
+msgid "「自宅郵便番号」エラー - 指定桁数(7桁)であること。"
+msgstr "「自宅郵便番号」エラー - 指定桁数(7桁)であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F260003"
+msgid "「自宅郵便番号」エラー - 半角数字であること。"
+msgstr "「自宅郵便番号」エラー - 半角数字であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F260004"
+msgid "「自宅郵便番号」エラー - 存在する郵便番号であること。"
+msgstr "「自宅郵便番号」エラー - 存在する郵便番号であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F270001"
+msgid "「自宅住所（漢字）」エラー - 「法人・個人事業主」が「2:個人事業主」の場合、値が指定されていること。"
+msgstr "「自宅住所（漢字）」エラー - 「法人・個人事業主」が「2:個人事業主」の場合、値が指定されていること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F270002"
+msgid "「自宅住所（漢字）」エラー - 指定桁数(全角50文字)以内であること。"
+msgstr "「自宅住所（漢字）」エラー - 指定桁数(全角50文字)以内であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F270003"
+msgid "「自宅住所（漢字）」エラー - 全角文字であること。"
+msgstr "「自宅住所（漢字）」エラー - 全角文字であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F270004"
+msgid "「自宅住所（漢字）」エラー - 指定された文字コードの範囲文字であること。"
+msgstr "「自宅住所（漢字）」エラー - 指定された文字コードの範囲文字であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F280001"
+msgid "「運営会社有無」エラー - 値が指定されていること。"
+msgstr "「運営会社有無」エラー - 値が指定されていること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F280002"
+msgid "「運営会社有無」エラー - 指定桁数(1桁)であること。"
+msgstr "「運営会社有無」エラー - 指定桁数(1桁)であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F280003"
+msgid "「運営会社有無」エラー - 半角数字であること。"
+msgstr "「運営会社有無」エラー - 半角数字であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F280004"
+msgid "「運営会社有無」エラー - 区分値が存在すること。"
+msgstr "「運営会社有無」エラー - 区分値が存在すること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F290001"
+msgid "「法人・個人事業主」エラー - 「運営会社有無」が「1:運営会社有」の場合、値が指定されていること。"
+msgstr "「法人・個人事業主」エラー - 「運営会社有無」が「1:運営会社有」の場合、値が指定されていること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F290002"
+msgid "「法人・個人事業主」エラー - 指定桁数(1桁)であること。"
+msgstr "「法人・個人事業主」エラー - 指定桁数(1桁)であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F290003"
+msgid "「法人・個人事業主」エラー - 半角数字であること。"
+msgstr "「法人・個人事業主」エラー - 半角数字であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F290004"
+msgid "「法人・個人事業主」エラー - 区分値が存在すること。"
+msgstr "「法人・個人事業主」エラー - 区分値が存在すること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F300001"
+msgid "「法人格」エラー - 「運営会社有無」が「1:運営会社有」かつ、「法人・個人事業主」が「1:法人」の場合、値が指定されていること。"
+msgstr "「法人格」エラー - 「運営会社有無」が「1:運営会社有」かつ、「法人・個人事業主」が「1:法人」の場合、値が指定されていること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F300002"
+msgid "「法人格」エラー - 指定桁数(2桁)以内であること。"
+msgstr "「法人格」エラー - 指定桁数(2桁)以内であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F300003"
+msgid "「法人格」エラー - 半角数字であること。"
+msgstr "「法人格」エラー - 半角数字であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F300004"
+msgid "「法人格」エラー - 区分値が存在すること。"
+msgstr "「法人格」エラー - 区分値が存在すること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F310001"
+msgid "「法人格前後」エラー - 「運営会社有無」が「1:運営会社有」かつ、「法人・個人事業主」が「1:法人」の場合、値が指定されていること。"
+msgstr "「法人格前後」エラー - 「運営会社有無」が「1:運営会社有」かつ、「法人・個人事業主」が「1:法人」の場合、値が指定されていること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F310002"
+msgid "「法人格前後」エラー - 指定桁数(1桁)であること。"
+msgstr "「法人格前後」エラー - 指定桁数(1桁)であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F310003"
+msgid "「法人格前後」エラー - 半角数字であること。"
+msgstr "「法人格前後」エラー - 半角数字であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F310004"
+msgid "「法人格前後」エラー - 区分値が存在すること。"
+msgstr "「法人格前後」エラー - 区分値が存在すること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F320001"
+msgid "「運営会社名(漢字)」エラー - 「運営会社有無」が「1:運営会社有」の場合、値が指定されていること。"
+msgstr "「運営会社名(漢字)」エラー - 「運営会社有無」が「1:運営会社有」の場合、値が指定されていること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F320002"
+msgid "「運営会社名(漢字)」エラー - 指定桁数(全角30文字)以内であること。"
+msgstr "「運営会社名(漢字)」エラー - 指定桁数(全角30文字)以内であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F320003"
+msgid "「運営会社名(漢字)」エラー - 全角文字であること。"
+msgstr "「運営会社名(漢字)」エラー - 全角文字であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F320004"
+msgid "「運営会社名(漢字)」エラー - 指定された文字コードの範囲文字であること。"
+msgstr "「運営会社名(漢字)」エラー - 指定された文字コードの範囲文字であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F320005"
+msgid "「運営会社名(漢字)」エラー - 法人格を含まないこと。"
+msgstr "「運営会社名(漢字)」エラー - 法人格を含まないこと。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F330001"
+msgid "「運営会社名(カナ)」エラー - 「運営会社有無」が「1:運営会社有」の場合、値が指定されていること。"
+msgstr "「運営会社名(カナ)」エラー - 「運営会社有無」が「1:運営会社有」の場合、値が指定されていること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F330002"
+msgid "「運営会社名(カナ)」エラー - 指定桁数(全角60文字)以内であること。"
+msgstr "「運営会社名(カナ)」エラー - 指定桁数(全角60文字)以内であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F330003"
+msgid "「運営会社名(カナ)」エラー - 全角カナ文字であること。"
+msgstr "「運営会社名(カナ)」エラー - 全角カナ文字であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F330004"
+msgid "「運営会社名(カナ)」エラー - 指定された文字コードの範囲文字であること。"
+msgstr "「運営会社名(カナ)」エラー - 指定された文字コードの範囲文字であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F330005"
+msgid "「運営会社名(カナ)」エラー - 法人格を含まないこと。"
+msgstr "「運営会社名(カナ)」エラー - 法人格を含まないこと。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F340001"
+msgid "「郵便番号」エラー - 「運営会社有無」が「1:運営会社有」が「1:法人」の場合、値が指定されていること。"
+msgstr "「郵便番号」エラー - 「運営会社有無」が「1:運営会社有」が「1:法人」の場合、値が指定されていること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F340002"
+msgid "「郵便番号」エラー - 指定桁数(7桁)であること。"
+msgstr "「郵便番号」エラー - 指定桁数(7桁)であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F340003"
+msgid "「郵便番号」エラー - 半角数字であること。"
+msgstr "「郵便番号」エラー - 半角数字であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F340004"
+msgid "「郵便番号」エラー - 存在する郵便番号であること。"
+msgstr "「郵便番号」エラー - 存在する郵便番号であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F350001"
+msgid "「住所（漢字）」エラー - 「運営会社有無」が「1:運営会社有」の場合、値が指定されていること。"
+msgstr "「住所（漢字）」エラー - 「運営会社有無」が「1:運営会社有」の場合、値が指定されていること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F350002"
+msgid "「住所（漢字）」エラー - 指定桁数(全角50文字)以内であること。"
+msgstr "「住所（漢字）」エラー - 指定桁数(全角50文字)以内であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F350003"
+msgid "「住所（漢字）」エラー - 全角文字であること。"
+msgstr "「住所（漢字）」エラー - 全角文字であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F350004"
+msgid "「住所（漢字）」エラー - 指定された文字コードの範囲文字であること。"
+msgstr "「住所（漢字）」エラー - 指定された文字コードの範囲文字であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F360001"
+msgid "「電話番号(代表)」エラー - 「運営会社有無」が「1:運営会社有」の場合、値が指定されていること。"
+msgstr "「電話番号(代表)」エラー - 「運営会社有無」が「1:運営会社有」の場合、値が指定されていること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F360002"
+msgid "「電話番号(代表)」エラー - 指定桁数(”-”[ハイフン]を除き、10～11桁)であること。"
+msgstr "「電話番号(代表)」エラー - 指定桁数(”-”[ハイフン]を除き、10～11桁)であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F360003"
+msgid "「電話番号(代表)」エラー - 半角数字またはハイフンの組み合わせであること。"
+msgstr "「電話番号(代表)」エラー - 半角数字またはハイフンの組み合わせであること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F360004"
+msgid "「電話番号(代表)」エラー - ハイフンが2つであること。"
+msgstr "「電話番号(代表)」エラー - ハイフンが2つであること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F370001"
+msgid "「代表者名（漢字・姓）」エラー - 「運営会社有無」が「1:運営会社有」の場合、値が指定されていること。"
+msgstr "「代表者名（漢字・姓）」エラー - 「運営会社有無」が「1:運営会社有」の場合、値が指定されていること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F370002"
+msgid "「代表者名（漢字・姓）」エラー - 指定桁数(全角14文字)以内であること。"
+msgstr "「代表者名（漢字・姓）」エラー - 指定桁数(全角14文字)以内であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F370003"
+msgid "「代表者名（漢字・姓）」エラー - 全角文字であること。"
+msgstr "「代表者名（漢字・姓）」エラー - 全角文字であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F370004"
+msgid "「代表者名（漢字・姓）」エラー - 指定された文字コードの範囲文字であること。"
+msgstr "「代表者名（漢字・姓）」エラー - 指定された文字コードの範囲文字であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F380001"
+msgid "「代表者名（漢字・名）」エラー - 「運営会社有無」が「1:運営会社有」の場合、値が指定されていること。"
+msgstr "「代表者名（漢字・名）」エラー - 「運営会社有無」が「1:運営会社有」の場合、値が指定されていること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F380002"
+msgid "「代表者名（漢字・名）」エラー - 指定桁数(全角14文字)以内であること。"
+msgstr "「代表者名（漢字・名）」エラー - 指定桁数(全角14文字)以内であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F380003"
+msgid "「代表者名（漢字・名）」エラー - 全角文字であること。"
+msgstr "「代表者名（漢字・名）」エラー - 全角文字であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F380004"
+msgid "「代表者名（漢字・名）」エラー - 指定された文字コードの範囲文字であること。"
+msgstr "「代表者名（漢字・名）」エラー - 指定された文字コードの範囲文字であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F390001"
+msgid "「代表者（カナ・姓）」エラー - 「運営会社有無」が「1:運営会社有」の場合、値が指定されていること。"
+msgstr "「代表者（カナ・姓）」エラー - 「運営会社有無」が「1:運営会社有」の場合、値が指定されていること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F390002"
+msgid "「代表者（カナ・姓）」エラー - 指定桁数(全角29文字)以内であること。"
+msgstr "「代表者（カナ・姓）」エラー - 指定桁数(全角29文字)以内であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F390003"
+msgid "「代表者（カナ・姓）」エラー - 全角カナ文字であること。"
+msgstr "「代表者（カナ・姓）」エラー - 全角カナ文字であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F390004"
+msgid "「代表者（カナ・姓）」エラー - 指定された文字コードの範囲文字であること。"
+msgstr "「代表者（カナ・姓）」エラー - 指定された文字コードの範囲文字であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F400001"
+msgid "「代表者（カナ・名）」エラー - 「運営会社有無」が「1:運営会社有」の場合、値が指定されていること。"
+msgstr "「代表者（カナ・名）」エラー - 「運営会社有無」が「1:運営会社有」の場合、値が指定されていること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F400002"
+msgid "「代表者（カナ・名）」エラー - 指定桁数(全角29文字)以内であること。"
+msgstr "「代表者（カナ・名）」エラー - 指定桁数(全角29文字)以内であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F400003"
+msgid "「代表者（カナ・名）」エラー - 全角カナ文字であること。"
+msgstr "「代表者（カナ・名）」エラー - 全角カナ文字であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F400004"
+msgid "「代表者（カナ・名）」エラー - 指定された文字コードの範囲文字であること。"
+msgstr "「代表者（カナ・名）」エラー - 指定された文字コードの範囲文字であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F410001"
+msgid "「送付先選択」エラー - 値が指定されていること。"
+msgstr "「送付先選択」エラー - 値が指定されていること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F410002"
+msgid "「送付先選択」エラー - 指定桁数(1桁)であること。"
+msgstr "「送付先選択」エラー - 指定桁数(1桁)であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F410003"
+msgid "「送付先選択」エラー - 半角数字であること。"
+msgstr "「送付先選択」エラー - 半角数字であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F410004"
+msgid "「送付先選択」エラー - 区分値が存在すること。"
+msgstr "「送付先選択」エラー - 区分値が存在すること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F420001"
+msgid "「郵便番号」エラー - 「送付先選択」が「9:その他」の場合、値が指定されていること。"
+msgstr "「郵便番号」エラー - 「送付先選択」が「9:その他」の場合、値が指定されていること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F420002"
+msgid "「郵便番号」エラー - 指定桁数(7桁)であること。"
+msgstr "「郵便番号」エラー - 指定桁数(7桁)であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F420003"
+msgid "「郵便番号」エラー - 半角数字であること。"
+msgstr "「郵便番号」エラー - 半角数字であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F420004"
+msgid "「郵便番号」エラー - 存在する郵便番号であること。"
+msgstr "「郵便番号」エラー - 存在する郵便番号であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F430001"
+msgid "「住所（漢字）」エラー - 「送付先選択」が「9:その他」の場合、値が指定されていること。"
+msgstr "「住所（漢字）」エラー - 「送付先選択」が「9:その他」の場合、値が指定されていること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F430002"
+msgid "「住所（漢字）」エラー - 指定桁数(全角50文字)以内であること。"
+msgstr "「住所（漢字）」エラー - 指定桁数(全角50文字)以内であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F430003"
+msgid "「住所（漢字）」エラー - 全角文字であること。"
+msgstr "「住所（漢字）」エラー - 全角文字であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F430004"
+msgid "「住所（漢字）」エラー - 指定された文字コードの範囲文字であること。"
+msgstr "「住所（漢字）」エラー - 指定された文字コードの範囲文字であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F440001"
+msgid "「送付先名称」エラー - 「送付先選択」が「9:その他」の場合、値が指定されていること。"
+msgstr "「送付先名称」エラー - 「送付先選択」が「9:その他」の場合、値が指定されていること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F440002"
+msgid "「送付先名称」エラー - 指定桁数(全角30文字)以内であること。"
+msgstr "「送付先名称」エラー - 指定桁数(全角30文字)以内であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F440003"
+msgid "「送付先名称」エラー - 全角文字であること。"
+msgstr "「送付先名称」エラー - 全角文字であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F440004"
+msgid "「送付先名称」エラー - 指定された文字コードの範囲文字であること。"
+msgstr "「送付先名称」エラー - 指定された文字コードの範囲文字であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F450001"
+msgid "「送担当者名」エラー - 指定桁数(全角25文字)以内であること。"
+msgstr "「送担当者名」エラー - 指定桁数(全角25文字)以内であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F450002"
+msgid "「送担当者名」エラー - 全角文字であること。"
+msgstr "「送担当者名」エラー - 全角文字であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F450003"
+msgid "「送担当者名」エラー - 指定された文字コードの範囲文字であること。"
+msgstr "「送担当者名」エラー - 指定された文字コードの範囲文字であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F460001"
+msgid "「部署・役職」エラー - 指定桁数(全角10文字)以内であること。"
+msgstr "「部署・役職」エラー - 指定桁数(全角10文字)以内であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F460002"
+msgid "「部署・役職」エラー - 全角文字であること。"
+msgstr "「部署・役職」エラー - 全角文字であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F460003"
+msgid "「部署・役職」エラー - 指定された文字コードの範囲文字であること。"
+msgstr "「部署・役職」エラー - 指定された文字コードの範囲文字であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F470001"
+msgid "「電話番号」エラー - 指定桁数(”-”[ハイフン]を除き、10～11桁)であること。"
+msgstr "「電話番号」エラー - 指定桁数(”-”[ハイフン]を除き、10～11桁)であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F470002"
+msgid "「電話番号」エラー - 半角数字またはハイフンの組み合わせであること。"
+msgstr "「電話番号」エラー - 半角数字またはハイフンの組み合わせであること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F470003"
+msgid "「電話番号」エラー - ハイフンが2つであること。"
+msgstr "「電話番号」エラー - ハイフンが2つであること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F480001"
+msgid "「支払方法」エラー - 値が指定されていること。"
+msgstr "「支払方法」エラー - 値が指定されていること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F480002"
+msgid "「支払方法」エラー - 指定桁数(1桁)であること。"
+msgstr "「支払方法」エラー - 指定桁数(1桁)であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F480003"
+msgid "「支払方法」エラー - 半角数字であること。"
+msgstr "「支払方法」エラー - 半角数字であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F480004"
+msgid "「支払方法」エラー - 区分値が存在すること。"
+msgstr "「支払方法」エラー - 区分値が存在すること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F500001"
+msgid "「パスワード」エラー - 値が指定されていること。"
+msgstr "「パスワード」エラー - 値が指定されていること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F490001"
+msgid "「パスワード」エラー - パスワードが一致すること。"
+msgstr "「パスワード」エラー - パスワードが一致すること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F080001"
+msgid "「関連する項目チェック１」エラー - 取引先名(漢字)＋支店名(漢字)＋法人格（漢字）で、指定桁数(全角29文字)以内であること。支店名(漢字)を指定しない場合は、取引先名(漢字)＋法人格（漢字）で、指定桁数(全角30文字)以内であること。"
+msgstr "「関連する項目チェック１」エラー - 取引先名(漢字)＋支店名(漢字)＋法人格（漢字）で、指定桁数(全角29文字)以内であること。支店名(漢字)を指定しない場合は、取引先名(漢字)＋法人格（漢字）で、指定桁数(全角30文字)以内であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F110001"
+msgid "「関連する項目チェック２」エラー - 取引先名(カナ)＋支店名(カナ)＋法人格（カナ）で、指定桁数(全角59文字)以内であること。支店名(カナ)を指定しない場合は、取引先名(カナ)＋法人格（カナ）で、指定桁数(全角60文字)以内であること。※濁点「゛」、半濁点「゜」は１字として数える。"
+msgstr "「関連する項目チェック２」エラー - 取引先名(カナ)＋支店名(カナ)＋法人格（カナ）で、指定桁数(全角59文字)以内であること。支店名(カナ)を指定しない場合は、取引先名(カナ)＋法人格（カナ）で、指定桁数(全角60文字)以内であること。※濁点「゛」、半濁点「゜」は１字として数える。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F510001"
+msgid "「関連する項目チェック３」エラー - 運営会社名(漢字)＋法人格（漢字）で、指定桁数(全角30文字)以内であること。"
+msgstr "「関連する項目チェック３」エラー - 運営会社名(漢字)＋法人格（漢字）で、指定桁数(全角30文字)以内であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F520001"
+msgid "「関連する項目チェック４」エラー - 運営会社名(カナ)＋法人格（カナ）で、指定桁数(全角60文字)以内であること。※濁点「゛」、半濁点「゜」は１字として数える。"
+msgstr "「関連する項目チェック４」エラー - 運営会社名(カナ)＋法人格（カナ）で、指定桁数(全角60文字)以内であること。※濁点「゛」、半濁点「゜」は１字として数える。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F530001"
+msgid "「関連する項目チェック５」エラー - 代表者名(カナ・姓)＋代表者名(カナ・名) で、指定桁数(全角29文字)以内であること。※濁点「゛」、半濁点「゜」は１字として数える。"
+msgstr "「関連する項目チェック５」エラー - 代表者名(カナ・姓)＋代表者名(カナ・名) で、指定桁数(全角29文字)以内であること。※濁点「゛」、半濁点「゜」は１字として数える。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F540001"
+msgid "「関連する項目チェック６」エラー - 代表者名(カナ・姓)＋代表者名(カナ・名) で、指定桁数(全角29文字)以内であること。※濁点「゛」、半濁点「゜」は１字として数える。"
+msgstr "「関連する項目チェック６」エラー - 代表者名(カナ・姓)＋代表者名(カナ・名) で、指定桁数(全角29文字)以内であること。※濁点「゛」、半濁点「゜」は１字として数える。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_F410005"
+msgid "「関連する項目チェック７」エラー - 送付先選択が「2:運営会社」の場合、運営会社有無が「1：運営会社有り」であること"
+msgstr "「関連する項目チェック７」エラー - 送付先選択が「2:運営会社」の場合、運営会社有無が「1：運営会社有り」であること"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_G010001"
+msgid "「加盟店コード」エラー - 値が指定されていること。"
+msgstr "「加盟店コード」エラー - 値が指定されていること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_G010002"
+msgid "「加盟店コード」エラー - 指定桁数(9桁)であること。"
+msgstr "「加盟店コード」エラー - 指定桁数(9桁)であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_G010003"
+msgid "「加盟店コード」エラー - 半角数字であること。"
+msgstr "「加盟店コード」エラー - 半角数字であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_G010004"
+msgid "「加盟店コード」エラー - 当社で既に登録済の加盟店コードであること。"
+msgstr "「加盟店コード」エラー - 当社で既に登録済の加盟店コードであること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_G020001"
+msgid "「取引先（会員）ID」エラー - 指定桁数(20桁)以内であること。"
+msgstr "「取引先（会員）ID」エラー - 指定桁数(20桁)以内であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_G020002"
+msgid "「取引先（会員）ID」エラー - 半角英数字または”-”[ハイフン]の組み合わせであること。"
+msgstr "「取引先（会員）ID」エラー - 半角英数字または”-”[ハイフン]の組み合わせであること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_G030001"
+msgid "「取引先電話番号」エラー - 指定桁数(13桁)以内であること。"
+msgstr "「取引先電話番号」エラー - 指定桁数(13桁)以内であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_G030002"
+msgid "「取引先電話番号」エラー - 半角数字または”-”[ハイフン]の組み合わせであること。"
+msgstr "「取引先電話番号」エラー - 半角数字または”-”[ハイフン]の組み合わせであること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_G040001"
+msgid "「パスワード」エラー - 値が指定されていること。"
+msgstr "「パスワード」エラー - 値が指定されていること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_G060001"
+msgid "「パスワード」エラー - パスワードが一致すること。"
+msgstr "「パスワード」エラー - パスワードが一致すること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_G050001"
+msgid "「関連する項目チェック１」エラー - 取引先(会員)ID、取引先電話番号の内いずれか一つ設定されていること。"
+msgstr "「関連する項目チェック１」エラー - 取引先(会員)ID、取引先電話番号の内いずれか一つ設定されていること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_G070001"
+msgid "「関連する項目チェック１」エラー - 取引先(会員)IDのみ設定されている場合、取引先(会員)IDに紐付く取引先(会員)が1件であること。（存在しない または、2件以上存在する場合エラー）"
+msgstr "「関連する項目チェック１」エラー - 取引先(会員)IDのみ設定されている場合、取引先(会員)IDに紐付く取引先(会員)が1件であること。（存在しない または、2件以上存在する場合エラー）"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_G070002"
+msgid "「関連する項目チェック１」エラー - 取引先電話番号のみ設定されている場合、取引先電話番号に紐付く取引先(会員)が存在すること。"
+msgstr "「関連する項目チェック１」エラー - 取引先電話番号のみ設定されている場合、取引先電話番号に紐付く取引先(会員)が存在すること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_G070003"
+msgid "「関連する項目チェック１」エラー - 取引先電話番号のみ設定されている場合、取引先電話番号に紐付く取引先(会員)が1件であること。"
+msgstr "「関連する項目チェック１」エラー - 取引先電話番号のみ設定されている場合、取引先電話番号に紐付く取引先(会員)が1件であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_G070004"
+msgid "「関連する項目チェック１」エラー - 取引先(会員)IDと、取引先電話番号がいずれも設定されている場合、取引先(会員)IDと取引先電話番号の両方に紐付く取引先(会員)が1件であること。"
+msgstr "「関連する項目チェック１」エラー - 取引先(会員)IDと、取引先電話番号がいずれも設定されている場合、取引先(会員)IDと取引先電話番号の両方に紐付く取引先(会員)が1件であること。"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_errmsg_G080001"
+msgid "「その他エラーチェック」エラー - 審査状況照会範囲外など、審査状況が取得できない場合エラー"
+msgstr "「その他エラーチェック」エラー - 審査状況照会範囲外など、審査状況が取得できない場合エラー"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_payment_settings"
+msgid "クロネコ掛け払い設定"
+msgstr "クロネコ掛け払い設定"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_product_code"
+msgid "商品コード"
+msgstr "商品コード"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_no_product_code"
+msgid "連携しない"
+msgstr "連携しない"
+
+msgctxt "Languages::jp_kuroneko_kakebarai_10_product_code"
+msgid "商品コードが10文字を超える場合、頭から超えている値を切る　"
+msgstr "商品コードが10文字を超える場合、頭から超えている値を切る　"

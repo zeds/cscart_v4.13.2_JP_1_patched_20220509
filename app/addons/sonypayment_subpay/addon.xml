@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+	<id>sonypayment_subpay</id>
+    <supplier>CS-Cart.jp</supplier>
+	<version>1.0</version>
+	<priority>1</priority>
+	<position>100</position>
+    <default_language>ja</default_language>
+    <status>active</status>
+    <settings edition_type="ROOT,ULT:VENDOR">
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="elm_connection_information">
+                        <type>header</type>
+                        <handler/>
+                    </item>
+                    <item id="merchant_id">
+                        <type>input</type>
+                        <default_value/>
+                    </item>
+                    <item id="merchant_pass">
+                        <type>input</type>
+                        <default_value/>
+                    </item>
+                    <item id="tenant_id">
+                        <type>input</type>
+                        <default_value/>
+                    </item>
+                    <item id="offset">
+                        <type>input</type>
+                        <default_value/>
+                    </item>
+                    <item id="is_user_cancel">
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                        <variants/>
+                    </item>
+                    <item id="second_process_type">
+                        <type>selectbox</type>
+                        <default_value>capture</default_value>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    <queries>
+        <item type="file">database/data_install.sql</item>
+    </queries>
+    <functions>
+        <item for="install">fn_sonypayment_subpay_install</item>
+        <item for="uninstall">fn_sonypayment_subpay_delete_payment_processors</item>
+    </functions>
+</addon>

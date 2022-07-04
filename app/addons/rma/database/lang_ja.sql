@@ -1,0 +1,11 @@
+REPLACE INTO ?:rma_property_descriptions (property_id, lang_code, property) VALUES ('12', 'ja', '注文する商品を間違えた');
+REPLACE INTO ?:rma_property_descriptions (property_id, lang_code, property) VALUES ('3', 'ja', '実際の商品がショップページでの説明と異なっていた');
+REPLACE INTO ?:rma_property_descriptions (property_id, lang_code, property) VALUES ('4', 'ja', '使用したが効果が見られなかった');
+REPLACE INTO ?:rma_property_descriptions (property_id, lang_code, property) VALUES ('5', 'ja', '製品に不具合があった');
+REPLACE INTO ?:rma_property_descriptions (property_id, lang_code, property) VALUES ('6', 'ja', '注文したものとは異なる商品が届いた');
+REPLACE INTO ?:rma_property_descriptions (property_id, lang_code, property) VALUES ('7', 'ja', '保証が切れていた');
+REPLACE INTO ?:rma_property_descriptions (property_id, lang_code, property) VALUES ('8', 'ja', '配送中に破損していた');
+REPLACE INTO ?:rma_property_descriptions (property_id, lang_code, property) VALUES ('1', 'ja', '商品交換');
+REPLACE INTO ?:rma_property_descriptions (property_id, lang_code, property) VALUES ('2', 'ja', '返金');
+REPLACE INTO ?:rma_property_descriptions (property_id, lang_code, property) VALUES ('13', 'ja', 'その他');
+REPLACE INTO ?:rma_property_descriptions (property_id, lang_code, property) VALUES ('11', 'ja', '受け取り時にすでに死んでいた');

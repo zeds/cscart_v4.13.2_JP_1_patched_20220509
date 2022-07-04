@@ -1,0 +1,818 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Japanese\n"
+"Language: ja_JP\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscartjp <tommy@cs-cart.jp>\n"
+"PO-Revision-Date: 2015-07-15 15:00-0900\n"
+
+msgctxt "Addons::name::gmo_multipayment"
+msgid "PGマルチペイメントサービス（プロトコルタイプ）"
+msgstr "PGマルチペイメントサービス（プロトコルタイプ）"
+
+msgctxt "Addons::description::gmo_multipayment"
+msgid "PGマルチペイメントサービス（プロトコルタイプ）による決済を利用可能にします。"
+msgstr "PGマルチペイメントサービス（プロトコルタイプ）による決済を利用可能にします。"
+
+msgctxt "SettingsSections::gmo_multipayment::general"
+msgid "基本設定"
+msgstr "基本設定"
+
+msgctxt "SettingsOptions::gmo_multipayment::elm_connection_information"
+msgid "接続設定"
+msgstr "接続設定"
+
+msgctxt "SettingsOptions::gmo_multipayment::site_id"
+msgid "サイトID"
+msgstr "サイトID"
+
+msgctxt "SettingsOptions::gmo_multipayment::site_pass"
+msgid "サイトパスワード"
+msgstr "サイトパスワード"
+
+msgctxt "SettingsOptions::gmo_multipayment::shop_id"
+msgid "ショップID"
+msgstr "ショップID"
+
+msgctxt "SettingsOptions::gmo_multipayment::shop_pass"
+msgid "ショップパスワード"
+msgstr "ショップパスワード"
+
+msgctxt "SettingsOptions::gmo_multipayment::uid_prefix"
+msgid "登録済みカード決済で使用するユーザーIDのプリフィックス（最大8文字）<br />※類推されにくい文字列を指定してください"
+msgstr "登録済みカード決済で使用するユーザーIDのプリフィックス（最大8文字）<br />※類推されにくい文字列を指定してください"
+
+msgctxt "SettingsOptions::gmo_multipayment::td_tenant_name"
+msgid "3Dセキュア表示店舗名"
+msgstr "3Dセキュア表示店舗名"
+
+msgctxt "SettingsOptions::gmo_multipayment::pending_status"
+msgid "正常入金が行われなかった注文に割り当てる注文ステータス"
+msgstr "正常入金が行われなかった注文に割り当てる注文ステータス"
+
+msgctxt "Languages::jp_gmo_multipayment_cc_auth_cancel"
+msgid "与信取消"
+msgstr "与信取消"
+
+msgctxt "Languages::jp_gmo_multipayment_cc_auth_cancel_error"
+msgid "与信取消エラー"
+msgstr "与信取消エラー"
+
+msgctxt "Languages::jp_gmo_multipayment_cc_auth_cancel_failed"
+msgid "注文番号 [oid] は与信取消できませんでした。"
+msgstr "注文番号 [oid] は与信取消できませんでした。"
+
+msgctxt "Languages::jp_gmo_multipayment_cc_auth_cancelled"
+msgid "与信を取り消しました。"
+msgstr "与信を取り消しました。"
+
+msgctxt "Languages::jp_gmo_multipayment_cc_auth_changed"
+msgid "カード決済の金額変更処理が完了しました"
+msgstr "カード決済の金額変更処理が完了しました"
+
+msgctxt "Languages::jp_gmo_multipayment_cc_auth_change_failed"
+msgid "注文番号 [oid] の金額変更処理に失敗しました。"
+msgstr "注文番号 [oid] の金額変更処理に失敗しました。"
+
+msgctxt "Languages::jp_gmo_multipayment_cc_auth_ng"
+msgid "与信NG"
+msgstr "与信NG"
+
+msgctxt "Languages::jp_gmo_multipayment_cc_auth_ok"
+msgid "仮売上"
+msgstr "仮売上"
+
+msgctxt "Languages::jp_gmo_multipayment_cc_bonus"
+msgid "ボーナス一括払い"
+msgstr "ボーナス一括払い"
+
+msgctxt "Languages::jp_gmo_multipayment_cc_communication_error"
+msgid "通信エラーが発生したため、処理を完了できませんでした。"
+msgstr "通信エラーが発生したため、処理を完了できませんでした。"
+
+msgctxt "Languages::jp_gmo_multipayment_cc_data_not_exists"
+msgid "ご指定の処理を実行できる注文がありませんでした。"
+msgstr "ご指定の処理を実行できる注文がありませんでした。"
+
+msgctxt "Languages::jp_gmo_multipayment_cc_error"
+msgid "クレジットカード決済エラー"
+msgstr "クレジットカード決済エラー"
+
+msgctxt "Languages::jp_gmo_multipayment_cc_failed"
+msgid "クレジットカードによる決済に失敗しました。<br />再度カード情報を入力いただくか他の支払方法を選択してご注文ください。"
+msgstr "クレジットカードによる決済に失敗しました。<br />再度カード情報を入力いただくか他の支払方法を選択してご注文ください。"
+
+msgctxt "Languages::jp_gmo_multipayment_cc_invalid"
+msgid "入力されたカード情報が正しくありません。<br />再度カード情報を入力いただくか他の支払方法を選択してご注文ください。"
+msgstr "入力されたカード情報が正しくありません。<br />再度カード情報を入力いただくか他の支払方法を選択してご注文ください。"
+
+msgctxt "Languages::jp_gmo_multipayment_cc_manager"
+msgid "クレジット請求管理"
+msgstr "クレジット請求管理"
+
+msgctxt "Languages::jp_gmo_multipayment_cc_notice"
+msgid "PGマルチペイメントサービス（プロトコルタイプ・カード決済）に関する設定情報を入力してください。"
+msgstr "PGマルチペイメントサービス（プロトコルタイプ・カード決済）に関する設定情報を入力してください。"
+
+msgctxt "Languages::jp_gmo_multipayment_cc_payment_settings"
+msgid "カード決済設定"
+msgstr "カード決済設定"
+
+msgctxt "Languages::jp_gmo_multipayment_cc_redirect_acs"
+msgid "3Dセキュア認証用ページに移動しています"
+msgstr "3Dセキュア認証用ページに移動しています"
+
+msgctxt "Languages::jp_gmo_multipayment_cc_register_card_info"
+msgid "クレジットカード情報お預かり機能"
+msgstr "クレジットカード情報お預かり機能"
+
+msgctxt "Languages::jp_gmo_multipayment_cc_register_card_info_use"
+msgid "次回以降のお買い物でこのカード情報を使用する"
+msgstr "次回以降のお買い物でこのカード情報を使用する"
+
+msgctxt "Languages::jp_gmo_multipayment_cc_sales_cancel"
+msgid "売上取消"
+msgstr "売上取消"
+
+msgctxt "Languages::jp_gmo_multipayment_cc_sales_cancel_error"
+msgid "売上取消エラー"
+msgstr "売上取消エラー"
+
+msgctxt "Languages::jp_gmo_multipayment_cc_sales_cancel_failed"
+msgid "注文番号 [oid] は売上取消できませんでした。"
+msgstr "注文番号 [oid] は売上取消できませんでした。"
+
+msgctxt "Languages::jp_gmo_multipayment_cc_sales_cancelled"
+msgid "売上を取り消しました。"
+msgstr "売上を取り消しました。"
+
+msgctxt "Languages::jp_gmo_multipayment_cc_sales_completed"
+msgid "売上を確定しました。"
+msgstr "売上を確定しました。"
+
+msgctxt "Languages::jp_gmo_multipayment_cc_sales_confirm"
+msgid "実売上"
+msgstr "実売上"
+
+msgctxt "Languages::jp_gmo_multipayment_cc_sales_confirm_error"
+msgid "売上確定エラー"
+msgstr "売上確定エラー"
+
+msgctxt "Languages::jp_gmo_multipayment_cc_sales_confirm_failed"
+msgid "注文番号 [oid] は売上確定できませんでした。"
+msgstr "注文番号 [oid] は売上確定できませんでした。"
+
+msgctxt "Languages::jp_gmo_multipayment_cc_status"
+msgid "請求ステータス"
+msgstr "請求ステータス"
+
+msgctxt "Languages::jp_gmo_multipayment_cc_use_cvv"
+msgid "セキュリティコード(CVV2)を使用"
+msgstr "セキュリティコード(CVV2)を使用"
+
+msgctxt "Languages::jp_gmo_multipayment_ccreg_delete_card_info"
+msgid "カード情報の削除"
+msgstr "カード情報の削除"
+
+msgctxt "Languages::jp_gmo_multipayment_ccreg_delete_error"
+msgid "カード情報削除エラー"
+msgstr "カード情報削除エラー"
+
+msgctxt "Languages::jp_gmo_multipayment_ccreg_delete_failed"
+msgid "クレジットカード情報の削除に失敗しました。"
+msgstr "クレジットカード情報の削除に失敗しました。"
+
+msgctxt "Languages::jp_gmo_multipayment_ccreg_delete_success"
+msgid "クレジットカード情報を削除しました。"
+msgstr "クレジットカード情報を削除しました。"
+
+msgctxt "Languages::jp_gmo_multipayment_ccreg_error"
+msgid "カード情報登録エラー"
+msgstr "カード情報登録エラー"
+
+msgctxt "Languages::jp_gmo_multipayment_ccreg_failed"
+msgid "登録済みクレジットカードによる決済に失敗しました。<br />他の支払方法を選択してご注文ください。"
+msgstr "登録済みクレジットカードによる決済に失敗しました。<br />他の支払方法を選択してご注文ください。"
+
+msgctxt "Languages::jp_gmo_multipayment_ccreg_no_card_info"
+msgid "カード情報は登録されていません"
+msgstr "カード情報は登録されていません"
+
+msgctxt "Languages::jp_gmo_multipayment_ccreg_notice"
+msgid "PGマルチペイメントサービス（プロトコルタイプ・登録済みカード決済）に関する設定情報を入力してください。"
+msgstr "PGマルチペイメントサービス（プロトコルタイプ・登録済みカード決済）に関する設定情報を入力してください。"
+
+msgctxt "Languages::jp_gmo_multipayment_ccreg_register_success"
+msgid "カード情報を登録しました。"
+msgstr "カード情報を登録しました。"
+
+msgctxt "Languages::jp_gmo_multipayment_ccreg_register_failed"
+msgid "カード情報の登録に失敗しました。"
+msgstr "カード情報の登録に失敗しました。"
+
+msgctxt "Languages::jp_gmo_multipayment_ccreg_registered_card"
+msgid "登録済みカード情報"
+msgstr "登録済みカード情報"
+
+msgctxt "Languages::jp_gmo_multipayment_connections_settings"
+msgid "接続設定"
+msgstr "接続設定"
+
+msgctxt "Languages::jp_gmo_multipayment_cvs_convenience"
+msgid "コンビニ種別"
+msgstr "コンビニ種別"
+
+msgctxt "Languages::jp_gmo_multipayment_cvs_error"
+msgid "コンビニ決済エラー"
+msgstr "コンビニ決済エラー"
+
+msgctxt "Languages::jp_gmo_multipayment_cvs_failed"
+msgid "コンビニ決済に失敗しました。<br />再度お試しいただくか他の支払方法を選択してご注文ください。"
+msgstr "コンビニ決済に失敗しました。<br />再度お試しいただくか他の支払方法を選択してご注文ください。"
+
+msgctxt "Languages::jp_gmo_multipayment_cvs_notice"
+msgid "PGマルチペイメントサービス（プロトコルタイプ・コンビニ決済）に関する設定情報を入力してください。"
+msgstr "PGマルチペイメントサービス（プロトコルタイプ・コンビニ決済）に関する設定情報を入力してください。"
+
+msgctxt "Languages::jp_gmo_multipayment_cvs_payment_settings"
+msgid "コンビニ決済設定"
+msgstr "コンビニ決済設定"
+
+msgctxt "Languages::jp_gmo_multipayment_cvs_select_cvs"
+msgid "ご利用のコンビニを指定してください"
+msgstr "ご利用のコンビニを指定してください"
+
+msgctxt "Languages::jp_gmo_multipayment_error_code"
+msgid "エラーコード："
+msgstr "エラーコード："
+
+msgctxt "Languages::jp_gmo_multipayment_paid_amount"
+msgid "入金金額"
+msgstr "入金金額"
+
+msgctxt "Languages::jp_gmo_multipayment_security_code"
+msgid "セキュリティコード"
+msgstr "セキュリティコード"
+
+msgctxt "Languages::jp_gmo_multipayment_what_is_security_code"
+msgid "セキュリティコードとは"
+msgstr "セキュリティコードとは"
+
+msgctxt "Languages::jp_gmo_multipayment_jobcd"
+msgid "処理区分"
+msgstr "処理区分"
+
+msgctxt "Languages::jp_gmo_multipayment_auth"
+msgid "仮売上"
+msgstr "仮売上"
+
+msgctxt "Languages::jp_gmo_multipayment_capture"
+msgid "即時売上"
+msgstr "即時売上"
+
+msgctxt "Languages::jp_gmo_multipayment_order_id"
+msgid "オーダーID"
+msgstr "オーダーID"
+
+msgctxt "Languages::jp_gmo_multipayment_approve"
+msgid "承認番号"
+msgstr "承認番号"
+
+msgctxt "Languages::jp_gmo_multipayment_tran_id"
+msgid "トランザクションID"
+msgstr "トランザクションID"
+
+msgctxt "Languages::jp_gmo_multipayment_tran_date"
+msgid "決済日付"
+msgstr "決済日付"
+
+msgctxt "Languages::jp_gmo_multipayment_method"
+msgid "支払方法"
+msgstr "支払方法"
+
+msgctxt "Languages::jp_gmo_multipayment_paytimes"
+msgid "支払回数"
+msgstr "支払回数"
+
+msgctxt "Languages::jp_gmo_multipayment_card_company"
+msgid "カード会社"
+msgstr "カード会社"
+
+msgctxt "Languages::jp_gmo_multipayment_use_3dsecure"
+msgid "本人認証サービス（3Dセキュア）を使用"
+msgstr "本人認証サービス（3Dセキュア）を使用"
+
+msgctxt "Languages::jp_gmo_multipayment_cc_captured"
+msgid "即時売上"
+msgstr "即時売上"
+
+msgctxt "Languages::jp_gmo_multipayment_cc_data_not_exists"
+msgid "ご指定の処理を実行できる注文がありませんでした。"
+msgstr "ご指定の処理を実行できる注文がありませんでした。"
+
+msgctxt "Languages::jp_gmo_multipayment_cvs_paymenttermday"
+msgid "支払期限日数"
+msgstr "支払期限日数"
+
+msgctxt "Languages::jp_gmo_multipayment_cvs_3f"
+msgid "スリーエフ"
+msgstr "スリーエフ"
+
+msgctxt "Languages::jp_gmo_multipayment_cvs_paymenttermday_prefix"
+msgid "注文日の"
+msgstr "注文日の"
+
+msgctxt "Languages::jp_gmo_multipayment_cvs_paymenttermday_suffix"
+msgid "日後"
+msgstr "日後"
+
+msgctxt "Languages::jp_gmo_multipayment_cvs_name"
+msgid "支払先コンビ二名"
+msgstr "支払先コンビ二名"
+
+msgctxt "Languages::jp_gmo_multipayment_cvs_paymentterm"
+msgid "支払期限日時"
+msgstr "支払期限日時"
+
+msgctxt "Languages::jp_gmo_multipayment_receiptsdisp11"
+msgid "お問い合わせ先（最大42文字）"
+msgstr "お問い合わせ先（最大42文字）"
+
+msgctxt "Languages::jp_gmo_multipayment_receiptsdisp12"
+msgid "お問い合わせ先電話番号（半角で最大12桁）"
+msgstr "お問い合わせ先電話番号（半角で最大12桁）"
+
+msgctxt "Languages::jp_gmo_multipayment_receiptsdisp13"
+msgid "お問い合わせ受付時間"
+msgstr "お問い合わせ受付時間"
+
+msgctxt "Languages::jp_gmo_multipayment_cvs_confno"
+msgid "確認番号"
+msgstr "確認番号"
+
+msgctxt "Languages::jp_gmo_multipayment_cvs_receiptno"
+msgid "受付番号"
+msgstr "受付番号"
+
+msgctxt "Languages::jp_gmo_multipayment_cvs_notification_title"
+msgid "コンビニ決済に関するお知らせ"
+msgstr "コンビニ決済に関するお知らせ"
+
+msgctxt "Languages::jp_gmo_multipayment_cvs_notification_message"
+msgid "コンビニ決済によるご注文を承りました。<br />[email] 宛にお支払い方法の詳細をお送りしましたので、ご確認のうえお期限日までにお支払いをお願いします。"
+msgstr "コンビニ決済によるご注文を承りました。<br />[email] 宛にお支払い方法の詳細をお送りしましたので、ご確認のうえお期限日までにお支払いをお願いします。"
+
+msgctxt "Languages::jp_gmo_multipayment_payeasy_notice"
+msgid "PGマルチペイメントサービス（プロトコルタイプ・ペイジー決済）に関する設定情報を入力してください。"
+msgstr "PGマルチペイメントサービス（プロトコルタイプ・ペイジー決済）に関する設定情報を入力してください。"
+
+msgctxt "Languages::jp_gmo_multipayment_payeasy_custid"
+msgid "お客様番号"
+msgstr "お客様番号"
+
+msgctxt "Languages::jp_gmo_multipayment_payeasy_bkcode"
+msgid "収納機関番号"
+msgstr "収納機関番号"
+
+msgctxt "Languages::jp_gmo_multipayment_payeasy_confno"
+msgid "確認番号"
+msgstr "確認番号"
+
+msgctxt "Languages::jp_gmo_multipayment_payeasy_paymentterm"
+msgid "支払期限日時"
+msgstr "支払期限日時"
+
+msgctxt "Languages::jp_gmo_multipayment_payeasy_notification_title"
+msgid "ペイジー決済に関するお知らせ"
+msgstr "ペイジー決済に関するお知らせ"
+
+msgctxt "Languages::jp_gmo_multipayment_payeasy_notification_message"
+msgid "ペイジー決済によるご注文を承りました。<br />[email] 宛にお支払い方法の詳細をお送りしましたので、ご確認のうえお期限日までにお支払いをお願いします。"
+msgstr "ペイジー決済によるご注文を承りました。<br />[email] 宛にお支払い方法の詳細をお送りしましたので、ご確認のうえお期限日までにお支払いをお願いします。"
+
+msgctxt "Languages::jp_gmo_multipayment_process_date"
+msgid "処理日付"
+msgstr "処理日付"
+
+msgctxt "Languages::jp_gmo_multipayment_finishdate"
+msgid "入金確定日時"
+msgstr "入金確定日時"
+
+msgctxt "Languages::jp_gmo_multipayment_receiptdate"
+msgid "受付日時"
+msgstr "受付日時"
+
+msgctxt "Languages::jp_gmo_multipayment_cc_status_change_failed"
+msgid "請求ステータスの更新に失敗しました。"
+msgstr "請求ステータスの更新に失敗しました。"
+
+msgctxt "Languages::jp_gmo_multipayment_cc_reauth_completed"
+msgid "注文に対する再オーソリが完了しました。"
+msgstr "注文に対する再オーソリが完了しました。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_e01260010"
+msgid "指定されたカード番号または支払方法が正しくありません。"
+msgstr "指定されたカード番号または支払方法が正しくありません。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_e01270010"
+msgid "指定された支払回数はご利用できません。"
+msgstr "指定された支払回数はご利用できません。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_e01370008"
+msgid "3Dセキュア表示店舗名の書式が正しくありません。"
+msgstr "3Dセキュア表示店舗名の書式が正しくありません。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_e01370012"
+msgid "3Dセキュア表示店舗名の値が最大バイト数を超えています。"
+msgstr "3Dセキュア表示店舗名の値が最大バイト数を超えています。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_e01420010"
+msgid "仮売上有効期間を超えています。"
+msgstr "仮売上有効期間を超えています。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_e01430012"
+msgid "会員名の値が最大バイト数を超えています。"
+msgstr "会員名の値が最大バイト数を超えています。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_e01490005"
+msgid "利用金額・税送料の合計値が最大桁数を超えています。"
+msgstr "利用金額・税送料の合計値が最大桁数を超えています。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_e11010001"
+msgid "この取引は既に決済が終了しています。"
+msgstr "この取引は既に決済が終了しています。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_e11010002"
+msgid "この取引は決済が終了していませんので、変更する事が出来ません。"
+msgstr "この取引は決済が終了していませんので、変更する事が出来ません。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_e11010003"
+msgid "この取引は指定処理区分処理を行う事が出来ません。"
+msgstr "この取引は指定処理区分処理を行う事が出来ません。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_e11010010"
+msgid "180日超えの取引のため、処理を行う事が出来ません。"
+msgstr "180日超えの取引のため、処理を行う事が出来ません。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_e11010011"
+msgid "180日超えの取引のため、処理を行う事が出来ません。"
+msgstr "180日超えの取引のため、処理を行う事が出来ません。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_e11010014"
+msgid "180日超えの取引のため、処理を行う事が出来ません。"
+msgstr "180日超えの取引のため、処理を行う事が出来ません。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_e11010099"
+msgid "このカードはご利用になれません。"
+msgstr "このカードはご利用になれません。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_e21010001"
+msgid "3Dセキュア認証に失敗しました。もう一度、購入画面からやり直して下さい。"
+msgstr "3Dセキュア認証に失敗しました。もう一度、購入画面からやり直して下さい。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_e21010007"
+msgid "3Dセキュア認証に失敗しました。もう一度、購入画面からやり直して下さい。"
+msgstr "3Dセキュア認証に失敗しました。もう一度、購入画面からやり直して下さい。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_e21010999"
+msgid "3Dセキュア認証に失敗しました。もう一度、購入画面からやり直して下さい。"
+msgstr "3Dセキュア認証に失敗しました。もう一度、購入画面からやり直して下さい。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_e21020001"
+msgid "3Dセキュア認証に失敗しました。もう一度、購入画面からやり直して下さい。"
+msgstr "3Dセキュア認証に失敗しました。もう一度、購入画面からやり直して下さい。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_e21020002"
+msgid "3Dセキュア認証がキャンセルされました。もう一度、購入画面からやり直して下さい。"
+msgstr "3Dセキュア認証がキャンセルされました。もう一度、購入画面からやり直して下さい。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_e21020007"
+msgid "3Dセキュア認証に失敗しました。もう一度、購入画面からやり直して下さい。"
+msgstr "3Dセキュア認証に失敗しました。もう一度、購入画面からやり直して下さい。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_e21020999"
+msgid "3Dセキュア認証に失敗しました。もう一度、購入画面からやり直して下さい。"
+msgstr "3Dセキュア認証に失敗しました。もう一度、購入画面からやり直して下さい。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_e21010201"
+msgid "このカードでは取引をする事が出来ません。3Dセキュア認証に対応したカードをお使い下さい。"
+msgstr "このカードでは取引をする事が出来ません。3Dセキュア認証に対応したカードをお使い下さい。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_e21010202"
+msgid "このカードでは取引をする事が出来ません。3Dセキュア認証に対応したカードをお使い下さい。"
+msgstr "このカードでは取引をする事が出来ません。3Dセキュア認証に対応したカードをお使い下さい。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_e41170002"
+msgid "入力されたカード会社に対応していません。別のカード番号を入力して下さい。"
+msgstr "入力されたカード会社に対応していません。別のカード番号を入力して下さい。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_e41170099"
+msgid "カード番号に誤りがあります。再度確認して入力して下さい。"
+msgstr "カード番号に誤りがあります。再度確認して入力して下さい。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_e61010001"
+msgid "決済処理に失敗しました。申し訳ございませんが、しばらく時間をあけて購入画面からやり直してください。"
+msgstr "決済処理に失敗しました。申し訳ございませんが、しばらく時間をあけて購入画面からやり直してください。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_e61010002"
+msgid "ご利用出来ないカードをご利用になったもしくはカード番号が誤っております。"
+msgstr "ご利用出来ないカードをご利用になったもしくはカード番号が誤っております。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_e61010003"
+msgid "決済処理に失敗しました。申し訳ございませんが、しばらく時間をあけて購入画面からやり直してください。"
+msgstr "決済処理に失敗しました。申し訳ございませんが、しばらく時間をあけて購入画面からやり直してください。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_e61020001"
+msgid "指定の決済方法は利用停止になっています。"
+msgstr "指定の決済方法は利用停止になっています。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_e61030001"
+msgid "ご契約内容エラー/現在のご契約では、ご利用になれません。"
+msgstr "ご契約内容エラー/現在のご契約では、ご利用になれません。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_e91020001"
+msgid "通信タイムアウトが発生しました。申し訳ございませんが、しばらく時間をあけて購入画面からやり直してください。"
+msgstr "通信タイムアウトが発生しました。申し訳ございませんが、しばらく時間をあけて購入画面からやり直してください。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_e91029998"
+msgid "決済処理に失敗しました。該当のお取引について、店舗までお問合せください。"
+msgstr "決済処理に失敗しました。該当のお取引について、店舗までお問合せください。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_e91029999"
+msgid "決済処理に失敗しました。申し訳ございませんが、しばらく時間をあけて購入画面からやり直してください。"
+msgstr "決済処理に失敗しました。申し訳ございませんが、しばらく時間をあけて購入画面からやり直してください。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_e91050001"
+msgid "決済処理に失敗しました。"
+msgstr "決済処理に失敗しました。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_e91099999"
+msgid "決済処理に失敗しました。申し訳ございませんが、しばらく時間をあけて購入画面からやり直してください。"
+msgstr "決済処理に失敗しました。申し訳ございませんが、しばらく時間をあけて購入画面からやり直してください。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_e92000001"
+msgid "只今、大変込み合っていますので、しばらく時間をあけて再度決済を行ってください。"
+msgstr "只今、大変込み合っていますので、しばらく時間をあけて再度決済を行ってください。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_e92000002"
+msgid "只今、大変込み合っていますので、しばらく時間をあけて再度決済を行ってください。"
+msgstr "只今、大変込み合っていますので、しばらく時間をあけて再度決済を行ってください。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_m01005005"
+msgid "利用金額が最大桁数を超えています。"
+msgstr "利用金額が最大桁数を超えています。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_m01005011"
+msgid "利用金額が有効な範囲を超えています。"
+msgstr "利用金額が有効な範囲を超えています。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_m01006005"
+msgid "税送料が最大桁数を超えています。"
+msgstr "税送料が最大桁数を超えています。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_m01010001"
+msgid "氏名が指定されていません。"
+msgstr "氏名が指定されていません。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_m01010012"
+msgid "氏名が最大バイト数を超えています。"
+msgstr "氏名が最大バイト数を超えています。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_m01010013"
+msgid "氏名に不正な文字が含まれています。"
+msgstr "氏名に不正な文字が含まれています。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_m01011001"
+msgid "フリガナが指定されていません。"
+msgstr "フリガナが指定されていません。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_m01011012"
+msgid "フリガナが最大バイト数を超えています。"
+msgstr "フリガナが最大バイト数を超えています。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_m01011013"
+msgid "フリガナに不正な文字が含まれています。"
+msgstr "フリガナに不正な文字が含まれています。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_m01012001"
+msgid "電話番号が指定されていません。"
+msgstr "電話番号が指定されていません。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_m01012005"
+msgid "電話番号が最大文字数を超えています。"
+msgstr "電話番号が最大文字数を超えています。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_m01012008"
+msgid "電話番号の書式が正しくありません。"
+msgstr "電話番号の書式が正しくありません。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_m01014001"
+msgid "結果通知先メールアドレスが指定されていません。"
+msgstr "結果通知先メールアドレスが指定されていません。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_m01014005"
+msgid "結果通知先メールアドレスが最大文字数を超えています。"
+msgstr "結果通知先メールアドレスが最大文字数を超えています。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_m01014008"
+msgid "結果通知先メールアドレスの書式が正しくありません。"
+msgstr "結果通知先メールアドレスの書式が正しくありません。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_m01015005"
+msgid "加盟店メールアドレスが最大文字数を超えています。"
+msgstr "加盟店メールアドレスが最大文字数を超えています。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_m01015008"
+msgid "加盟店メールアドレスの書式が正しくありません。"
+msgstr "加盟店メールアドレスの書式が正しくありません。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_m01036001"
+msgid "お問合せ先が指定されていません。"
+msgstr "お問合せ先が指定されていません。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_m01036012"
+msgid "お問合せ先に不正な文字が含まれています。"
+msgstr "お問合せ先に不正な文字が含まれています。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_m01037001"
+msgid "お問合せ先電話番号が指定されていません。"
+msgstr "お問合せ先電話番号が指定されていません。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_m01037005"
+msgid "お問合せ先電話番号が最大文字数を超えています。"
+msgstr "お問合せ先電話番号が最大文字数を超えています。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_m01037008"
+msgid "お問合せ先電話番号に数字、－以外の文字が指定されています。"
+msgstr "お問合せ先電話番号に数字、－以外の文字が指定されています。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_m01038001"
+msgid "お問合せ先受付時間が指定されていません。"
+msgstr "お問合せ先受付時間が指定されていません。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_m01018013"
+msgid "POSレジ表示欄1に不正な文字が含まれています。"
+msgstr "POSレジ表示欄1に不正な文字が含まれています。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_m01038005"
+msgid "お問合せ先受付時間が最大文字数を超えています。"
+msgstr "お問合せ先受付時間が最大文字数を超えています。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_42g020000"
+msgid "カード残高が不足しているために、決済を完了する事が出来ませんでした。"
+msgstr "カード残高が不足しているために、決済を完了する事が出来ませんでした。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_42g030000"
+msgid "カード限度額を超えているために、決決済を完了する事が出来ませんでした。"
+msgstr "カード限度額を超えているために、決決済を完了する事が出来ませんでした。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_42g040000"
+msgid "カード残高が不足しているために、決済を完了する事が出来ませんでした。"
+msgstr "カード残高が不足しているために、決済を完了する事が出来ませんでした。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_42g050000"
+msgid "カード限度額を超えているために、決済を完了する事が出来ませんでした。"
+msgstr "カード限度額を超えているために、決済を完了する事が出来ませんでした。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_42g120000"
+msgid "このカードでは取引をする事が出来ません。"
+msgstr "このカードでは取引をする事が出来ません。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_42g220000"
+msgid "このカードでは取引をする事が出来ません。"
+msgstr "このカードでは取引をする事が出来ません。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_42g300000"
+msgid "このカードでは取引をする事が出来ません。"
+msgstr "このカードでは取引をする事が出来ません。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_42g420000"
+msgid "暗証番号が誤っていた為に、決済を完了する事が出来ませんでした。"
+msgstr "暗証番号が誤っていた為に、決済を完了する事が出来ませんでした。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_42g440000"
+msgid "セキュリティーコードが誤っていた為に、決済を完了する事が出来ませんでした。"
+msgstr "セキュリティーコードが誤っていた為に、決済を完了する事が出来ませんでした。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_42g450000"
+msgid "セキュリティーコードが入力されていない為に、決済を完了する事が出来ませんでした。"
+msgstr "セキュリティーコードが入力されていない為に、決済を完了する事が出来ませんでした。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_42g540000"
+msgid "このカードでは取引をする事が出来ません。"
+msgstr "このカードでは取引をする事が出来ません。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_42g550000"
+msgid "カード限度額を超えているために、決済を完了する事が出来ませんでした。"
+msgstr "カード限度額を超えているために、決済を完了する事が出来ませんでした。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_42g560000"
+msgid "このカードでは取引をする事が出来ません。"
+msgstr "このカードでは取引をする事が出来ません。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_42g600000"
+msgid "このカードでは取引をする事が出来ません。"
+msgstr "このカードでは取引をする事が出来ません。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_42g610000"
+msgid "このカードでは取引をする事が出来ません。"
+msgstr "このカードでは取引をする事が出来ません。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_42g650000"
+msgid "カード番号に誤りがあるために、決済を完了する事が出来ませんでした。"
+msgstr "カード番号に誤りがあるために、決済を完了する事が出来ませんでした。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_42g670000"
+msgid "商品コードに誤りがあるために、決済を完了する事が出来ませんでした。"
+msgstr "商品コードに誤りがあるために、決済を完了する事が出来ませんでした。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_42g680000"
+msgid "金額に誤りがあるために、決済を完了する事が出来ませんでした。"
+msgstr "金額に誤りがあるために、決済を完了する事が出来ませんでした。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_42g690000"
+msgid "税送料に誤りがあるために、決済を完了する事が出来ませんでした。"
+msgstr "税送料に誤りがあるために、決済を完了する事が出来ませんでした。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_42g700000"
+msgid "ボーナス回数に誤りがあるために、決済を完了する事が出来ませんでした。"
+msgstr "ボーナス回数に誤りがあるために、決済を完了する事が出来ませんでした。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_42g710000"
+msgid "ボーナス月に誤りがあるために、決済を完了する事が出来ませんでした。"
+msgstr "ボーナス月に誤りがあるために、決済を完了する事が出来ませんでした。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_42g720000"
+msgid "ボーナス額に誤りがあるために、決済を完了する事が出来ませんでした。"
+msgstr "ボーナス額に誤りがあるために、決済を完了する事が出来ませんでした。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_42g730000"
+msgid "支払開始月に誤りがあるために、決済を完了する事が出来ませんでした。"
+msgstr "支払開始月に誤りがあるために、決済を完了する事が出来ませんでした。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_42g740000"
+msgid "分割回数に誤りがあるために、決済を完了する事が出来ませんでした。"
+msgstr "分割回数に誤りがあるために、決済を完了する事が出来ませんでした。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_42g750000"
+msgid "分割金額に誤りがあるために、決済を完了する事が出来ませんでした。"
+msgstr "分割金額に誤りがあるために、決済を完了する事が出来ませんでした。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_42g760000"
+msgid "初回金額に誤りがあるために、決済を完了する事が出来ませんでした。"
+msgstr ""
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_42g770000"
+msgid "業務区分に誤りがあるために、決済を完了する事が出来ませんでした。"
+msgstr "初回金額に誤りがあるために、決済を完了する事が出来ませんでした。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_42g780000"
+msgid "支払区分に誤りがあるために、決済を完了する事が出来ませんでした。"
+msgstr "支払区分に誤りがあるために、決済を完了する事が出来ませんでした。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_42g790000"
+msgid "照会区分に誤りがあるために、決済を完了する事が出来ませんでした。"
+msgstr "照会区分に誤りがあるために、決済を完了する事が出来ませんでした。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_42g800000"
+msgid "取消区分に誤りがあるために、決済を完了する事が出来ませんでした。"
+msgstr "取消区分に誤りがあるために、決済を完了する事が出来ませんでした。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_42g810000"
+msgid "取消取扱区分に誤りがあるために、決済を完了する事が出来ませんでした。"
+msgstr "取消取扱区分に誤りがあるために、決済を完了する事が出来ませんでした。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_42g830000"
+msgid "有効期限に誤りがあるために、決済を完了する事が出来ませんでした。"
+msgstr "有効期限に誤りがあるために、決済を完了する事が出来ませんでした。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_42g920000"
+msgid "このカードでは取引をする事が出来ません。"
+msgstr "このカードでは取引をする事が出来ません。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_42g950000"
+msgid "このカードでは取引をする事が出来ません。"
+msgstr "このカードでは取引をする事が出来ません。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_42g960000"
+msgid "このカードでは取引をする事が出来ません。"
+msgstr "このカードでは取引をする事が出来ません。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_42g970000"
+msgid "このカードでは取引をする事が出来ません。"
+msgstr "このカードでは取引をする事が出来ません。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_42g980000"
+msgid "このカードでは取引をする事が出来ません。"
+msgstr "このカードでは取引をする事が出来ません。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_42g990000"
+msgid "このカードでは取引をする事が出来ません。"
+msgstr "このカードでは取引をする事が出来ません。"
+
+msgctxt "Languages::jp_gmo_multipayment_errmsg_42c"
+msgid "決済処理に失敗しました。申し訳ございませんが、しばらく時間をあけて購入画面からやり直してください。"
+msgstr "決済処理に失敗しました。申し訳ございませんが、しばらく時間をあけて購入画面からやり直してください。"

@@ -1,0 +1,370 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Japanese\n"
+"Language: ja_JP\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscartjp <takahashi@cs-cart.jp>\n"
+"PO-Revision-Date: 2015-10-08 15:00-0900\n"
+
+msgctxt "Addons::name::omise"
+msgid "omise"
+msgstr "omise"
+
+msgctxt "Addons::description::omise"
+msgid "omiseによる決済を利用可能にします。"
+msgstr "omiseによる決済を利用可能にします。"
+
+msgctxt "SettingsSections::omise::general"
+msgid "基本設定"
+msgstr "基本設定"
+
+msgctxt "SettingsOptions::omise::elm_connection_information"
+msgid "接続設定"
+msgstr "接続設定"
+
+msgctxt "SettingsOptions::omise::public_key"
+msgid "パブリックキー"
+msgstr "パブリックキー"
+
+msgctxt "SettingsOptions::omise::secret_key"
+msgid "シークレットキー"
+msgstr "シークレットキー"
+
+msgctxt "Languages::jp_omise_cc_auth_cancel"
+msgid "与信取消"
+msgstr "与信取消"
+
+msgctxt "Languages::jp_omise_cc_auth_cancel_error"
+msgid "与信取消エラー"
+msgstr "与信取消エラー"
+
+msgctxt "Languages::jp_omise_cc_auth_cancel_failed"
+msgid "注文番号 [oid] は与信取消できませんでした。"
+msgstr "注文番号 [oid] は与信取消できませんでした。"
+
+msgctxt "Languages::jp_omise_cc_auth_cancelled"
+msgid "与信を取り消しました。"
+msgstr "与信を取り消しました。"
+
+msgctxt "Languages::jp_omise_cc_auth_changed"
+msgid "カード決済の金額変更処理が完了しました"
+msgstr "カード決済の金額変更処理が完了しました"
+
+msgctxt "Languages::jp_omise_cc_auth_change_failed"
+msgid "注文番号 [oid] の金額変更処理に失敗しました。"
+msgstr "注文番号 [oid] の金額変更処理に失敗しました。"
+
+msgctxt "Languages::jp_omise_cc_auth_ng"
+msgid "与信NG"
+msgstr "与信NG"
+
+msgctxt "Languages::jp_omise_cc_auth_ok"
+msgid "仮売上"
+msgstr "仮売上"
+
+msgctxt "Languages::jp_omise_cc_communication_error"
+msgid "通信エラーが発生したため、処理を完了できませんでした。"
+msgstr "通信エラーが発生したため、処理を完了できませんでした。"
+
+msgctxt "Languages::jp_omise_cc_data_not_exists"
+msgid "ご指定の処理を実行できる注文がありませんでした。"
+msgstr "ご指定の処理を実行できる注文がありませんでした。"
+
+msgctxt "Languages::jp_omise_cc_error"
+msgid "クレジットカード決済エラー"
+msgstr "クレジットカード決済エラー"
+
+msgctxt "Languages::jp_omise_cc_failed"
+msgid "クレジットカードによる決済に失敗しました。<br />再度カード情報を入力いただくか他の支払方法を選択してご注文ください。"
+msgstr "クレジットカードによる決済に失敗しました。<br />再度カード情報を入力いただくか他の支払方法を選択してご注文ください。"
+
+msgctxt "Languages::jp_omise_cc_invalid"
+msgid "入力されたカード情報が正しくありません。<br />再度カード情報を入力いただくか他の支払方法を選択してご注文ください。"
+msgstr "入力されたカード情報が正しくありません。<br />再度カード情報を入力いただくか他の支払方法を選択してご注文ください。"
+
+msgctxt "Languages::jp_omise_cc_manager"
+msgid "クレジット請求管理"
+msgstr "クレジット請求管理"
+
+msgctxt "Languages::jp_omise_cc_notice"
+msgid "omise（カード決済）に関する設定情報を入力してください。"
+msgstr "omise（カード決済）に関する設定情報を入力してください。"
+
+msgctxt "Languages::jp_omise_cc_payment_settings"
+msgid "カード決済設定"
+msgstr "カード決済設定"
+
+msgctxt "Languages::jp_omise_cc_redirect_acs"
+msgid "3Dセキュア認証用ページに移動しています"
+msgstr "3Dセキュア認証用ページに移動しています"
+
+msgctxt "Languages::jp_omise_cc_register_card_info"
+msgid "クレジットカード情報お預かり機能"
+msgstr "クレジットカード情報お預かり機能"
+
+msgctxt "Languages::jp_omise_cc_register_card_info_use"
+msgid "次回以降のお買い物でこのカード情報を使用する"
+msgstr "次回以降のお買い物でこのカード情報を使用する"
+
+msgctxt "Languages::jp_omise_cc_sales_cancel"
+msgid "売上取消"
+msgstr "売上取消"
+
+msgctxt "Languages::jp_omise_cc_sales_cancel_error"
+msgid "売上取消エラー"
+msgstr "売上取消エラー"
+
+msgctxt "Languages::jp_omise_cc_sales_cancel_failed"
+msgid "注文番号 [oid] は売上取消できませんでした。"
+msgstr "注文番号 [oid] は売上取消できませんでした。"
+
+msgctxt "Languages::jp_omise_cc_sales_cancelled"
+msgid "売上を取り消しました。"
+msgstr "売上を取り消しました。"
+
+msgctxt "Languages::jp_omise_cc_sales_completed"
+msgid "売上を確定しました。"
+msgstr "売上を確定しました。"
+
+msgctxt "Languages::jp_omise_cc_sales_confirm"
+msgid "実売上"
+msgstr "実売上"
+
+msgctxt "Languages::jp_omise_cc_sales_confirm_error"
+msgid "売上確定エラー"
+msgstr "売上確定エラー"
+
+msgctxt "Languages::jp_omise_cc_sales_confirm_failed"
+msgid "注文番号 [oid] は売上確定できませんでした。"
+msgstr "注文番号 [oid] は売上確定できませんでした。"
+
+msgctxt "Languages::jp_omise_cc_status"
+msgid "請求ステータス"
+msgstr "請求ステータス"
+
+msgctxt "Languages::jp_omise_cc_use_cvv"
+msgid "セキュリティコード(CVV2)を使用"
+msgstr "セキュリティコード(CVV2)を使用"
+
+msgctxt "Languages::jp_omise_ccreg_delete_card_info"
+msgid "カード情報の削除"
+msgstr "カード情報の削除"
+
+msgctxt "Languages::jp_omise_ccreg_delete_error"
+msgid "カード情報削除エラー"
+msgstr "カード情報削除エラー"
+
+msgctxt "Languages::jp_omise_ccreg_delete_failed"
+msgid "クレジットカード情報の削除に失敗しました。"
+msgstr "クレジットカード情報の削除に失敗しました。"
+
+msgctxt "Languages::jp_omise_ccreg_delete_success"
+msgid "クレジットカード情報を削除しました。"
+msgstr "クレジットカード情報を削除しました。"
+
+msgctxt "Languages::jp_omise_ccreg_error"
+msgid "カード情報登録エラー"
+msgstr "カード情報登録エラー"
+
+msgctxt "Languages::jp_omise_ccreg_failed"
+msgid "登録済みクレジットカードによる決済に失敗しました。<br />他の支払方法を選択してご注文ください。"
+msgstr "登録済みクレジットカードによる決済に失敗しました。<br />他の支払方法を選択してご注文ください。"
+
+msgctxt "Languages::jp_omise_ccreg_no_card_info"
+msgid "カード情報は登録されていません"
+msgstr "カード情報は登録されていません"
+
+msgctxt "Languages::jp_omise_ccreg_notice"
+msgid "omise（登録済みカード決済）に関する設定情報を入力してください。"
+msgstr "omise（登録済みカード決済）に関する設定情報を入力してください。"
+
+msgctxt "Languages::jp_omise_ccreg_register_success"
+msgid "カード情報を登録しました。"
+msgstr "カード情報を登録しました。"
+
+msgctxt "Languages::jp_omise_ccreg_register_failed"
+msgid "カード情報の登録に失敗しました。"
+msgstr "カード情報の登録に失敗しました。"
+
+msgctxt "Languages::jp_omise_ccreg_registered_card"
+msgid "登録済みカード情報"
+msgstr "登録済みカード情報"
+
+msgctxt "Languages::jp_omise_connections_settings"
+msgid "接続設定"
+msgstr "接続設定"
+
+msgctxt "Languages::jp_omise_error_code"
+msgid "エラーコード："
+msgstr "エラーコード："
+
+msgctxt "Languages::jp_omise_paid_amount"
+msgid "入金金額"
+msgstr "入金金額"
+
+msgctxt "Languages::jp_omise_security_code"
+msgid "セキュリティコード"
+msgstr "セキュリティコード"
+
+msgctxt "Languages::jp_omise_what_is_security_code"
+msgid "セキュリティコードとは"
+msgstr "セキュリティコードとは"
+
+msgctxt "Languages::jp_omise_jobcd"
+msgid "処理区分"
+msgstr "処理区分"
+
+msgctxt "Languages::jp_omise_auth"
+msgid "仮売上"
+msgstr "仮売上"
+
+msgctxt "Languages::jp_omise_capture"
+msgid "即時売上"
+msgstr "即時売上"
+
+msgctxt "Languages::jp_omise_order_id"
+msgid "オーダーID"
+msgstr "オーダーID"
+
+msgctxt "Languages::jp_omise_approve"
+msgid "承認番号"
+msgstr "承認番号"
+
+msgctxt "Languages::jp_omise_tran_id"
+msgid "トランザクションID"
+msgstr "トランザクションID"
+
+msgctxt "Languages::jp_omise_tran_date"
+msgid "決済日付"
+msgstr "決済日付"
+
+msgctxt "Languages::jp_omise_method"
+msgid "支払方法"
+msgstr "支払方法"
+
+msgctxt "Languages::jp_omise_paytimes"
+msgid "支払回数"
+msgstr "支払回数"
+
+msgctxt "Languages::jp_omise_card_company"
+msgid "カード会社"
+msgstr "カード会社"
+
+msgctxt "Languages::jp_omise_use_3dsecure"
+msgid "本人認証サービス（3Dセキュア）を使用"
+msgstr "本人認証サービス（3Dセキュア）を使用"
+
+msgctxt "Languages::jp_omise_cc_captured"
+msgid "即時売上"
+msgstr "即時売上"
+
+msgctxt "Languages::jp_omise_cc_data_not_exists"
+msgid "ご指定の処理を実行できる注文がありませんでした。"
+msgstr "ご指定の処理を実行できる注文がありませんでした。"
+
+msgctxt "Languages::jp_omise_cvs_paymenttermday"
+msgid "支払期限日数"
+msgstr "支払期限日数"
+
+msgctxt "Languages::jp_omise_cvs_paymenttermday_prefix"
+msgid "注文日の"
+msgstr "注文日の"
+
+msgctxt "Languages::jp_omise_cvs_paymenttermday_suffix"
+msgid "日後"
+msgstr "日後"
+
+msgctxt "Languages::jp_omise_cvs_paymentterm"
+msgid "支払期限日時"
+msgstr "支払期限日時"
+
+msgctxt "Languages::jp_omise_receiptsdisp11"
+msgid "お問い合わせ先（最大42文字）"
+msgstr "お問い合わせ先（最大42文字）"
+
+msgctxt "Languages::jp_omise_receiptsdisp12"
+msgid "お問い合わせ先電話番号（半角で最大12桁）"
+msgstr "お問い合わせ先電話番号（半角で最大12桁）"
+
+msgctxt "Languages::jp_omise_receiptsdisp13"
+msgid "お問い合わせ受付時間"
+msgstr "お問い合わせ受付時間"
+
+msgctxt "Languages::jp_omise_cvs_confno"
+msgid "確認番号"
+msgstr "確認番号"
+
+msgctxt "Languages::jp_omise_cvs_receiptno"
+msgid "受付番号"
+msgstr "受付番号"
+
+msgctxt "Languages::jp_omise_payeasy_custid"
+msgid "お客様番号"
+msgstr "お客様番号"
+
+msgctxt "Languages::jp_omise_payeasy_bkcode"
+msgid "収納機関番号"
+msgstr "収納機関番号"
+
+msgctxt "Languages::jp_omise_payeasy_confno"
+msgid "確認番号"
+msgstr "確認番号"
+
+msgctxt "Languages::jp_omise_payeasy_paymentterm"
+msgid "支払期限日時"
+msgstr "支払期限日時"
+
+msgctxt "Languages::jp_omise_process_date"
+msgid "処理日付"
+msgstr "処理日付"
+
+msgctxt "Languages::jp_omise_finishdate"
+msgid "入金確定日時"
+msgstr "入金確定日時"
+
+msgctxt "Languages::jp_omise_receiptdate"
+msgid "受付日時"
+msgstr "受付日時"
+
+msgctxt "Languages::jp_omise_cc_status_change_failed"
+msgid "請求ステータスの更新に失敗しました。"
+msgstr "請求ステータスの更新に失敗しました。"
+
+msgctxt "Languages::jp_omise_errmsg_invalid_security_code"
+msgid "セキュリティコードが無効です。"
+msgstr "セキュリティコードが無効です。"
+
+msgctxt "Languages::jp_omise_errmsg_insufficient_fund"
+msgid "与信限度枠を超えています。"
+msgstr "与信限度枠を超えています。"
+
+msgctxt "Languages::jp_omise_errmsg_stolen_or_lost_card"
+msgid "盗難カード、または紛失カードです。"
+msgstr "盗難カード、または紛失カードです。"
+
+msgctxt "Languages::jp_omise_errmsg_failed_processing"
+msgid "トランザクション処理のプロセスが失敗しました。"
+msgstr "トランザクション処理のプロセスが失敗しました。"
+
+msgctxt "Languages::jp_omise_errmsg_payment_rejected"
+msgid "課金が拒否されました。"
+msgstr "課金が拒否されました。"
+
+msgctxt "Languages::jp_omise_errmsg_failed_fraud_check"
+msgid "カード情報が不正です。"
+msgstr "カード情報が不正です。"
+
+msgctxt "Languages::jp_omise_errmsg_invalid_account_number"
+msgid "このカード番号はご利用できません。"
+msgstr "このカード番号はご利用できません。"
+
+msgctxt "Languages::jp_omise_errmsg_expiration_date_cannot_be_in_the_past"
+msgid "過去の有効期限は指定できません。"
+msgstr "過去の有効期限は指定できません。"
+
+msgctxt "Languages::jp_pmise_card_4digit_number"
+msgid "カード番号の下４桁"
+msgstr "カード番号の下４桁"

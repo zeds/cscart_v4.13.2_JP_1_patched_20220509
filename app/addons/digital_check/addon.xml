@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+	<id>digital_check</id>
+	<supplier>CS-Cart.jp</supplier>
+	<version>1.0</version>
+	<priority>1</priority>
+	<position>100</position>
+    <default_language>ja</default_language>
+	<status>active</status>
+    <settings edition_type="ROOT,ULT:VENDOR">
+		<sections>
+			<section id="general">
+				<items>
+					<item id="uid_prefix">
+						<type>input</type>
+						<default_value>dwuZaX9J</default_value>
+					</item>
+					<item id="pending_status">
+						<type>selectbox</type>
+						<default_value>O</default_value>
+					</item>
+				</items>
+			</section>
+		</sections>
+	</settings>
+	<queries>
+		<item>REPLACE INTO `?:payment_processors` (`processor_id`, `processor`, `processor_script`, `processor_template`, `admin_template`, `callback`, `type`) VALUES (9081, 'ペイデザイン（ユーザーID決済）', 'digital_check_uid.php', 'views/orders/components/payments/cc_outside.tpl', 'digital_check_uid.tpl', 'N', 'P')</item>
+		<item>REPLACE INTO `?:payment_processors` (`processor_id`, `processor`, `processor_script`, `processor_template`, `admin_template`, `callback`, `type`) VALUES (9082, 'ペイデザイン（コンビニ決済）', 'digital_check_cvs.php', 'views/orders/components/payments/digital_check_cvs.tpl', 'digital_check_cvs.tpl', 'N', 'P')</item>
+		<item>REPLACE INTO `?:payment_processors` (`processor_id`, `processor`, `processor_script`, `processor_template`, `admin_template`, `callback`, `type`) VALUES (9083, 'ペイデザイン（MobileEdy）', 'digital_check_medy.php', 'views/orders/components/payments/digital_check_medy.tpl', 'digital_check_medy.tpl', 'N', 'P')</item>
+		<item>REPLACE INTO `?:payment_processors` (`processor_id`, `processor`, `processor_script`, `processor_template`, `admin_template`, `callback`, `type`) VALUES (9084, 'ペイデザイン（CyberEdy）', 'digital_check_cedy.php', 'views/orders/components/payments/cc_outside.tpl', 'digital_check_cedy.tpl', 'N', 'P')</item>
+		<item>REPLACE INTO `?:payment_processors` (`processor_id`, `processor`, `processor_script`, `processor_template`, `admin_template`, `callback`, `type`) VALUES (9085, 'ペイデザイン（リンクタイプ・カード決済）', 'digital_check_link_cc.php', 'views/orders/components/payments/digital_check_link_cc.tpl', 'digital_check_link_cc.tpl', 'N', 'P')</item>
+		<item for="uninstall">DELETE FROM `?:payment_processors` WHERE `processor_script` LIKE '%digital_check_%'</item>
+		<item for="uninstall">DELETE FROM `?:payment_processors` WHERE `processor_script` LIKE '%paydesign_link_%'</item>
+	</queries>
+	<functions>
+		<item for="install">fn_digital_check_install</item>
+	</functions>
+</addon>

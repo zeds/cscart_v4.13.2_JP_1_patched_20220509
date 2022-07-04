@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>sd_square_payment</id>
+    <version>1.0.0</version>
+    <priority>1000</priority>
+    <position>1</position>
+    <status>active</status>
+    <default_language>ja</default_language>
+    <supplier>CS-Cart.jp</supplier>
+    <supplier_link>http://cs-cart.jp</supplier_link>
+    <compatibility>
+        <core_version>
+            <min>4.3.0</min>
+        </core_version>
+        <core_edition>
+            ULTIMATE
+        </core_edition>
+    </compatibility>
+    <settings>
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="location_id">
+                        <type>input</type>
+                    </item>
+                    <item id="app_id">
+                        <type>input</type>
+                    </item>
+                    <item id="token_id">
+                        <type>input</type>
+                    </item>
+                    <item id="idempotency_prefix">
+                        <type>input</type>
+                    </item>
+                    <item id="show_postal_code">
+                        <type>hidden</type>
+                        <default_value>N</default_value>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    <queries>
+        <item for="install">
+            CREATE TABLE `?:jp_square_cc_status` (
+                `order_id` MEDIUMINT(8) UNSIGNED NOT NULL,
+                `status_code` VARCHAR(1) NOT NULL DEFAULT '',
+                `transaction_id` VARCHAR(128) NOT NULL DEFAULT '',
+                `original_total` DECIMAL(12, 2),
+                `timestamp` INT(11) NOT NULL,
+                PRIMARY KEY  (`order_id`)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:jp_square_cc_status;</item>
+        <item for="install">
+            CREATE TABLE `?:users_square_id` (
+                `customer_id` MEDIUMINT(8) UNSIGNED NOT NULL,
+                `app_id` VARCHAR(128) NOT NULL DEFAULT '',
+                `square_id` VARCHAR(128) NOT NULL DEFAULT '',
+                PRIMARY KEY  (`customer_id`, `app_id`)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:users_square_id;</item>
+    </queries>
+    <functions>
+        <item for="install">fn_sd_square_payment_install</item>
+        <item for="uninstall">fn_sd_square_payment_uninstall</item>
+    </functions>
+</addon>

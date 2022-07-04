@@ -1,0 +1,3 @@
+INSERT INTO cscart_payment_processors (processor, processor_script, processor_template, admin_template, callback, type) VALUES ('NTTスマートトレード（クレジットカード決済・トークン決済）', 'nttstr_cc.php', 'addons/nttstr/views/orders/components/payments/nttstr_cc.tpl', 'nttstr_cc.tpl', 'N', 'P');
+
+CREATE TABLE IF NOT EXISTS cscart_jp_nttstr_cc_status (order_id mediumint(8) unsigned NOT NULL, linked_1 varchar(80) NOT NULL, status_code varchar(32) NOT NULL DEFAULT '', aid varchar(24) NOT NULL DEFAULT '', auth_timestamp int(11) unsigned NOT NULL DEFAULT '0', capture_timestamp int(11) unsigned NOT NULL DEFAULT '0', PRIMARY KEY (`order_id`)) ENGINE=MyISAM DEFAULT CHARSET=utf8;

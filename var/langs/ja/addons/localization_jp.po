@@ -1,0 +1,386 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Japanese\n"
+"Language: ja_JP\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.net\n"
+"Last-Translator: cscartjp <info@cs-cart.jp>\n"
+"PO-Revision-Date: 2014-07-17 04:42-0400\n"
+
+msgctxt "Addons::name::localization_jp"
+msgid "日本語版アドオン"
+msgstr "日本語版アドオン"
+
+msgctxt "Addons::description::localization_jp"
+msgid "CS-Cartを日本でのECサイト運用に最適化します"
+msgstr "CS-Cartを日本でのECサイト運用に最適化します"
+
+msgctxt "SettingsSections::localization_jp::general"
+msgid "General"
+msgstr "基本設定"
+
+msgctxt "SettingsOptions::localization_jp::elm_contact_information"
+msgid "連絡先情報"
+msgstr "連絡先情報"
+
+msgctxt "SettingsOptions::localization_jp::jp_familyname_kana_c"
+msgid "「姓フリガナ」フィールド"
+msgstr "「姓フリガナ」フィールド"
+
+msgctxt "SettingsOptions::localization_jp::jp_firstname_kana_c"
+msgid "「名フリガナ」フィールド"
+msgstr "「名フリガナ」フィールド"
+
+msgctxt "SettingsOptions::localization_jp::elm_billing_information"
+msgid "請求先情報"
+msgstr "請求先情報"
+
+msgctxt "SettingsOptions::localization_jp::jp_familyname_kana_b"
+msgid "「姓フリガナ」フィールド"
+msgstr "「姓フリガナ」フィールド"
+
+msgctxt "SettingsOptions::localization_jp::jp_firstname_kana_b"
+msgid "「名フリガナ」フィールド"
+msgstr "「名フリガナ」フィールド"
+
+msgctxt "SettingsOptions::localization_jp::elm_shipping_information"
+msgid "配送先情報"
+msgstr "配送先情報"
+
+msgctxt "SettingsOptions::localization_jp::jp_familyname_kana_s"
+msgid "「姓フリガナ」フィールド"
+msgstr "「姓フリガナ」フィールド"
+
+msgctxt "SettingsOptions::localization_jp::jp_firstname_kana_s"
+msgid "「名フリガナ」フィールド"
+msgstr "「名フリガナ」フィールド"
+
+msgctxt "SettingsOptions::localization_jp::jp_sagawa_timezone"
+msgid "佐川急便の配送時間帯"
+msgstr "佐川急便の配送時間帯"
+
+msgctxt "SettingsVariants::localization_jp::jp_sagawa_timezone::5"
+msgid "5つの時間帯"
+msgstr "5つの時間帯"
+
+msgctxt "SettingsVariants::localization_jp::jp_sagawa_timezone::6"
+msgid "6つの時間帯"
+msgstr "6つの時間帯"
+
+msgctxt "SettingsOptions::localization_jp::elm_design"
+msgid "デザイン"
+msgstr "デザイン"
+
+msgctxt "SettingsOptions::localization_jp::jp_specific_css"
+msgid "日本語版独自CSSを読み込み"
+msgstr "日本語版独自CSSを読み込み"
+
+msgctxt "SettingsOptions::localization_jp::jp_categorize_payment_method"
+msgid "注文手続きページにおいて支払カテゴリー毎に支払方法を分割表示する"
+msgstr "注文手続きページにおいて支払カテゴリー毎に支払方法を分割表示する"
+
+msgctxt "SettingsOptions::localization_jp::elm_email"
+msgid "Eメール"
+msgstr "Eメール"
+
+msgctxt "SettingsOptions::localization_jp::jp_notify_customer_default"
+msgid "「お客様に通知する」チェックボックスを標準でチェック状態にする"
+msgstr "「お客様に通知する」チェックボックスを標準でチェック状態にする"
+
+msgctxt "SettingsOptions::localization_jp::jp_notify_admin_default"
+msgid "「注文管理担当者に通知する」チェックボックスを標準でチェック状態にする"
+msgstr "「注文管理担当者に通知する」チェックボックスを標準でチェック状態にする"
+
+msgctxt "SettingsOptions::localization_jp::jp_notify_supplier_default"
+msgid "「サプライヤーに通知する」チェックボックスを標準でチェック状態にする"
+msgstr "「サプライヤーに通知する」チェックボックスを標準でチェック状態にする"
+
+msgctxt "SettingsOptions::localization_jp::elm_export"
+msgid "エクスポート"
+msgstr "エクスポート"
+
+msgctxt "SettingsOptions::localization_jp::jp_export_char_code"
+msgid "エクスポート時の文字コード"
+msgstr "エクスポート時の文字コード"
+
+msgctxt "SettingsVariants::localization_jp::jp_export_char_code::UTF-8"
+msgid "UTF-8"
+msgstr "UTF-8"
+
+msgctxt "SettingsVariants::localization_jp::jp_export_char_code::SJIS"
+msgid "SJIS"
+msgstr "SJIS"
+
+msgctxt "SettingsSections::localization_jp::jp_holidays"
+msgid "休業日"
+msgstr "休業日"
+
+msgctxt "SettingsOptions::localization_jp::elm_holiday"
+msgid "ショップの休業日を指定してください。"
+msgstr "ショップの休業日を指定してください。"
+
+msgctxt "SettingsOptions::localization_jp::jp_holiday_mon"
+msgid "月曜日"
+msgstr "月曜日"
+
+msgctxt "SettingsOptions::localization_jp::jp_holiday_tue"
+msgid "火曜日"
+msgstr "火曜日"
+
+msgctxt "SettingsOptions::localization_jp::jp_holiday_wed"
+msgid "水曜日"
+msgstr "水曜日"
+
+msgctxt "SettingsOptions::localization_jp::jp_holiday_thu"
+msgid "木曜日"
+msgstr "木曜日"
+
+msgctxt "SettingsOptions::localization_jp::jp_holiday_fri"
+msgid "金曜日"
+msgstr "金曜日"
+
+msgctxt "SettingsOptions::localization_jp::jp_holiday_sat"
+msgid "土曜日"
+msgstr "土曜日"
+
+msgctxt "SettingsOptions::localization_jp::jp_holiday_sun"
+msgid "日曜日"
+msgstr "日曜日"
+
+msgctxt "SettingsOptions::localization_jp::jp_holiday_ph"
+msgid "国民の祝日"
+msgstr "国民の祝日"
+
+msgctxt "SettingsOptions::localization_jp::jp_shipping_sunday"
+msgid "配送日に日曜を含めない"
+msgstr "配送日に日曜を含めない"
+
+msgctxt "SettingsOptions::localization_jp::jp_shipping_holiday"
+msgid "配送日に祝日を含めない"
+msgstr "配送日に祝日を含めない"
+
+msgctxt "SettingsSections::localization_jp::jp_pdfinv_tab_name"
+msgid "PDF納品書"
+msgstr "PDF納品書"
+
+msgctxt "SettingsOptions::localization_jp::elm_pdfinv"
+msgid "納品書に記載するショップ情報"
+msgstr "納品書に記載するショップ情報"
+
+msgctxt "SettingsOptions::localization_jp::jp_pdfinv_shop_name"
+msgid "ショップ名"
+msgstr "ショップ名"
+
+msgctxt "SettingsOptions::localization_jp::jp_pdfinv_shop_zipcode"
+msgid "ショップ郵便番号"
+msgstr "ショップ郵便番号"
+
+msgctxt "SettingsOptions::localization_jp::jp_pdfinv_shop_address_up"
+msgid "ショップ住所【上段】"
+msgstr "ショップ住所【上段】"
+
+msgctxt "SettingsOptions::localization_jp::jp_pdfinv_shop_address_dw"
+msgid "ショップ住所【下段】"
+msgstr "ショップ住所【下段】"
+
+msgctxt "SettingsOptions::localization_jp::jp_pdfinv_shop_person_in_charge"
+msgid "ショップ担当者名"
+msgstr "ショップ担当者名"
+
+msgctxt "SettingsOptions::localization_jp::jp_pdfinv_shop_contact_phone"
+msgid "ショップ電話番号"
+msgstr "ショップ電話番号"
+
+msgctxt "SettingsOptions::localization_jp::jp_pdfinv_shop_contact_fax"
+msgid "ショップFAX番号"
+msgstr "ショップFAX番号"
+
+msgctxt "SettingsOptions::localization_jp::jp_pdfinv_shop_url"
+msgid "ショップURL"
+msgstr "ショップURL"
+
+msgctxt "SettingsOptions::localization_jp::jp_pdfinv_shop_contact_mail"
+msgid "ショップメールアドレス"
+msgstr "ショップメールアドレス"
+
+msgctxt "SettingsOptions::localization_jp::elm_jp_pdfinv_print_info"
+msgid "印刷設定"
+msgstr "印刷設定"
+
+msgctxt "SettingsOptions::localization_jp::jp_pdfinv_print_customer_address"
+msgid "請求先と配送先が違う場合の印刷住所"
+msgstr "請求先と配送先が違う場合の印刷住所"
+
+msgctxt "SettingsVariants::localization_jp::jp_pdfinv_print_customer_address::0"
+msgid "請求先住所を印刷"
+msgstr "請求先住所を印刷"
+
+msgctxt "SettingsVariants::localization_jp::jp_pdfinv_print_customer_address::1"
+msgid "配送先住所を印刷"
+msgstr "配送先住所を印刷"
+
+msgctxt "SettingsOptions::localization_jp::jp_pdfinv_billing_company_field"
+msgid "請求先会社名フィールド（オプション）"
+msgstr "請求先会社名フィールド（オプション）"
+
+msgctxt "SettingsOptions::localization_jp::jp_pdfinv_shipping_company_field"
+msgid "配送先会社名フィールド（オプション）"
+msgstr "配送先会社名フィールド（オプション）"
+
+msgctxt "SettingsOptions::localization_jp::jp_pdfinv_print_shop_logo"
+msgid "ショップロゴ画像を印刷する"
+msgstr "ショップロゴ画像を印刷する"
+
+msgctxt "SettingsOptions::localization_jp::jp_pdfinv_print_info_up"
+msgid "通信欄【上段】（最大５５文字）"
+msgstr "通信欄【上段】（最大５５文字）"
+
+msgctxt "SettingsOptions::localization_jp::jp_pdfinv_print_info_dw"
+msgid "通信欄【下段】"
+msgstr "通信欄【下段】"
+
+msgctxt "Languages::privileges.manage_shipping_rates_jp"
+msgid "送料設定の管理"
+msgstr "送料設定の管理"
+
+msgctxt "Languages::jp_order_allowed"
+msgid "（注文可能）"
+msgstr "（注文可能）"
+
+msgctxt "Languages::error_validator_cc_check_length_jp"
+msgid "カード番号が正しくありません"
+msgstr "カード番号が正しくありません"
+
+msgctxt "Languages::error_validator_cc_exp_jp"
+msgid "有効期限が不正です"
+msgstr "有効期限が不正です"
+
+msgctxt "SettingsOptions::localization_jp::elm_prod_search"
+msgid "商品検索"
+msgstr "商品検索"
+
+msgctxt "SettingsOptions::localization_jp::jp_prod_search_mode"
+msgid "複数キーワードの検索方法"
+msgstr "複数キーワードの検索方法"
+
+msgctxt "SettingsTooltips::localization_jp::jp_prod_search_mode"
+msgid "複数の単語をスペースで区切った場合の検索方法です"
+msgstr "複数の単語をスペースで区切った場合の検索方法です"
+
+msgctxt "SettingsVariants::localization_jp::jp_prod_search_mode::jp_prod_srch_any"
+msgid "複数キーワードを OR で検索する"
+msgstr "複数キーワードを OR で検索する"
+
+msgctxt "SettingsVariants::localization_jp::jp_prod_search_mode::jp_prod_srch_all"
+msgid "複数キーワードを AND で検索する"
+msgstr "複数キーワードを AND で検索する"
+
+msgctxt "Languages::jp_location"
+msgid "所在地"
+msgstr "所在地"
+
+msgctxt "Languages::jp_review"
+msgid "レビュー"
+msgstr "レビュー"
+
+msgctxt "Languages::jp_shop_name"
+msgid "Name"
+msgstr "ショップ名"
+
+msgctxt "Languages::jp_shop_list"
+msgid "Stores"
+msgstr "ショップ"
+
+msgctxt "Languages::jp_shop_list_menu_description"
+msgid "Seller list"
+msgstr "サイトに登録されたショップの一覧です。"
+
+msgctxt "Languages::jp_vendor_accounting_vendor"
+msgid "Accounting"
+msgstr "入出金管理"
+
+msgctxt "Languages::jp_vendor_accounting_vendor_menu_description"
+msgid "Income and expenditure statistics (total income, vendor balance, vendor withdrawals)."
+msgstr "入金と出金（取引手数料控除後の売上、各プランの利用料、運営者からの払い出しなど）を管理します。"
+
+msgctxt "Languages::jp_myshop"
+msgid "My Store"
+msgstr "マイショップ"
+
+msgctxt "Languages::jp_myshop_menu_description"
+msgid "Store Information"
+msgstr "あなたのショップの情報を確認・更新します。"
+
+msgctxt "Languages::jp_vendor_administrators_vendor"
+msgid "Vendor's administrator"
+msgstr "ショップオーナー"
+
+msgctxt "Languages::jp_vendor_administrators_vendor_menu_description"
+msgid "Store Information"
+msgstr "ショップオーナーの情報を確認・更新します。"
+
+msgctxt "Languages::jp_points_set_value"
+msgid "Set Values"
+msgstr "設定値"
+
+msgctxt "Languages::jp_points_set_value_type"
+msgid "Set Values Type"
+msgstr "設定値の種類"
+
+msgctxt "Languages::jp_totals"
+msgid "Set Values Type"
+msgstr "総計"
+
+msgctxt "Languages::localization_jp"
+msgid "日本語版アドオン"
+msgstr "日本語版アドオン"
+
+msgctxt "Languages::jp_elm_prod_search"
+msgid "商品検索"
+msgstr "商品検索"
+
+msgctxt "Languages::jp_prod_search_mode"
+msgid "複数キーワードの検索方法"
+msgstr "複数キーワードの検索方法"
+
+msgctxt "Languages::jp_prod_search_mode.tooltip"
+msgid "複数の単語をスペースで区切った場合の検索方法です"
+msgstr "複数の単語をスペースで区切った場合の検索方法です"
+
+msgctxt "Languages::jp_prod_srch_any"
+msgid "複数キーワードを OR で検索する"
+msgstr "複数キーワードを OR で検索する"
+
+msgctxt "Languages::jp_prod_srch_all"
+msgid "複数キーワードを AND で検索する"
+msgstr "複数キーワードを AND で検索する"
+
+msgctxt "Languages::jp_elm_checkout"
+msgid "注文手続き"
+msgstr "注文手続き"
+
+msgctxt "Languages::jp_checkout_fullname_mode"
+msgid "注文手続き時の姓名フィールド"
+msgstr "注文手続き時の姓名フィールド"
+
+msgctxt "Languages::jp_checkout_fullname_mode.tooltip"
+msgid "注文手続き画面の姓名フィールドを姓名に統合するか、姓フィールドと名フィールドに分割する設定です"
+msgstr "注文手続き画面の姓名フィールドを姓名に統合するか、姓フィールドと名フィールドに分割する設定です"
+
+msgctxt "Languages::jp_checkout_fullname_yes"
+msgid "姓名フィールドを姓名に統合する"
+msgstr "姓名フィールドを姓名に統合する"
+
+msgctxt "Languages::jp_checkout_fullname_no"
+msgid "姓フィールドと名フィールドに分割する"
+msgstr "姓フィールドと名フィールドに分割する"
+
+msgctxt "Languages::jp_notice_settings_save_complete"
+msgid "設定情報が保存されました"
+msgstr "設定情報が保存されました"
+
+msgctxt "Languages::jp_addon_refresh"
+msgid "言語変数の初期化（デベロッパーモードのみ）"
+msgstr "言語変数の初期化（デベロッパーモードのみ）"

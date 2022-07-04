@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+	<id>omise</id>
+    <supplier>CS-Cart.jp</supplier>
+	<version>1.0</version>
+	<priority>1</priority>
+	<position>100</position>
+    <default_language>ja</default_language>
+    <status>active</status>
+    <settings edition_type="ROOT,ULT:VENDOR">
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="elm_connection_information">
+                        <type>header</type>
+                        <handler/>
+                    </item>
+                    <item id="public_key">
+                        <type>input</type>
+                        <default_value/>
+                    </item>
+                    <item id="secret_key">
+                        <type>input</type>
+                        <default_value/>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    <queries>
+        <item type="file">database/data_install.sql</item>
+        <item for="uninstall">DROP TABLE IF EXISTS cscart_jp_omise_cc_status;</item>
+        <item for="uninstall">DROP TABLE IF EXISTS cscart_jp_omise_deleted_quickpay;</item>
+    </queries>
+    <functions>
+        <item for="install">fn_omise_install</item>
+        <item for="uninstall">fn_omise_delete_payment_processors</item>
+    </functions>
+</addon>

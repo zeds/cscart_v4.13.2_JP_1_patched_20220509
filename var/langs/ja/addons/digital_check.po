@@ -1,0 +1,234 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Japanese\n"
+"Language: ja_JP\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.net\n"
+"Last-Translator: cscartjp <info@cs-cart.jp>\n"
+"PO-Revision-Date: 2014-10-20 04:42-0400\n"
+
+msgctxt "Addons::name::digital_check"
+msgid "ペイデザイン決済"
+msgstr "ペイデザイン決済"
+
+msgctxt "Addons::description::digital_check"
+msgid "ペイデザイン株式会社が提供する決済代行サービスを利用できます"
+msgstr "ペイデザイン株式会社が提供する決済代行サービスを利用できます"
+
+msgctxt "SettingsSections::digital_check::general"
+msgid "基本設定"
+msgstr "基本設定"
+
+msgctxt "SettingsOptions::digital_check::uid_prefix"
+msgid "ユーザーID決済で使用するユーザーIDのプリフィックス（最大8文字）<br />※類推されにくい文字列を指定してください"
+msgstr "ユーザーID決済で使用するユーザーIDのプリフィックス（最大8文字）<br />※類推されにくい文字列を指定してください"
+
+msgctxt "SettingsOptions::digital_check::pending_status"
+msgid "正常入金が行われなかった注文に割り当てる注文ステータス"
+msgstr "正常入金が行われなかった注文に割り当てる注文ステータス"
+
+msgctxt "Languages::jp_digital_check_auth_only"
+msgid "与信のみ"
+msgstr "与信のみ"
+
+msgctxt "Languages::jp_digital_check_card_type"
+msgid "カード種類"
+msgstr "カード種類"
+
+msgctxt "Languages::jp_digital_check_cc_2step_notice"
+msgid "ペイデザイン（クレジットカード決済）に関する設定情報を入力してください。"
+msgstr "ペイデザイン（クレジットカード決済）に関する設定情報を入力してください。"
+
+msgctxt "Languages::jp_digital_check_link_cc_notice"
+msgid "ペイデザイン（リンク方式・クレジットカード決済）に関する設定情報を入力してください。"
+msgstr "ペイデザイン（リンク方式・クレジットカード決済）に関する設定情報を入力してください。"
+
+msgctxt "Languages::jp_digital_check_cc_bonus"
+msgid "ボーナス一括払い"
+msgstr "ボーナス一括払い"
+
+msgctxt "Languages::jp_digital_check_cc_bonus_combination"
+msgid "ボーナス併用払い"
+msgstr "ボーナス併用払い"
+
+msgctxt "Languages::jp_digital_check_cc_error"
+msgid "クレジットカード決済エラー"
+msgstr "クレジットカード決済エラー"
+
+msgctxt "Languages::jp_digital_check_cc_failed"
+msgid "クレジットカードによる決済に失敗しました。<br />再度カード情報を入力いただくか他の支払方法を選択してご注文ください。"
+msgstr "クレジットカードによる決済に失敗しました。<br />再度カード情報を入力いただくか他の支払方法を選択してご注文ください。"
+
+msgctxt "Languages::jp_digital_check_cc_invalid"
+msgid "入力されたカード情報が正しくありません。<br />再度カード情報を入力いただくか他の支払方法を選択してご注文ください。"
+msgstr "入力されたカード情報が正しくありません。<br />再度カード情報を入力いただくか他の支払方法を選択してご注文ください。"
+
+msgctxt "Languages::jp_digital_check_cc_payment_settings"
+msgid "カード決済設定"
+msgstr "カード決済設定"
+
+msgctxt "Languages::jp_digital_check_cc_use_cvv"
+msgid "セキュリティコード(CVV2)を使用"
+msgstr "セキュリティコード(CVV2)を使用"
+
+msgctxt "Languages::jp_digital_check_cedy_notice"
+msgid "ペイデザイン（CyberEdy決済）に関する設定情報を入力してください。"
+msgstr "ペイデザイン（CyberEdy決済）に関する設定情報を入力してください。"
+
+msgctxt "Languages::jp_digital_check_company_name"
+msgid "ペイデザイン株式会社"
+msgstr "ペイデザイン株式会社"
+
+msgctxt "Languages::jp_digital_check_connections_settings"
+msgid "接続設定"
+msgstr "接続設定"
+
+msgctxt "Languages::jp_digital_check_cvs_3f"
+msgid "スリーエフ"
+msgstr "スリーエフ"
+
+msgctxt "Languages::jp_digital_check_cvs_cnvkind"
+msgid "コンビニ種別"
+msgstr "コンビニ種別"
+
+msgctxt "Languages::jp_digital_check_cvs_error"
+msgid "コンビニ決済エラー"
+msgstr "コンビニ決済エラー"
+
+msgctxt "Languages::jp_digital_check_cvs_failed"
+msgid "コンビニ決済に失敗しました。<br />再度お試しいただくか他の支払方法を選択してご注文ください。"
+msgstr "コンビニ決済に失敗しました。<br />再度お試しいただくか他の支払方法を選択してご注文ください。"
+
+msgctxt "Languages::jp_digital_check_cvs_fm_order_no"
+msgid "注文番号"
+msgstr "注文番号"
+
+msgctxt "Languages::jp_digital_check_cvs_haraikomi_no"
+msgid "払込票番号"
+msgstr "払込票番号"
+
+msgctxt "Languages::jp_digital_check_cvs_info"
+msgid "[コンビニ決済情報]"
+msgstr "[コンビニ決済情報]"
+
+msgctxt "Languages::jp_digital_check_cvs_ms"
+msgid "ミニストップ"
+msgstr "ミニストップ"
+
+msgctxt "Languages::jp_digital_check_cvs_notice"
+msgid "ペイデザイン（コンビニ決済）に関する設定情報を入力してください。"
+msgstr "ペイデザイン（コンビニ決済）に関する設定情報を入力してください。"
+
+msgctxt "Languages::jp_digital_check_cvs_online_kessai_no"
+msgid "オンライン決済番号"
+msgstr "オンライン決済番号"
+
+msgctxt "Languages::jp_digital_check_cvs_payment_settings"
+msgid "コンビニ決済設定"
+msgstr "コンビニ決済設定"
+
+msgctxt "Languages::jp_digital_check_cvs_select_cvs"
+msgid "ご利用のコンビニを指定してください"
+msgstr "ご利用のコンビニを指定してください"
+
+msgctxt "Languages::jp_digital_check_etc"
+msgid "など"
+msgstr "など"
+
+msgctxt "Languages::jp_digital_check_ip"
+msgid "加盟店コード"
+msgstr "加盟店コード"
+
+msgctxt "Languages::jp_digital_check_ip_password"
+msgid "加盟店パスワード"
+msgstr "加盟店パスワード"
+
+msgctxt "Languages::jp_digital_check_item_name"
+msgid "お買い上げ商品"
+msgstr "お買い上げ商品"
+
+msgctxt "Languages::jp_digital_check_medy_email"
+msgid "Edyアプリに登録したEメールアドレス"
+msgstr "Edyアプリに登録したEメールアドレス"
+
+msgctxt "Languages::jp_digital_check_medy_error"
+msgid "MobileEdy決済エラー"
+msgstr "MobileEdy決済エラー"
+
+msgctxt "Languages::jp_digital_check_medy_failed"
+msgid "MobileEdy決済に失敗しました。<br />再度お試しいただくか他の支払方法を選択してご注文ください。"
+msgstr "MobileEdy決済に失敗しました。<br />再度お試しいただくか他の支払方法を選択してご注文ください。"
+
+msgctxt "Languages::jp_digital_check_medy_info"
+msgid "[MobileEdy決済情報]"
+msgstr "[MobileEdy決済情報]"
+
+msgctxt "Languages::jp_digital_check_medy_notice"
+msgid "ペイデザイン（MobileEdy決済）に関する設定情報を入力してください。"
+msgstr "ペイデザイン（MobileEdy決済）に関する設定情報を入力してください。"
+
+msgctxt "Languages::jp_digital_check_process_date"
+msgid "決済日時"
+msgstr "決済日時"
+
+msgctxt "Languages::jp_digital_check_process_type"
+msgid "決済データの処理方法"
+msgstr "決済データの処理方法"
+
+msgctxt "Languages::jp_digital_check_register_card_info"
+msgid "次回以降のお買い物でこのカード情報を使用する"
+msgstr "次回以降のお買い物でこのカード情報を使用する"
+
+msgctxt "Languages::jp_digital_check_security_code"
+msgid "セキュリティコード"
+msgstr "セキュリティコード"
+
+msgctxt "Languages::jp_digital_check_sid"
+msgid "取引コード"
+msgstr "取引コード"
+
+msgctxt "Languages::jp_digital_check_tel_invalid"
+msgid "電話番号のフォーマットが正しくありません。<br />請求先電話番号を登録しなおしてください。"
+msgstr "電話番号のフォーマットが正しくありません。<br />請求先電話番号を登録しなおしてください。"
+
+msgctxt "Languages::jp_digital_check_trans_method"
+msgid "決済方法"
+msgstr "決済方法"
+
+msgctxt "Languages::jp_digital_check_uid_click_to_delete"
+msgid "登録済みのクレジットカード情報を削除するにはボタンをクリックしてください。"
+msgstr "登録済みのクレジットカード情報を削除するにはボタンをクリックしてください。"
+
+msgctxt "Languages::jp_digital_check_uid_delete_card_info"
+msgid "登録済みカード情報の削除"
+msgstr "登録済みカード情報の削除"
+
+msgctxt "Languages::jp_digital_check_uid_delete_success"
+msgid "クレジットカード情報を削除しました。"
+msgstr "クレジットカード情報を削除しました。"
+
+msgctxt "Languages::jp_digital_check_uid_no_card_info"
+msgid "カード情報は登録されていません"
+msgstr "カード情報は登録されていません"
+
+msgctxt "Languages::jp_digital_check_uid_notice"
+msgid "ペイデザイン（ユーザーID決済）に関する設定情報を入力してください。"
+msgstr "ペイデザイン（ユーザーID決済）に関する設定情報を入力してください。"
+
+msgctxt "Languages::jp_digital_check_uid_registered_card"
+msgid "登録済みカード情報"
+msgstr "登録済みカード情報"
+
+msgctxt "Languages::jp_digital_check_use_uid"
+msgid "ユーザーID決済を利用可能にする"
+msgstr "ユーザーID決済を利用可能にする"
+
+msgctxt "Languages::jp_digital_check_what_is_security_code"
+msgid "セキュリティコードとは"
+msgstr "セキュリティコードとは"
+
+msgctxt "Languages::jp_digital_check_with_capture"
+msgid "与信・売上"
+msgstr "与信・売上"

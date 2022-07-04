@@ -1,0 +1,237 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Language-Team: Japanese\n"
+"Language: ja_JP\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: ja\n"
+"X-Crowdin-File: /addons/anti_fraud.po\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2016-05-18 14:57-0500\n"
+
+msgctxt "Addons::name::amazon_checkout"
+msgid "Amazon Login and Payemnt"
+msgstr "Amazon Pay"
+
+msgctxt "Addons::description::amazon_checkout"
+msgid "Integration Pay with amazon."
+msgstr "Amazon Payによる決済を可能にします。"
+
+msgctxt "SettingsOptions::amazon_checkout::elm_amazon_settings"
+msgid "Settings for Login and Pay with Amazon"
+msgstr "Amazon Payの設定"
+
+msgctxt "SettingsOptions::amazon_checkout::client_id"
+msgid "Amazon Client ID"
+msgstr "クライアントID"
+
+msgctxt "SettingsOptions::amazon_checkout::client_secret"
+msgid "Amazon Client Secret"
+msgstr "クライアントシークレット"
+
+msgctxt "SettingsOptions::amazon_checkout::merchant_id"
+msgid "Amazon Merchant ID"
+msgstr "出品者ID"
+
+msgctxt "SettingsOptions::amazon_checkout::access_key"
+msgid "Amazon Access Key"
+msgstr "アクセスキーID"
+
+msgctxt "SettingsOptions::amazon_checkout::access_secret"
+msgid "Amazon Access Secret"
+msgstr "シークレットアクセスキー"
+
+msgctxt "SettingsOptions::amazon_checkout::auth_id_prefix"
+msgid "Prefix for Authorization ID"
+msgstr "販売事業者リファレンスIDのプリフィックス（オプション。半角英数のみ）"
+
+msgctxt "SettingsTooltips::amazon_checkout::auth_id_prefix"
+msgid "Prefix for Authorization ID"
+msgstr "CS-Cart側で生成する販売事業者リファレンスIDの先頭に付与する文字列。<br />販売事業者リファレンスIDの重複を防ぐため、複数のショップでAmazon Payを利用する場合に設定してください。"
+
+msgctxt "SettingsOptions::amazon_checkout::test_mode"
+msgid "Test mode"
+msgstr "テストモード"
+
+msgctxt "SettingsOptions::amazon_checkout::region"
+msgid "Region"
+msgstr "リージョン"
+
+msgctxt "SettingsVariants::amazon_checkout::region::de"
+msgid "Germany"
+msgstr "ドイツ"
+
+msgctxt "SettingsVariants::amazon_checkout::region::uk"
+msgid "UK"
+msgstr "イギリス"
+
+msgctxt "SettingsVariants::amazon_checkout::region::jp"
+msgid "Japan"
+msgstr "日本"
+
+msgctxt "SettingsVariants::amazon_checkout::region::us"
+msgid "USA"
+msgstr "アメリカ"
+
+msgctxt "SettingsOptions::amazon_checkout::button_type"
+msgid "Button type"
+msgstr "ボタンの種類"
+
+msgctxt "SettingsVariants::amazon_checkout::button_type::PwA"
+msgid "Pay With Amazon"
+msgstr "Amazonアカウントでお支払い"
+
+msgctxt "SettingsVariants::amazon_checkout::button_type::Pay"
+msgid "Pay"
+msgstr "お支払い"
+
+msgctxt "SettingsVariants::amazon_checkout::button_type::A"
+msgid "Just Amazon logo"
+msgstr "Amazonロゴのみ"
+
+msgctxt "SettingsOptions::amazon_checkout::button_color"
+msgid "Button color"
+msgstr "ボタンのカラー"
+
+msgctxt "SettingsVariants::amazon_checkout::button_color::Gold"
+msgid "Gold"
+msgstr "ゴールド"
+
+msgctxt "SettingsVariants::amazon_checkout::button_color::LightGray"
+msgid "Light Gray"
+msgstr "ライトグレー"
+
+msgctxt "SettingsVariants::amazon_checkout::button_color::DarkGray"
+msgid "Dark Gray"
+msgstr "ダークグレー"
+
+msgctxt "SettingsOptions::amazon_checkout::button_size"
+msgid "Button size"
+msgstr "ボタンのサイズ"
+
+msgctxt "SettingsVariants::amazon_checkout::button_size::small"
+msgid "Small"
+msgstr "小"
+
+msgctxt "SettingsVariants::amazon_checkout::button_size::medium"
+msgid "Medium"
+msgstr "中"
+
+msgctxt "SettingsVariants::amazon_checkout::button_size::large"
+msgid "Large"
+msgstr "大"
+
+msgctxt "SettingsVariants::amazon_checkout::button_size::x-large"
+msgid "X-Large"
+msgstr "特大"
+
+msgctxt "SettingsOptions::amazon_checkout::capture_now"
+msgid "CaptureNow"
+msgstr "即時売上"
+
+msgctxt "SettingsOptions::amazon_checkout::add_to_cart"
+msgid "Add products to cart to «Pay with Amazon» from a product page"
+msgstr "商品詳細ページに「Amazonアカウントでお支払い」ボタンを表示"
+
+msgctxt "SettingsOptions::amazon_checkout::create_account"
+msgid "Tick 'Register on the site using email from Amazon account' as default"
+msgstr "注文手続きページにおける「Amazonアカウントのデータを用いて会員登録」チェックボックスをデフォルトでチェックされた状態にする"
+
+msgctxt "SettingsOptions::amazon_checkout::delay_before_redirect"
+msgid "Delay before redirect"
+msgstr "リダイレクト前の待ち時間（ミリ秒）"
+
+msgctxt "SettingsTooltips::amazon_checkout::delay_before_redirect"
+msgid "Delay before redirect after clicking the \"Pay With Amazon\" button in milliseconds, e.g. 2000 milliseconds = 2 seconds"
+msgstr "「Amazonアカウントでお支払い」ボタンをクリックした後に、注文手続きページにリダイレクトするまでの待ち時間をミリ秒で設定してください。例） : 2000 を設定すると、2秒後にリダイレクトします。"
+
+msgctxt "Languages::amazon_checkout_page"
+msgid "Amazon checkout"
+msgstr "Amazonアカウントでお支払い"
+
+msgctxt "Languages::amazon_logout"
+msgid "Checkout by other payment method"
+msgstr "他の方法でお支払い"
+
+msgctxt "Languages::sign_in_to_amazon"
+msgid "Please, sign in to your Amazon account"
+msgstr "Amazonアカウントにログインしてください"
+
+msgctxt "Languages::amazon_register"
+msgid "Register on the site using email from Amazon account"
+msgstr "Amazonアカウントのデータを用いて会員登録"
+
+msgctxt "Languages::amazon_error_user"
+msgid "Email specified in your Amazon account already exists in the site. Please, sign in to your account"
+msgstr "このAmazonアカウントはお使いいただけません。このAmazonアカウントのEメールアドレスを使用した会員アカウントがすでに存在します。"
+
+msgctxt "Languages::is_amazon_payment"
+msgid "Pay With Amazon payment"
+msgstr "Amazonアカウントでお支払い"
+
+msgctxt "Languages::block_amazon_checkout_button"
+msgid "Amazon checkout buttons"
+msgstr "「Amazonアカウントでお支払い」ボタン"
+
+msgctxt "Languages::block_amazon_checkout_button_description"
+msgid "PayWithAmazon button on default checkout. Link to default checkout on Amazon checkout page"
+msgstr "通常の購入手続きページに「Amazonアカウントでお支払い」ボタンを表示し、Amazon専用の購入手続きページには「他の方法でお支払い」ボタンを表示します。"
+
+msgctxt "Languages::amazon_button"
+msgid "Amazon buttons"
+msgstr "Amazonボタン"
+
+msgctxt "Languages::amazon_authorization_id"
+msgid "Amazon authorization ID"
+msgstr "AmazonリファレンスID"
+
+msgctxt "Languages::authorization_amount"
+msgid "Authorization amount"
+msgstr "与信金額"
+
+msgctxt "Languages::expiration_timestamp"
+msgid "Expiration timestamp"
+msgstr "与信有効期限"
+
+msgctxt "Languages::authorization_status"
+msgid "Authorization status"
+msgstr "注文ステータス"
+
+msgctxt "Languages::authorization_fee"
+msgid "Authorization fee"
+msgstr "決済手数料"
+
+msgctxt "Languages::capture_now"
+msgid "Capture now"
+msgstr "即時売上"
+
+msgctxt "Languages::creation_timestamp"
+msgid "Creation timestamp"
+msgstr "処理日時"
+
+msgctxt "Languages::authorization_reference_id"
+msgid "Authorization Reference ID"
+msgstr "販売事業者リファレンスID"
+
+msgctxt "Languages::amazon_please_wait"
+msgid "Please wait..."
+msgstr "お待ちください..."
+
+msgctxt "Languages::amzn_familyname_kana"
+msgid "Family Name Kana"
+msgstr "セイフリガナ"
+
+msgctxt "Languages::amzn_firstname_kana"
+msgid "First Name Kana"
+msgstr "メイフリガナ"
+
+msgctxt "Languages::amzn_auth_declined"
+msgid "Payment with the payment method you selected has been declined. Please select an another payment method and try again."
+msgstr "ご指定のお支払い方法による決済が拒否されました。<br />他のお支払い方法を選択して再度お試しいただくか、「他の方法でお支払い」ボタンをクリックしてAmazonアカウント以外でのお支払いをお願いいたします。"
+
+msgctxt "Languages::captured_amount"
+msgid "Captured amount"
+msgstr "売上請求金額"

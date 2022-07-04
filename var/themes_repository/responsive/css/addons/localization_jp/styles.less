@@ -1,0 +1,258 @@
+/* 日本語版アドオン */
+
+// 注文詳細ページに表示するお届け時間帯およびお届け日時
+.jp_order_delivery_info {
+  margin-left: 1em;
+}
+
+// 会員情報の姓フリガナフィールド
+.ty-first-name-kana {
+  display: inline-block;
+  width: 47%;
+}
+
+// 会員情報の名フリガナフィールド
+.ty-last-name-kana {
+  display: inline-block;
+  width: 47%;
+}
+
+// 会員情報の姓フリガナフィールドと名フリガナフィールドの間
+.ty-first-name-kana + .ty-last-name-kana {
+  margin-left: 5%;
+}
+
+
+// 請求先・配送先電話番号フィールド
+.ty-billing-phone, .ty-shipping-phone{
+  width: 180px;
+}
+
+// 請求先・配送先都道府県
+.ty-billing-state, .ty-shipping-state {
+  float:none;
+}
+
+
+.ty-shipping-options__method{
+  /* padding-top: 15px; */
+}
+
+
+
+// 注文手続きの「3.配送方法」BOF
+
+// お届け時間帯およびお届け日時
+.jp_delivery_option {
+  display:block;
+  margin-top:5px;
+  margin-left: 1.5em;
+}
+
+// お届け時間帯指定欄
+.jp_shipping_delim {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e8e9eb;
+}
+
+// 送料合計欄のborderを消す（ .jp_shipping_delim で別途定義するため）
+.ty-shipping-options__total {
+  border-top: none;
+}
+
+.ty-shipping-methods-not-first{
+  padding-top: 20px;
+}
+// 注文手続きの「3.配送方法」EOF
+
+
+
+// 注文手続きの「4.支払方法」BOF
+
+// 支払方法表示欄の横幅を280pxから560pxに拡張
+/*
+.paym-methods {
+float: left;
+margin: 0;
+padding-right: 60px;
+width: 560px;
+}
+*/
+
+// 各支払方法間の間隔を広げて見やすく表示
+.jp-paym-method {
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e8e9eb;
+}
+
+// 各支払方法に関する指示の文字色を変更
+.jp-paym-method p {
+  color: #767676;
+}
+
+// 各支払方法名の文字色を変更
+.ty-payments-list__item-title{
+  color: #333333;
+}
+
+/*
+.cvv2 {
+  margin-top: 5px;
+}
+*/
+
+// 注文手続きページにおける「当ショップのメールマガジンを講読しませんか？」欄
+.newsletter_subheader {
+  margin-top:20px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+// 注文手続きの「4.支払方法」EOF
+
+
+
+
+// ギフト券の購入 BOF
+
+// ギフト券郵送先郵便番号フィールド
+.ty-gift-certificate .zipcode{
+  clear: both;
+}
+
+// ギフト券郵送先郵便番号フィールドの横幅
+.ty-gift-certificate .zipcode .ty-input-text-short{
+  width: 120px;
+}
+
+// ギフト券郵送先郵便番号フィールド
+.ty-gift-certificate .zipcode{
+  clear: both;
+}
+
+// ギフト券郵送先都道府県名フィールド
+.ty-gift-certificate__state {
+  margin-left: 0;
+}
+
+// ギフト券の購入 EOF
+
+// 横幅640px以下ではセキュリティコードに関する説明は表示しない
+@media (max-width: 640px) {
+  .ty-cvv2-about {
+    visibility: hidden;
+  }
+} // media 640
+
+// 横幅480px以下ではクレジットカードのアイコンは表示しない
+@media (max-width: 480px) {
+  .ty-cc-icons__item.cc-default, .ty-cc-icons__item.active{
+    visibility: hidden;
+  }
+} // media 480
+
+
+
+
+//クレジットカード入力用FIX
+input.ty-credit-card__input{
+  ime-mode: disabled;
+}
+
+.ty-cc-icons__item .jcb {
+  background-position: -200px -200px;
+}
+
+.ty-credit-card .help-inline{
+    display: inherit;
+}
+
+input[type="tel"],input[type="number"] {
+  padding: 4px 8px;
+  border: 1px solid #c2c9d0;
+  background: #fff;
+  font-family: 'Open Sans',sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: normal;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+input[type="tel"]:focus,input[type="number"]:focus {
+  outline: 0;
+  border-color: #1abc9c;
+  -webkit-transition: border 0.2s linear 0s;
+  -moz-transition: border 0.2s linear 0s;
+  -o-transition: border 0.2s linear 0s;
+  transition: border 0.2s linear 0s;
+}
+
+.cc-numeric {
+  ime-mode: disabled;
+}
+
+// Modified by yoshiura from cs-cart.jp 2021 BOF
+
+//iOSフォーム拡大防止
+input{
+  font-size:16px !important;
+}
+
+//emailを他のスタイルと合わせる
+input[type="email"] {
+  padding: 4px 8px;
+}
+
+input[type="email"] {
+  padding: 4px 8px;
+  border: 1px solid #acbdcd;
+  background: #fff;
+  font-family: 'Open Sans','Helvetica Neue',-apple-system,sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: normal;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+input[type="email"] {
+  height: 32px;
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+//フリガナをスマホ時に調整する
+@media (max-width: 767px){
+  .ty-first-name-kana, .ty-last-name-kana{
+    width: 46%;
+  }
+  .ty-first-name-kana + .ty-last-name-kana{
+    margin-left: 6%;
+  }
+}
+
+//デバッグ用
+.cm-notification-content.notification-content{
+  pre{
+    max-height: 600px;
+    overflow: auto;
+  }
+}
+// Modified by yoshiura from cs-cart.jp 2021 EOF
+
+// 注文確定レイアウト用
+.litecheckout__group{
+  .litecheckout__item{
+    flex-basis: 100%;
+  }
+}
+
+// テーマエディタでカスタムCSSのテキストエリアのマージン
+.te-css{
+  textarea{
+    margin-top: 35px;
+  }
+}

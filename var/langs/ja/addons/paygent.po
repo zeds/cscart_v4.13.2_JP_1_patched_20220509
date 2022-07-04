@@ -1,0 +1,710 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Japanese\n"
+"Language: ja_JP\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscartjp <tommy@cs-cart.jp>\n"
+"PO-Revision-Date: 2016-07-27 15:00-0900\n"
+
+msgctxt "Addons::name::paygent"
+msgid "ペイジェント決済"
+msgstr "ペイジェント決済"
+
+msgctxt "Addons::description::paygent"
+msgid "ペイジェントによる決済を利用可能にします。"
+msgstr "ペイジェントによる決済を利用可能にします。"
+
+msgctxt "SettingsSections::paygent::general"
+msgid "基本設定"
+msgstr "基本設定"
+
+msgctxt "SettingsOptions::paygent::elm_connection_information"
+msgid "接続設定"
+msgstr "接続設定"
+
+msgctxt "SettingsOptions::paygent::merchant_id"
+msgid "マーチャントID"
+msgstr "マーチャントID"
+
+msgctxt "SettingsOptions::paygent::connect_id"
+msgid "接続ID"
+msgstr "接続ID"
+
+msgctxt "SettingsOptions::paygent::connect_password"
+msgid "接続パスワード"
+msgstr "接続パスワード"
+
+msgctxt "SettingsOptions::paygent::site_id"
+msgid "サイトID（オプション）"
+msgstr "サイトID（オプション）"
+
+msgctxt "SettingsOptions::paygent::telegram_version"
+msgid "電文バージョン番号"
+msgstr "電文バージョン番号"
+
+msgctxt "SettingsOptions::paygent::trading_id_prefix"
+msgid "マーチャント取引IDプリフィックス"
+msgstr "マーチャント取引IDプリフィックス"
+
+msgctxt "SettingsOptions::paygent::cron_password"
+msgid "クロン用パスワード"
+msgstr "クロン用パスワード"
+
+msgctxt "SettingsOptions::paygent::cron_diffchk_information"
+msgid "決済情報差分照会の自動実行用コマンド"
+msgstr "決済情報差分照会の自動実行用コマンド"
+
+msgctxt "Languages::jp_paygent_atm_conf_number"
+msgid "確認番号"
+msgstr "確認番号"
+
+msgctxt "Languages::jp_paygent_atm_customer_number"
+msgid "お客様番号"
+msgstr "お客様番号"
+
+msgctxt "Languages::jp_paygent_atm_info"
+msgid "[ATM決済情報]"
+msgstr "[ATM決済情報]"
+
+msgctxt "Languages::jp_paygent_atm_notice"
+msgid "ペイジェント（ATM決済）に関する設定情報を入力してください。"
+msgstr "ペイジェント（ATM決済）に関する設定情報を入力してください。"
+
+msgctxt "Languages::jp_paygent_atm_pay_center_number"
+msgid "収納機関番号"
+msgstr "収納機関番号"
+
+msgctxt "Languages::jp_paygent_atm_payment_detail"
+msgid "決済内容（全角最大12文字）"
+msgstr "決済内容（全角最大12文字）"
+
+msgctxt "Languages::jp_paygent_atm_payment_detail_kana"
+msgid "決済内容ｶﾅ（半角最大24文字）"
+msgstr "決済内容ｶﾅ（半角最大24文字）"
+
+msgctxt "Languages::jp_paygent_atm_payment_due"
+msgid "入金期限"
+msgstr "入金期限"
+
+msgctxt "Languages::jp_paygent_atm_payment_limit_date"
+msgid "支払期限日（0-60）"
+msgstr "支払期限日（0-60）"
+
+msgctxt "Languages::jp_paygent_atm_payment_settings"
+msgid "ATM決済設定"
+msgstr "ATM決済設定"
+
+msgctxt "Languages::jp_paygent_bnkasp_asp_limit_date"
+msgid "URL有効期限"
+msgstr "URL有効期限"
+
+msgctxt "Languages::jp_paygent_bnkasp_asp_payment_term"
+msgid "支払期間"
+msgstr "支払期間"
+
+msgctxt "Languages::jp_paygent_bnkasp_banner_url"
+msgid "バナーURL"
+msgstr "バナーURL"
+
+msgctxt "Languages::jp_paygent_bnkasp_claim_kana"
+msgid "請求内容カナ (半角英数カナ最大24文字)"
+msgstr "請求内容カナ (半角英数カナ最大24文字)"
+
+msgctxt "Languages::jp_paygent_bnkasp_claim_kanji"
+msgid "請求内容漢字 (全角最大12文字)"
+msgstr "請求内容漢字 (全角最大12文字)"
+
+msgctxt "Languages::jp_paygent_bnkasp_copyright"
+msgid "コピーライト (半角英数最大64文字)"
+msgstr "コピーライト (半角英数最大64文字)"
+
+msgctxt "Languages::jp_paygent_bnkasp_free_memo"
+msgid "自由メモ欄 (全角最大128文字)"
+msgstr "自由メモ欄 (全角最大128文字)"
+
+msgctxt "Languages::jp_paygent_bnkasp_merchant_name"
+msgid "マーチャント名 (全角最大32文字)"
+msgstr "マーチャント名 (全角最大32文字)"
+
+msgctxt "Languages::jp_paygent_bnkasp_notice"
+msgid "ペイジェント（銀行ネット決済ASP）に関する設定情報を入力してください。"
+msgstr "ペイジェント（銀行ネット決済ASP）に関する設定情報を入力してください。"
+
+msgctxt "Languages::jp_paygent_bnkasp_payment_instruction"
+msgid "こちらをクリックして銀行ネット決済を完了してください"
+msgstr "こちらをクリックして銀行ネット決済を完了してください"
+
+msgctxt "Languages::jp_paygent_bnkasp_payment_settings"
+msgid "銀行ネット決済ASP設定"
+msgstr "銀行ネット決済ASP設定"
+
+msgctxt "Languages::jp_paygent_bnkasp_url"
+msgid "銀行ネット決済ASP画面URL"
+msgstr "銀行ネット決済ASP画面URL"
+
+msgctxt "Languages::jp_paygent_bnkasp_url_info"
+msgid "以下のURLから銀行ネット決済を実施してください"
+msgstr "以下のURLから銀行ネット決済を実施してください"
+
+msgctxt "Languages::jp_paygent_card_info_failed"
+msgid "お客様のカード情報をお預かりすることができませんでした。"
+msgstr "お客様のカード情報をお預かりすることができませんでした。"
+
+msgctxt "Languages::jp_paygent_card_info_resistered"
+msgid "お客様のカード情報をペイジェントにてお預かりしました。<br />次回よりカード情報を入力することなくお買い物いただけます。"
+msgstr "お客様のカード情報をペイジェントにてお預かりしました。<br />次回よりカード情報を入力することなくお買い物いただけます。"
+
+msgctxt "Languages::jp_paygent_cc_notice"
+msgid "ペイジェント（クレジットカード決済）に関する設定情報を入力してください。"
+msgstr "ペイジェント（クレジットカード決済）に関する設定情報を入力してください。"
+
+msgctxt "Languages::jp_paygent_cc_payment_settings"
+msgid "カード決済設定"
+msgstr "カード決済設定"
+
+msgctxt "Languages::jp_paygent_ccreg_delete_success"
+msgid "クレジットカード情報を削除しました。"
+msgstr "クレジットカード情報を削除しました。"
+
+msgctxt "Languages::jp_paygent_ccreg_delete_card_info"
+msgid "カード情報の削除"
+msgstr "カード情報の削除"
+
+msgctxt "Languages::jp_paygent_ccreg_no_card_info"
+msgid "カード情報は登録されていません"
+msgstr "カード情報は登録されていません"
+
+msgctxt "Languages::jp_paygent_ccreg_notice"
+msgid "ペイジェント（登録済みカード決済）に関する設定情報を入力してください。"
+msgstr "ペイジェント（登録済みカード決済）に関する設定情報を入力してください。"
+
+msgctxt "Languages::jp_paygent_ccreg_registered_card"
+msgid "登録済みカード情報"
+msgstr "登録済みカード情報"
+
+msgctxt "Languages::jp_paygent_mcreg_notice"
+msgid "ペイジェント（多通貨登録済みカード決済）に関する設定情報を入力してください。"
+msgstr "ペイジェント（多通貨登録済みカード決済）に関する設定情報を入力してください。"
+
+msgctxt "Languages::jp_paygent_mcreg_payment_settings"
+msgid "登録済みカード決済（多通貨）設定"
+msgstr "登録済みカード決済（多通貨）設定"
+
+msgctxt "Languages::jp_paygent_cvs_allow_postpay"
+msgid "セブンイレブンで後払いを許可"
+msgstr "セブンイレブンで後払いを許可"
+
+msgctxt "Languages::jp_paygent_cvs_available"
+msgid "利用可能なコンビニ"
+msgstr "利用可能なコンビニ"
+
+msgctxt "Languages::jp_paygent_cvs_available_cvs"
+msgid "お支払い可能なコンビ二"
+msgstr "お支払い可能なコンビ二"
+
+msgctxt "Languages::jp_paygent_cvs_conf_number"
+msgid "確認番号"
+msgstr "確認番号"
+
+msgctxt "Languages::jp_paygent_cvs_conf_tel"
+msgid "受付電話番号"
+msgstr "受付電話番号"
+
+msgctxt "Languages::jp_paygent_cvs_info"
+msgid "[コンビニ決済情報]"
+msgstr "[コンビニ決済情報]"
+
+msgctxt "Languages::jp_paygent_cvs_name"
+msgid "コンビ二名"
+msgstr "コンビ二名"
+
+msgctxt "Languages::jp_paygent_cvs_notice"
+msgid "ペイジェント（コンビニ決済）に関する設定情報を入力してください。"
+msgstr "ペイジェント（コンビニ決済）に関する設定情報を入力してください。"
+
+msgctxt "Languages::jp_paygent_cvs_payment_due"
+msgid "入金期限"
+msgstr "入金期限"
+
+msgctxt "Languages::jp_paygent_cvs_payment_limit_date"
+msgid "支払期限日（0-60）"
+msgstr "支払期限日（0-60）"
+
+msgctxt "Languages::jp_paygent_cvs_payment_settings"
+msgid "コンビニ決済設定"
+msgstr "コンビニ決済設定"
+
+msgctxt "Languages::jp_paygent_cvs_payment_timing"
+msgid "お支払いタイミング"
+msgstr "お支払いタイミング"
+
+msgctxt "Languages::jp_paygent_cvs_postpaid"
+msgid "後払い"
+msgstr "後払い"
+
+msgctxt "Languages::jp_paygent_cvs_prepaid"
+msgid "前払い"
+msgstr "前払い"
+
+msgctxt "Languages::jp_paygent_cvs_receipt_number1"
+msgid "受付番号"
+msgstr "受付番号"
+
+msgctxt "Languages::jp_paygent_cvs_receipt_number2"
+msgid "払込票番号"
+msgstr "払込票番号"
+
+msgctxt "Languages::jp_paygent_cvs_receipt_number3"
+msgid "お客様番号"
+msgstr "お客様番号"
+
+msgctxt "Languages::jp_paygent_cvs_receipt_number4"
+msgid "決済番号"
+msgstr "決済番号"
+
+msgctxt "Languages::jp_paygent_cvs_receipt_print_url"
+msgid "URL"
+msgstr "URL"
+
+msgctxt "Languages::jp_paygent_mc_notice"
+msgid "ペイジェント（多通貨クレジットカード決済）に関する設定情報を入力してください。"
+msgstr "ペイジェント（多通貨クレジットカード決済）に関する設定情報を入力してください。"
+
+msgctxt "Languages::jp_paygent_mc_payment_settings"
+msgid "カード決済（多通貨）設定"
+msgstr "カード決済（多通貨）設定"
+
+msgctxt "Languages::jp_paygent_general_error"
+msgid "決済処理中にエラーが発生しました。<br />お手数ですがショップ管理者までお問い合わせください。"
+msgstr "決済処理中にエラーが発生しました。<br />お手数ですがショップ管理者までお問い合わせください。"
+
+msgctxt "Languages::jp_paygent_payment_id"
+msgid "決済ID"
+msgstr "決済ID"
+
+msgctxt "Languages::jp_paygent_payment_notice_id"
+msgid "決済通知ID"
+msgstr "決済通知ID"
+
+msgctxt "Languages::jp_paygent_cc_register_card_info"
+msgid "カード情報お預り機能"
+msgstr "カード情報お預り機能"
+
+msgctxt "Languages::jp_paygent_register_card_info_use"
+msgid "次回以降のお買い物でこのカード情報を使用する"
+msgstr "次回以降のお買い物でこのカード情報を使用する"
+
+msgctxt "Languages::jp_paygent_select_cvs"
+msgid "コンビニ名を指定してください"
+msgstr "コンビニ名を指定してください"
+
+msgctxt "Languages::jp_paygent_trading_id"
+msgid "マーチャント取引ID"
+msgstr "マーチャント取引ID"
+
+msgctxt "Languages::jp_paygent_cc_failed"
+msgid "クレジットカードによる決済に失敗しました。<br />再度カード情報を入力いただくか他の支払方法を選択してご注文ください。"
+msgstr "クレジットカードによる決済に失敗しました。<br />再度カード情報を入力いただくか他の支払方法を選択してご注文ください。"
+
+msgctxt "Languages::jp_paygent_cc_error"
+msgid "クレジットカード決済エラー"
+msgstr "クレジットカード決済エラー"
+
+msgctxt "Languages::jp_paygent_ccreg_payment_settings"
+msgid "登録済みカード決済設定"
+msgstr "登録済みカード決済設定"
+
+msgctxt "Languages::jp_paygent_use_cvv"
+msgid "セキュリティコード(CVV2)を使用"
+msgstr "セキュリティコード(CVV2)を使用"
+
+msgctxt "Languages::jp_paygent_security_code"
+msgid "セキュリティコード"
+msgstr "セキュリティコード"
+
+msgctxt "Languages::jp_paygent_what_is_security_code"
+msgid "セキュリティコードとは"
+msgstr "セキュリティコードとは"
+
+msgctxt "Languages::jp_paygent_acq_name"
+msgid "取扱カード会社名"
+msgstr "取扱カード会社名"
+
+msgctxt "Languages::jp_paygent_issur_name"
+msgid "カード発行会社名"
+msgstr "カード発行会社名"
+
+msgctxt "Languages::jp_paygent_payment_unmatch_error"
+msgid "決済代行サービスにおけるカード決済は正常に完了しましたが、ショップ側でエラーが発生しました。<br />お手数ですがショップ管理者までお問い合わせください。"
+msgstr "決済代行サービスにおけるカード決済は正常に完了しましたが、ショップ側でエラーが発生しました。<br />お手数ですがショップ管理者までお問い合わせください。"
+
+msgctxt "Languages::jp_paygent_3dsecure_error"
+msgid "3Dセキュア認証ページへの移動中にエラーが発生しました。<br />お手数ですがショップ管理者までお問い合わせください。"
+msgstr "3Dセキュア認証ページへの移動中にエラーが発生しました。<br />お手数ですがショップ管理者までお問い合わせください。"
+
+msgctxt "Languages::jp_paygent_valid_term_error"
+msgid "クレジットカード有効期限エラー"
+msgstr "クレジットカード有効期限エラー"
+
+msgctxt "Languages::jp_paygent_error_details"
+msgid "決済処理中にエラーが発生しました。<br />エラー内容"
+msgstr "決済処理中にエラーが発生しました。<br />エラー内容"
+
+msgctxt "Languages::jp_paygent_use_3dsecure"
+msgid "本人認証サービス（3Dセキュア）を使用"
+msgstr "本人認証サービス（3Dセキュア）を使用"
+
+msgctxt "Languages::jp_paygent_cc_bonus"
+msgid "ボーナス一括払い"
+msgstr "ボーナス一括払い"
+
+msgctxt "Languages::jp_paygent_ccreg_error"
+msgid "カード情報登録エラー"
+msgstr "カード情報登録エラー"
+
+msgctxt "Languages::jp_paygent_ccreg_register_failed"
+msgid "カード情報の登録に失敗しました。"
+msgstr "カード情報の登録に失敗しました。"
+
+msgctxt "Languages::jp_paygent_ccreg_delete_error"
+msgid "カード情報削除エラー"
+msgstr "カード情報削除エラー"
+
+msgctxt "Languages::jp_paygent_ccreg_delete_failed"
+msgid "クレジットカード情報の削除に失敗しました。"
+msgstr "クレジットカード情報の削除に失敗しました。"
+
+msgctxt "Languages::jp_paygent_cvs_notification_title"
+msgid "コンビニ支払いに関するお知らせ"
+msgstr "コンビニ支払いに関するお知らせ"
+
+msgctxt "Languages::jp_paygent_cvs_notification_message"
+msgid "コンビニ支払いによるご注文を承りました。<br />注文確認メールのコメント欄に受付番号や入金期限などが記載されていますので、ご確認のうえ期限日までにお支払いをお願いいたします。"
+msgstr "コンビニ支払いによるご注文を承りました。<br />注文確認メールのコメント欄に受付番号や入金期限などが記載されていますので、ご確認のうえ期限日までにお支払いをお願いいたします。"
+
+msgctxt "Languages::jp_paygent_service_name_cc"
+msgid "ペイジェント（クレジットカード決済）"
+msgstr "ペイジェント（クレジットカード決済）"
+
+msgctxt "Languages::jp_paygent_service_name_mc"
+msgid "ペイジェント（多通貨クレジットカード決済）"
+msgstr "ペイジェント（多通貨クレジットカード決済）"
+
+msgctxt "Languages::jp_paygent_cc_auth_cancel"
+msgid "オーソリキャンセル"
+msgstr "オーソリキャンセル"
+
+msgctxt "Languages::jp_paygent_mc_auth_cancel"
+msgid "オーソリキャンセル"
+msgstr "オーソリキャンセル"
+
+msgctxt "Languages::jp_paygent_cc_auth_cancel_error"
+msgid "オーソリキャンセルエラー"
+msgstr "オーソリキャンセルエラー"
+
+msgctxt "Languages::jp_paygent_mc_auth_cancel_error"
+msgid "オーソリキャンセルエラー"
+msgstr "オーソリキャンセルエラー"
+
+msgctxt "Languages::jp_paygent_failed_cc_auth_cancel"
+msgid "注文番号 [oid] はオーソリキャンセルできませんでした。"
+msgstr "注文番号 [oid] はオーソリキャンセルできませんでした。"
+
+msgctxt "Languages::jp_paygent_failed_mc_auth_cancel"
+msgid "注文番号 [oid] はオーソリキャンセルできませんでした。"
+msgstr "注文番号 [oid] はオーソリキャンセルできませんでした。"
+
+msgctxt "Languages::jp_paygent_completed_cc_auth_cancel"
+msgid "オーソリをキャンセルしました。"
+msgstr "オーソリをキャンセルしました。"
+
+msgctxt "Languages::jp_paygent_completed_mc_auth_cancel"
+msgid "オーソリをキャンセルしました。"
+msgstr "オーソリをキャンセルしました。"
+
+msgctxt "Languages::jp_paygent_cc_auth_ng"
+msgid "オーソリNG"
+msgstr "オーソリNG"
+
+msgctxt "Languages::jp_paygent_mc_auth_ng"
+msgid "オーソリNG"
+msgstr "オーソリNG"
+
+msgctxt "Languages::jp_paygent_cc_auth_ok"
+msgid "オーソリOK"
+msgstr "オーソリOK"
+
+msgctxt "Languages::jp_paygent_mc_auth_ok"
+msgid "オーソリOK"
+msgstr "オーソリOK"
+
+msgctxt "Languages::jp_paygent_cc_sales_cancel"
+msgid "売上キャンセル"
+msgstr "売上キャンセル"
+
+msgctxt "Languages::jp_paygent_mc_sales_cancel"
+msgid "売上キャンセル"
+msgstr "売上キャンセル"
+
+msgctxt "Languages::jp_paygent_cc_sales_cancel_error"
+msgid "売上キャンセルエラー"
+msgstr "売上キャンセルエラー"
+
+msgctxt "Languages::jp_paygent_mc_sales_cancel_error"
+msgid "売上キャンセルエラー"
+msgstr "売上キャンセルエラー"
+
+msgctxt "Languages::jp_paygent_failed_cc_sales_cancel"
+msgid "注文番号 [oid] は売上キャンセルできませんでした。"
+msgstr "注文番号 [oid] は売上キャンセルできませんでした。"
+
+msgctxt "Languages::jp_paygent_failed_mc_sales_cancel"
+msgid "注文番号 [oid] は売上キャンセルできませんでした。"
+msgstr "注文番号 [oid] は売上キャンセルできませんでした。"
+
+msgctxt "Languages::jp_paygent_completed_cc_sales_cancel"
+msgid "売上をキャンセルしました。"
+msgstr "売上をキャンセルしました。"
+
+msgctxt "Languages::jp_paygent_completed_mc_sales_cancel"
+msgid "売上をキャンセルしました。"
+msgstr "売上をキャンセルしました。"
+
+msgctxt "Languages::jp_paygent_completed_cc_sales_confirm"
+msgid "売上を確定しました。"
+msgstr "売上を確定しました。"
+
+msgctxt "Languages::jp_paygent_completed_mc_sales_confirm"
+msgid "売上を確定しました。"
+msgstr "売上を確定しました。"
+
+msgctxt "Languages::jp_paygent_cc_sales_confirm"
+msgid "売上確定"
+msgstr "売上確定"
+
+msgctxt "Languages::jp_paygent_mc_sales_confirm"
+msgid "売上確定"
+msgstr "売上確定"
+
+msgctxt "Languages::jp_paygent_cc_sales_confirm_error"
+msgid "売上確定エラー"
+msgstr "売上確定エラー"
+
+msgctxt "Languages::jp_paygent_mc_sales_confirm_error"
+msgid "売上確定エラー"
+msgstr "売上確定エラー"
+
+msgctxt "Languages::jp_paygent_failed_cc_sales_confirm"
+msgid "注文番号 [oid] は売上確定できませんでした。"
+msgstr "注文番号 [oid] は売上確定できませんでした。"
+
+msgctxt "Languages::jp_paygent_failed_mc_sales_confirm"
+msgid "注文番号 [oid] は売上確定できませんでした。"
+msgstr "注文番号 [oid] は売上確定できませんでした。"
+
+msgctxt "Languages::jp_paygent_cc_status"
+msgid "決済ステータス"
+msgstr "決済ステータス"
+
+msgctxt "Languages::jp_paygent_mc_status"
+msgid "決済ステータス"
+msgstr "決済ステータス"
+
+msgctxt "Languages::jp_paygent_failed_cc_status_change"
+msgid "決済ステータスの更新に失敗しました。"
+msgstr "決済ステータスの更新に失敗しました。"
+
+msgctxt "Languages::jp_paygent_failed_mc_status_change"
+msgid "決済ステータスの更新に失敗しました。"
+msgstr "決済ステータスの更新に失敗しました。"
+
+msgctxt "Languages::jp_paygent_completed_cc_reauth"
+msgid "注文に対する再オーソリが完了しました。"
+msgstr "注文に対する再オーソリが完了しました。"
+
+msgctxt "Languages::jp_paygent_completed_mc_reauth"
+msgid "注文に対する再オーソリが完了しました。"
+msgstr "注文に対する再オーソリが完了しました。"
+
+msgctxt "Languages::jp_paygent_cc_auth_cancelled"
+msgid "オーソリ取消済"
+msgstr "オーソリ取消済"
+
+msgctxt "Languages::jp_paygent_mc_auth_cancelled"
+msgid "オーソリ取消済"
+msgstr "オーソリ取消済"
+
+msgctxt "Languages::jp_paygent_cc_sales_confirmed"
+msgid "消込済"
+msgstr "消込済"
+
+msgctxt "Languages::jp_paygent_mc_sales_confirmed"
+msgid "消込済"
+msgstr "消込済"
+
+msgctxt "Languages::jp_paygent_cc_sales_cancelled"
+msgid "売上取消済"
+msgstr "売上取消済"
+
+msgctxt "Languages::jp_paygent_mc_sales_cancelled"
+msgid "売上取消済"
+msgstr "売上取消済"
+
+msgctxt "Languages::jp_paygent_cc_change_auth_error"
+msgid "補正オーソリエラー"
+msgstr "補正オーソリエラー"
+
+msgctxt "Languages::jp_paygent_mc_change_auth_error"
+msgid "補正オーソリエラー"
+msgstr "補正オーソリエラー"
+
+msgctxt "Languages::jp_paygent_failed_cc_change_auth"
+msgid "注文番号 [oid] の金額変更処理（補正オーソリ）に失敗しました。<br />CS-Cartにおいて変更した注文金額はペイジェントオンラインには反映されていません。<br />ペイジェントオンラインにログインのうえ、オーソリ変更処理を実施してください。"
+msgstr "注文番号 [oid] の金額変更処理（補正オーソリ）に失敗しました。<br />CS-Cartにおいて変更した注文金額はペイジェントオンラインには反映されていません。<br />ペイジェントオンラインにログインのうえ、オーソリ変更処理を実施してください。"
+
+msgctxt "Languages::jp_paygent_failed_mc_change_auth"
+msgid "注文番号 [oid] の金額変更処理（補正オーソリ）に失敗しました。<br />CS-Cartにおいて変更した注文金額はペイジェントオンラインには反映されていません。<br />ペイジェントオンラインにログインのうえ、オーソリ変更処理を実施してください。"
+msgstr "注文番号 [oid] の金額変更処理（補正オーソリ）に失敗しました。<br />CS-Cartにおいて変更した注文金額はペイジェントオンラインには反映されていません。<br />ペイジェントオンラインにログインのうえ、オーソリ変更処理を実施してください。"
+
+msgctxt "Languages::jp_paygent_cc_change_sales_error"
+msgid "補正売上エラー"
+msgstr "補正売上エラー"
+
+msgctxt "Languages::jp_paygent_mc_change_sales_error"
+msgid "補正売上エラー"
+msgstr "補正売上エラー"
+
+msgctxt "Languages::jp_paygent_failed_cc_change_sales"
+msgid "注文番号 [oid] の金額変更処理（補正売上）に失敗しました。<br />CS-Cartにおいて変更した注文金額はペイジェントオンラインには反映されていません。<br />ペイジェントオンラインにログインのうえ、売上変更処理を実施してください。"
+msgstr "注文番号 [oid] の金額変更処理（補正売上）に失敗しました。<br />CS-Cartにおいて変更した注文金額はペイジェントオンラインには反映されていません。<br />ペイジェントオンラインにログインのうえ、売上変更処理を実施してください。"
+
+msgctxt "Languages::jp_paygent_failed_mc_change_sales"
+msgid "注文番号 [oid] の金額変更処理（補正売上）に失敗しました。<br />CS-Cartにおいて変更した注文金額はペイジェントオンラインには反映されていません。<br />ペイジェントオンラインにログインのうえ、売上変更処理を実施してください。"
+msgstr "注文番号 [oid] の金額変更処理（補正売上）に失敗しました。<br />CS-Cartにおいて変更した注文金額はペイジェントオンラインには反映されていません。<br />ペイジェントオンラインにログインのうえ、売上変更処理を実施してください。"
+
+msgctxt "Languages::jp_paygent_completed_cc_change_auth"
+msgid "注文番号 [oid] のカード決済の金額変更処理（補正オーソリ）が完了しました"
+msgstr "注文番号 [oid] のカード決済の金額変更処理が完了しました"
+
+msgctxt "Languages::jp_paygent_completed_mc_change_auth"
+msgid "注文番号 [oid] のカード決済の金額変更処理（補正オーソリ）が完了しました"
+msgstr "注文番号 [oid] のカード決済の金額変更処理が完了しました"
+
+msgctxt "Languages::jp_paygent_completed_cc_change_sales"
+msgid "注文番号 [oid] のカード決済の金額変更処理（補正売上）が完了しました"
+msgstr "注文番号 [oid] のカード決済の金額変更処理が完了しました"
+
+msgctxt "Languages::jp_paygent_completed_mc_change_sales"
+msgid "注文番号 [oid] のカード決済の金額変更処理（補正売上）が完了しました"
+msgstr "注文番号 [oid] のカード決済の金額変更処理が完了しました"
+
+msgctxt "Languages::jp_paygent_cc_data_not_exists"
+msgid "ご指定の処理を実行できる注文がありませんでした。"
+msgstr "ご指定の処理を実行できる注文がありませんでした。"
+
+msgctxt "Languages::jp_paygent_mc_data_not_exists"
+msgid "ご指定の処理を実行できる注文がありませんでした。"
+msgstr "ご指定の処理を実行できる注文がありませんでした。"
+
+msgctxt "Languages::jp_paygent_ccreg_retrieve_error"
+msgid "登録済みカード情報取得エラー"
+msgstr "登録済みカード情報取得エラー"
+
+msgctxt "Languages::jp_paygent_mcreg_retrieve_error"
+msgid "登録済みカード情報取得エラー"
+msgstr "登録済みカード情報取得エラー"
+
+msgctxt "Languages::jp_paygent_ccreg_retrieve_failed"
+msgid "登録済みカード情報の取得に失敗しました。"
+msgstr "登録済みカード情報の取得に失敗しました。"
+
+msgctxt "Languages::jp_paygent_mcreg_retrieve_failed"
+msgid "登録済みカード情報の取得に失敗しました。"
+msgstr "登録済みカード情報の取得に失敗しました。"
+
+msgctxt "Languages::jp_paygent_ccreg_delete_error"
+msgid "登録済みカード情報削除エラー"
+msgstr "登録済みカード情報削除エラー"
+
+msgctxt "Languages::jp_paygent_mcreg_delete_error"
+msgid "登録済みカード情報削除エラー"
+msgstr "登録済みカード情報削除エラー"
+
+msgctxt "Languages::jp_paygent_ccreg_delete_failed"
+msgid "登録済みカード情報の削除に失敗しました。"
+msgstr "登録済みカード情報の削除に失敗しました。"
+
+msgctxt "Languages::jp_paygent_mcreg_delete_failed"
+msgid "登録済みカード情報の削除に失敗しました。"
+msgstr "登録済みカード情報の削除に失敗しました。"
+
+msgctxt "Languages::jp_paygent_cc_new_payment_not_allowed"
+msgid "ペイジェントのカード決済を利用した注文について、支払方法に再度カード決済を指定して編集する際には金額変更（補正オーソリまたは補正売上）のみ実行できます。<br />この注文は金額変更できる状態ではありませんので、カード決済を指定して編集することはできません。<br />注文をキャンセルして新規に注文を作成するか、他の支払方法を指定して注文情報を編集してください。"
+msgstr "ペイジェントのカード決済を利用した注文について、支払方法に再度カード決済を指定して編集する際には金額変更（補正オーソリまたは補正売上）のみ実行できます。<br />この注文は金額変更できる状態ではありませんので、カード決済を指定して編集することはできません。<br />注文をキャンセルして新規に注文を作成するか、他の支払方法を指定して注文情報を編集してください。"
+
+msgctxt "Languages::jp_paygent_mc_new_payment_not_allowed"
+msgid "ペイジェントの多通貨カード決済を利用した注文について、支払方法に再度多通貨カード決済を指定して編集する際には金額変更（補正オーソリまたは補正売上）のみ実行できます。<br />この注文は金額変更できる状態ではありませんので、多通貨カード決済を指定して編集することはできません。<br />注文をキャンセルして新規に注文を作成するか、他の支払方法を指定して注文情報を編集してください。"
+msgstr "ペイジェントの多通貨カード決済を利用した注文について、支払方法に再度多通貨カード決済を指定して編集する際には金額変更（補正オーソリまたは補正売上）のみ実行できます。<br />この注文は金額変更できる状態ではありませんので、多通貨カード決済を指定して編集することはできません。<br />注文をキャンセルして新規に注文を作成するか、他の支払方法を指定して注文情報を編集してください。"
+
+msgctxt "Languages::jp_paygent_cc_changed_cc_to_mc"
+msgid "支払方法がペイジェントのカード決済から多通貨カード決済に変更されました。<br />ペイジェント側に登録されたカード決済のデータは自動でキャンセルされませんので、ペイジェントの管理画面にログインして手動でオーソリキャンセルまたは売上キャンセル処理を行ってください。"
+msgstr "支払方法がペイジェントのカード決済から多通貨カード決済に変更されました。<br />ペイジェント側に登録されたカード決済のデータは自動でキャンセルされませんので、ペイジェントの管理画面にログインして手動でオーソリキャンセルまたは売上キャンセル処理を行ってください。"
+
+msgctxt "Languages::jp_paygent_cc_changed_mc_to_cc"
+msgid "支払方法がペイジェントの多通貨カード決済からカード決済に変更されました。<br />ペイジェント側に登録された多通貨カード決済のデータは自動でキャンセルされませんので、ペイジェントの管理画面にログインして手動でオーソリキャンセルまたは売上キャンセル処理を行ってください。"
+msgstr "支払方法がペイジェントの多通貨カード決済からカード決済に変更されました。<br />ペイジェント側に登録された多通貨カード決済のデータは自動でキャンセルされませんので、ペイジェントの管理画面にログインして手動でオーソリキャンセルまたは売上キャンセル処理を行ってください。"
+
+msgctxt "Languages::jp_paygent_cc_changed_cc_to_cvs"
+msgid "支払方法がペイジェントのカード決済からコンビニ決済に変更されました。<br />ペイジェント側に登録されたカード決済のデータは自動でキャンセルされませんので、ペイジェントの管理画面にログインして手動でオーソリキャンセルまたは売上キャンセル処理を行ってください。"
+msgstr "支払方法がペイジェントのカード決済からコンビニ決済に変更されました。<br />ペイジェント側に登録されたカード決済のデータは自動でキャンセルされませんので、ペイジェントの管理画面にログインして手動でオーソリキャンセルまたは売上キャンセル処理を行ってください。"
+
+msgctxt "Languages::jp_paygent_cc_changed_mc_to_cvs"
+msgid "支払方法がペイジェントの多通貨カード決済からコンビニ決済に変更されました。<br />ペイジェント側に登録された多通貨カード決済のデータは自動でキャンセルされませんので、ペイジェントの管理画面にログインして手動でオーソリキャンセルまたは売上キャンセル処理を行ってください。"
+msgstr "支払方法がペイジェントの多通貨カード決済からコンビニ決済に変更されました。<br />ペイジェント側に登録された多通貨カード決済のデータは自動でキャンセルされませんので、ペイジェントの管理画面にログインして手動でオーソリキャンセルまたは売上キャンセル処理を行ってください。"
+
+msgctxt "Languages::jp_paygent_cc_changed_cc_to_others"
+msgid "支払方法がペイジェントのカード決済から他の支払方法に変更されました。<br />ペイジェント側に登録されたカード決済のデータは自動でキャンセルされませんので、ペイジェントの管理画面にログインして手動でオーソリキャンセルまたは売上キャンセル処理を行ってください。"
+msgstr "支払方法がペイジェントのカード決済から他の支払方法に変更されました。<br />ペイジェント側に登録されたカード決済のデータは自動でキャンセルされませんので、ペイジェントの管理画面にログインして手動でオーソリキャンセルまたは売上キャンセル処理を行ってください。"
+
+msgctxt "Languages::jp_paygent_cc_changed_mc_to_others"
+msgid "支払方法がペイジェントの多通貨カード決済から他の支払方法に変更されました。<br />ペイジェント側に登録された多通貨カード決済のデータは自動でキャンセルされませんので、ペイジェントの管理画面にログインして手動でオーソリキャンセルまたは売上キャンセル処理を行ってください。"
+msgstr "支払方法がペイジェントの多通貨カード決済から他の支払方法に変更されました。<br />ペイジェント側に登録された多通貨カード決済のデータは自動でキャンセルされませんので、ペイジェントの管理画面にログインして手動でオーソリキャンセルまたは売上キャンセル処理を行ってください。"
+
+msgctxt "Languages::jp_paygent_cvs_changed_cvs_to_cvs"
+msgid "ペイジェントのコンビニ決済を利用した注文について、支払方法に再度コンビニ決済を指定して注文内容の変更処理が実施されました。<br />ペイジェント側に登録されたコンビニ決済のデータは自動でキャンセルされませんので、ペイジェントの管理画面にログインして手動でキャンセル処理を行ってください。"
+msgstr "ペイジェントのコンビニ決済を利用した注文について、支払方法に再度コンビニ決済を指定して注文内容の変更処理が実施されました。<br />ペイジェント側に登録されたコンビニ決済のデータは自動でキャンセルされませんので、ペイジェントの管理画面にログインして手動でキャンセル処理を行ってください。"
+
+msgctxt "Languages::jp_paygent_cvs_changed_cvs_to_cc"
+msgid "支払方法がペイジェントのコンビニ決済からカード決済に変更されました。<br />ペイジェント側に登録されたコンビニ決済のデータは自動でキャンセルされませんので、ペイジェントの管理画面にログインして手動でキャンセル処理を行ってください。"
+msgstr "支払方法がペイジェントのコンビニ決済からカード決済に変更されました。<br />ペイジェント側に登録されたコンビニ決済のデータは自動でキャンセルされませんので、ペイジェントの管理画面にログインして手動でキャンセル処理を行ってください。"
+
+msgctxt "Languages::jp_paygent_cvs_changed_cvs_to_mc"
+msgid "支払方法がペイジェントのコンビニ決済から多通貨カード決済に変更されました。<br />ペイジェント側に登録されたコンビニ決済のデータは自動でキャンセルされませんので、ペイジェントの管理画面にログインして手動でキャンセル処理を行ってください。"
+msgstr "支払方法がペイジェントのコンビニ決済から多通貨カード決済に変更されました。<br />ペイジェント側に登録されたコンビニ決済のデータは自動でキャンセルされませんので、ペイジェントの管理画面にログインして手動でキャンセル処理を行ってください。"
+
+msgctxt "Languages::jp_paygent_cvs_changed_cvs_to_others"
+msgid "支払方法がペイジェントのコンビニ決済から他の支払方法に変更されました。<br />ペイジェント側に登録されたコンビニ決済のデータは自動でキャンセルされませんので、ペイジェントの管理画面にログインして手動でキャンセル処理を行ってください。"
+msgstr "支払方法がペイジェントのコンビニ決済から他の支払方法に変更されました。<br />ペイジェント側に登録されたコンビニ決済のデータは自動でキャンセルされませんので、ペイジェントの管理画面にログインして手動でキャンセル処理を行ってください。"
+
+msgctxt "Languages::jp_paygent_user_payment_date"
+msgid "支払日時"
+msgstr "支払日時"
+
+msgctxt "Languages::jp_paygent_cvs_paid"
+msgid "お支払いコンビニ名"
+msgstr "お支払いコンビニ名"
+
+msgctxt "Languages::jp_paygent_cancel_not_synced"
+msgid "注文がキャンセルされましたが、ペイジェント側システムには反映されていません。<br />ペイジェントの管理画面にログインのうえ、必要な処理を実施してください。"
+msgstr "注文がキャンセルされましたが、ペイジェント側システムには反映されていません。<br />ペイジェントの管理画面にログインのうえ、必要な処理を実施してください。"
+
+msgctxt "Languages::jp_paygent_tokey_key"
+msgid "トークン生成鍵"
+msgstr "トークン生成鍵"
+
+msgctxt "Languages::jp_paygent_connections_settings"
+msgid "接続設定"
+msgstr "接続設定"

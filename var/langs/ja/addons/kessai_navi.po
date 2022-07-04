@@ -1,0 +1,206 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Japanese\n"
+"Language: ja_JP\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.net\n"
+"Last-Translator: cscartjp <info@cs-cart.jp>\n"
+"PO-Revision-Date: 2014-07-17 04:42-0400\n"
+
+msgctxt "Addons::name::kessai_navi"
+msgid "決済ナビ (みずほファクター株式会社）"
+msgstr "決済ナビ (みずほファクター株式会社）"
+
+msgctxt "Addons::description::kessai_navi"
+msgid "決済ナビを利用した決済を可能にします"
+msgstr "決済ナビを利用した決済を可能にします"
+
+msgctxt "SettingsSections::kessai_navi::general"
+msgid "基本設定"
+msgstr "基本設定"
+
+msgctxt "SettingsOptions::kessai_navi::elm_connection_information"
+msgid "接続設定"
+msgstr "接続設定"
+
+msgctxt "SettingsOptions::kessai_navi::shopid"
+msgid "加盟店コード"
+msgstr "加盟店コード"
+
+msgctxt "SettingsOptions::kessai_navi::cshopid"
+msgid "加盟店サブコード"
+msgstr "加盟店サブコード"
+
+msgctxt "SettingsOptions::kessai_navi::hashpass"
+msgid "ハッシュ用パスワード"
+msgstr "ハッシュ用パスワード"
+
+msgctxt "Languages::jp_knv_amount"
+msgid "取引金額"
+msgstr "取引金額"
+
+msgctxt "Languages::jp_knv_bkcode_0001"
+msgid "銀行ネット振込（みずほ銀行）"
+msgstr "銀行ネット振込（みずほ銀行）"
+
+msgctxt "Languages::jp_knv_bkcode_0005"
+msgid "銀行ネット振込（東京三菱UFJ銀行（旧東京三菱））"
+msgstr "銀行ネット振込（東京三菱UFJ銀行（旧東京三菱））"
+
+msgctxt "Languages::jp_knv_bkcode_0008"
+msgid "銀行ネット振込（東京三菱UFJ銀行（旧UFJ））"
+msgstr "銀行ネット振込（東京三菱UFJ銀行（旧UFJ））"
+
+msgctxt "Languages::jp_knv_bkcode_0009"
+msgid "銀行ネット振込（三井住友銀行）"
+msgstr "銀行ネット振込（三井住友銀行）"
+
+msgctxt "Languages::jp_knv_bkcode_0033"
+msgid "銀行ネット振込（ジャパンネット銀行）"
+msgstr "銀行ネット振込（ジャパンネット銀行）"
+
+msgctxt "Languages::jp_knv_bkcode_0036"
+msgid "銀行ネット振込（楽天銀行）"
+msgstr "銀行ネット振込（楽天銀行）"
+
+msgctxt "Languages::jp_knv_bkcode_0150"
+msgid "銀行ネット振込（スルガ銀行）"
+msgstr "銀行ネット振込（スルガ銀行）"
+
+msgctxt "Languages::jp_knv_bkcode_9900"
+msgid "銀行ネット振込（ゆうちょ銀行）"
+msgstr "銀行ネット振込（ゆうちょ銀行）"
+
+msgctxt "Languages::jp_knv_bkcode_9901"
+msgid "銀行ネット振込（ゆうちょ銀行（モバイル））"
+msgstr "銀行ネット振込（ゆうちょ銀行（モバイル））"
+
+msgctxt "Languages::jp_knv_bkcode_bg01"
+msgid "クレジットカード（オーソリ）"
+msgstr "クレジットカード（オーソリ）"
+
+msgctxt "Languages::jp_knv_bkcode_bg04"
+msgid "クレジットカード（番号預かり）"
+msgstr "クレジットカード（番号預かり）"
+
+msgctxt "Languages::jp_knv_bkcode_cv01"
+msgid "コンビニ（ウェルネット）"
+msgstr "コンビニ（ウェルネット）"
+
+msgctxt "Languages::jp_knv_bkcode_cv02"
+msgid "コンビニ（セブンイレブン）"
+msgstr "コンビニ（セブンイレブン）"
+
+msgctxt "Languages::jp_knv_bkcode_pe01"
+msgid "ペイジー（番号入力）"
+msgstr "ペイジー（番号入力）"
+
+msgctxt "Languages::jp_knv_bkcode_pe02"
+msgid "ペイジー（インターネットバンキング）"
+msgstr "ペイジー（インターネットバンキング）"
+
+msgctxt "Languages::jp_knv_bkcode_pt01"
+msgid "永久不滅ポイント（セゾン）"
+msgstr "永久不滅ポイント（セゾン）"
+
+msgctxt "Languages::jp_knv_bktrans"
+msgid "収納機関受付番号"
+msgstr "収納機関受付番号"
+
+msgctxt "Languages::jp_knv_ccreg_delete_error"
+msgid "カード情報削除エラー"
+msgstr "カード情報削除エラー"
+
+msgctxt "Languages::jp_knv_ccreg_delete_failed"
+msgid "クレジットカード情報の削除に失敗しました。"
+msgstr "クレジットカード情報の削除に失敗しました。"
+
+msgctxt "Languages::jp_knv_ccreg_delete_success"
+msgid "クレジットカード情報を削除しました。"
+msgstr "クレジットカード情報を削除しました。"
+
+msgctxt "Languages::jp_knv_ccreg_settings"
+msgid "「カード番号預かり機能」設定"
+msgstr "「カード番号預かり機能」設定"
+
+msgctxt "Languages::jp_knv_connections_settings"
+msgid "接続設定"
+msgstr "接続設定"
+
+msgctxt "Languages::jp_knv_ddate"
+msgid "処理日付"
+msgstr "処理日付"
+
+msgctxt "Languages::jp_knv_delete_card_info"
+msgid "カード情報の削除"
+msgstr "カード情報の削除"
+
+msgctxt "Languages::jp_knv_kessai_navi"
+msgid "決済ナビ"
+msgstr "決済ナビ"
+
+msgctxt "Languages::jp_knv_mbtran"
+msgid "取引番号"
+msgstr "取引番号"
+
+msgctxt "Languages::jp_knv_msg_error"
+msgid "決済ナビの決済ページでエラーが発生したか、処理がキャンセルされました。<br />再度お試しいただくか他の支払方法を選択してご注文ください。"
+msgstr "決済ナビの決済ページでエラーが発生したか、処理がキャンセルされました。<br />再度お試しいただくか他の支払方法を選択してご注文ください。"
+
+msgctxt "Languages::jp_knv_no_card_info"
+msgid "カード情報は登録されていません"
+msgstr "カード情報は登録されていません"
+
+msgctxt "Languages::jp_knv_notice"
+msgid "決済ナビ (みずほファクター株式会社）に関する設定情報を入力してください。"
+msgstr "決済ナビ (みずほファクター株式会社）に関する設定情報を入力してください。"
+
+msgctxt "Languages::jp_knv_payment_method"
+msgid "決済手段"
+msgstr "決済手段"
+
+msgctxt "Languages::jp_knv_registered_card"
+msgid "登録済みカード情報"
+msgstr "登録済みカード情報"
+
+msgctxt "Languages::jp_knv_stran"
+msgid "加盟店取引番号"
+msgstr "加盟店取引番号"
+
+msgctxt "Languages::jp_knv_tdate"
+msgid "振込日（入金日）"
+msgstr "振込日（入金日）"
+
+msgctxt "Languages::jp_knv_tranid"
+msgid "消込識別情報"
+msgstr "消込識別情報"
+
+msgctxt "Languages::jp_knv_url_ccreg_production"
+msgid "本番環境接続先URL"
+msgstr "本番環境接続先URL"
+
+msgctxt "Languages::jp_knv_url_ccreg_test"
+msgid "テスト環境接続先URL"
+msgstr "テスト環境接続先URL"
+
+msgctxt "Languages::jp_knv_url_production"
+msgid "本番環境接続先URL"
+msgstr "本番環境接続先URL"
+
+msgctxt "Languages::jp_knv_url_test"
+msgid "テスト環境接続先URL"
+msgstr "テスト環境接続先URL"
+
+msgctxt "Languages::jp_knv_use_dbkey"
+msgid "「カード番号預かり機能」を利用する"
+msgstr "「カード番号預かり機能」を利用する"
+
+msgctxt "Languages::jp_knv_use_dbkey_notice"
+msgid "※「カード番号預かり機能」の利用に際してはみずほファクター株式会社との契約が必要です。"
+msgstr "※「カード番号預かり機能」の利用に際してはみずほファクター株式会社との契約が必要です。"
+
+msgctxt "Languages::jp_knv_vdate"
+msgid "支払期限"
+msgstr "支払期限"

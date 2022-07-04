@@ -1,0 +1,573 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Japanese\n"
+"Language: ja_JP\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 1.7.4\n"
+"Last-Translator: Toshihiro Yoshiura <yoshiura@frogman.co.jp>\n"
+"PO-Revision-Date: 2015-03-24 16:45+0900\n"
+"POT-Creation-Date: \n"
+"MIME-Version: 1.0\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgctxt "Addons::name::smartlink"
+msgid "ソニーペイメントサービス決済"
+msgstr "ソニーペイメントサービス決済"
+
+msgctxt "Addons::description::smartlink"
+msgid "ソニーペイメントのサービスを利用した決済を可能にします"
+msgstr "ソニーペイメントのサービスを利用した決済を可能にします"
+
+msgctxt "SettingsSections::smartlink::general"
+msgid "基本設定"
+msgstr "基本設定"
+
+msgctxt "SettingsOptions::smartlink::elm_connection_information"
+msgid "接続設定"
+msgstr "接続設定"
+
+msgctxt "SettingsOptions::smartlink::merchant_id"
+msgid "マーチャントID"
+msgstr "マーチャントID"
+
+msgctxt "SettingsOptions::smartlink::merchant_pass"
+msgid "マーチャントパスワード"
+msgstr "マーチャントパスワード"
+
+msgctxt "SettingsOptions::smartlink::tenant_id"
+msgid "店舗コード（オプション）"
+msgstr "店舗コード（オプション）"
+
+msgctxt "SettingsOptions::smartlink::pending_status"
+msgid "正常入金が行われなかった注文に割り当てる注文ステータス"
+msgstr "正常入金が行われなかった注文に割り当てる注文ステータス"
+
+msgctxt "Languages::jp_sln_cc_1auth"
+msgid "与信"
+msgstr "与信"
+
+msgctxt "Languages::jp_sln_cc_1gathering"
+msgid "与信売上計上"
+msgstr "与信売上計上"
+
+msgctxt "Languages::jp_sln_cc_approve_no"
+msgid "承認番号"
+msgstr "承認番号"
+
+msgctxt "Languages::jp_sln_cc_auth"
+msgid "与信"
+msgstr "与信"
+
+msgctxt "Languages::jp_sln_cc_auth_amount"
+msgid "与信金額"
+msgstr "与信金額"
+
+msgctxt "Languages::jp_sln_cc_auth_cancel"
+msgid "与信取消"
+msgstr "与信取消"
+
+msgctxt "Languages::jp_sln_cc_auth_cancel_error"
+msgid "クレジット与信取消エラー"
+msgstr "クレジット与信取消エラー"
+
+msgctxt "Languages::jp_sln_cc_auth_cancel_failed"
+msgid "注文番号 [oid] は与信取消できませんでした。"
+msgstr "注文番号 [oid] は与信取消できませんでした。"
+
+msgctxt "Languages::jp_sln_cc_auth_cancelled"
+msgid "与信を取り消しました。"
+msgstr "与信を取り消しました。"
+
+msgctxt "Languages::jp_sln_cc_auth_ng"
+msgid "与信NG"
+msgstr "与信NG"
+
+msgctxt "Languages::jp_sln_cc_auth_only"
+msgid "与信のみ"
+msgstr "与信のみ"
+
+msgctxt "Languages::jp_sln_cc_bonus"
+msgid "ボーナス一括払い"
+msgstr "ボーナス一括払い"
+
+msgctxt "Languages::jp_sln_cc_capture"
+msgid "売上計上"
+msgstr "売上計上"
+
+msgctxt "Languages::jp_sln_cc_change"
+msgid "利用額変更"
+msgstr "利用額変更"
+
+msgctxt "Languages::jp_sln_cc_check"
+msgid "カードチェック"
+msgstr "カードチェック"
+
+msgctxt "Languages::jp_sln_cc_company_code"
+msgid "カード会社コード"
+msgstr "カード会社コード"
+
+msgctxt "Languages::jp_sln_cc_data_not_exists"
+msgid "ご指定の処理を実行できる注文がありませんでした。"
+msgstr "ご指定の処理を実行できる注文がありませんでした。"
+
+msgctxt "Languages::jp_sln_cc_delete"
+msgid "取消"
+msgstr "取消"
+
+msgctxt "Languages::jp_sln_cc_error"
+msgid "クレジットカード決済エラー"
+msgstr "クレジットカード決済エラー"
+
+msgctxt "Languages::jp_sln_cc_error_code"
+msgid "エラーコード"
+msgstr "エラーコード"
+
+msgctxt "Languages::jp_sln_cc_failed"
+msgid "クレジットカードによる決済に失敗しました。<br />再度カード情報を入力いただくか他の支払方法を選択してご注文ください。"
+msgstr "クレジットカードによる決済に失敗しました。<br />再度カード情報を入力いただくか他の支払方法を選択してご注文ください。"
+
+msgctxt "Languages::jp_sln_cc_gathering"
+msgid "与信売上計上"
+msgstr "与信売上計上"
+
+msgctxt "Languages::jp_sln_cc_invalid"
+msgid "入力されたカード情報が正しくありません。<br />再度カード情報を入力いただくか他の支払方法を選択してご注文ください。"
+msgstr "入力されたカード情報が正しくありません。<br />再度カード情報を入力いただくか他の支払方法を選択してご注文ください。"
+
+msgctxt "Languages::jp_sln_cc_manager"
+msgid "クレジット請求管理"
+msgstr "クレジット請求管理"
+
+msgctxt "Languages::jp_sln_cc_notice"
+msgid "ソニーペイメントサービス（カード決済）に関する設定情報を入力してください。"
+msgstr "ソニーペイメントサービス（カード決済）に関する設定情報を入力してください。"
+
+msgctxt "Languages::jp_sln_cc_payment_settings"
+msgid "カード決済設定"
+msgstr "カード決済設定"
+
+msgctxt "Languages::jp_sln_cc_process_type"
+msgid "決済データの処理方法"
+msgstr "決済データの処理方法"
+
+msgctxt "Languages::jp_sln_cc_reauth"
+msgid "再オーソリ"
+msgstr "再オーソリ"
+
+msgctxt "Languages::jp_sln_cc_register_card_info"
+msgid "クレジットカード情報お預かり機能"
+msgstr "クレジットカード情報お預かり機能"
+
+msgctxt "Languages::jp_sln_cc_register_card_info_use"
+msgid "次回以降のお買い物でこのカード情報を使用する"
+msgstr "次回以降のお買い物でこのカード情報を使用する"
+
+msgctxt "Languages::jp_sln_cc_sales_cancel"
+msgid "売上取消"
+msgstr "売上取消"
+
+msgctxt "Languages::jp_sln_cc_sales_cancel_error"
+msgid "クレジット売上取消エラー"
+msgstr "クレジット売上取消エラー"
+
+msgctxt "Languages::jp_sln_cc_sales_cancel_failed"
+msgid "注文番号 [oid] は売上取消できませんでした。"
+msgstr "注文番号 [oid] は売上取消できませんでした。"
+
+msgctxt "Languages::jp_sln_cc_sales_cancelled"
+msgid "売上を取り消しました。"
+msgstr "売上を取り消しました。"
+
+msgctxt "Languages::jp_sln_cc_sales_completed"
+msgid "請求を確定しました。"
+msgstr "請求を確定しました。"
+
+msgctxt "Languages::jp_sln_cc_sales_confirm"
+msgid "売上計上"
+msgstr "売上計上"
+
+msgctxt "Languages::jp_sln_cc_sales_confirm_error"
+msgid "クレジット売上計上エラー"
+msgstr "クレジット売上計上エラー"
+
+msgctxt "Languages::jp_sln_cc_sales_confirm_failed"
+msgid "注文番号 [oid] は売上計上できませんでした。"
+msgstr "注文番号 [oid] は売上計上できませんでした。"
+
+msgctxt "Languages::jp_sln_cc_search"
+msgid "取引参照"
+msgstr "取引参照"
+
+msgctxt "Languages::jp_sln_cc_status"
+msgid "請求ステータス"
+msgstr "請求ステータス"
+
+msgctxt "Languages::jp_sln_cc_use_cvv"
+msgid "セキュリティコード(CVV2)を使用"
+msgstr "セキュリティコード(CVV2)を使用"
+
+msgctxt "Languages::jp_sln_cc_what_is_security_code"
+msgid "セキュリティコードとは"
+msgstr "セキュリティコードとは"
+
+msgctxt "Languages::jp_sln_ccreg_delete_card_info"
+msgid "カード情報の削除"
+msgstr "カード情報の削除"
+
+msgctxt "Languages::jp_sln_ccreg_delete_failed"
+msgid "クレジットカード情報の削除に失敗しました。<br />お手数ですが再度お試しいただくか当ショップまでご連絡をお願いいたします。"
+msgstr "クレジットカード情報の削除に失敗しました。<br />お手数ですが再度お試しいただくか当ショップまでご連絡をお願いいたします。"
+
+msgctxt "Languages::jp_sln_ccreg_delete_success"
+msgid "クレジットカード情報を削除しました。"
+msgstr "クレジットカード情報を削除しました。"
+
+msgctxt "Languages::jp_sln_ccreg_error"
+msgid "クレジットカード情報登録エラー"
+msgstr "クレジットカード情報登録エラー"
+
+msgctxt "Languages::jp_sln_ccreg_error_code"
+msgid "エラーコード"
+msgstr "エラーコード"
+
+msgctxt "Languages::jp_sln_ccreg_no_card_info"
+msgid "カード情報は登録されていません"
+msgstr "カード情報は登録されていません"
+
+msgctxt "Languages::jp_sln_ccreg_notice"
+msgid "ソニーペイメントサービス（登録済みカード決済）に関する設定情報を入力してください。"
+msgstr "ソニーペイメントサービス（登録済みカード決済）に関する設定情報を入力してください。"
+
+msgctxt "Languages::jp_sln_ccreg_register_failed"
+msgid "クレジットカード情報の登録に失敗しました。"
+msgstr "クレジットカード情報の登録に失敗しました。"
+
+msgctxt "Languages::jp_sln_ccreg_register_success"
+msgid "クレジットカード情報を登録しました。"
+msgstr "クレジットカード情報を登録しました。"
+
+msgctxt "Languages::jp_sln_ccreg_registered_card"
+msgid "登録済みカード情報"
+msgstr "登録済みカード情報"
+
+msgctxt "Languages::jp_sln_connections_settings"
+msgid "接続設定"
+msgstr "接続設定"
+
+msgctxt "Languages::jp_sln_daiko_cvscd_atm"
+msgid "Pay-easy（ATM）"
+msgstr "Pay-easy（ATM）"
+
+msgctxt "Languages::jp_sln_daiko_cvscd_cck"
+msgid "サークルK"
+msgstr "サークルK"
+
+msgctxt "Languages::jp_sln_daiko_cvscd_day"
+msgid "デイリーヤマザキ"
+msgstr "デイリーヤマザキ"
+
+msgctxt "Languages::jp_sln_daiko_cvscd_ebk"
+msgid "楽天銀行"
+msgstr "楽天銀行"
+
+msgctxt "Languages::jp_sln_daiko_cvscd_edy"
+msgid "Edy"
+msgstr "Edy"
+
+msgctxt "Languages::jp_sln_daiko_cvscd_fam"
+msgid "ファミリーマート"
+msgstr "ファミリーマート"
+
+msgctxt "Languages::jp_sln_daiko_cvscd_fff"
+msgid "スリーエフ"
+msgstr "スリーエフ"
+
+msgctxt "Languages::jp_sln_daiko_cvscd_jib"
+msgid "じぶん銀行"
+msgstr "じぶん銀行"
+
+msgctxt "Languages::jp_sln_daiko_cvscd_jnb"
+msgid "ジャパンネット銀行"
+msgstr "ジャパンネット銀行"
+
+msgctxt "Languages::jp_sln_daiko_cvscd_lnk"
+msgid "Pay-easy（情報リンク）"
+msgstr "Pay-easy（情報リンク）"
+
+msgctxt "Languages::jp_sln_daiko_cvscd_lsn"
+msgid "ローソン"
+msgstr "ローソン"
+
+msgctxt "Languages::jp_sln_daiko_cvscd_mns"
+msgid "ミニストップ"
+msgstr "ミニストップ"
+
+msgctxt "Languages::jp_sln_daiko_cvscd_onl"
+msgid "Pay-easy（オンライン）"
+msgstr "Pay-easy（オンライン）"
+
+msgctxt "Languages::jp_sln_daiko_cvscd_sak"
+msgid "サンクス"
+msgstr "サンクス"
+
+msgctxt "Languages::jp_sln_daiko_cvscd_scm"
+msgid "セイコーマート"
+msgstr "セイコーマート"
+
+msgctxt "Languages::jp_sln_daiko_cvscd_sev"
+msgid "セブンイレブン"
+msgstr "セブンイレブン"
+
+msgctxt "Languages::jp_sln_daiko_cvscd_snb"
+msgid "住信SBIネット銀行"
+msgstr "住信SBIネット銀行"
+
+msgctxt "Languages::jp_sln_daiko_cvscd_sui"
+msgid "Suica"
+msgstr "Suica"
+
+msgctxt "Languages::jp_sln_daiko_cvsname"
+msgid "収納機関"
+msgstr "収納機関"
+
+msgctxt "Languages::jp_sln_daiko_deleted"
+msgid "オンライン収納代行データを削除しました。"
+msgstr "オンライン収納代行データを削除しました。"
+
+msgctxt "Languages::jp_sln_daiko_error"
+msgid "オンライン収納代行エラー"
+msgstr "オンライン収納代行エラー"
+
+msgctxt "Languages::jp_sln_daiko_error_code"
+msgid "エラーコード"
+msgstr "エラーコード"
+
+msgctxt "Languages::jp_sln_daiko_failed"
+msgid "オンライン収納代行による決済に失敗しました。<br />再度手続きいただくか他の支払方法を選択してご注文ください。"
+msgstr "オンライン収納代行による決済に失敗しました。<br />再度手続きいただくか他の支払方法を選択してご注文ください。"
+
+msgctxt "Languages::jp_sln_daiko_info"
+msgid "【オンライン収納代行について】"
+msgstr "【オンライン収納代行について】"
+
+msgctxt "Languages::jp_sln_daiko_instruction"
+msgid "お支払いが完了していない場合は、以下のURLにアクセスして支払方法を確認のうえ、お手続きをお願いいたします。"
+msgstr "お支払いが完了していない場合は、以下のURLにアクセスして支払方法を確認のうえ、お手続きをお願いいたします。"
+
+msgctxt "Languages::jp_sln_daiko_invalid"
+msgid "オンライン収納代行への接続に失敗しました。<br />他の支払方法を選択いただくかお手数ですがショップまでお問い合わせください。"
+msgstr "オンライン収納代行への接続に失敗しました。<br />他の支払方法を選択いただくかお手数ですがショップまでお問い合わせください。"
+
+msgctxt "Languages::jp_sln_daiko_kessai_number"
+msgid "決済番号"
+msgstr "決済番号"
+
+msgctxt "Languages::jp_sln_daiko_not_changeable"
+msgid "代行収納データがすでに変更または削除されているため処理を実行できません。"
+msgstr "代行収納データがすでに変更または削除されているため処理を実行できません。"
+
+msgctxt "Languages::jp_sln_daiko_notice"
+msgid "ソニーペイメントサービス（オンライン収納代行サービス）に関する設定情報を入力してください。"
+msgstr "ソニーペイメントサービス（オンライン収納代行サービス）に関する設定情報を入力してください。"
+
+msgctxt "Languages::jp_sln_daiko_nyukindate"
+msgid "入金日時"
+msgstr "入金日時"
+
+msgctxt "Languages::jp_sln_daiko_paid_amount"
+msgid "支払金額"
+msgstr "支払金額"
+
+msgctxt "Languages::jp_sln_daiko_paylimit"
+msgid "支払期限"
+msgstr "支払期限"
+
+msgctxt "Languages::jp_sln_daiko_paylimit_prefix"
+msgid "注文日の"
+msgstr "注文日の"
+
+msgctxt "Languages::jp_sln_daiko_paylimit_suffix"
+msgid "日後"
+msgstr "日後"
+
+msgctxt "Languages::jp_sln_daiko_payment_settings"
+msgid "オンライン収納代行サービス設定"
+msgstr "オンライン収納代行サービス設定"
+
+msgctxt "Languages::jp_sln_daiko_recvnum"
+msgid "受付番号"
+msgstr "受付番号"
+
+msgctxt "Languages::jp_sln_daiko_stamp"
+msgid "印紙"
+msgstr "印紙"
+
+msgctxt "Languages::jp_sln_daiko_stamp_no"
+msgid "印紙なし"
+msgstr "印紙なし"
+
+msgctxt "Languages::jp_sln_daiko_stamp_yes"
+msgid "印紙あり"
+msgstr "印紙あり"
+
+msgctxt "Languages::jp_sln_daiko_tenant_code"
+msgid "店舗コード"
+msgstr "店舗コード"
+
+msgctxt "Languages::jp_sln_security_code"
+msgid "セキュリティコード"
+msgstr "セキュリティコード"
+
+msgctxt "Languages::jp_sln_security_code_is_empty"
+msgid "セキュリティコードが入力されていません"
+msgstr "セキュリティコードが入力されていません"
+
+msgctxt "Languages::jp_sln_transaction_date"
+msgid "取引日付"
+msgstr "取引日付"
+
+msgctxt "Languages::jp_sln_transaction_id"
+msgid "処理通番"
+msgstr "処理通番"
+
+msgctxt "Languages::jp_sln_cc_error_msg_g44"
+msgid "入力されたセキュリティコードが正しくありません。"
+msgstr "入力されたセキュリティコードが正しくありません。"
+
+msgctxt "Languages::jp_sln_cc_error_msg_g45"
+msgid "セキュリティコードが入力されていません。"
+msgstr "セキュリティコードが入力されていません。"
+
+msgctxt "Languages::jp_sln_cc_error_msg_g54"
+msgid "1日のカード利用回数または利用金額オーバーです。"
+msgstr "1日のカード利用回数または利用金額オーバーです。"
+
+msgctxt "Languages::jp_sln_cc_error_msg_g55"
+msgid "1日のカード利用限度額オーバーです。"
+msgstr "1日のカード利用限度額オーバーです。"
+
+msgctxt "Languages::jp_sln_cc_error_msg_g56"
+msgid "クレジットカードが無効です。"
+msgstr "クレジットカードが無効です。"
+
+msgctxt "Languages::jp_sln_cc_error_msg_g60"
+msgid "事故カードが入力されました。"
+msgstr "事故カードが入力されました。"
+
+msgctxt "Languages::jp_sln_cc_error_msg_g96"
+msgid "事故カードが入力されました。"
+msgstr "事故カードが入力されました。"
+
+msgctxt "Languages::jp_sln_cc_error_msg_g61"
+msgid "無効カードが入力されました。"
+msgstr "無効カードが入力されました。"
+
+msgctxt "Languages::jp_sln_cc_error_msg_g65"
+msgid "入力されたカード番号が正しくありません。"
+msgstr "入力されたカード番号が正しくありません。"
+
+msgctxt "Languages::jp_sln_cc_error_msg_c16"
+msgid "入力されたカード番号が正しくありません。"
+msgstr "入力されたカード番号が正しくありません。"
+
+msgctxt "Languages::jp_sln_cc_error_msg_c17"
+msgid "入力されたカード番号が正しくありません。"
+msgstr "入力されたカード番号が正しくありません。"
+
+msgctxt "Languages::jp_sln_cc_error_msg_g75"
+msgid "分割払いの下限金額を下回っています。"
+msgstr "分割払いの下限金額を下回っています。"
+
+msgctxt "Languages::jp_sln_cc_error_msg_g83"
+msgid "入力された有効期限が正しくありません。"
+msgstr "入力された有効期限が正しくありません。"
+
+msgctxt "Languages::jp_sln_cc_error_msg_c02"
+msgid "e-SCOTTシステムエラー"
+msgstr "e-SCOTTシステムエラー"
+
+msgctxt "Languages::jp_sln_cc_error_msg_c03"
+msgid "e-SCOTT通信エラー"
+msgstr "e-SCOTT通信エラー"
+
+msgctxt "Languages::jp_sln_cc_error_msg_c11"
+msgid "ボーナス払いご利用対象外期間です。"
+msgstr "ボーナス払いご利用対象外期間です。"
+
+msgctxt "Languages::jp_sln_cc_error_msg_c13"
+msgid "入力された有効期限が正しくないか、有効期限切れのカードです。"
+msgstr "入力された有効期限が正しくないか、有効期限切れのカードです。"
+
+msgctxt "Languages::jp_sln_cc_error_msg_c15"
+msgid "ボーナス払いの下限金額未満の注文です。"
+msgstr "ボーナス払いの下限金額未満の注文です。"
+
+msgctxt "Languages::jp_sln_cc_error_msg_k82"
+msgid "カード番号が適切ではありません。"
+msgstr "カード番号が適切ではありません。"
+
+msgctxt "Languages::jp_sln_cc_error_msg_k83"
+msgid "カード有効期限が適切ではありません。"
+msgstr "カード有効期限が適切ではありません。"
+
+msgctxt "Languages::jp_sln_token_ninsyocode"
+msgid "トークン認証コード"
+msgstr "トークン認証コード"
+
+msgctxt "Languages::jp_sln_registered_cc"
+msgid "登録カード決済"
+msgstr "登録カード決済"
+
+msgctxt "Languages::jp_sln_cc_error_msg_g74"
+msgid "ご使用できない分割回数です。"
+msgstr "ご使用できない分割回数です。"
+
+msgctxt "Languages::jp_sln_sonypayment"
+msgid "ソニーペイメント"
+msgstr "ソニーペイメント"
+
+msgctxt "Languages::jp_sln_tenant_code"
+msgid "店舗コード"
+msgstr "店舗コード"
+
+msgctxt "Languages::jp_sln_3dsecure_settings"
+msgid "本人認証サービス設定"
+msgstr "本人認証サービス設定"
+
+msgctxt "Languages::jp_sln_use_3dsecure"
+msgid "本人認証サービス（3Dセキュア）を使用"
+msgstr "本人認証サービス（3Dセキュア）を使用"
+
+msgctxt "Languages::jp_sln_3dsecure_aes_key"
+msgid "本人認証サービス（3Dセキュア）認証暗号化キー"
+msgstr "本人認証サービス（3Dセキュア）認証暗号化キー"
+
+msgctxt "Languages::jp_sln_3dsecure_aes_iv"
+msgid "本人認証サービス（3Dセキュア）初期化ベクトル"
+msgstr "本人認証サービス（3Dセキュア）初期化ベクトル"
+
+msgctxt "Languages::jp_sln_3d_err_1"
+msgid "3Dセキュア本人認証NG"
+msgstr "3Dセキュア本人認証NG"
+
+msgctxt "Languages::jp_sln_3d_err_2"
+msgid "お客様カードの3Dセキュアパスワード未設定のため3Dセキュア認証未実施"
+msgstr "お客様カードの3Dセキュアパスワード未設定のため3Dセキュア認証未実施"
+
+msgctxt "Languages::jp_sln_3d_err_3"
+msgid "カード発行会社3Dセキュア未対応のため3Dセキュア認証未実施"
+msgstr "カード発行会社3Dセキュア未対応のため3Dセキュア認証未実施"
+
+msgctxt "Languages::jp_sln_3d_err_8"
+msgid "認証システムがメンテナンス中のため3Dセキュア認証未実施"
+msgstr "認証システムがメンテナンス中のため3Dセキュア認証未実施"
+
+msgctxt "Languages::jp_sln_3d_err_9"
+msgid "認証システムでエラーが発生したため3Dセキュア認証未実施"
+msgstr "認証システムでエラーが発生したため3Dセキュア認証未実施"
+
+msgctxt "Languages::jp_sln_delete_message"
+msgid "注文番号: [order_id] はソニーペイメントサービス決済側の取消処理が実行されていません。必要な場合は、ソニーペイメントサービスの管理画面において取消処理を実行してください。"
+msgstr "注文番号: [order_id] はソニーペイメントサービス決済側の取消処理が実行されていません。必要な場合は、ソニーペイメントサービスの管理画面において取消処理を実行してください。"

@@ -1,0 +1,10 @@
+#addon_amazon_checkoutinstalled .bg-icon,
+#addon_amazon_checkout .bg-icon {
+    background-image: url('../../../media/images/addons/amazon_checkout/icon.png');
+    background-size: contain;
+    border: 0px;
+}
+#addon_amazon_checkoutinstalled .bg-icon i,
+#addon_amazon_checkout .bg-icon i {
+    display: none;
+}

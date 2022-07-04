@@ -1,0 +1,274 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Japanese\n"
+"Language: ja_JP\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.net\n"
+"Last-Translator: cscartjp <info@cs-cart.jp>\n"
+"PO-Revision-Date: 2014-07-17 04:42-0400\n"
+
+msgctxt "Addons::name::oricopp_sw"
+msgid "OricoPayment Plus（SimpleWeb）"
+msgstr "OricoPayment Plus（SimpleWeb）"
+
+msgctxt "Addons::description::oricopp_sw"
+msgid "OricoPayment Plus（SimpleWeb）を利用した決済を可能にします"
+msgstr "OricoPayment Plus（SimpleWeb）を利用した決済を可能にします"
+
+msgctxt "SettingsSections::oricopp_sw::general"
+msgid "基本設定"
+msgstr "基本設定"
+
+msgctxt "SettingsOptions::oricopp_sw::elm_connection_information"
+msgid "接続設定"
+msgstr "接続設定"
+
+msgctxt "SettingsOptions::oricopp_sw::merchant_id"
+msgid "マーチャントID"
+msgstr "マーチャントID"
+
+msgctxt "SettingsOptions::oricopp_sw::hash_seed"
+msgid "ハッシュシード"
+msgstr "ハッシュシード"
+
+msgctxt "SettingsOptions::oricopp_sw::is_dummy"
+msgid "ダミー取引を行う"
+msgstr "ダミー取引を行う"
+
+msgctxt "SettingsVariants::oricopp_sw::is_dummy::0"
+msgid "いいえ"
+msgstr "いいえ"
+
+msgctxt "SettingsVariants::oricopp_sw::is_dummy::1"
+msgid "はい"
+msgstr "はい"
+
+msgctxt "SettingsOptions::oricopp_sw::elm_common"
+msgid "共通設定"
+msgstr "共通設定"
+
+msgctxt "SettingsOptions::oricopp_sw::timelimit_payment"
+msgid "支払期限（「注文のX日後」の X 部分を入力）"
+msgstr "支払期限（「注文のX日後」の X 部分を入力）"
+
+msgctxt "SettingsOptions::oricopp_sw::elm_connection_cc"
+msgid "クレジットカード決済設定"
+msgstr "クレジットカード決済設定"
+
+msgctxt "SettingsOptions::oricopp_sw::cc_auth"
+msgid "カード決済時の処理内容"
+msgstr "カード決済時の処理内容"
+
+msgctxt "SettingsVariants::oricopp_sw::cc_auth::0"
+msgid "与信のみ"
+msgstr "与信のみ"
+
+msgctxt "SettingsVariants::oricopp_sw::cc_auth::1"
+msgid "与信・売上"
+msgstr "与信・売上"
+
+msgctxt "SettingsOptions::oricopp_sw::flg_auth"
+msgid "本人認証"
+msgstr "本人認証"
+
+msgctxt "SettingsVariants::oricopp_sw::flg_auth::0"
+msgid "本人認証を利用しない"
+msgstr "本人認証を利用しない"
+
+msgctxt "SettingsVariants::oricopp_sw::flg_auth::1"
+msgid "本人認証を利用する"
+msgstr "本人認証を利用する"
+
+msgctxt "SettingsOptions::oricopp_sw::elm_connection_medy"
+msgid "モバイルEdy決済設定"
+msgstr "モバイルEdy決済設定"
+
+msgctxt "SettingsOptions::oricopp_sw::medy_shop_name"
+msgid "モバイルEdy用ショップ名（48バイト以内）"
+msgstr "モバイルEdy用ショップ名（48バイト以内）"
+
+msgctxt "SettingsOptions::oricopp_sw::elm_connection_waon"
+msgid "WAON決済設定"
+msgstr "WAON決済設定"
+
+msgctxt "SettingsOptions::oricopp_sw::timelimit_cancel"
+msgid "支払取消期限（「注文のX日後」の X 部分を入力）"
+msgstr "支払取消期限（「注文のX日後」の X 部分を入力）"
+
+msgctxt "SettingsOptions::oricopp_sw::elm_connection_bnk"
+msgid "銀行決済設定"
+msgstr "銀行決済設定"
+
+msgctxt "SettingsOptions::oricopp_sw::bnk_contents"
+msgid "請求内容（全角12文字以内）"
+msgstr "請求内容（全角12文字以内）"
+
+msgctxt "SettingsOptions::oricopp_sw::bnk_contents_kana"
+msgid "請求内容カナ（全角カナ24文字以内）"
+msgstr "請求内容カナ（全角カナ24文字以内）"
+
+msgctxt "SettingsOptions::oricopp_sw::elm_connection_sc"
+msgid "ショッピングクレジット決済設定"
+msgstr "ショッピングクレジット決済設定"
+
+msgctxt "SettingsOptions::oricopp_sw::web_desc_id"
+msgid "WEB申込商品ID"
+msgstr "WEB申込商品ID"
+
+msgctxt "SettingsOptions::oricopp_sw::contract_doc"
+msgid "契約書有無区分"
+msgstr "契約書有無区分"
+
+msgctxt "SettingsVariants::oricopp_sw::contract_doc::0"
+msgid "契約書無し"
+msgstr "契約書無し"
+
+msgctxt "SettingsVariants::oricopp_sw::contract_doc::1"
+msgid "契約書有り"
+msgstr "契約書有り"
+
+msgctxt "SettingsOptions::oricopp_sw::contract_no"
+msgid "取扱契約番号"
+msgstr "取扱契約番号"
+
+msgctxt "Languages::jp_oppsw_all"
+msgid "指定なし"
+msgstr "指定なし"
+
+msgctxt "Languages::jp_oppsw_approval_no"
+msgid "承認番号"
+msgstr "承認番号"
+
+msgctxt "Languages::jp_oppsw_bnk"
+msgid "銀行決済"
+msgstr "銀行決済"
+
+msgctxt "Languages::jp_oppsw_cc"
+msgid "カード決済"
+msgstr "カード決済"
+
+msgctxt "Languages::jp_oppsw_conf_no"
+msgid "確認番号"
+msgstr "確認番号"
+
+msgctxt "Languages::jp_oppsw_connections_settings"
+msgid "接続設定"
+msgstr "接続設定"
+
+msgctxt "Languages::jp_oppsw_customer_no"
+msgid "お客様番号"
+msgstr "お客様番号"
+
+msgctxt "Languages::jp_oppsw_cvs"
+msgid "コンビニ決済"
+msgstr "コンビニ決済"
+
+msgctxt "Languages::jp_oppsw_cvs_type"
+msgid "CVSタイプ"
+msgstr "CVSタイプ"
+
+msgctxt "Languages::jp_oppsw_edy"
+msgid "Edy"
+msgstr "Edy"
+
+msgctxt "Languages::jp_oppsw_em"
+msgid "電子マネー決済"
+msgstr "電子マネー決済"
+
+msgctxt "Languages::jp_oppsw_em_type"
+msgid "EMタイプ"
+msgstr "EMタイプ"
+
+msgctxt "Languages::jp_oppsw_error"
+msgid "OricoPayment Plusエラー"
+msgstr "OricoPayment Plusエラー"
+
+msgctxt "Languages::jp_oppsw_error_oid"
+msgid "注文IDが存在しないため処理を中断しました。"
+msgstr "注文IDが存在しないため処理を中断しました。"
+
+msgctxt "Languages::jp_oppsw_error_session"
+msgid "セッションIDが一致しないため処理を中断しました。"
+msgstr "セッションIDが一致しないため処理を中断しました。"
+
+msgctxt "Languages::jp_oppsw_kigyo_no"
+msgid "収納企業コード"
+msgstr "Languages::jp_oppsw_kigyo_no"
+
+msgctxt "Languages::jp_oppsw_kikan_no"
+msgid "収納機関コード"
+msgstr "収納機関コード"
+
+msgctxt "Languages::jp_oppsw_loan_principal"
+msgid "ローン元金"
+msgstr "ローン元金"
+
+msgctxt "Languages::jp_oppsw_notice"
+msgid "OricoPayment Plus（SimpleWeb）に関する設定情報を入力してください。"
+msgstr "OricoPayment Plus（SimpleWeb）に関する設定情報を入力してください。"
+
+msgctxt "Languages::jp_oppsw_orico_order_no"
+msgid "注文番号"
+msgstr "注文番号"
+
+msgctxt "Languages::jp_oppsw_payment_count"
+msgid "支払回数"
+msgstr "支払回数"
+
+msgctxt "Languages::jp_oppsw_payment_method"
+msgid "決済手段"
+msgstr "決済手段"
+
+msgctxt "Languages::jp_oppsw_rcv_amount"
+msgid "入金金額"
+msgstr "入金金額"
+
+msgctxt "Languages::jp_oppsw_rcv_date"
+msgid "収納日時"
+msgstr "収納日時"
+
+msgctxt "Languages::jp_oppsw_receipt_date"
+msgid "完了日時"
+msgstr "完了日時"
+
+msgctxt "Languages::jp_oppsw_receipt_no"
+msgid "受付番号"
+msgstr "受付番号"
+
+msgctxt "Languages::jp_oppsw_request_date"
+msgid "申込日"
+msgstr"申込日"
+
+msgctxt "Languages::jp_oppsw_sc"
+msgid "ショッピングクレジット"
+msgstr "ショッピングクレジット"
+
+msgctxt "Languages::jp_oppsw_sc_approved"
+msgid "承認"
+msgstr "承認"
+
+msgctxt "Languages::jp_oppsw_sc_denied"
+msgid "否決"
+msgstr "否決"
+
+msgctxt "Languages::jp_oppsw_sc_result"
+msgid "審査結果"
+msgstr "審査結果"
+
+msgctxt "Languages::jp_oppsw_service_name"
+msgid "OricoPayment Plus（SimpleWeb）"
+msgstr "OricoPayment Plus（SimpleWeb）"
+
+msgctxt "Languages::jp_oppsw_settlement_type"
+msgid "決済方法"
+msgstr "決済方法"
+
+msgctxt "Languages::jp_oppsw_suica"
+msgid "Suica"
+msgstr "Suica"
+
+msgctxt "Languages::jp_oppsw_waon"
+msgid "Waon"
+msgstr "Waon"

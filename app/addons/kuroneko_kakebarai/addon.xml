@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+	<id>kuroneko_kakebarai</id>
+	<version>1.0</version>
+    <default_language>ja</default_language>
+	<priority>2</priority>
+	<position>100</position>
+    <status>active</status>
+    <authors>
+        <author>
+            <name>CS-Cart.jp</name>
+            <email>info@cs-cart.jp</email>
+            <url>http://cs-cart.jp</url>
+        </author>
+    </authors>
+    <supplier>CS-Cart.jp</supplier>
+    <supplier_link>http://cs-cart.jp</supplier_link>
+    <compatibility>
+        <core_version>
+            <min>4.3.10</min>
+        </core_version>
+        <core_edition>
+            ULTIMATE
+        </core_edition>
+        <php_version>
+            <min>5.6.0</min>
+        </php_version>
+        <php_extensions>
+            <curl>
+                <supported>Y</supported>
+            </curl>
+        </php_extensions>
+    </compatibility>
+    <license></license>
+    <tab_order>prepend</tab_order>
+    <settings edition_type="ROOT,ULT:VENDOR">
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="elm_kuroneko_kakebarai_connection_information">
+                        <type>header</type>
+                        <handler/>
+                    </item>
+                    <item id="trader_code">
+                        <type>input</type>
+                        <default_value/>
+                    </item>
+                    <item id="password">
+                        <type>input</type>
+                        <default_value/>
+                    </item>
+                    <item id="use_usergroup">
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                        <variants/>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+        <queries>
+            <item type="file">database/data_install.sql</item>
+            <item for="uninstall">DROP TABLE IF EXISTS ?:jp_krnkkb_status;</item>
+        </queries>
+        <functions>
+            <item for="install">fn_kuroneko_kakebarai_addon_install</item>
+            <item for="uninstall">fn_kuroneko_kakebarai_addon_uninstall</item>
+        </functions>
+</addon>

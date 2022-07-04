@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+	<id>subscription_payment_jp</id>
+	<supplier>CS-Cart.jp</supplier>
+	<version>1.0</version>
+	<priority>0</priority>
+	<position>500</position>
+    <default_language>ja</default_language>
+	<status>active</status>
+    <settings edition_type="ROOT,ULT:VENDOR">
+		<sections>
+			<section id="general">
+				<items>
+					<item id="elm_subpay_method">
+						<type>header</type>
+					</item>
+					<item id="subpay_online">
+						<type>selectbox</type>
+						<default_value>0</default_value>
+					</item>
+					<item id="subpay_offline">
+						<type>selectbox</type>
+						<default_value>0</default_value>
+					</item>
+				</items>
+			</section>
+		</sections>
+	</settings>
+	<queries>
+		<item>CREATE TABLE IF NOT EXISTS `?:jp_subscription_products` (`product_id` mediumint(8) unsigned NOT NULL, `is_subscription` char(1) NOT NULL DEFAULT 'N', PRIMARY KEY (`product_id`)) ENGINE=MyISAM DEFAULT CHARSET=utf8</item>
+		<item>CREATE TABLE IF NOT EXISTS `?:jp_subscription_products_descriptions` (`product_id` mediumint(8) unsigned NOT NULL, `lang_code` char(2) NOT NULL DEFAULT 'en', `price_prefix` varchar(255) NOT NULL DEFAULT '', `price_suffix` varchar(255) NOT NULL DEFAULT '', `description` mediumtext NOT NULL DEFAULT '', PRIMARY KEY (`product_id`,`lang_code`)) ENGINE=MyISAM DEFAULT CHARSET=utf8</item>
+		<item for="uninstall">DROP TABLE IF EXISTS `?:jp_subscription_products`</item>
+		<item for="uninstall">DROP TABLE IF EXISTS `?:jp_subscription_products_descriptions`</item>
+	</queries>
+	<functions>
+		<item for="install">fn_subscription_payment_jp_install</item>
+	</functions>
+</addon>

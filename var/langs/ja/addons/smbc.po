@@ -1,0 +1,498 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Japanese\n"
+"Language: ja_JP\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.net\n"
+"Last-Translator: cscartjp <info@cs-cart.jp>\n"
+"PO-Revision-Date: 2014-10-20 04:42-0400\n"
+
+msgctxt "Addons::name::smbc"
+msgid "CS-Cartマルチ決済 (SMBCファイナンスサービス)【インストール不可】"
+msgstr "CS-Cartマルチ決済 (SMBCファイナンスサービス)【インストール不可】"
+
+msgctxt "Addons::description::smbc"
+msgid "SMBC様新規受付中止のためインストールできません。"
+msgstr "SMBC様新規受付中止のためインストールできません。"
+
+msgctxt "SettingsSections::smbc::general"
+msgid "基本設定"
+msgstr "基本設定"
+
+msgctxt "SettingsOptions::smbc::elm_connection_information"
+msgid "接続設定"
+msgstr "接続設定"
+
+msgctxt "SettingsOptions::smbc::shop_cd"
+msgid "契約コード"
+msgstr "契約コード"
+
+msgctxt "SettingsOptions::smbc::syuno_co_cd"
+msgid "収納企業コード"
+msgstr "収納企業コード"
+
+msgctxt "SettingsOptions::smbc::kyoten_cd"
+msgid "拠点コード"
+msgstr "拠点コード"
+
+msgctxt "SettingsOptions::smbc::shop_pwd"
+msgid "ショップパスワード"
+msgstr "ショップパスワード"
+
+msgctxt "SettingsOptions::smbc::auth_pwd"
+msgid "クレジットカード情報お預かり機能用認証パスワード"
+msgstr "クレジットカード情報お預かり機能用認証パスワード"
+
+msgctxt "SettingsOptions::smbc::pending_status"
+msgid "正常入金が行われなかった注文に割り当てる注文ステータス"
+msgstr "正常入金が行われなかった注文に割り当てる注文ステータス"
+
+msgctxt "SettingsSections::smbc::rb"
+msgid "継続課金"
+msgstr "継続課金"
+
+msgctxt "SettingsOptions::smbc::elm_rb_connection_information"
+msgid "接続設定"
+msgstr "接続設定"
+
+msgctxt "SettingsOptions::smbc::rb_shop_cd"
+msgid "契約コード"
+msgstr "契約コード"
+
+msgctxt "SettingsOptions::smbc::rb_syuno_co_cd"
+msgid "収納企業コード"
+msgstr "収納企業コード"
+
+msgctxt "SettingsOptions::smbc::rb_kyoten_cd"
+msgid "拠点コード"
+msgstr "拠点コード"
+
+msgctxt "SettingsOptions::smbc::rb_shop_pwd"
+msgid "ショップパスワード"
+msgstr "ショップパスワード"
+
+msgctxt "Languages::jp_smbc_bnk_account_checking"
+msgid "当座"
+msgstr "当座"
+
+msgctxt "Languages::jp_smbc_bnk_account_name"
+msgid "口座名義人"
+msgstr "口座名義人"
+
+msgctxt "Languages::jp_smbc_bnk_account_no"
+msgid "口座番号"
+msgstr "口座番号"
+
+msgctxt "Languages::jp_smbc_bnk_account_saving"
+msgid "普通"
+msgstr "普通"
+
+msgctxt "Languages::jp_smbc_bnk_account_type"
+msgid "預金種目"
+msgstr "預金種目"
+
+msgctxt "Languages::jp_smbc_bnk_branch"
+msgid "支店名"
+msgstr "支店名"
+
+msgctxt "Languages::jp_smbc_bnk_error"
+msgid "銀行振込エラー"
+msgstr "銀行振込エラー"
+
+msgctxt "Languages::jp_smbc_bnk_failed"
+msgid "銀行振込による決済に失敗しました。<br />再度お試しいただくか他の支払方法を選択してご注文ください。"
+msgstr "銀行振込による決済に失敗しました。<br />再度お試しいただくか他の支払方法を選択してご注文ください。"
+
+msgctxt "Languages::jp_smbc_bnk_info"
+msgid "[下記お振込先にご入金ください]"
+msgstr "[下記お振込先にご入金ください]"
+
+msgctxt "Languages::jp_smbc_bnk_name"
+msgid "銀行名"
+msgstr "銀行名"
+
+msgctxt "Languages::jp_smbc_bnk_notice"
+msgid "SMBCファイナンスサービス（銀行振込）に関する設定情報を入力してください。"
+msgstr "SMBCファイナンスサービス（銀行振込）に関する設定情報を入力してください。"
+
+msgctxt "Languages::jp_smbc_cc_auth_amount"
+msgid "与信金額"
+msgstr "与信金額"
+
+msgctxt "Languages::jp_smbc_cc_auth_cancel"
+msgid "与信取消"
+msgstr "与信取消"
+
+msgctxt "Languages::jp_smbc_cc_auth_cancel_error"
+msgid "クレジット与信取消エラー"
+msgstr "クレジット与信取消エラー"
+
+msgctxt "Languages::jp_smbc_cc_auth_cancel_failed"
+msgid "注文番号 [oid] は与信取消できませんでした。"
+msgstr "注文番号 [oid] は与信取消できませんでした。"
+
+msgctxt "Languages::jp_smbc_cc_auth_cancelled"
+msgid "与信を取り消しました。"
+msgstr "与信を取り消しました。"
+
+msgctxt "Languages::jp_smbc_cc_auth_change_error"
+msgid "クレジット減額処理エラー"
+msgstr "クレジット減額処理エラー"
+
+msgctxt "Languages::jp_smbc_cc_auth_changed"
+msgid "カード決済の減額処理が完了しました"
+msgstr "カード決済の減額処理が完了しました"
+
+msgctxt "Languages::jp_smbc_cc_auth_change_failed"
+msgid "注文番号 [oid] の減額処理に失敗しました。"
+msgstr "注文番号 [oid] の減額処理に失敗しました。"
+
+msgctxt "Languages::jp_smbc_cc_auth_ng"
+msgid "与信NG"
+msgstr "与信NG"
+
+msgctxt "Languages::jp_smbc_cc_auth_ok"
+msgid "与信OK"
+msgstr "与信OK"
+
+msgctxt "Languages::jp_smbc_cc_bonus"
+msgid "ボーナス払い"
+msgstr "ボーナス払い"
+
+msgctxt "Languages::jp_smbc_cc_communication_error"
+msgid "通信エラーが発生したため、処理を完了できませんでした。"
+msgstr "通信エラーが発生したため、処理を完了できませんでした。"
+
+msgctxt "Languages::jp_smbc_cc_company"
+msgid "クレジット会社名"
+msgstr "クレジット会社名"
+
+msgctxt "Languages::jp_smbc_cc_data_not_exists"
+msgid "ご指定の処理を実行できる注文がありませんでした。"
+msgstr "ご指定の処理を実行できる注文がありませんでした。"
+
+msgctxt "Languages::jp_smbc_cc_data_not_sent"
+msgid "変更内容は保存されましたが減額処理（与信一部取消または売上一部取消）ではないためSMBCフィナンシャルサービスに注文データは送信されませんでした。<br />新規の与信などは実行されていません。"
+msgstr "変更内容は保存されましたが減額処理（与信一部取消または売上一部取消）ではないためSMBCフィナンシャルサービスに注文データは送信されませんでした。<br />新規の与信などは実行されていません。"
+
+msgctxt "Languages::jp_smbc_cc_error"
+msgid "クレジットカード決済エラー"
+msgstr "クレジットカード決済エラー"
+
+msgctxt "Languages::jp_smbc_cc_failed"
+msgid "クレジットカードによる決済に失敗しました。<br />再度カード情報を入力いただくか他の支払方法を選択してご注文ください。"
+msgstr "クレジットカードによる決済に失敗しました。<br />再度カード情報を入力いただくか他の支払方法を選択してご注文ください。"
+
+msgctxt "Languages::jp_smbc_cc_invalid"
+msgid "入力されたカード情報が正しくありません。<br />再度カード情報を入力いただくか他の支払方法を選択してご注文ください。"
+msgstr "入力されたカード情報が正しくありません。<br />再度カード情報を入力いただくか他の支払方法を選択してご注文ください。"
+
+msgctxt "Languages::jp_smbc_cc_manager"
+msgid "クレジット請求管理"
+msgstr "クレジット請求管理"
+
+msgctxt "Languages::jp_smbc_cc_notice"
+msgid "SMBCファイナンスサービス（カード決済）に関する設定情報を入力してください。"
+msgstr "SMBCファイナンスサービス（カード決済）に関する設定情報を入力してください。"
+
+msgctxt "Languages::jp_smbc_cc_order_not_saved"
+msgid "注文情報の更新に失敗しました。<br />指定した支払方法では減額処理（与信一部取消または売上一部取消）以外の注文編集は許可されていません。"
+msgstr "注文情報の更新に失敗しました。<br />指定した支払方法では減額処理（与信一部取消または売上一部取消）以外の注文編集は許可されていません。"
+
+msgctxt "Languages::jp_smbc_cc_payment_settings"
+msgid "カード決済設定"
+msgstr "カード決済設定"
+
+msgctxt "Languages::jp_smbc_cc_redirect_acs"
+msgid "3Dセキュア認証用ページに移動しています"
+msgstr "3Dセキュア認証用ページに移動しています"
+
+msgctxt "Languages::jp_smbc_cc_register_card_info"
+msgid "クレジットカード情報お預かり機能"
+msgstr "クレジットカード情報お預かり機能"
+
+msgctxt "Languages::jp_smbc_cc_register_card_info_use"
+msgid "次回以降のお買い物でこのカード情報を使用する"
+msgstr "次回以降のお買い物でこのカード情報を使用する"
+
+msgctxt "Languages::jp_smbc_cc_sales_cancel"
+msgid "売上取消"
+msgstr "売上取消"
+
+msgctxt "Languages::jp_smbc_cc_sales_cancel_error"
+msgid "クレジット売上取消エラー"
+msgstr "クレジット売上取消エラー"
+
+msgctxt "Languages::jp_smbc_cc_sales_cancel_failed"
+msgid "注文番号 [oid] は売上取消できませんでした。"
+msgstr "注文番号 [oid] は売上取消できませんでした。"
+
+msgctxt "Languages::jp_smbc_cc_sales_cancelled"
+msgid "売上を取り消しました。"
+msgstr "売上を取り消しました。"
+
+msgctxt "Languages::jp_smbc_cc_sales_completed"
+msgid "請求を確定しました。"
+msgstr "請求を確定しました。"
+
+msgctxt "Languages::jp_smbc_cc_sales_confirm"
+msgid "請求確定"
+msgstr "請求確定"
+
+msgctxt "Languages::jp_smbc_cc_sales_confirm_error"
+msgid "クレジット請求確定エラー"
+msgstr "クレジット請求確定エラー"
+
+msgctxt "Languages::jp_smbc_cc_sales_confirm_failed"
+msgid "注文番号 [oid] は請求確定できませんでした。"
+msgstr "注文番号 [oid] は請求確定できませんでした。"
+
+msgctxt "Languages::jp_smbc_cc_shonin_no"
+msgid "承認番号"
+msgstr "承認番号"
+
+msgctxt "Languages::jp_smbc_cc_status"
+msgid "請求ステータス"
+msgstr "請求ステータス"
+
+msgctxt "Languages::jp_smbc_cc_use_cvv"
+msgid "セキュリティコード(CVV2)を使用"
+msgstr "セキュリティコード(CVV2)を使用"
+
+msgctxt "Languages::jp_smbc_cc_yoshin_jikko_date"
+msgid "オーソリ処理日"
+msgstr "オーソリ処理日"
+
+msgctxt "Languages::jp_smbc_ccreg_delete_card_info"
+msgid "カード情報の削除"
+msgstr "カード情報の削除"
+
+msgctxt "Languages::jp_smbc_ccreg_delete_error"
+msgid "カード情報削除エラー"
+msgstr "カード情報削除エラー"
+
+msgctxt "Languages::jp_smbc_ccreg_delete_failed"
+msgid "クレジットカード情報の削除に失敗しました。"
+msgstr "クレジットカード情報の削除に失敗しました。"
+
+msgctxt "Languages::jp_smbc_ccreg_delete_success"
+msgid "クレジットカード情報を削除しました。"
+msgstr "クレジットカード情報を削除しました。"
+
+msgctxt "Languages::jp_smbc_ccreg_error"
+msgid "カード情報登録エラー"
+msgstr "カード情報登録エラー"
+
+msgctxt "Languages::jp_smbc_ccreg_failed"
+msgid "登録済みクレジットカードによる決済に失敗しました。<br />他の支払方法を選択してご注文ください。"
+msgstr "登録済みクレジットカードによる決済に失敗しました。<br />他の支払方法を選択してご注文ください。"
+
+msgctxt "Languages::jp_smbc_ccreg_no_card_info"
+msgid "カード情報は登録されていません"
+msgstr "カード情報は登録されていません"
+
+msgctxt "Languages::jp_smbc_ccreg_notice"
+msgid "SMBCファイナンスサービス（登録済みカード決済）に関する設定情報を入力してください。"
+msgstr "SMBCファイナンスサービス（登録済みカード決済）に関する設定情報を入力してください。"
+
+msgctxt "Languages::jp_smbc_ccreg_register_failed"
+msgid "カード情報の登録に失敗しました。"
+msgstr "カード情報の登録に失敗しました。"
+
+msgctxt "Languages::jp_smbc_ccreg_registered_card"
+msgid "登録済みカード情報"
+msgstr "登録済みカード情報"
+
+msgctxt "Languages::jp_smbc_connections_settings"
+msgid "接続設定"
+msgstr "接続設定"
+
+msgctxt "Languages::jp_smbc_cvs_cnvkind"
+msgid "コンビニ種別"
+msgstr "コンビニ種別"
+
+msgctxt "Languages::jp_smbc_cvs_error"
+msgid "コンビニ決済エラー"
+msgstr "コンビニ決済エラー"
+
+msgctxt "Languages::jp_smbc_cvs_failed"
+msgid "コンビニ決済に失敗しました。<br />再度お試しいただくか他の支払方法を選択してご注文ください。"
+msgstr "コンビニ決済に失敗しました。<br />再度お試しいただくか他の支払方法を選択してご注文ください。"
+
+msgctxt "Languages::jp_smbc_cvs_haraikomi_no"
+msgid "払込票番号"
+msgstr "払込票番号"
+
+msgctxt "Languages::jp_smbc_cvs_info"
+msgid "[コンビニ決済情報]"
+msgstr "[コンビニ決済情報]"
+
+msgctxt "Languages::jp_smbc_cvs_notice"
+msgid "SMBCファイナンスサービス（コンビニ受付番号決済）に関する設定情報を入力してください。"
+msgstr "SMBCファイナンスサービス（コンビニ受付番号決済）に関する設定情報を入力してください。"
+
+msgctxt "Languages::jp_smbc_cvs_online_kessai_no"
+msgid "オンライン決済番号"
+msgstr "オンライン決済番号"
+
+msgctxt "Languages::jp_smbc_cvs_payment_settings"
+msgid "コンビニ受付番号決済設定"
+msgstr "コンビニ受付番号決済設定"
+
+msgctxt "Languages::jp_smbc_cvs_select_cvs"
+msgid "ご利用のコンビニを指定してください"
+msgstr "ご利用のコンビニを指定してください"
+
+msgctxt "Languages::jp_smbc_error_code"
+msgid "エラーコード："
+msgstr "エラーコード："
+
+msgctxt "Languages::jp_smbc_etc"
+msgid "など"
+msgstr "など"
+
+msgctxt "Languages::jp_smbc_hakkou_kbn"
+msgid "発行区分"
+msgstr "発行区分"
+
+msgctxt "Languages::jp_smbc_issue_3p"
+msgid "代行発行"
+msgstr "代行発行"
+
+msgctxt "Languages::jp_smbc_issue_self"
+msgid "自社発行"
+msgstr "自社発行"
+
+msgctxt "Languages::jp_smbc_item_name"
+msgid "お買い上げ商品"
+msgstr "お買い上げ商品"
+
+msgctxt "Languages::jp_smbc_kessai_no"
+msgid "決済受付番号"
+msgstr "決済受付番号"
+
+msgctxt "Languages::jp_smbc_kessai_time"
+msgid "受付日時"
+msgstr "受付日時"
+
+msgctxt "Languages::jp_smbc_paid_amount"
+msgid "入金金額"
+msgstr "入金金額"
+
+msgctxt "Languages::jp_smbc_ps_error"
+msgid "払込票決済エラー"
+msgstr "払込票決済エラー"
+
+msgctxt "Languages::jp_smbc_ps_failed"
+msgid "払込票による決済に失敗しました。<br />再度お試しいただくか他の支払方法を選択してご注文ください。"
+msgstr "払込票による決済に失敗しました。<br />再度お試しいただくか他の支払方法を選択してご注文ください。"
+
+msgctxt "Languages::jp_smbc_ps_info"
+msgid "別途郵送させていただきます「払込票」にてお支払いください。"
+msgstr "別途郵送させていただきます「払込票」にてお支払いください。"
+
+msgctxt "Languages::jp_smbc_ps_notice"
+msgid "SMBCファイナンスサービス（払込票決済）に関する設定情報を入力してください。"
+msgstr "SMBCファイナンスサービス（払込票決済）に関する設定情報を入力してください。"
+
+msgctxt "Languages::jp_smbc_ps_payment_settings"
+msgid "払込票決済設定"
+msgstr "払込票決済設定"
+
+msgctxt "Languages::jp_smbc_rb_2month_later"
+msgid "注文の翌々月"
+msgstr "注文の翌々月"
+
+msgctxt "Languages::jp_smbc_rb_3month_later"
+msgid "注文の3ヶ月後"
+msgstr "注文の3ヶ月後"
+
+msgctxt "Languages::jp_smbc_rb_activate_subscription_addon"
+msgid "「継続課金」アドオンを有効化してSMBCファイナンスサービス（カード継続課金）に関する設定情報を入力してください。"
+msgstr "「継続課金」アドオンを有効化してSMBCファイナンスサービス（カード継続課金）に関する設定情報を入力してください。"
+
+msgctxt "Languages::jp_smbc_rb_charge_timing"
+msgid "課金開始タイミング"
+msgstr "課金開始タイミング"
+
+msgctxt "Languages::jp_smbc_rb_enable_1st_payment"
+msgid "請求金額（初回）を設定する"
+msgstr "請求金額（初回）を設定する"
+
+msgctxt "Languages::jp_smbc_rb_error"
+msgid "エラーが発生しました"
+msgstr "エラーが発生しました"
+
+msgctxt "Languages::jp_smbc_rb_failed"
+msgid "継続課金のお申込みでエラーが発生しました"
+msgstr "継続課金のお申込みでエラーが発生しました"
+
+msgctxt "Languages::jp_smbc_rb_monthly"
+msgid "月払"
+msgstr "月払"
+
+msgctxt "Languages::jp_smbc_rb_next_month"
+msgid "注文の翌月"
+msgstr "注文の翌月"
+
+msgctxt "Languages::jp_smbc_rb_notice"
+msgid "SMBCファイナンスサービス（カード継続課金）に関する設定情報を入力してください。"
+msgstr "SMBCファイナンスサービス（カード継続課金）に関する設定情報を入力してください。"
+
+msgctxt "Languages::jp_smbc_rb_payment"
+msgid "CS-Cartマルチ決済（継続課金）"
+msgstr "CS-Cartマルチ決済（継続課金）"
+
+msgctxt "Languages::jp_smbc_rb_seikyuu_hoho"
+msgid "請求方法"
+msgstr "請求方法"
+
+msgctxt "Languages::jp_smbc_rb_seikyuu_kingaku1"
+msgid "初回請求金額"
+msgstr "初回請求金額"
+
+msgctxt "Languages::jp_smbc_rb_this_month"
+msgid "注文当月"
+msgstr "注文当月"
+
+msgctxt "Languages::jp_smbc_rb_yearly"
+msgid "年払"
+msgstr "年払"
+
+msgctxt "Languages::jp_smbc_recurring_billing"
+msgid "継続課金"
+msgstr "継続課金"
+
+msgctxt "Languages::jp_smbc_security_code"
+msgid "セキュリティコード"
+msgstr "セキュリティコード"
+
+msgctxt "Languages::jp_smbc_send_customer"
+msgid "顧客へ送付"
+msgstr "顧客へ送付"
+
+msgctxt "Languages::jp_smbc_send_self"
+msgid "自社（加盟店）へ送付"
+msgstr "自社（加盟店）へ送付"
+
+msgctxt "Languages::jp_smbc_shoporder_no"
+msgid "請求番号"
+msgstr "請求番号"
+
+msgctxt "Languages::jp_smbc_tel_invalid"
+msgid "電話番号のフォーマットが正しくありません。<br />請求先電話番号を登録しなおしてください。"
+msgstr "電話番号のフォーマットが正しくありません。<br />請求先電話番号を登録しなおしてください。"
+
+msgctxt "Languages::jp_smbc_what_is_security_code"
+msgid "セキュリティコードとは"
+msgstr "セキュリティコードとは"
+
+msgctxt "Languages::jp_smbc_yuusousaki_kbn"
+msgid "郵送先区分"
+msgstr "郵送先区分"
+
+msgctxt "Languages::jp_smbc_api_key"
+msgid "トークン変換APIキー"
+msgstr "トークン変換APIキー"

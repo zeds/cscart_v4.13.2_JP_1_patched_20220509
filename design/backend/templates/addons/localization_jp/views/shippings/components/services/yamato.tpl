@@ -1,0 +1,1 @@
+<p>{__("jp_shipping_no_config_params")}</p>

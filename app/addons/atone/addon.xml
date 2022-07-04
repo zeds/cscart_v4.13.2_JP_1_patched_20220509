@@ -1,0 +1,50 @@
+﻿<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>atone</id>
+    <version>1.0</version>
+    <priority>9998</priority>
+    <position>0</position>
+    <default_language>ja</default_language>
+    <status>active</status>
+    <supplier>ANDPLUS</supplier>
+    <compatibility>
+        <core_edition>
+            ULTIMATE
+        </core_edition>
+    </compatibility>
+    <settings edition_type="ROOT">
+		<sections>
+			<section id="general">
+				<items>
+					<item id="elm_connection_information">
+						<type>header</type>
+						<handler/>
+					</item>
+					<item id="pub_key">
+						<type>input</type>
+						<default_value/>
+					</item>
+					<item id="private_key">
+						<type>input</type>
+						<default_value/>
+					</item>
+					<item id="atone_mode">
+                       				 <type>checkbox</type>
+                       				 <default_value>N</default_value>
+                    			</item>
+					
+				</items>
+			</section>
+		</sections>
+	</settings>
+	
+	<queries>
+        <item type="file">database/data.sql</item>
+    </queries>
+
+    <functions>
+		<item for="install">fn_atone_install</item>
+        <item for="uninstall">fn_atone_delete_payment_processors</item>
+    </functions>
+    
+</addon>

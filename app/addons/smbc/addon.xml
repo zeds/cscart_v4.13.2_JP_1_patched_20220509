@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+	<id>smbc</id>
+	<supplier>CS-Cart.jp</supplier>
+	<version>1.0</version>
+	<priority>1</priority>
+	<position>100</position>
+    <default_language>ja</default_language>
+	<status>active</status>
+    <settings edition_type="ROOT,ULT:VENDOR">
+		<sections>
+			<section id="general">
+				<items>
+					<item id="elm_connection_information">
+						<type>header</type>
+						<handler/>
+					</item>
+					<item id="shop_cd">
+						<type>input</type>
+						<default_value/>
+					</item>
+					<item id="syuno_co_cd">
+						<type>input</type>
+						<default_value/>
+					</item>
+					<item id="kyoten_cd">
+						<type>input</type>
+						<default_value/>
+					</item>
+					<item id="shop_pwd">
+						<type>input</type>
+						<default_value/>
+					</item>
+					<item id="auth_pwd">
+						<type>input</type>
+						<default_value/>
+					</item>
+					<item id="pending_status">
+						<type>selectbox</type>
+						<default_value>O</default_value>
+					</item>
+				</items>
+			</section>
+			<section id="rb">
+				<items>
+					<item id="elm_rb_connection_information">
+						<type>header</type>
+						<handler/>
+					</item>
+					<item id="rb_shop_cd">
+						<type>input</type>
+						<default_value/>
+					</item>
+					<item id="rb_syuno_co_cd">
+						<type>input</type>
+						<default_value/>
+					</item>
+					<item id="rb_kyoten_cd">
+						<type>input</type>
+						<default_value/>
+					</item>
+					<item id="rb_shop_pwd">
+						<type>input</type>
+						<default_value/>
+					</item>
+				</items>
+			</section>
+		</sections>
+	</settings>
+	<queries>
+		<item>CREATE TABLE IF NOT EXISTS `?:jp_smbc_cc_status` (`order_id` mediumint(8) unsigned NOT NULL, `status_code` varchar(32) NOT NULL default '', PRIMARY KEY (`order_id`)) ENGINE=MyISAM DEFAULT CHARSET=utf8</item>
+		<item>CREATE TABLE IF NOT EXISTS `?:jp_smbc_rb_products` (`product_id` mediumint(8) unsigned NOT NULL, `enable_1st_payment` char(1) NOT NULL DEFAULT 'N', `first_payment_amount` int(11) unsigned NOT NULL DEFAULT '0', `charge_timing` char(1) NOT NULL DEFAULT '1', `duration_type` char(1) NOT NULL DEFAULT 'M', PRIMARY KEY (`product_id`)) ENGINE=MyISAM DEFAULT CHARSET=utf8</item>
+		<item>REPLACE INTO `?:payment_processors` (`processor_id`, `processor`, `processor_script`, `processor_template`, `admin_template`, `callback`, `type`) VALUES (9041, 'SMBCファイナンスサービス（コンビニ受付番号決済）', 'smbc_cvs.php', 'views/orders/components/payments/smbc_cvs.tpl', 'smbc_cvs.tpl', 'N', 'P')</item>
+		<item>REPLACE INTO `?:payment_processors` (`processor_id`, `processor`, `processor_script`, `processor_template`, `admin_template`, `callback`, `type`) VALUES (9042, 'SMBCファイナンスサービス（銀行振込）', 'smbc_bnk.php', 'views/orders/components/payments/cc_outside.tpl', 'smbc_bnk.tpl', 'N', 'P')</item>
+		<item>REPLACE INTO `?:payment_processors` (`processor_id`, `processor`, `processor_script`, `processor_template`, `admin_template`, `callback`, `type`) VALUES (9043, 'SMBCファイナンスサービス（払込票決済）', 'smbc_ps.php', 'views/orders/components/payments/cc_outside.tpl', 'smbc_ps.tpl', 'N', 'P')</item>
+		<item>REPLACE INTO `?:payment_processors` (`processor_id`, `processor`, `processor_script`, `processor_template`, `admin_template`, `callback`, `type`) VALUES (9044, 'SMBCファイナンスサービス（登録済みカード決済）', 'smbc_ccreg.php', 'views/orders/components/payments/smbc_ccreg.tpl', 'smbc_ccreg.tpl', 'N', 'P')</item>
+		<item>REPLACE INTO `?:payment_processors` (`processor_id`, `processor`, `processor_script`, `processor_template`, `admin_template`, `callback`, `type`) VALUES (9046, 'SMBCファイナンスサービス（カード決済・トークン決済）', 'smbc_cctkn.php', 'views/orders/components/payments/smbc_cctkn.tpl', 'smbc_cctkn.tpl', 'N', 'P')</item>
+		<item>REPLACE INTO `?:payment_processors` (`processor_id`, `processor`, `processor_script`, `processor_template`, `admin_template`, `callback`, `type`) VALUES (9047, 'SMBCファイナンスサービス（カード継続課金・トークン決済）', 'smbc_rbtkn.php', 'views/orders/components/payments/smbc_rbtkn.tpl', 'smbc_rbtkn.tpl', 'N', 'P')</item>
+		<item for="uninstall">DROP TABLE IF EXISTS `?:jp_smbc_cc_status`</item>
+		<item for="uninstall">DROP TABLE IF EXISTS `?:jp_smbc_rb_products`</item>
+		<item for="uninstall">DELETE FROM `?:payment_processors` WHERE `processor_script` LIKE '%smbc_%'</item>
+	</queries>
+	<functions>
+		<item for="install">fn_smbc_install</item>
+	</functions>
+</addon>

@@ -1,0 +1,157 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Language-Team: Japanese\n"
+"Language: ja_JP\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: ja\n"
+"X-Crowdin-File: /addons/atone.po\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Last-Translator: sun <sun@andplus.co.jp>\n"
+"PO-Revision-Date: 2017-09-13 00:00-0000\n"
+
+msgctxt "Addons::name::atone"
+msgid "atone"
+msgstr "atone決済"
+
+msgctxt "Addons::description::atone"
+msgid "atoneによる決済を利用可能にします。"
+msgstr "atoneによる決済を利用可能にします。"
+
+msgctxt "SettingsSections::atone::general"
+msgid "基本設定"
+msgstr "基本設定"
+
+msgctxt "SettingsOptions::atone::elm_connection_information"
+msgid "接続設定"
+msgstr "接続設定"
+
+msgctxt "SettingsOptions::atone::provisional_sales"
+msgid "売り上げを仮の状態で起こす"
+msgstr "売り上げを仮の状態で起こす"
+
+msgctxt "SettingsOptions::atone::pub_key"
+msgid "店舗公開可能鍵"
+msgstr "店舗公開可能鍵"
+
+msgctxt "SettingsOptions::atone::private_key"
+msgid "店舗秘密鍵"
+msgstr "店舗秘密鍵"
+
+msgctxt "SettingsOptions::atone::terminal_id"
+msgid "ターミナルID"
+msgstr "ターミナルID"
+
+msgctxt "SettingsOptions::atone::atone_mode"
+msgid "atone本番モード"
+msgstr "atone本番モード"
+
+msgctxt "SettingsOptions::atone::pending_status"
+msgid "正常入金が行われなかった注文に割り当てる注文ステータス"
+msgstr "正常入金が行われなかった注文に割り当てる注文ステータス"
+
+msgctxt "Languages::atone_payment_description"
+msgid "atone決済に関する設定情報を入力してください。「定期登録オプション」に関しましては、次期フェーズにて対応予定です。<br>※オプションを使用するには各オプションごとにatone側との契約が別途必要になります。"
+msgstr "atone決済に関する設定情報を入力してください。「定期登録オプション」に関しましては、次期フェーズにて対応予定です。<br>※オプションを使用するには各オプションごとにatone側との契約が別途必要になります。"
+
+msgctxt "Languages::atone_option_settings"
+msgid "オプション設定"
+msgstr "オプション設定"
+
+msgctxt "Languages::atone_option_regularly"
+msgid "定期登録オプション"
+msgstr "定期登録オプション"
+
+msgctxt "Languages::atone_option_updates"
+msgid "金額更新オプション"
+msgstr "金額更新オプション"
+
+msgctxt "Languages::atone_option_provisional"
+msgid "仮登録オプション"
+msgstr "仮登録オプション"
+
+msgctxt "Languages::atone_c"
+msgid "atone注文一覧"
+msgstr "atone注文一覧"
+
+msgctxt "Languages::atone_pay"
+msgid "atoneで支払う"
+msgstr "atoneで支払う"
+
+msgctxt "Languages::atone_sales"
+msgid "売上確定"
+msgstr "売上確定"
+
+msgctxt "Languages::already_atone_sales"
+msgid "本登録済み"
+msgstr "本登録済み"
+
+msgctxt "Languages::atone_sales_settled"
+msgid "確定"
+msgstr "確定"
+
+msgctxt "Languages::atone_provisional_title"
+msgid "仮/本登録"
+msgstr "仮/本登録"
+
+msgctxt "Languages::atone_unsettled"
+msgid "<p style='color:#ff0000; margin: 0;'>未確定</p>"
+msgstr "<p style='color:#ff0000; margin: 0;'>未確定</p>"
+
+msgctxt "Languages::atone_canceled"
+msgid "キャンセル済み"
+msgstr "キャンセル済み"
+
+msgctxt "Languages::atone_canceled_text"
+msgid "atone側が既にキャンセル済みのため、ステータスを変更することはできません"
+msgstr "atone側が既にキャンセル済みのため、ステータスを変更することはできません"
+
+msgctxt "Languages::not_be_order"
+msgid "atone側での注文編集を実行できませんでした"
+msgstr "atone側での注文編集を実行できませんでした"
+
+msgctxt "Languages::not_be_canceled"
+msgid "atone側でのキャンセル処理を実行できませんでした"
+msgstr "atone側でのキャンセル処理を実行できませんでした"
+
+msgctxt "Languages::not_be_determined"
+msgid "売上確定処理を実行できませんでした"
+msgstr "売上確定処理を実行できませんでした"
+
+msgctxt "Languages::atone_be_order"
+msgid "atone側での注文編集処理を実行しました"
+msgstr "atone側での注文編集処理を実行しました"
+
+msgctxt "Languages::atone_be_determined"
+msgid "atone側での売上確定処理を実行しました"
+msgstr "atone側での売上確定処理を実行しました"
+
+msgctxt "Languages::atone_be_canceled"
+msgid "atone側でのキャンセル処理を実行しました"
+msgstr "atone側でのキャンセル処理を実行しました"
+
+msgctxt "Languages::atone_be_option_register"
+msgid "仮登録オプション:atone側で仮登録を本登録に変更しました"
+msgstr "仮登録オプション:atone側で仮登録を本登録に変更しました"
+
+msgctxt "Languages::atone_register"
+msgid "注文を本登録する"
+msgstr "注文を本登録する"
+
+msgctxt "Languages::atone_register_do"
+msgid "本登録する(仮登録オプションをお使いの場合のみ)"
+msgstr "本登録する(仮登録オプションをお使いの場合のみ)"
+
+msgctxt "Languages::atone_provisional"
+msgid "<p style=\"color: #f00; margin: 0;\">仮登録</p>"
+msgstr "<p style=\"color: #f00; margin: 0;\">仮登録</p>"
+
+msgctxt "Languages::atone_error_alert"
+msgid "決済処理中にエラーが発生しました。お手数ですがショップ管理者までお問い合わせください。"
+msgstr "決済処理中にエラーが発生しました。お手数ですがショップ管理者までお問い合わせください。"
+
+msgctxt "Languages::atone_order_status"
+msgid "注文の処理をおこなっています。今しばらくお待ちくださいませ。"
+msgstr "注文の処理をおこなっています。今しばらくお待ちくださいませ。"

@@ -1,0 +1,2 @@
+{* customer_shot_info.pre.tpl by takahashi from cs-cart.jp 2018 *}
+{if $shipment.tracking_url}<a href="{$shipment.tracking_url}" target="_blank"><u>{__("jp_kuroneko_kakebarai_check_delivery_status")}</u></a>{/if}

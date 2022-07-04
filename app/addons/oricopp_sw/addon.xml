@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+	<id>oricopp_sw</id>
+    <supplier>CS-Cart.jp</supplier>
+	<version>1.0</version>
+	<priority>1</priority>
+	<position>100</position>
+    <default_language>ja</default_language>
+	<status>active</status>
+    <settings edition_type="ROOT,ULT:VENDOR">
+		<sections>
+			<section id="general">
+				<name>General</name>
+				<items>
+					<item id="elm_connection_information">
+						<type>header</type>
+					</item>
+					<item id="merchant_id">
+						<type>input</type>
+					</item>
+					<item id="hash_seed">
+						<type>input</type>
+					</item>
+                    <item id="is_dummy">
+                        <type>radiogroup</type>
+                        <default_value>0</default_value>
+                        <variants>
+                            <item id="1"></item>
+                            <item id="0"></item>
+                        </variants>
+                    </item>
+                    <item id="elm_common">
+                        <type>header</type>
+                    </item>
+                    <item id="timelimit_payment">
+                        <type>input</type>
+                        <default_value>7</default_value>
+                    </item>
+                    <item id="elm_connection_cc">
+                        <type>header</type>
+                    </item>
+                    <item id="cc_auth">
+                        <type>radiogroup</type>
+                        <default_value>0</default_value>
+                        <variants>
+                            <item id="0"></item>
+                            <item id="1"></item>
+                        </variants>
+                    </item>
+                    <item id="flg_auth">
+                        <type>radiogroup</type>
+                        <default_value>1</default_value>
+                        <variants>
+                            <item id="1"></item>
+                            <item id="0"></item>
+                        </variants>
+                    </item>
+                    <item id="elm_connection_medy">
+                        <type>header</type>
+                    </item>
+                    <item id="medy_shop_name">
+                        <type>input</type>
+                        <default_value>ショップ名を入力</default_value>
+                    </item>
+                    <item id="elm_connection_waon">
+                        <type>header</type>
+                    </item>
+                    <item id="timelimit_cancel">
+                        <type>input</type>
+                        <default_value>7</default_value>
+                    </item>
+                    <item id="elm_connection_bnk">
+                        <type>header</type>
+                    </item>
+                    <item id="bnk_contents">
+                        <type>input</type>
+                        <default_value>お買い上げ商品</default_value>
+                    </item>
+                    <item id="bnk_contents_kana">
+                        <type>input</type>
+                        <default_value>オカイアゲショウヒン</default_value>
+                    </item>
+                    <item id="elm_connection_sc">
+                        <type>header</type>
+                    </item>
+                    <item id="web_desc_id">
+                        <type>input</type>
+                    </item>
+                    <item id="contract_doc">
+                        <type>radiogroup</type>
+                        <default_value>0</default_value>
+                        <variants>
+                            <item id="0"></item>
+                            <item id="1"></item>
+                        </variants>
+                    </item>
+                    <item id="contract_no">
+                        <type>input</type>
+                    </item>
+				</items>
+			</section>
+		</sections>
+	</settings>
+	<queries>
+		<item>REPLACE INTO `?:payment_processors` (`processor_id`, `processor`, `processor_script`, `processor_template`, `admin_template`, `callback`, `type`) VALUES (9170, 'OricoPayment Plus（SimpleWeb）', 'oricopp_sw.php', 'views/orders/components/payments/cc_outside.tpl', 'oricopp_sw.tpl', 'N', 'P')</item>
+        <item for="uninstall">DELETE FROM `?:payment_processors` WHERE `processor_script` LIKE '%oricopp_sw%'</item>
+	</queries>
+    <functions>
+        <item for="install">fn_oricopp_sw_install</item>
+    </functions>
+</addon>

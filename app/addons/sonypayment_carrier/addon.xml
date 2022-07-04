@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+	<id>sonypayment_carrier</id>
+    <supplier>CS-Cart.jp</supplier>
+	<version>1.0</version>
+	<priority>1</priority>
+	<position>100</position>
+    <default_language>ja</default_language>
+    <status>active</status>
+    <compatibility>
+        <core_edition>
+            ULTIMATE
+        </core_edition>
+    </compatibility>
+    <settings edition_type="ROOT,ULT:VENDOR">
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="elm_connection_information">
+                        <type>header</type>
+                        <handler/>
+                    </item>
+                    <item id="merchant_id">
+                        <type>input</type>
+                        <default_value/>
+                    </item>
+                    <item id="merchant_pass">
+                        <type>input</type>
+                        <default_value/>
+                    </item>
+                    <item id="aes_encrypt_key">
+                        <type>input</type>
+                        <default_value/>
+                    </item>
+                    <item id="elm_carrier_information">
+                        <type>header</type>
+                        <handler/>
+                    </item>
+                    <item id="docomo_pass">
+                        <type>input</type>
+                        <default_value/>
+                    </item>
+                    <item id="docomo_ep_tenant_id">
+                        <type>input</type>
+                        <default_value/>
+                    </item>
+                    <item id="docomo_rb_tenant_id">
+                        <type>input</type>
+                        <default_value/>
+                    </item>
+                    <item id="au_pass">
+                        <type>input</type>
+                        <default_value/>
+                    </item>
+                    <item id="au_ep_tenant_id">
+                        <type>input</type>
+                        <default_value/>
+                    </item>
+                    <item id="au_rb_tenant_id">
+                        <type>input</type>
+                        <default_value/>
+                    </item>
+                    <item id="softbank_pass">
+                        <type>input</type>
+                        <default_value/>
+                    </item>
+                    <item id="softbank_ep_tenant_id">
+                        <type>input</type>
+                        <default_value/>
+                    </item>
+                    <item id="softbank_rb_tenant_id">
+                        <type>input</type>
+                        <default_value/>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    <queries>
+        <item type="file">database/data_install.sql</item>
+    </queries>
+    <functions>
+        <item for="install">fn_sonyc_install</item>
+        <item for="uninstall">fn_sonyc_delete_payment_processors</item>
+    </functions>
+</addon>

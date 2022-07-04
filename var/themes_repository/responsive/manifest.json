@@ -1,0 +1,30 @@
+{
+    "title": "レスポンシブテーマ",
+    "description": "レスポンシブテーマは様々な解像度のディスプレイに対応したテーマです。タブレット端末やスマートフォンでもCS-Cartを快適にご利用いただけます。",
+    "logo": "media/images/cart.png",
+    "mail": "media/images/invoice_logo.png",
+    "developer": "CS-Cart",
+    "favicon": "media/images/icons/favicon.ico",
+    "parent_theme": "responsive",
+    "EXAMPLE_settings_overrides": {
+        "General": {
+            "enable_compare_products": false
+        },
+        "Appearance": {
+            "default_products_view": "products_without_options",
+            "default_product_details_view": "bigpicture_template",
+            "thumbnails_gallery": true,
+            "enable_quick_view": false,
+            "available_product_list_sortings": [
+                "product-asc",
+                "product-desc",
+                "price-asc",
+                "price-desc"
+            ]
+        },
+        "Thumbnails": {
+            "product_lists_thumbnail_width": 300,
+            "product_lists_thumbnail_height": 300
+        }
+    }
+}

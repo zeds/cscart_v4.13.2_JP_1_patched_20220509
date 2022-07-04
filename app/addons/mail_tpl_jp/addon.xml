@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+	<id>mail_tpl_jp</id>
+	<supplier>CS-Cart.jp</supplier>
+	<version>1.0</version>
+	<priority>99999</priority>
+	<position>99999</position>
+    <default_language>ja</default_language>
+	<status>active</status>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+	<queries>
+        <item>DROP TABLE IF EXISTS ?:jp_mtpl;</item>
+        <item>DROP TABLE IF EXISTS ?:jp_mtpl_descriptions;</item>
+        <item editions="PROFESSIONAL,MULTIVENDOR,ULTIMATE">REPLACE INTO ?:privileges (privilege, is_default, section_id) VALUES ('manage_mail_tpl_jp', 'Y', 'addons');</item>
+        <item for="uninstall" editions="PROFESSIONAL,MULTIVENDOR,ULTIMATE">DELETE FROM ?:privileges WHERE privilege LIKE 'manage_mail_tpl_jp'</item>
+		<item for="uninstall">DROP TABLE IF EXISTS ?:jp_mtpl;</item>
+		<item for="uninstall">DROP TABLE IF EXISTS ?:jp_mtpl_descriptions;</item>
+	</queries>
+	<functions>
+		<item for="install">fn_mtpl_addon_install</item>
+		<item for="uninstall">fn_mtpl_addon_uninstall</item>
+	</functions>
+</addon>

@@ -1,0 +1,358 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Japanese\n"
+"Language: ja_JP\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscartjp <tommy@cs-cart.jp>\n"
+"PO-Revision-Date: 2015-07-15 15:00-0900\n"
+
+msgctxt "Addons::name::nttstr"
+msgid "NTTスマートトレード（クレジットカード決済）"
+msgstr "NTTスマートトレード（クレジットカード決済）"
+
+msgctxt "Addons::description::nttstr"
+msgid "NTTスマートトレード（クレジットカード決済）による決済を利用可能にします。"
+msgstr "NTTスマートトレード（クレジットカード決済）による決済を利用可能にします。"
+
+msgctxt "SettingsSections::nttstr::general"
+msgid "基本設定"
+msgstr "基本設定"
+
+msgctxt "SettingsOptions::nttstr::elm_connection_information"
+msgid "接続設定"
+msgstr "接続設定"
+
+msgctxt "SettingsOptions::nttstr::shopid"
+msgid "加盟店ID"
+msgstr "加盟店ID"
+
+msgctxt "SettingsOptions::nttstr::accesskey"
+msgid "アクセスキー"
+msgstr "アクセスキー"
+
+msgctxt "Languages::jp_nttstr_cc_sales_completed"
+msgid "売上を確定しました。"
+msgstr "売上を確定しました。"
+
+msgctxt "Languages::jp_nttstr_cc_auth_cancelled"
+msgid "与信を取り消しました。"
+msgstr "与信を取り消しました。"
+
+msgctxt "Languages::jp_nttstr_cc_sales_cancelled"
+msgid "売上を取り消しました。"
+msgstr "売上を取り消しました。"
+
+msgctxt "Languages::jp_nttstr_linked_1"
+msgid "加盟店注文番号"
+msgstr "加盟店注文番号"
+
+msgctxt "Languages::jp_nttstr_date"
+msgid "処理日時"
+msgstr "処理日時"
+
+msgctxt "Languages::jp_nttstr_centerpayid"
+msgid ".Com決済取引番号"
+msgstr ".Com決済取引番号"
+
+msgctxt "Languages::jp_nttstr_aid"
+msgid "利用者ID"
+msgstr "利用者ID"
+
+msgctxt "Languages::jp_nttstr_cc_status"
+msgid "請求ステータス"
+msgstr "請求ステータス"
+
+msgctxt "Languages::jp_nttstr_cc_auth_ok"
+msgid "与信"
+msgstr "与信"
+
+msgctxt "Languages::jp_nttstr_cc_auth_cancel"
+msgid "与信取消"
+msgstr "与信取消"
+
+msgctxt "Languages::jp_nttstr_cc_captured"
+msgid "与信同時売上"
+msgstr "与信同時売上"
+
+msgctxt "Languages::jp_nttstr_cc_sales_confirm"
+msgid "売上"
+msgstr "売上"
+
+msgctxt "Languages::jp_nttstr_cc_sales_cancel"
+msgid "売上取消"
+msgstr "売上取消"
+
+msgctxt "Languages::jp_nttstr_cc_error"
+msgid "クレジットカード決済エラー"
+msgstr "クレジットカード決済エラー"
+
+msgctxt "Languages::jp_nttstr_cc_failed"
+msgid "クレジットカードによる決済に失敗しました。<br />再度カード情報を入力いただくか他の支払方法を選択してご注文ください。"
+msgstr "クレジットカードによる決済に失敗しました。<br />再度カード情報を入力いただくか他の支払方法を選択してご注文ください。"
+
+msgctxt "Languages::jp_nttstr_errmsg_"
+msgid "クレジットカード決済エラー"
+msgstr "クレジットカード決済エラー"
+
+msgctxt "Languages::jp_nttstr_cc_status_change_failed"
+msgid "請求ステータスの更新に失敗しました。"
+msgstr "請求ステータスの更新に失敗しました。"
+
+msgctxt "Languages::jp_nttstr_cc_notice"
+msgid "NTTスマートトレード（クレジットカード決済）に関する設定情報を入力してください。"
+msgstr "NTTスマートトレード（クレジットカード決済）に関する設定情報を入力してください。"
+
+msgctxt "Languages::jp_nttstr_connections_settings"
+msgid "接続設定"
+msgstr "接続設定"
+
+msgctxt "Languages::jp_nttstr_cc_payment_settings"
+msgid "カード決済設定"
+msgstr "カード決済設定"
+
+msgctxt "Languages::jp_nttstr_jobcd"
+msgid "処理区分"
+msgstr "処理区分"
+
+msgctxt "Languages::jp_nttstr_auth"
+msgid "与信"
+msgstr "与信"
+
+msgctxt "Languages::jp_nttstr_capture"
+msgid "与信同時売上"
+msgstr "与信同時売上"
+
+msgctxt "Languages::jp_nttstr_security_code"
+msgid "セキュリティコード"
+msgstr "セキュリティコード"
+
+msgctxt "Languages::jp_nttstr_what_is_security_code"
+msgid "セキュリティコードとは"
+msgstr "セキュリティコードとは"
+
+msgctxt "Languages::jp_nttstr_cc_manager"
+msgid "NTTスマートトレードクレジット請求管理"
+msgstr "NTTスマートトレードクレジット請求管理"
+
+msgctxt "Languages::jp_nttstr_cc_data_not_exists"
+msgid "ご指定の処理を実行できる注文がありませんでした。"
+msgstr "ご指定の処理を実行できる注文がありませんでした。"
+
+msgctxt "Languages::jp_nttstr_errmsg_c1000002"
+msgid "利用者のデータが存在しません。"
+msgstr "利用者のデータが存在しません。"
+
+msgctxt "Languages::jp_nttstr_errmsg_c1000007"
+msgid "処理中にシステムエラーが発生しました。"
+msgstr "処理中にシステムエラーが発生しました。"
+
+msgctxt "Languages::jp_nttstr_errmsg_c1000009"
+msgid "システム停止中です。"
+msgstr "システム停止中です。"
+
+msgctxt "Languages::jp_nttstr_errmsg_c1000011"
+msgid "アクセスキーエラー。"
+msgstr "アクセスキーエラー。"
+
+msgctxt "Languages::jp_nttstr_errmsg_c1000012"
+msgid "加盟店のステータスが利用停止状態です。"
+msgstr "加盟店のステータスが利用停止状態です。"
+
+msgctxt "Languages::jp_nttstr_errmsg_c1000013"
+msgid "既に処理済です。（決済は完了しています）"
+msgstr "既に処理済です。（決済は完了しています）"
+
+msgctxt "Languages::jp_nttstr_errmsg_c1000085"
+msgid "既に処理済です。（決済は失敗しています）"
+msgstr "既に処理済です。（決済は失敗しています）"
+
+msgctxt "Languages::jp_nttstr_errmsg_c1000015"
+msgid "加盟店貯金箱上限額オーバー"
+msgstr "加盟店貯金箱上限額オーバー"
+
+msgctxt "Languages::jp_nttstr_errmsg_c1000016"
+msgid "加盟店の貯金箱残高が不足しています。"
+msgstr "加盟店の貯金箱残高が不足しています。"
+
+msgctxt "Languages::jp_nttstr_errmsg_c1000021"
+msgid "加盟店注文番号が不正です。"
+msgstr "加盟店注文番号が不正です。"
+
+msgctxt "Languages::jp_nttstr_errmsg_c1000022"
+msgid "利用者IDが不正です。"
+msgstr "利用者IDが不正です。"
+
+msgctxt "Languages::jp_nttstr_errmsg_c1000023"
+msgid "決済金額が不正です。"
+msgstr "決済金額が不正です。"
+
+msgctxt "Languages::jp_nttstr_errmsg_c1000024"
+msgid "代表商品番号が不正です。"
+msgstr "代表商品番号が不正です。"
+
+msgctxt "Languages::jp_nttstr_errmsg_c1000025"
+msgid "代表商品名が不正です。"
+msgstr "代表商品名が不正です。"
+
+msgctxt "Languages::jp_nttstr_errmsg_c1000026"
+msgid "処理フラグが不正です。"
+msgstr "処理フラグが不正です。"
+
+msgctxt "Languages::jp_nttstr_errmsg_c1000027"
+msgid "利用者は他処理で使用中です。"
+msgstr "利用者は他処理で使用中です。"
+
+msgctxt "Languages::jp_nttstr_errmsg_c1000028"
+msgid "利用者は信用要求後から一定期間与信が行われなかったため、利用できません。"
+msgstr "利用者は信用要求後から一定期間与信が行われなかったため、利用できません。"
+
+msgctxt "Languages::jp_nttstr_errmsg_c1000029"
+msgid "利用できないクレジットカード番号です。"
+msgstr "利用できないクレジットカード番号です。"
+
+msgctxt "Languages::jp_nttstr_errmsg_c1000030"
+msgid "1回当たりの決済金額が規定範囲外です。"
+msgstr "1回当たりの決済金額が規定範囲外です。"
+
+msgctxt "Languages::jp_nttstr_errmsg_c1000031"
+msgid "指定のクレジットカード番号は一定期間中の決済金額の累計額が上限値を超えています。"
+msgstr "指定のクレジットカード番号は一定期間中の決済金額の累計額が上限値を超えています。"
+
+msgctxt "Languages::jp_nttstr_errmsg_c1000032"
+msgid "指定のクレジットカード番号は一定期間中の決済回数が上限値を超えています。"
+msgstr "指定のクレジットカード番号は一定期間中の決済回数が上限値を超えています。"
+
+msgctxt "Languages::jp_nttstr_errmsg_c1000033"
+msgid "与信処理で通信エラーが発生したため、与信が完了していない可能性があります。"
+msgstr "与信処理で通信エラーが発生したため、与信が完了していない可能性があります。"
+
+msgctxt "Languages::jp_nttstr_errmsg_c1000034"
+msgid "利用者は与信が完了していないため、売上処理ができません。"
+msgstr "利用者は与信が完了していないため、売上処理ができません。"
+
+msgctxt "Languages::jp_nttstr_errmsg_c1000035"
+msgid "対象の決済は売上処理ができません。"
+msgstr "対象の決済は売上処理ができません。"
+
+msgctxt "Languages::jp_nttstr_errmsg_c1000036"
+msgid "与信時の決済金額と売上金額が一致しません。"
+msgstr "与信時の決済金額と売上金額が一致しません。"
+
+msgctxt "Languages::jp_nttstr_errmsg_c1000037"
+msgid "売上処理で通信エラーが発生したため、売上が完了していない可能性があります。"
+msgstr "売上処理で通信エラーが発生したため、売上が完了していない可能性があります。"
+
+msgctxt "Languages::jp_nttstr_errmsg_c1000038"
+msgid "売上処理で要求した利用者IDと与信処理時の利用者IDが一致しません。"
+msgstr "売上処理で要求した利用者IDと与信処理時の利用者IDが一致しません。"
+
+msgctxt "Languages::jp_nttstr_errmsg_c1000040"
+msgid "利用可能カード設定に誤りがあります"
+msgstr "利用可能カード設定に誤りがあります"
+
+msgctxt "Languages::jp_nttstr_errmsg_c1001g55"
+msgid "限度額エラー"
+msgstr "限度額エラー"
+
+msgctxt "Languages::jp_nttstr_errmsg_c1001g83"
+msgid "有効期限切れエラー"
+msgstr "有効期限切れエラー"
+
+msgctxt "Languages::jp_nttstr_errmsg_c1000050"
+msgid "対象の決済は与信取消処理ができません。"
+msgstr "対象の決済は与信取消処理ができません。"
+
+msgctxt "Languages::jp_nttstr_errmsg_c1000051"
+msgid "与信時の利用者IDと与信取消要求の利用者IDが一致しません。"
+msgstr "与信時の利用者IDと与信取消要求の利用者IDが一致しません。"
+
+msgctxt "Languages::jp_nttstr_errmsg_c1000052"
+msgid "与信時の決済金額と与信取消金額が一致しません。"
+msgstr "与信時の決済金額と与信取消金額が一致しません。"
+
+msgctxt "Languages::jp_nttstr_errmsg_c1000053"
+msgid "与信取消処理で通信エラーが発生したため、与信取消が完了していない可能性があります。"
+msgstr "与信取消処理で通信エラーが発生したため、与信取消が完了していない可能性があります。"
+
+msgctxt "Languages::jp_nttstr_errmsg_c1000060"
+msgid "対象の決済は売上取消処理ができません。"
+msgstr "対象の決済は売上取消処理ができません。"
+
+msgctxt "Languages::jp_nttstr_errmsg_c1000061"
+msgid "売上時の利用者IDと売上取消要求の利用者IDが一致しません。"
+msgstr "売上時の利用者IDと売上取消要求の利用者IDが一致しません。"
+
+msgctxt "Languages::jp_nttstr_errmsg_c1000062"
+msgid "売上時の決済金額と売上取消金額が一致しません。"
+msgstr "売上時の決済金額と売上取消金額が一致しません。"
+
+msgctxt "Languages::jp_nttstr_errmsg_c1000063"
+msgid "加盟店貯金箱残高から売上取消金額を引き落しできません。"
+msgstr "加盟店貯金箱残高から売上取消金額を引き落しできません。"
+
+msgctxt "Languages::jp_nttstr_errmsg_c1000064"
+msgid "売上取消処理で通信エラーが発生したため、売上取消が完了していない可能性があります。"
+msgstr "売上取消処理で通信エラーが発生したため、売上取消が完了していない可能性があります。"
+
+msgctxt "Languages::jp_nttstr_errmsg_c1000081"
+msgid "利用者は新規決済ができません。"
+msgstr "利用者は新規決済ができません。"
+
+msgctxt "Languages::jp_nttstr_errmsg_c1000082"
+msgid "クレジットカード番号が不正です。（チェックデジットエラー）"
+msgstr "クレジットカード番号が不正です。（チェックデジットエラー）"
+
+msgctxt "Languages::jp_nttstr_errmsg_c1000083"
+msgid "指定されたクレジットカード番号は利用できません。"
+msgstr "指定されたクレジットカード番号は利用できません。"
+
+msgctxt "Languages::jp_nttstr_errmsg_"
+msgid "（ブラックカード）"
+msgstr "（ブラックカード）"
+
+msgctxt "Languages::jp_nttstr_errmsg_c1000084"
+msgid "以前の処理時の決済金額と一致しません。"
+msgstr "以前の処理時の決済金額と一致しません。"
+
+msgctxt "Languages::jp_nttstr_errmsg_c1000t01"
+msgid "トークンの形式不正"
+msgstr "トークンの形式不正"
+
+msgctxt "Languages::jp_nttstr_errmsg_c1000t02"
+msgid "登録されていないトークンによる決済要求"
+msgstr "登録されていないトークンによる決済要求"
+
+msgctxt "Languages::jp_nttstr_errmsg_c1000t03"
+msgid "決済済み等で使用済みとなったトークン"
+msgstr "決済済み等で使用済みとなったトークン"
+
+msgctxt "Languages::jp_nttstr_errmsg_c1000t04"
+msgid "有効期限切れのトークン"
+msgstr "有効期限切れのトークン"
+
+msgctxt "Languages::jp_nttstr_cc_method"
+msgid "支払区分"
+msgstr "支払区分"
+
+msgctxt "Languages::jp_nttstr_cc_onetime"
+msgid "1回払い"
+msgstr "1回払い"
+
+msgctxt "Languages::jp_nttstr_cc_bonus"
+msgid "ボーナス一括払い"
+msgstr "ボーナス一括払い"
+
+msgctxt "Languages::jp_nttstr_cc_installment"
+msgid "分割払い"
+msgstr "分割払い"
+
+msgctxt "Languages::jp_nttstr_cc_revo"
+msgid "リボ払い"
+msgstr "リボ払い"
+
+msgctxt "Languages::jp_nttstr_cc_installment_times"
+msgid "分割回数"
+msgstr "分割回数"

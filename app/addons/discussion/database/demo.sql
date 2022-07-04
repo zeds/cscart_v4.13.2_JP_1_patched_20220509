@@ -1,0 +1,77 @@
+
+REPLACE INTO ?:discussion (`thread_id`, `object_id`, `object_type`, `type`) VALUES(1, 228, 'P', 'B');
+REPLACE INTO ?:discussion (`thread_id`, `object_id`, `object_type`, `type`) VALUES(2, 242, 'P', 'B');
+REPLACE INTO ?:discussion (`thread_id`, `object_id`, `object_type`, `type`) VALUES(3, 78, 'P', 'B');
+REPLACE INTO ?:discussion (`thread_id`, `object_id`, `object_type`, `type`) VALUES(4, 16, 'P', 'B');
+REPLACE INTO ?:discussion (`thread_id`, `object_id`, `object_type`, `type`) VALUES(5, 170, 'P', 'B');
+REPLACE INTO ?:discussion (`thread_id`, `object_id`, `object_type`, `type`) VALUES(7, 1, 'A', 'D');
+REPLACE INTO ?:discussion (`thread_id`, `object_id`, `object_type`, `type`) VALUES(8, 2, 'A', 'D');
+REPLACE INTO ?:discussion (`thread_id`, `object_id`, `object_type`, `type`) VALUES(9, 3, 'A', 'D');
+REPLACE INTO ?:discussion (`thread_id`, `object_id`, `object_type`, `type`) VALUES(11, 167, 'C', 'D');
+REPLACE INTO ?:discussion (`thread_id`, `object_id`, `object_type`, `type`) VALUES(16, 243, 'P', 'D');
+REPLACE INTO ?:discussion (`thread_id`, `object_id`, `object_type`, `type`) VALUES(17, 224, 'P', 'B');
+REPLACE INTO ?:discussion (`thread_id`, `object_id`, `object_type`, `type`) VALUES(18, 5, 'P', 'B');
+REPLACE INTO ?:discussion (`thread_id`, `object_id`, `object_type`, `type`) VALUES(19, 1, 'P', 'B');
+REPLACE INTO ?:discussion (`thread_id`, `object_id`, `object_type`, `type`) VALUES(20, 23, 'P', 'B');
+REPLACE INTO ?:discussion (`thread_id`, `object_id`, `object_type`, `type`) VALUES(21, 8, 'P', 'B');
+REPLACE INTO ?:discussion (`thread_id`, `object_id`, `object_type`, `type`) VALUES(22, 172, 'P', 'B');
+REPLACE INTO ?:discussion (`thread_id`, `object_id`, `object_type`, `type`) VALUES(23, 238, 'P', 'B');
+REPLACE INTO ?:discussion (`thread_id`, `object_id`, `object_type`, `type`) VALUES(24, 167, 'P', 'B');
+REPLACE INTO ?:discussion (`thread_id`, `object_id`, `object_type`, `type`) VALUES(25, 239, 'P', 'B');
+REPLACE INTO ?:discussion (`thread_id`, `object_id`, `object_type`, `type`) VALUES(26, 0, 'E', 'B');
+
+
+REPLACE INTO ?:discussion_messages (`message`, `post_id`, `thread_id`) VALUES('他の同クラスのディスプレイと比較して発色とシャープネスが飛びぬけて良いです。価格も3D液晶の中ではお手頃。縦位置表示ができないのは残念ですが、それ以外は本当によい製品だと思います。', 1, 1);
+REPLACE INTO ?:discussion_messages (`message`, `post_id`, `thread_id`) VALUES('全体的に色味が薄いです。コントラストや輝度調整機能もまとも動作しているようには思えません。', 2, 1);
+REPLACE INTO ?:discussion_messages (`message`, `post_id`, `thread_id`) VALUES('パーフェクト！', 3, 2);
+REPLACE INTO ?:discussion_messages (`message`, `post_id`, `thread_id`) VALUES('全然好きじゃないです。', 4, 2);
+REPLACE INTO ?:discussion_messages (`message`, `post_id`, `thread_id`) VALUES('これまでで最高のブーツです！', 5, 3);
+REPLACE INTO ?:discussion_messages (`message`, `post_id`, `thread_id`) VALUES('画面の視野角は広くて見やすいです。パッと見はiPadと比較してもその差がわからないほどです。購入してよかった！', 8, 17);
+REPLACE INTO ?:discussion_messages (`message`, `post_id`, `thread_id`) VALUES('Iconia Tab、Xoom、Galaxy Tabを比較しましたがIconia Tabが自分には一番しっくりきました。', 9, 17);
+REPLACE INTO ?:discussion_messages (`message`, `post_id`, `thread_id`) VALUES('大画面液晶TVについていろいろ調べ、映像と音楽のクオリティが優れていたこの製品を購入しました。大満足です！', 10, 18);
+REPLACE INTO ?:discussion_messages (`message`, `post_id`, `thread_id`) VALUES('価格はちょっと高めですが、映像に深みがありカラーバランスも適切で大満足です。外付けハードディスクを接続して映像を楽しめるのも便利です。', 11, 19);
+REPLACE INTO ?:discussion_messages (`message`, `post_id`, `thread_id`) VALUES('ホームシアター用に購入しました。ミッドレンジの音がすこしこもりがちなのと、重低音に迫力がないのでサブウーファーを別途購入したほうがよいかもしれません。誰にでも勧められるというわけではありませんが、この価格帯として悪くない製品だと思います。', 12, 20);
+REPLACE INTO ?:discussion_messages (`message`, `post_id`, `thread_id`) VALUES('LED方式の液晶テレビとしては暗所の描写に優れ、ホワイトバランスも適切な製品です。Wi-Fi内蔵や3Dグラスが付属しているのも便利です。', 13, 21);
+REPLACE INTO ?:discussion_messages (`message`, `post_id`, `thread_id`) VALUES('簡単に扱えるカムコーダーが欲しくてこの製品を購入しましたが、大満足です！価格と性能のバランスがとれた素晴らしい製品だと思います。', 14, 22);
+REPLACE INTO ?:discussion_messages (`message`, `post_id`, `thread_id`) VALUES('iPhoneの新モデルが発売される度に買い換えていますが、ユーザビリティの高さと洗練されたデザインにはいつも驚かされます。', 15, 23);
+REPLACE INTO ?:discussion_messages (`message`, `post_id`, `thread_id`) VALUES('同クラスのキャノン製品にも惹かれましたが、ニコンにして正解でした！写真のクオリティはもちろん、考え抜かれたインターフェースはとても使いやすいです。これから長いつきあいになりそうです！', 16, 24);
+REPLACE INTO ?:discussion_messages (`message`, `post_id`, `thread_id`) VALUES('iPhone5とほぼ同デザインで、特筆すべき新機能もなし。iPhone5ユーザーはiPhone6まで待ちでOKでは？', 17, 25);
+REPLACE INTO ?:discussion_messages (`message`, `post_id`, `thread_id`) VALUES('迅速かつ丁寧なカスタマーサポートにいつも驚かされます。最高です！', 18, 26);
+REPLACE INTO ?:discussion_messages (`message`, `post_id`, `thread_id`) VALUES('最高です！', 19, 26);
+
+
+REPLACE INTO ?:discussion_posts (`post_id`, `thread_id`, `name`, `timestamp`, `user_id`, `ip_address`, `status`) VALUES(1, 1, 'Customer Customer', 1129547428, 3, '192.168.0.2', 'A');
+REPLACE INTO ?:discussion_posts (`post_id`, `thread_id`, `name`, `timestamp`, `user_id`, `ip_address`, `status`) VALUES(2, 1, 'PCファン', 1129559367, 0, '192.168.0.2', 'A');
+REPLACE INTO ?:discussion_posts (`post_id`, `thread_id`, `name`, `timestamp`, `user_id`, `ip_address`, `status`) VALUES(3, 2, 'Admin Admin', 1129558427, 1, '192.168.0.2', 'A');
+REPLACE INTO ?:discussion_posts (`post_id`, `thread_id`, `name`, `timestamp`, `user_id`, `ip_address`, `status`) VALUES(4, 2, 'ゲスト', 1129558457, 0, '192.168.0.2', 'A');
+REPLACE INTO ?:discussion_posts (`post_id`, `thread_id`, `name`, `timestamp`, `user_id`, `ip_address`, `status`) VALUES(5, 3, 'Customer Customer', 1129559626, 3, '192.168.0.2', 'A');
+REPLACE INTO ?:discussion_posts (`post_id`, `thread_id`, `name`, `timestamp`, `user_id`, `ip_address`, `status`) VALUES(8, 17, 'ジョン', 1311063983, 0, '127.0.0.1', 'A');
+REPLACE INTO ?:discussion_posts (`post_id`, `thread_id`, `name`, `timestamp`, `user_id`, `ip_address`, `status`) VALUES(9, 17, 'マイケル', 1311079049, 0, '127.0.0.1', 'A');
+REPLACE INTO ?:discussion_posts (`post_id`, `thread_id`, `name`, `timestamp`, `user_id`, `ip_address`, `status`) VALUES(10, 18, 'デイビッド', 1383914308, 0, '10.7.7.93', 'A');
+REPLACE INTO ?:discussion_posts (`post_id`, `thread_id`, `name`, `timestamp`, `user_id`, `ip_address`, `status`) VALUES(11, 19, 'ブライアン', 1383914367, 0, '10.7.7.93', 'A');
+REPLACE INTO ?:discussion_posts (`post_id`, `thread_id`, `name`, `timestamp`, `user_id`, `ip_address`, `status`) VALUES(12, 20, 'ソフィー', 1383914425, 0, '10.7.7.93', 'A');
+REPLACE INTO ?:discussion_posts (`post_id`, `thread_id`, `name`, `timestamp`, `user_id`, `ip_address`, `status`) VALUES(13, 21, 'ジェニファー', 1383914502, 0, '10.7.7.93', 'A');
+REPLACE INTO ?:discussion_posts (`post_id`, `thread_id`, `name`, `timestamp`, `user_id`, `ip_address`, `status`) VALUES(14, 22, 'アレックス', 1383914559, 0, '10.7.7.93', 'A');
+REPLACE INTO ?:discussion_posts (`post_id`, `thread_id`, `name`, `timestamp`, `user_id`, `ip_address`, `status`) VALUES(15, 23, 'ジョージ', 1383914632, 0, '10.7.7.93', 'A');
+REPLACE INTO ?:discussion_posts (`post_id`, `thread_id`, `name`, `timestamp`, `user_id`, `ip_address`, `status`) VALUES(16, 24, 'メリッサ', 1383914678, 0, '10.7.7.93', 'A');
+REPLACE INTO ?:discussion_posts (`post_id`, `thread_id`, `name`, `timestamp`, `user_id`, `ip_address`, `status`) VALUES(17, 25, 'ジョン', 1383914729, 0, '10.7.7.93', 'A');
+REPLACE INTO ?:discussion_posts (`post_id`, `thread_id`, `name`, `timestamp`, `user_id`, `ip_address`, `status`) VALUES(18, 26, 'アレックス', 1383914729, 0, '10.7.7.93', 'A');
+REPLACE INTO ?:discussion_posts (`post_id`, `thread_id`, `name`, `timestamp`, `user_id`, `ip_address`, `status`) VALUES(19, 26, 'マイケル', 1383914678, 0, '10.7.7.93', 'A');
+
+REPLACE INTO ?:discussion_rating (`rating_value`, `post_id`, `thread_id`) VALUES(4, 1, 1);
+REPLACE INTO ?:discussion_rating (`rating_value`, `post_id`, `thread_id`) VALUES(2, 2, 1);
+REPLACE INTO ?:discussion_rating (`rating_value`, `post_id`, `thread_id`) VALUES(5, 3, 2);
+REPLACE INTO ?:discussion_rating (`rating_value`, `post_id`, `thread_id`) VALUES(2, 4, 2);
+REPLACE INTO ?:discussion_rating (`rating_value`, `post_id`, `thread_id`) VALUES(4, 5, 3);
+REPLACE INTO ?:discussion_rating (`rating_value`, `post_id`, `thread_id`) VALUES(4, 8, 17);
+REPLACE INTO ?:discussion_rating (`rating_value`, `post_id`, `thread_id`) VALUES(5, 9, 17);
+REPLACE INTO ?:discussion_rating (`rating_value`, `post_id`, `thread_id`) VALUES(4, 10, 18);
+REPLACE INTO ?:discussion_rating (`rating_value`, `post_id`, `thread_id`) VALUES(4, 11, 19);
+REPLACE INTO ?:discussion_rating (`rating_value`, `post_id`, `thread_id`) VALUES(3, 12, 20);
+REPLACE INTO ?:discussion_rating (`rating_value`, `post_id`, `thread_id`) VALUES(4, 13, 21);
+REPLACE INTO ?:discussion_rating (`rating_value`, `post_id`, `thread_id`) VALUES(4, 14, 22);
+REPLACE INTO ?:discussion_rating (`rating_value`, `post_id`, `thread_id`) VALUES(4, 15, 23);
+REPLACE INTO ?:discussion_rating (`rating_value`, `post_id`, `thread_id`) VALUES(5, 16, 24);
+REPLACE INTO ?:discussion_rating (`rating_value`, `post_id`, `thread_id`) VALUES(3, 17, 25);
+REPLACE INTO ?:discussion_rating (`rating_value`, `post_id`, `thread_id`) VALUES(4, 18, 26);
+REPLACE INTO ?:discussion_rating (`rating_value`, `post_id`, `thread_id`) VALUES(5, 19, 26);

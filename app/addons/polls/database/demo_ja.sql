@@ -1,0 +1,9 @@
+REPLACE INTO ?:poll_descriptions (`object_id`, `page_id`, `lang_code`, `type`, `description`) VALUES ('40', '40', 'ja', 'H', '');
+REPLACE INTO ?:poll_descriptions (`object_id`, `page_id`, `lang_code`, `type`, `description`) VALUES ('40', '40', 'ja', 'F', '');
+REPLACE INTO ?:poll_descriptions (`object_id`, `page_id`, `lang_code`, `type`, `description`) VALUES ('40', '40', 'ja', 'R', '');
+REPLACE INTO ?:poll_descriptions (`object_id`, `page_id`, `lang_code`, `type`, `description`) VALUES ('1', '40', 'ja', 'I', 'どれくらいの頻度でDVDを購入しますか?');
+REPLACE INTO ?:poll_descriptions (`object_id`, `page_id`, `lang_code`, `type`, `description`) VALUES ('2', '40', 'ja', 'I', '週に１回');
+REPLACE INTO ?:poll_descriptions (`object_id`, `page_id`, `lang_code`, `type`, `description`) VALUES ('3', '40', 'ja', 'I', '毎日');
+REPLACE INTO ?:poll_descriptions (`object_id`, `page_id`, `lang_code`, `type`, `description`) VALUES ('4', '40', 'ja', 'I', 'はじめて購入します');
+REPLACE INTO ?:poll_descriptions (`object_id`, `page_id`, `lang_code`, `type`, `description`) VALUES ('5', '40', 'ja', 'I', '映画館に行くほうが好きなので購入しません');
+REPLACE INTO ?:poll_descriptions (`object_id`, `page_id`, `lang_code`, `type`, `description`) VALUES ('6', '40', 'ja', 'I', 'その他');

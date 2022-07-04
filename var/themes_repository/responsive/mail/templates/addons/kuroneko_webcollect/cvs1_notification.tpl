@@ -1,0 +1,1 @@
+{* Use Mail Template Addon *}

@@ -1,0 +1,225 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::amazon_checkout"
+msgid "Amazon Login and Payemnt"
+msgstr "Amazon Login and Payemnt"
+
+msgctxt "Addons::description::amazon_checkout"
+msgid "Integration Pay with amazon."
+msgstr "Integration Pay with amazon."
+
+msgctxt "SettingsOptions::amazon_checkout::elm_amazon_settings"
+msgid "Settings for Login and Pay with Amazon"
+msgstr "Settings for Login and Pay with Amazon"
+
+msgctxt "SettingsOptions::amazon_checkout::client_id"
+msgid "Amazon Client ID"
+msgstr "Amazon Client ID"
+
+msgctxt "SettingsOptions::amazon_checkout::client_secret"
+msgid "Amazon Client Secret"
+msgstr "Amazon Client Secret"
+
+msgctxt "SettingsOptions::amazon_checkout::merchant_id"
+msgid "Amazon Merchant ID"
+msgstr "Amazon Merchant ID"
+
+msgctxt "SettingsOptions::amazon_checkout::access_key"
+msgid "Amazon Access Key"
+msgstr "Amazon Access Key"
+
+msgctxt "SettingsOptions::amazon_checkout::access_secret"
+msgid "Amazon Access Secret"
+msgstr "Amazon Access Secret"
+
+msgctxt "SettingsOptions::amazon_checkout::auth_id_prefix"
+msgid "Prefix for Authorization ID"
+msgstr "Prefix for Authorization ID"
+
+msgctxt "SettingsTooltips::amazon_checkout::auth_id_prefix"
+msgid "Prefix for Authorization ID"
+msgstr "Prefix for Authorization ID"
+
+msgctxt "SettingsOptions::amazon_checkout::test_mode"
+msgid "Test mode"
+msgstr "Test mode"
+
+msgctxt "SettingsOptions::amazon_checkout::region"
+msgid "Region"
+msgstr "Region"
+
+msgctxt "SettingsVariants::amazon_checkout::region::de"
+msgid "Germany"
+msgstr "Germany"
+
+msgctxt "SettingsVariants::amazon_checkout::region::uk"
+msgid "UK"
+msgstr "UK"
+
+msgctxt "SettingsVariants::amazon_checkout::region::jp"
+msgid "Japan"
+msgstr "Japan"
+
+msgctxt "SettingsVariants::amazon_checkout::region::us"
+msgid "USA"
+msgstr "USA"
+
+msgctxt "SettingsOptions::amazon_checkout::button_type"
+msgid "Button type"
+msgstr "Button type"
+
+msgctxt "SettingsVariants::amazon_checkout::button_type::PwA"
+msgid "Pay With Amazon"
+msgstr "Pay With Amazon"
+
+msgctxt "SettingsVariants::amazon_checkout::button_type::Pay"
+msgid "Pay"
+msgstr "Pay"
+
+msgctxt "SettingsVariants::amazon_checkout::button_type::A"
+msgid "Just Amazon logo"
+msgstr "Just Amazon logo"
+
+msgctxt "SettingsOptions::amazon_checkout::button_color"
+msgid "Button color"
+msgstr "Button color"
+
+msgctxt "SettingsVariants::amazon_checkout::button_color::Gold"
+msgid "Gold"
+msgstr "Gold"
+
+msgctxt "SettingsVariants::amazon_checkout::button_color::LightGray"
+msgid "Light Gray"
+msgstr "Light Gray"
+
+msgctxt "SettingsVariants::amazon_checkout::button_color::DarkGray"
+msgid "Dark Gray"
+msgstr "Dark Gray"
+
+msgctxt "SettingsOptions::amazon_checkout::button_size"
+msgid "Button size"
+msgstr "Button size"
+
+msgctxt "SettingsVariants::amazon_checkout::button_size::small"
+msgid "Small"
+msgstr "Small"
+
+msgctxt "SettingsVariants::amazon_checkout::button_size::medium"
+msgid "Medium"
+msgstr "Medium"
+
+msgctxt "SettingsVariants::amazon_checkout::button_size::large"
+msgid "Large"
+msgstr "Large"
+
+msgctxt "SettingsVariants::amazon_checkout::button_size::x-large"
+msgid "X-Large"
+msgstr "X-Large"
+
+msgctxt "SettingsOptions::amazon_checkout::capture_now"
+msgid "CaptureNow"
+msgstr "CaptureNow"
+
+msgctxt "SettingsOptions::amazon_checkout::add_to_cart"
+msgid "Add products to cart to «Pay with Amazon» from a product page"
+msgstr "Add products to cart to «Pay with Amazon» from a product page"
+
+msgctxt "SettingsOptions::amazon_checkout::create_account"
+msgid "Tick 'Register on the site using email from Amazon account' as default"
+msgstr "Tick 'Register on the site using email from Amazon account' as default"
+
+msgctxt "SettingsOptions::amazon_checkout::delay_before_redirect"
+msgid "Delay before redirect"
+msgstr "Delay before redirect"
+
+msgctxt "SettingsTooltips::amazon_checkout::delay_before_redirect"
+msgid "Delay before redirect after clicking the \"Pay With Amazon\" button in milliseconds, e.g. 2000 milliseconds = 2 seconds"
+msgstr "Delay before redirect after clicking the \"Pay With Amazon\" button in milliseconds, e.g. 2000 milliseconds = 2 seconds"
+
+msgctxt "Languages::amazon_checkout_page"
+msgid "Amazon checkout"
+msgstr "Amazon checkout"
+
+msgctxt "Languages::amazon_logout"
+msgid "Checkout by other payment method"
+msgstr "Checkout by other payment method"
+
+msgctxt "Languages::sign_in_to_amazon"
+msgid "Please, sign in to your Amazon account"
+msgstr "Please, sign in to your Amazon account"
+
+msgctxt "Languages::amazon_register"
+msgid "Register on the site using email from Amazon account"
+msgstr "Register on the site using email from Amazon account"
+
+msgctxt "Languages::amazon_error_user"
+msgid "Email specified in your Amazon account already exists in the site. Please, sign in to your account"
+msgstr "Email specified in your Amazon account already exists in the site. Please, sign in to your account"
+
+msgctxt "Languages::is_amazon_payment"
+msgid "Pay With Amazon payment"
+msgstr "Pay With Amazon payment"
+
+msgctxt "Languages::block_amazon_checkout_button"
+msgid "Amazon checkout buttons"
+msgstr "Amazon checkout buttons"
+
+msgctxt "Languages::block_amazon_checkout_button_description"
+msgid "PayWithAmazon button on default checkout. Link to default checkout on Amazon checkout page"
+msgstr "PayWithAmazon button on default checkout. Link to default checkout on Amazon checkout page"
+
+msgctxt "Languages::amazon_button"
+msgid "Amazon buttons"
+msgstr "Amazon buttons"
+
+msgctxt "Languages::amazon_authorization_id"
+msgid "Amazon authorization ID"
+msgstr "Amazon authorization ID"
+
+msgctxt "Languages::authorization_amount"
+msgid "Authorization amount"
+msgstr "Authorization amount"
+
+msgctxt "Languages::expiration_timestamp"
+msgid "Expiration timestamp"
+msgstr "Expiration timestamp"
+
+msgctxt "Languages::authorization_status"
+msgid "Authorization status"
+msgstr "Authorization status"
+
+msgctxt "Languages::authorization_fee"
+msgid "Authorization fee"
+msgstr "Authorization fee"
+
+msgctxt "Languages::capture_now"
+msgid "Capture now"
+msgstr "Capture now"
+
+msgctxt "Languages::creation_timestamp"
+msgid "Creation timestamp"
+msgstr "Creation timestamp"
+
+msgctxt "Languages::authorization_reference_id"
+msgid "Authorization Reference ID"
+msgstr "Authorization Reference ID"
+
+msgctxt "Languages::amazon_please_wait"
+msgid "Please wait..."
+msgstr "Please wait..."
+
+msgctxt "Languages::amzn_familyname_kana"
+msgid "Family Name Kana"
+msgstr "Family Name Kana"
+
+msgctxt "Languages::amzn_firstname_kana"
+msgid "First Name Kana"
+msgstr "First Name Kana"
+
+msgctxt "Languages::amzn_auth_declined"
+msgid "Payment with the payment method you selected has been declined. Please select an another payment method and try again."
+msgstr "Payment with the payment method you selected has been declined. Please select an another payment method and try again."

@@ -1,0 +1,11 @@
+#addon_sd_square_paymentinstalled .bg-icon,
+#addon_sd_square_payment .bg-icon {
+    background-image: url('../../../media/images/addons/sd_square_payment/icon.png');
+    background-size: contain;
+    border: 0px;
+}
+
+#addon_sd_square_paymentinstalled .bg-icon i,
+#addon_sd_square_payment .bg-icon i {
+    display: none;
+}

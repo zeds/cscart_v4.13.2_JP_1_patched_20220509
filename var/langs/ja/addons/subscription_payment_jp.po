@@ -1,0 +1,58 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Japanese\n"
+"Language: ja_JP\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.net\n"
+"Last-Translator: cscartjp <info@cs-cart.jp>\n"
+"PO-Revision-Date: 2014-10-20 04:42-0400\n"
+
+msgctxt "Addons::name::subscription_payment_jp"
+msgid "継続課金"
+msgstr "継続課金"
+
+msgctxt "Addons::description::subscription_payment_jp"
+msgid "指定した商品に対する継続課金を可能にします"
+msgstr "指定した商品に対する継続課金を可能にします"
+
+msgctxt "SettingsSections::subscription_payment_jp::general"
+msgid "基本設定"
+msgstr "基本設定"
+
+msgctxt "SettingsOptions::subscription_payment_jp::elm_subpay_method"
+msgid "継続課金用支払方法"
+msgstr "継続課金用支払方法"
+
+msgctxt "SettingsOptions::subscription_payment_jp::subpay_online"
+msgid "継続課金用オンライン決済方法"
+msgstr "継続課金用オンライン決済方法"
+
+msgctxt "SettingsOptions::subscription_payment_jp::subpay_offline"
+msgid "継続課金用オフライン決済方法"
+msgstr "継続課金用オフライン決済方法"
+
+msgctxt "Languages::jp_subpay_subscription_payment"
+msgid "継続課金"
+msgstr "継続課金"
+
+msgctxt "Languages::jp_subpay_subscription_product"
+msgid "継続課金対象商品"
+msgstr "継続課金対象商品"
+
+msgctxt "Languages::jp_subpay_product_added_to_cart"
+msgid "継続課金対象商品をカートに追加しました。<br />それまでカートに入っていた他の商品はクリアされました。"
+msgstr "継続課金対象商品をカートに追加しました。<br />それまでカートに入っていた他の商品はクリアされました。"
+
+msgctxt "Languages::jp_subpay_error_add_product_to_cart"
+msgid "継続課金対象商品がカートに入っているため商品をカートに追加できません。<br />継続課金対象商品をカートから削除した上で再度お試しください。"
+msgstr "継続課金対象商品がカートに入っているため商品をカートに追加できません。<br />継続課金対象商品をカートから削除した上で再度お試しください。"
+
+msgctxt "Languages::jp_subpay_price_prefix"
+msgid "価格表記プレフィックス"
+msgstr "価格表記プレフィックス"
+
+msgctxt "Languages::jp_subpay_price_suffix"
+msgid "価格表記サフィックス"
+msgstr "価格表記サフィックス"
